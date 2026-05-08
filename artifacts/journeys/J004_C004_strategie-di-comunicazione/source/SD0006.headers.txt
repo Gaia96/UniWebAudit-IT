@@ -1,0 +1,40 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 03 Apr 2026 14:51:48 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 112
+Connection: keep-alive
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+X-Content-Type-Options: nosniff
+X-Redirect-ID: 7568
+Vary: Accept-Encoding
+Location: https://www.unipd.it/corsi
+X-Varnish: 776821653
+Age: 0
+X-Cache: MISS
+X-Cache-Hits: 0
+Server: www.unipd.it
+Strict-Transport-Security: max-age=63072000; preload
+
+HTTP/1.1 200 OK
+Date: Fri, 03 Apr 2026 14:51:48 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 92633
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-Frame-Options: SameOrigin
+Content-Language: it
+Permissions-Policy: interest-cohort=()
+Cache-Control: public, max-age=600
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Last-Modified: Fri, 03 Apr 2026 14:44:27 GMT
+X-Varnish: 762338855 778278963
+Age: 441
+ETag: W/"1775227467-0-gzip"
+X-Cache: HIT
+X-Cache-Hits: 1
+Accept-Ranges: bytes
+Server: www.unipd.it
+Strict-Transport-Security: max-age=63072000; preload
+

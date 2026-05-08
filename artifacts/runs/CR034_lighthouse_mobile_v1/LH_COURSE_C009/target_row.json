@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C009",
+  "source_document_id": "SD0019",
+  "crawl_run_id": "CR002",
+  "university_id": "UNI05",
+  "sample_course_id": "C009",
+  "journey_id": "J009",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://scienze-comunicazione.unisi.it/it",
+  "final_url": "https://scienze-comunicazione.unisi.it/it",
+  "notes": "tranche2; dedicated course site surfaced from definitive master"
+}

@@ -1,0 +1,5 @@
+Running Lighthouse 3 time(s) on https://www.uniroma3.it/corsi/dipartimento-di-filosofia-comunicazione-e-spettacolo/l/2025-2026/scienze-della-comunicazione-0580706202000001/
+Run #1...done.
+Run #2...done.
+Run #3...done.
+Done running Lighthouse!

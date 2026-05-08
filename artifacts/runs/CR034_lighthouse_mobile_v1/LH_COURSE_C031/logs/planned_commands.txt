@@ -1,0 +1,2 @@
+npx --yes @lhci/cli@0.15.1 collect --numberOfRuns=3 '--url=https://www.uninettunouniversity.net/it/indirizzo-comunicazione-digitale-d-impresa.aspx?degree=334&faculty=7&idindirizzo=179&mode=cs'
+npx --yes @lhci/cli@0.15.1 upload --target=filesystem --outputDir=../lhci_filesystem

@@ -1,0 +1,505 @@
+{
+  "status": {
+    "success": true,
+    "httpstatuscode": 200
+  },
+  "statistics": {
+    "pagetitle": "Indirizzo: Comunicazione digitale d'impresa",
+    "pageurl": "https://www.uninettunouniversity.net/it/indirizzo-comunicazione-digitale-d-impresa.aspx?degree=334&faculty=7&idindirizzo=179&mode=cs",
+    "time": 5.53,
+    "creditsremaining": 191,
+    "AIMscore": 7.7,
+    "allitemcount": 205,
+    "totalelements": 1214,
+    "waveurl": "http://wave.webaim.org/report?url=https://www.uninettunouniversity.net/it/indirizzo-comunicazione-digitale-d-impresa.aspx?degree=334&faculty=7&idindirizzo=179&mode=cs"
+  },
+  "categories": {
+    "error": {
+      "description": "Errors",
+      "count": 4,
+      "items": {
+        "label_multiple": {
+          "id": "label_multiple",
+          "description": "Multiple form labels",
+          "count": 4,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV#smalllogin3 > DIV#myModal > DIV:first-child > DIV:first-child + DIV > H2:first-child + DIV > INPUT#inputUsername",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV#smalllogin3 > DIV#myModal > DIV:first-child > DIV:first-child + DIV > H2:first-child + DIV > INPUT#inputPassword",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV#smalllogin2 > DIV#myModal > DIV:first-child > DIV:first-child + DIV > H2:first-child + DIV > INPUT#inputUsername",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV#smalllogin2 > DIV#myModal > DIV:first-child > DIV:first-child + DIV > H2:first-child + DIV > INPUT#inputPassword"
+          ]
+        }
+      }
+    },
+    "contrast": {
+      "description": "Contrast Errors",
+      "count": 1,
+      "items": {
+        "contrast": {
+          "id": "contrast",
+          "description": "Very low contrast",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV > I:first-child + LABEL"
+          ],
+          "contrastdata": [
+            [
+              1.04,
+              "#fafafa",
+              "#ffffff",
+              false
+            ]
+          ]
+        }
+      }
+    },
+    "alert": {
+      "description": "Alerts",
+      "count": 108,
+      "items": {
+        "alt_duplicate": {
+          "id": "alt_duplicate",
+          "description": "A nearby image has the same alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#ctl01_PanelFooter > FOOTER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child"
+          ]
+        },
+        "heading_skipped": {
+          "id": "heading_skipped",
+          "description": "Skipped heading level",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3#ctl01_mainContent_ctl00_pdpPianoStudio_ctl03_h3Titolo"
+          ]
+        },
+        "link_redundant": {
+          "id": "link_redundant",
+          "description": "Redundant link",
+          "count": 19,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV:first-child > A:first-child + NAV > DIV:first-child > BUTTON:first-child + A",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child + TD + TD > A:first-child"
+          ]
+        },
+        "link_pdf": {
+          "id": "link_pdf",
+          "description": "Link to PDF document",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI > SPAN:first-child + UL > LI:first-child > A:first-child + UL > LI:first-child > A:first-child"
+          ]
+        },
+        "event_handler": {
+          "id": "event_handler",
+          "description": "Device dependent event handler",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV:first-child"
+          ]
+        },
+        "accesskey": {
+          "id": "accesskey",
+          "description": "Accesskey",
+          "count": 3,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDbtnWrap > BUTTON#INDmenu-btn",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDquickAccess > UL:first-child > LI:first-child > BUTTON:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDquickAccess > UL:first-child > LI:first-child + LI > BUTTON:first-child"
+          ]
+        },
+        "tabindex": {
+          "id": "tabindex",
+          "description": "Tabindex",
+          "count": 3,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDquickAccess > UL:first-child > LI:first-child > BUTTON:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDquickAccess > UL:first-child > LI:first-child + LI > BUTTON:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDquickAccess > UL:first-child > LI:first-child + LI + LI > BUTTON:first-child"
+          ]
+        },
+        "text_justified": {
+          "id": "text_justified",
+          "description": "Justified text",
+          "count": 16,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV"
+          ]
+        },
+        "title_redundant": {
+          "id": "title_redundant",
+          "description": "Redundant title text",
+          "count": 60,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > SCRIPT:first-child + DIV > UL:first-child > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > A:first-child + SCRIPT + DIV > UL:first-child > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI > SPAN:first-child + UL > LI:first-child > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI > SPAN:first-child + UL > LI:first-child > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI > SPAN:first-child + UL > LI:first-child > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI > SPAN:first-child + UL > LI:first-child > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI > SPAN:first-child + UL > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI > SPAN:first-child + UL > LI:first-child > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI > SPAN:first-child + UL > LI:first-child > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI > SPAN:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI > SPAN:first-child + UL > LI:first-child > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI > SPAN:first-child + UL > LI:first-child > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child > A:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR + TR > TD:first-child > SPAN:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#ctl01_PanelFooter > FOOTER:first-child > DIV:first-child + DIV > DIV:first-child > P:first-child > A:first-child > IMG:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#ctl01_PanelFooter > FOOTER:first-child > DIV:first-child + DIV > DIV:first-child > P:first-child > A:first-child + A > IMG:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#ctl01_PanelFooter > FOOTER:first-child > DIV:first-child + DIV > DIV:first-child > P:first-child > A:first-child + A + A > IMG:first-child"
+          ]
+        },
+        "table_layout": {
+          "id": "table_layout",
+          "description": "Layout table",
+          "count": 3,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > TABLE#ctl01_mainContent_ctl00_pdpPianoStudio_tblTitoloSelettori > TBODY:first-child > TR:first-child > TD:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE > TBODY:first-child > TR:first-child > TD:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV + TABLE > TBODY:first-child > TR:first-child > TD:first-child"
+          ]
+        }
+      }
+    },
+    "feature": {
+      "description": "Features",
+      "count": 17,
+      "items": {
+        "alt": {
+          "id": "alt",
+          "description": "Alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#printonly > IMG:first-child"
+          ]
+        },
+        "alt_link": {
+          "id": "alt_link",
+          "description": "Linked image with alternative text",
+          "count": 9,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV#smalllogin3 > DIV#myModal > DIV:first-child > DIV:first-child > BUTTON:first-child + A > SPAN:first-child > IMG:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV:first-child > A:first-child > IMG:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV:first-child > A:first-child + NAV > DIV:first-child > BUTTON:first-child + A > IMG:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV#smalllogin2 > DIV#myModal > DIV:first-child > DIV:first-child > BUTTON:first-child + A > SPAN:first-child > IMG:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#ctl01_PanelFooter > FOOTER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#ctl01_PanelFooter > FOOTER:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > P:first-child > BR:first-child + BR + BR + BR + A + BR + BR + A + BR + A > IMG:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#ctl01_PanelFooter > FOOTER:first-child > DIV:first-child + DIV > DIV:first-child > P:first-child > A:first-child > IMG:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#ctl01_PanelFooter > FOOTER:first-child > DIV:first-child + DIV > DIV:first-child > P:first-child > A:first-child + A > IMG:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#ctl01_PanelFooter > FOOTER:first-child > DIV:first-child + DIV > DIV:first-child > P:first-child > A:first-child + A + A > IMG:first-child"
+          ]
+        },
+        "label": {
+          "id": "label",
+          "description": "Form label",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV > I:first-child + LABEL"
+          ]
+        },
+        "lang": {
+          "id": "lang",
+          "description": "Language",
+          "count": 6,
+          "selectors": [
+            false,
+            "HTML#ctl01_html_tag > HEAD:first-child > SCRIPT:first-child + SCRIPT + SCRIPT + SCRIPT + META + META + META",
+            "HTML#ctl01_html_tag > HEAD:first-child > SCRIPT:first-child + SCRIPT + SCRIPT + SCRIPT + META + META + META + META",
+            "HTML#ctl01_html_tag > HEAD:first-child > SCRIPT:first-child + SCRIPT + SCRIPT + SCRIPT + META + META + META + META + META",
+            "HTML#ctl01_html_tag > HEAD:first-child > SCRIPT:first-child + SCRIPT + SCRIPT + SCRIPT + META + META + META + META + META + META",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap"
+          ]
+        }
+      }
+    },
+    "structure": {
+      "description": "Structural Elements",
+      "count": 46,
+      "items": {
+        "table_data": {
+          "id": "table_data",
+          "description": "Data table",
+          "count": 3,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1"
+          ]
+        },
+        "th_col": {
+          "id": "th_col",
+          "description": "Column header cell",
+          "count": 15,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH + TH",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH + TH + TH",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH + TH + TH + TH",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH + TH",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH + TH + TH",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH + TH + TH + TH",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH + TH",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH + TH + TH",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3:first-child + STYLE + DIV + SPAN + H3 + STYLE + DIV + TABLE + SPAN + H3 + STYLE + DIV > DIV:first-child > TABLE#GridView1 > TBODY:first-child > TR:first-child > TH:first-child + TH + TH + TH + TH"
+          ]
+        },
+        "h1": {
+          "id": "h1",
+          "description": "Heading level 1",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1#ctl01_mainContent_ctl00_pdpPianoStudio_PageTitle1_h1Pagetitle"
+          ]
+        },
+        "h2": {
+          "id": "h2",
+          "description": "Heading level 2",
+          "count": 4,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDpopup > DIV:first-child > DIV#INDpopupHead",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV#smalllogin3 > DIV#myModal > DIV:first-child > DIV:first-child + DIV > H2:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV#smalllogin2 > DIV#myModal > DIV:first-child > DIV:first-child + DIV > H2:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > DIV:first-child + H2"
+          ]
+        },
+        "h3": {
+          "id": "h3",
+          "description": "Heading level 3",
+          "count": 3,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3#ctl01_mainContent_ctl00_pdpPianoStudio_ctl03_h3Titolo",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3#ctl01_mainContent_ctl00_pdpPianoStudio_ctl05_h3Titolo",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_pnlPianoStudi > DIV#ctl01_mainContent_ctl00_pdpPianoStudio_PlaceHolderPianoStudi > H3#ctl01_mainContent_ctl00_pdpPianoStudio_ctl07_h3Titolo"
+          ]
+        },
+        "ul": {
+          "id": "ul",
+          "description": "Unordered list",
+          "count": 15,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDquickAccess > UL:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > SCRIPT:first-child + DIV > UL:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV:first-child > A:first-child + NAV > DIV#navbarSupportedContent > UL:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > A:first-child + SCRIPT + DIV > UL:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child + DIV > NAV:first-child > DIV#navbarSupportedContent > UL:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI > SPAN:first-child + UL",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI > SPAN:first-child + UL > LI:first-child > A:first-child + UL",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI > SPAN:first-child + UL",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI > SPAN:first-child + UL",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI > SPAN:first-child + UL",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV#submenu > UL#ctl01_PageMenu1_ctl00 > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI > SPAN:first-child + UL",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV:first-child + DIV > H1:first-child + DIV > DIV#divObiettivi > BR:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child"
+          ]
+        },
+        "iframe": {
+          "id": "iframe",
+          "description": "Inline frame",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > IFRAME#INDdefaultPropIframe"
+          ]
+        },
+        "header": {
+          "id": "header",
+          "description": "Header",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader"
+          ]
+        },
+        "nav": {
+          "id": "nav",
+          "description": "Navigation",
+          "count": 2,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV:first-child > A:first-child + NAV",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child + DIV > NAV:first-child"
+          ]
+        },
+        "footer": {
+          "id": "footer",
+          "description": "Footer",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#ctl01_PanelFooter > FOOTER:first-child"
+          ]
+        }
+      }
+    },
+    "aria": {
+      "description": "ARIA",
+      "count": 29,
+      "items": {
+        "aria": {
+          "id": "aria",
+          "description": "ARIA",
+          "count": 4,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDpopup > DIV:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDpopup > DIV:first-child > DIV#INDpopupHead",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV:first-child > A:first-child + NAV > DIV:first-child > BUTTON:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child + DIV > NAV:first-child > BUTTON:first-child"
+          ]
+        },
+        "aria_label": {
+          "id": "aria_label",
+          "description": "ARIA label",
+          "count": 8,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDpopup > DIV:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV#smalllogin3 > DIV#myModal > DIV:first-child > DIV:first-child > BUTTON:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV#smalllogin3 > DIV#myResetPwd > DIV:first-child > DIV:first-child > BUTTON:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV:first-child > A:first-child + NAV > DIV:first-child > BUTTON:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV#smalllogin2 > DIV#myModal > DIV:first-child > DIV:first-child > BUTTON:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV#smalllogin2 > DIV#myResetPwd > DIV:first-child > DIV:first-child > BUTTON:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child + DIV > NAV:first-child > BUTTON:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV#ctl01_PanelFooter > FOOTER:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > P:first-child + P > A:first-child"
+          ]
+        },
+        "aria_tabindex": {
+          "id": "aria_tabindex",
+          "description": "ARIA tabindex",
+          "count": 5,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDblindNotif",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDpopup > DIV:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDpopup > DIV:first-child > DIV#INDpopupHead",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDpopup > DIV:first-child > BUTTON#INDCloseBtn",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentCenter > DIV#ctl01_divCenter > DIV#main-content"
+          ]
+        },
+        "aria_live_region": {
+          "id": "aria_live_region",
+          "description": "ARIA alert or live region",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDblindNotif"
+          ]
+        },
+        "aria_button": {
+          "id": "aria_button",
+          "description": "ARIA button",
+          "count": 4,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV#smalllogin3 > DIV#myResetPwd > DIV:first-child > DIV:first-child + DIV > P:first-child + DIV > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV#smalllogin3 > DIV#myResetPwd > DIV:first-child > DIV:first-child + DIV > P:first-child + DIV > A:first-child + A",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV#smalllogin2 > DIV#myResetPwd > DIV:first-child > DIV:first-child + DIV > P:first-child + DIV > A:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV#smalllogin2 > DIV#myResetPwd > DIV:first-child > DIV:first-child + DIV > P:first-child + DIV > A:first-child + A"
+          ]
+        },
+        "aria_hidden": {
+          "id": "aria_hidden",
+          "description": "ARIA hidden",
+          "count": 3,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDmenu",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDpopup",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > DIV:first-child + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + SCRIPT + BUTTON + A + DIV + HEADER + SECTION > DIV#ctl01_divContentLeft > DIV:first-child > SPAN:first-child"
+          ]
+        },
+        "aria_expanded": {
+          "id": "aria_expanded",
+          "description": "ARIA expanded",
+          "count": 3,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDbtnWrap > BUTTON#INDmenu-btn",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV:first-child > A:first-child + NAV > DIV:first-child > BUTTON:first-child",
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > FORM#aspnetForm > HEADER#ctl01_utiuHeader > DIV:first-child + DIV > DIV#ctl01_headerMenu > DIV:first-child + DIV > NAV:first-child > BUTTON:first-child"
+          ]
+        },
+        "aria_haspopup": {
+          "id": "aria_haspopup",
+          "description": "ARIA popup",
+          "count": 1,
+          "selectors": [
+            "HTML#ctl01_html_tag > BODY#ctl01_bodyContainer > DIV#INDWrap > DIV#INDbtnWrap > BUTTON#INDmenu-btn"
+          ]
+        }
+      }
+    }
+  }
+}

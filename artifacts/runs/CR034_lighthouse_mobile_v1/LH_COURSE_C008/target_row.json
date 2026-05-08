@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C008",
+  "source_document_id": "SD0016",
+  "crawl_run_id": "CR002",
+  "university_id": "UNI04",
+  "sample_course_id": "C008",
+  "journey_id": "J008",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://www.unifi.it/it/studia-con-noi/corsi-di-laurea/corsi-di-laurea-magistrali/pratiche-linguaggi-e-culture-della",
+  "final_url": "https://www.unifi.it/it/studia-con-noi/corsi-di-laurea/corsi-di-laurea-magistrali/pratiche-linguaggi-e-culture-della",
+  "notes": "tranche2; collected before hub normalization; parent relinked to normalized programmes hub SD0021 in CR003"
+}

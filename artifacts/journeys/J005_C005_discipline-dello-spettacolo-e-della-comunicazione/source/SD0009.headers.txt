@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Fri, 03 Apr 2026 14:56:34 GMT
+Server: Apache
+Link: <https://www.unipi.it/wp-json/>; rel="https://api.w.org/", <https://www.unipi.it/wp-json/wp/v2/pages/9>; rel="alternate"; title="JSON"; type="application/json", <https://www.unipi.it/>; rel=shortlink
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: upgrade-insecure-requests
+Upgrade: h2,h2c
+Connection: Upgrade
+Vary: Accept-Encoding
+Referrer-Policy: no-referrer-when-downgrade
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: JSESSSIONID=2178690909.1.4163593712.3254591488; path=/; secure
+

@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unisa.it/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI11/lhci_filesystem/www_unisa_it--2026_04_23_14_08_46.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI11/lhci_filesystem/www_unisa_it--2026_04_23_14_08_46.report.json",
+    "summary": {
+      "performance": 0.55,
+      "accessibility": 0.96,
+      "best-practices": 0.79,
+      "seo": 1
+    }
+  },
+  {
+    "url": "https://www.unisa.it/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI11/lhci_filesystem/www_unisa_it--2026_04_23_14_09_01.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI11/lhci_filesystem/www_unisa_it--2026_04_23_14_09_01.report.json",
+    "summary": {
+      "performance": 0.83,
+      "accessibility": 0.96,
+      "best-practices": 0.79,
+      "seo": 1
+    }
+  },
+  {
+    "url": "https://www.unisa.it/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI11/lhci_filesystem/www_unisa_it--2026_04_23_14_09_15.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI11/lhci_filesystem/www_unisa_it--2026_04_23_14_09_15.report.json",
+    "summary": {
+      "performance": 0.82,
+      "accessibility": 0.96,
+      "best-practices": 0.79,
+      "seo": 1
+    }
+  }
+]

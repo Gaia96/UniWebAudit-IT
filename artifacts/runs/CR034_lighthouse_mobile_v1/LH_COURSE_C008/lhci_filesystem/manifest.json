@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unifi.it/it/studia-con-noi/corsi-di-laurea/corsi-di-laurea-magistrali/pratiche-linguaggi-e-culture-della",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C008/lhci_filesystem/www_unifi_it-it_studia_con_noi_corsi_di_laurea_corsi_di_laurea_magistrali_pratiche_linguaggi_e_culture_della-2026_04_23_14_33_55.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C008/lhci_filesystem/www_unifi_it-it_studia_con_noi_corsi_di_laurea_corsi_di_laurea_magistrali_pratiche_linguaggi_e_culture_della-2026_04_23_14_33_55.report.json",
+    "summary": {
+      "performance": 0.64,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unifi.it/it/studia-con-noi/corsi-di-laurea/corsi-di-laurea-magistrali/pratiche-linguaggi-e-culture-della",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C008/lhci_filesystem/www_unifi_it-it_studia_con_noi_corsi_di_laurea_corsi_di_laurea_magistrali_pratiche_linguaggi_e_culture_della-2026_04_23_14_34_11.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C008/lhci_filesystem/www_unifi_it-it_studia_con_noi_corsi_di_laurea_corsi_di_laurea_magistrali_pratiche_linguaggi_e_culture_della-2026_04_23_14_34_11.report.json",
+    "summary": {
+      "performance": 0.65,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unifi.it/it/studia-con-noi/corsi-di-laurea/corsi-di-laurea-magistrali/pratiche-linguaggi-e-culture-della",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C008/lhci_filesystem/www_unifi_it-it_studia_con_noi_corsi_di_laurea_corsi_di_laurea_magistrali_pratiche_linguaggi_e_culture_della-2026_04_23_14_34_26.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C008/lhci_filesystem/www_unifi_it-it_studia_con_noi_corsi_di_laurea_corsi_di_laurea_magistrali_pratiche_linguaggi_e_culture_della-2026_04_23_14_34_26.report.json",
+    "summary": {
+      "performance": 0.69,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.92
+    }
+  }
+]

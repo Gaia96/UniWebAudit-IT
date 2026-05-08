@@ -1,0 +1,6 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0011,SD0005,title,1,Università di Padova,università di padova,//title,raw snapshot title
+SF0012,SD0006,title,1,Didattica | Università di Padova,didattica università di padova,//title,raw snapshot title
+SF0014,SD0008,title,1,| Università di Padova,università di padova,//title,raw snapshot title only; page likely needs rendered DOM follow-up
+SF0185,SD0090,title,1,STRATEGIE DI COMUNICAZIONE | Università di Padova,strategie di comunicazione università di padova,//title,raw snapshot title
+SF0186,SD0090,h1,2,STRATEGIE DI COMUNICAZIONE,strategie di comunicazione,//h1[1],raw snapshot first h1

@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 03 Apr 2026 14:56:41 GMT
+Server: Apache
+Expires: Fri, 03 Apr 2026 15:56:42 GMT
+Cache-Control: max-age=3600
+X-Redirect-By: WordPress
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: upgrade-insecure-requests
+Upgrade: h2,h2c
+Connection: Upgrade
+Location: https://www.unipi.it/didattica/corsi/lauree-triennali-ciclo-unico/discipline-dello-spettacolo-e-della-comunicazione-dscr-l/
+Referrer-Policy: no-referrer-when-downgrade
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: JSESSSIONID=2178690909.1.4163593712.3254601728; path=/; secure
+
+HTTP/1.1 200 OK
+Date: Fri, 03 Apr 2026 14:56:42 GMT
+Server: Apache
+Link: <https://www.unipi.it/wp-json/>; rel="https://api.w.org/"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: upgrade-insecure-requests
+Vary: Accept-Encoding
+Referrer-Policy: no-referrer-when-downgrade
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+

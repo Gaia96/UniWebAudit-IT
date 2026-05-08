@@ -1,0 +1,5 @@
+Running Lighthouse 3 time(s) on https://www.unibo.it/it/studiare/lauree-magistrali/corso/2025/6824
+Run #1...done.
+Run #2...done.
+Run #3...done.
+Done running Lighthouse!

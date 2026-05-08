@@ -1,0 +1,521 @@
+{
+  "status": {
+    "success": true,
+    "httpstatuscode": 200
+  },
+  "statistics": {
+    "pagetitle": "Comunicazione, media, tecnologie ~ UNIPI",
+    "pageurl": "https://www.unipi.it/didattica/corsi/lauree-magistrali/comunicazione-media-tecnologie-wcm-lm/",
+    "time": 36.18,
+    "creditsremaining": 266,
+    "AIMscore": 5.6,
+    "allitemcount": 265,
+    "totalelements": 1546,
+    "waveurl": "http://wave.webaim.org/report?url=https://www.unipi.it/didattica/corsi/lauree-magistrali/comunicazione-media-tecnologie-wcm-lm/"
+  },
+  "categories": {
+    "error": {
+      "description": "Errors",
+      "count": 29,
+      "items": {
+        "alt_missing": {
+          "id": "alt_missing",
+          "description": "Missing alternative text",
+          "count": 21,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI + LI + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child + IMG"
+          ]
+        },
+        "language_missing": {
+          "id": "language_missing",
+          "description": "Language missing or invalid",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > UL:first-child > LI:first-child > A:first-child"
+          ]
+        },
+        "link_empty": {
+          "id": "link_empty",
+          "description": "Empty link",
+          "count": 6,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > DIV:first-child > DIV:first-child > A:first-child"
+          ]
+        }
+      }
+    },
+    "contrast": {
+      "description": "Contrast Errors",
+      "count": 0,
+      "items": []
+    },
+    "alert": {
+      "description": "Alerts",
+      "count": 24,
+      "items": {
+        "alt_suspicious": {
+          "id": "alt_suspicious",
+          "description": "Suspicious alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child"
+          ]
+        },
+        "heading_skipped": {
+          "id": "heading_skipped",
+          "description": "Skipped heading level",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV > H4#cds-requisiti-head",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child > H4#anno-0-0-head"
+          ]
+        },
+        "link_internal_broken": {
+          "id": "link_internal_broken",
+          "description": "Broken same-page link",
+          "count": 9,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child"
+          ]
+        },
+        "link_redundant": {
+          "id": "link_redundant",
+          "description": "Redundant link",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV + H3 + DIV > DIV:first-child > STRONG:first-child + A"
+          ]
+        },
+        "link_pdf": {
+          "id": "link_pdf",
+          "description": "Link to PDF document",
+          "count": 5,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > UL:first-child > LI#11977 > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > UL:first-child > LI#11979 > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > UL:first-child > LI#11983 > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV + H3 + DIV > DIV:first-child > STRONG:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV + H3 + DIV > DIV:first-child > STRONG:first-child + A"
+          ]
+        },
+        "event_handler": {
+          "id": "event_handler",
+          "description": "Device dependent event handler",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV"
+          ]
+        },
+        "accesskey": {
+          "id": "accesskey",
+          "description": "Accesskey",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A"
+          ]
+        },
+        "tabindex": {
+          "id": "tabindex",
+          "description": "Tabindex",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV"
+          ]
+        }
+      }
+    },
+    "feature": {
+      "description": "Features",
+      "count": 9,
+      "items": {
+        "alt": {
+          "id": "alt",
+          "description": "Alternative text",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV > P:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV > P:first-child > IMG:first-child"
+          ]
+        },
+        "alt_link": {
+          "id": "alt_link",
+          "description": "Linked image with alternative text",
+          "count": 4,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > NAV#breadcrumbs > DIV:first-child > P#breadcrumbs > SPAN:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV + H3 + DIV > DIV:first-child > STRONG:first-child + A > IMG:first-child"
+          ]
+        },
+        "lang": {
+          "id": "lang",
+          "description": "Language",
+          "count": 3,
+          "selectors": [
+            false,
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > UL#wpml-ls-submenu-click-default > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > UL:first-child > LI:first-child > UL#wpml-ls-submenu-click-default > LI:first-child > A:first-child"
+          ]
+        }
+      }
+    },
+    "structure": {
+      "description": "Structural Elements",
+      "count": 105,
+      "items": {
+        "h1": {
+          "id": "h1",
+          "description": "Heading level 1",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > H1:first-child"
+          ]
+        },
+        "h2": {
+          "id": "h2",
+          "description": "Heading level 2",
+          "count": 11,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2#tab-descrizione-heading",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > H2#tab-piano-di-studi-heading",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#sbocchi-professionali > H2#tab-sbocchi-professionali-heading",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#iscrizione > H2#tab-iscrizione-heading"
+          ]
+        },
+        "h3": {
+          "id": "h3",
+          "description": "Heading level 3",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV + H3",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV + H3 + DIV + H3"
+          ]
+        },
+        "h4": {
+          "id": "h4",
+          "description": "Heading level 4",
+          "count": 4,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV > H4#cds-requisiti-head",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child > H4#anno-0-0-head",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > H4#anno-0-1-head",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV + DIV > H4#anno-0-2-head"
+          ]
+        },
+        "h5": {
+          "id": "h5",
+          "description": "Heading level 5",
+          "count": 8,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child > DIV#anno-0-0-collapse > DIV:first-child > H5:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child > DIV#anno-0-0-collapse > DIV:first-child > H5:first-child + UL + H5",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child > DIV#anno-0-0-collapse > DIV:first-child > H5:first-child + UL + H5 + UL + H5",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > DIV#anno-0-1-collapse > DIV:first-child > H5:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > DIV#anno-0-1-collapse > DIV:first-child > H5:first-child + UL + H5",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > DIV#anno-0-1-collapse > DIV:first-child > H5:first-child + UL + H5 + UL + H5",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > DIV#anno-0-1-collapse > DIV:first-child > H5:first-child + UL + H5 + UL + H5 + UL + H5",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV + DIV > DIV#anno-0-2-collapse > DIV:first-child > H5:first-child"
+          ]
+        },
+        "ul": {
+          "id": "ul",
+          "description": "Unordered list",
+          "count": 73,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > UL#wpml-ls-submenu-click-default",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child > A:first-child + DIV > DIV:first-child + SPAN + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI > A:first-child + DIV > DIV:first-child + SPAN + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child + DIV > DIV:first-child + SPAN + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child + HR + UL + HR + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child > UL#menu-1-5772a00",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV + NAV > UL#menu-2-5772a00",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > UL:first-child > LI:first-child > UL#wpml-ls-submenu-click-default",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV > SPAN:first-child + UL",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV > SPAN:first-child + UL + UL",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child > DIV#anno-0-0-collapse > DIV:first-child > H5:first-child + UL",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child > DIV#anno-0-0-collapse > DIV:first-child > H5:first-child + UL + H5 + UL",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child > DIV#anno-0-0-collapse > DIV:first-child > H5:first-child + UL + H5 + UL + H5 + UL",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > DIV#anno-0-1-collapse > DIV:first-child > H5:first-child + UL",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > DIV#anno-0-1-collapse > DIV:first-child > H5:first-child + UL + H5 + UL",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > DIV#anno-0-1-collapse > DIV:first-child > H5:first-child + UL + H5 + UL + H5 + UL",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > DIV#anno-0-1-collapse > DIV:first-child > H5:first-child + UL + H5 + UL + H5 + UL + H5 + UL",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV + DIV > DIV#anno-0-2-collapse > DIV:first-child > H5:first-child + UL",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#iscrizione > H2:first-child + P + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child"
+          ]
+        },
+        "nav": {
+          "id": "nav",
+          "description": "Navigation",
+          "count": 5,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV + NAV",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > NAV#breadcrumbs"
+          ]
+        },
+        "main": {
+          "id": "main",
+          "description": "Main content",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content"
+          ]
+        }
+      }
+    },
+    "aria": {
+      "description": "ARIA",
+      "count": 98,
+      "items": {
+        "aria": {
+          "id": "aria",
+          "description": "ARIA",
+          "count": 26,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            false,
+            false,
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > NAV#breadcrumbs > DIV:first-child > P#breadcrumbs > SPAN:first-child + SPAN + SPAN + SPAN + SPAN",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV > BUTTON#tab-descrizione",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV > BUTTON#tab-piano-di-studi",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV > BUTTON#tab-sbocchi-professionali",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV > BUTTON#tab-iscrizione",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV > H4#cds-requisiti-head > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child > H4#anno-0-0-head > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > H4#anno-0-1-head > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV + DIV > H4#anno-0-2-head > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#sbocchi-professionali",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#iscrizione",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child + SPAN",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child + SPAN + SPAN",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child + SPAN + SPAN + SPAN",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child + SPAN + SPAN + SPAN + SPAN",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child + SPAN + SPAN + SPAN + SPAN + SPAN",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV + DIV + MAIN + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child + SPAN + SPAN + SPAN + SPAN + SPAN + SPAN"
+          ]
+        },
+        "aria_label": {
+          "id": "aria_label",
+          "description": "ARIA label",
+          "count": 38,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > UL#wpml-ls-submenu-click-default > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > UL:first-child > LI:first-child > UL#wpml-ls-submenu-click-default > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > NAV#breadcrumbs",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > NAV#breadcrumbs > DIV:first-child > P#breadcrumbs > SPAN:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P > STRONG:first-child + SPAN",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P > STRONG:first-child + SPAN",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P > STRONG:first-child + SPAN",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P > STRONG:first-child + SPAN",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P > STRONG:first-child + SPAN",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P > STRONG:first-child + SPAN",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV > P:first-child > IMG:first-child + STRONG > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV > P:first-child > IMG:first-child + STRONG > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV > DIV#cds-requisiti-collapse",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV > DIV#cds-requisiti-collapse > DIV:first-child > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV > DIV#cds-requisiti-collapse > DIV:first-child > DIV:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV + H3 + DIV > DIV:first-child > STRONG:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV + H3 + DIV > DIV:first-child > STRONG:first-child + A",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV + H3 + DIV + H3 + DIV",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child > DIV#anno-0-0-collapse",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > DIV#anno-0-1-collapse",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV + DIV > DIV#anno-0-2-collapse",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#sbocchi-professionali",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#sbocchi-professionali > H2:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#iscrizione"
+          ]
+        },
+        "aria_tabindex": {
+          "id": "aria_tabindex",
+          "description": "ARIA tabindex",
+          "count": 12,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV + NAV > UL#menu-2-5772a00 > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV + NAV > UL#menu-2-5772a00 > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV + NAV > UL#menu-2-5772a00 > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV + NAV > UL#menu-2-5772a00 > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV + NAV > UL#menu-2-5772a00 > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV + NAV > UL#menu-2-5772a00 > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV > BUTTON#tab-piano-di-studi",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV > BUTTON#tab-sbocchi-professionali",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV > BUTTON#tab-iscrizione"
+          ]
+        },
+        "aria_button": {
+          "id": "aria_button",
+          "description": "ARIA button",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > UL:first-child > LI:first-child > A:first-child"
+          ]
+        },
+        "aria_hidden": {
+          "id": "aria_hidden",
+          "description": "ARIA hidden",
+          "count": 10,
+          "selectors": [
+            false,
+            false,
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV + NAV",
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "aria_expanded": {
+          "id": "aria_expanded",
+          "description": "ARIA expanded",
+          "count": 7,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > NAV:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#descrizione > DIV:first-child > H2:first-child + P + P + P + P + P + P + DIV + DIV + DIV + DIV > H4#cds-requisiti-head > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child > H4#anno-0-0-head > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV > H4#anno-0-1-head > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#corsi > DIV#wrapper-tabs > DIV:first-child > SCRIPT:first-child + DIV + DIV > DIV#piano-di-studi > DIV#accordion-anni-0 > DIV:first-child + DIV + DIV > H4#anno-0-2-head > BUTTON:first-child"
+          ]
+        },
+        "aria_haspopup": {
+          "id": "aria_haspopup",
+          "description": "ARIA popup",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + A + A + A + DIV > DIV:first-child + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > STYLE:first-child + SCRIPT + DIV > DIV:first-child > DIV#0 > A:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > UL:first-child > LI:first-child > A:first-child"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Running Lighthouse 3 time(s) on https://www.unipd.it/corsi-di-laurea/comunicazione
+Run #1...done.
+Run #2...done.
+Run #3...done.
+Done running Lighthouse!

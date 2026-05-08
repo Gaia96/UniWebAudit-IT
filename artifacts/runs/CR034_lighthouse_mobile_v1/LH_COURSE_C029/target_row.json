@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C029",
+  "source_document_id": "SD0063",
+  "crawl_run_id": "CR010",
+  "university_id": "UNI15",
+  "sample_course_id": "C029",
+  "journey_id": "J029",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://www.uniurb.it/corsi/1757256",
+  "final_url": "https://www.uniurb.it/corsi/1757256",
+  "notes": "tranche6; fetched with browser user-agent and HTTP/1.1 after empty reply on default curl; parent relinked to normalized programmes hub SD0073 in CR011"
+}

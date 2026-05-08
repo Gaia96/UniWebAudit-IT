@@ -1,0 +1,9 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0144,SD0069,title,1,Portale istituzionale - Università della Calabria,portale istituzionale - università della calabria,//title,raw snapshot title
+SF0145,SD0069,meta_description,2,"Il Campus per eccellenza che cresce con il territorio ed è capace di creare prospettive di crescita culturale, sociale ed economica per i propri studenti.","il campus per eccellenza che cresce con il territorio ed è capace di creare prospettive di crescita culturale, sociale ed economica per i propri studenti.",//meta[@name='description'],raw snapshot meta description
+SF0146,SD0069,h1,3,Scopri in pochi passi,scopri in pochi passi,//h1[1],raw snapshot first h1
+SF0147,SD0070,title,1,Offerta Formativa - Università della Calabria,offerta formativa - università della calabria,//title,raw snapshot title
+SF0148,SD0070,meta_description,2,Sito istituzionale dell'Università della Calabria,sito istituzionale dell'università della calabria,//meta[@name='description'],raw snapshot meta description
+SF0149,SD0070,h1,3,Offerta Formativa,offerta formativa,//h1[1],raw snapshot first h1
+SF0152,SD0072,title,1,LINGUAGGI DELLA COMUNICAZIONE E DELLO SPETTACOLO - Corsi di Laurea,linguaggi della comunicazione e dello spettacolo - corsi di laurea,//title,raw snapshot title
+SF0153,SD0072,meta_description,2,Sito istituzionale dell'Università della Calabria,sito istituzionale dell'università della calabria,//meta[@name='description'],raw snapshot meta description

@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unifi.it/it/node/6520",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C007/lhci_filesystem/www_unifi_it-it_node_6520-2026_04_23_14_33_03.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C007/lhci_filesystem/www_unifi_it-it_node_6520-2026_04_23_14_33_03.report.json",
+    "summary": {
+      "performance": 0.68,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unifi.it/it/node/6520",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C007/lhci_filesystem/www_unifi_it-it_node_6520-2026_04_23_14_33_19.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C007/lhci_filesystem/www_unifi_it-it_node_6520-2026_04_23_14_33_19.report.json",
+    "summary": {
+      "performance": 0.71,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unifi.it/it/node/6520",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C007/lhci_filesystem/www_unifi_it-it_node_6520-2026_04_23_14_33_33.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C007/lhci_filesystem/www_unifi_it-it_node_6520-2026_04_23_14_33_33.report.json",
+    "summary": {
+      "performance": 0.75,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.92
+    }
+  }
+]

@@ -1,0 +1,21 @@
+university_id,university_name,homepage_url,programmes_hub_url,sample_course_ids,menu_clarity_score,notes
+UNI01,Università degli Studi di Bologna,https://www.unibo.it/,https://www.unibo.it/it/studiare,C001 C002,3,Distingue chiaramente tipi di corsi già dal menù
+UNI02,Università degli Studi di Padova,https://www.unipd.it/,https://www.unipd.it/corsi-di-laurea,C003 C004,2,"corsi tutti insieme, poi pagina con card e filtri di selezione"
+UNI03,Università degli Studi di Pisa,https://www.unipi.it/,https://www.unipi.it/didattica,C005 C006,3,
+UNI04,Università degli Studi di Firenze,https://www.unifi.it/,https://www.unifi.it/it/studia-con-noi/corsi-di-laurea,C007 C008,2,menù porta solo alla pagina che contiene tutti i corsi
+UNI05,Università degli Studi di Siena,https://www.unisi.it/,https://www.unisi.it/didattica,C009 C010,1,"layout confusionario, troppi menù e trppe opzioni"
+UNI06,Università degli Studi di Torino,https://www.unito.it/,https://www.unito.it/didattica,C011 C012,1,"troppo testo, termini tecnici, con didattica  e offerta formativa invece di cosa si studia"
+UNI07,Università degli Studi di Genova,https://unige.it/,https://corsi.unige.it/,C013 C014,2,ambiguo dividere tra futuri studenti e studenti
+UNI08,Università degli Studi di Milano-Bicocca,https://www.unimib.it/,https://www.unimib.it/studiare,C015 C016,0,non ho trovato i corsi partendo dal menù
+UNI09,Università degli Studi di Milano,https://www.unimi.it/,https://www.unimi.it/it/corsi,C017 C018,2,Ambiguo che ci sia corsi e studiare come due opzioni
+UNI10,Università degli Studi dell'Insubria,https://www.uninsubria.it/,https://www.uninsubria.it/formazione/la-nostra-didattica,C019 C020,3,
+UNI11,Università degli Studi di Salerno,https://www.unisa.it/,https://web.unisa.it/didattica/corsi-laurea,C021 C022,1,il link è in un sotto menù dentro la home e non nel header principale
+UNI12,Università degli Studi Roma Tre,https://www.uniroma3.it/,https://www.uniroma3.it/didattica/offerta-formativa/,C023 C024,3,
+UNI13,Università degli Studi di Palermo,https://www.unipa.it/,https://www.unipa.it/didattica/offerta-formativa.html,C025 C026,3,
+UNI14,Università per Stranieri di Perugia,https://www.unistrapg.it/,https://www.unistrapg.it/offerta-formativa,C027 C028,2,menù forse troppo ricco di opzioni se uno non sa cosa sta cercando
+UNI15,Università degli Studi di Urbino Carlo Bo,https://www.uniurb.it/,https://www.uniurb.it/studiaconnoi/futuri-studenti/corsi-di-studio,C029 C030,3,
+UNI16,Università Telematica Internazionale Uninettuno,https://www.uninettunouniversity.net/it/default.aspx,https://www.uninettunouniversity.net/it/laurea-scienze-della-comunicazione.aspx,C031 C032,2,bruttino il layout
+UNI17,Università della Calabria,https://www.unical.it/,https://www.unical.it/didattica/offerta-formativa/,C033 C034,3,
+UNI18,"Università degli Studi di Napoli ""Federico II""",https://www.unina.it/,https://www.unina.it/it/didattica/offerta-formativa,C035 C036,2,andrebbe bene ma la pagina fa fatica a caricare
+UNI19,Università degli Studi di Bergamo,https://www.unibg.it/,https://www.unibg.it/studiare/corsi,C037 C038,3,
+UNI20,Università degli Studi di Trento,https://www.unitn.it/,https://www.unitn.it/it/corsi,C039 C040 C041,2,"troppo ricorsivo, non si capisce bene dove andare ma in qualche maniera ci si arriva sempre"

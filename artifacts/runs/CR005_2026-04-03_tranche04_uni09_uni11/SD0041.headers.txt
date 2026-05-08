@@ -1,0 +1,23 @@
+HTTP/2 200 
+date: Fri, 03 Apr 2026 15:24:52 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: UNCACHEABLE
+link: <https://www.uninsubria.it/formazione/offerta-formativa/corsi-di-laurea/scienze-e-tecniche-della-comunicazione>; rel="canonical"
+x-ua-compatible: IE=edge
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+vary: Cookie,Accept-Encoding
+expires: Fri, 03 Apr 2026 19:24:52 GMT
+x-drupal-cache: HIT
+last-modified: Fri, 03 Apr 2026 14:12:23 GMT
+cf-cache-status: HIT
+x-varnish: 9185409
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=cvmUzsBNsPd7GRcy7jscY0fT3iuCM_BS2KmAQi_t9TQ-1775229892.3384356-1.0.1.1-dvO.D0uEpJR8RiOHePq37axxDK1BqZss3kT0qpCqRtiOgxdpu4Sq4.ZYZtpg1a6zs_Ba46NWuXWGZf_LFEESOoEy4Zy8zIW1s0WbrP33wEyyCyhKk0qoe9eU5bzQY4XY; HttpOnly; Secure; Path=/; Domain=www.uninsubria.it; Expires=Fri, 03 Apr 2026 15:54:52 GMT
+cf-ray: 9e69152b1b116130-FCO
+

@@ -1,0 +1,17 @@
+HTTP/1.1 200 
+set-cookie: JSESSIONID=9C0B429825347A7E05D5BE24D8A35684; Path=/; HttpOnly
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, no-cache, no-store, must-revalidate
+pragma: no-cache
+set-cookie: COOKIE_SUPPORT=true; Max-Age=31536000; Expires=Wed, 07 Apr 2027 12:28:38 GMT; Path=/; HttpOnly
+liferay-portal: Liferay Digital Experience Platform
+content-type: text/html;charset=UTF-8
+date: Tue, 07 Apr 2026 12:28:38 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+referrer-policy: strict-origin-when-cross-origin
+Set-Cookie: cookiesession1=678B286EE97734273092F7FFB2B398EE;Expires=Wed, 07 Apr 2027 12:28:42 GMT;Path=/;HttpOnly
+content-length: 169024
+

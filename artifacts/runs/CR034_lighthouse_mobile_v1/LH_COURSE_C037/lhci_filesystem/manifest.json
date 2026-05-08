@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unibg.it/studiare/corsi/offertaformativa/scienze-comunicazione",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C037/lhci_filesystem/www_unibg_it-studiare_corsi_offertaformativa_scienze_comunicazione-2026_04_23_15_01_55.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C037/lhci_filesystem/www_unibg_it-studiare_corsi_offertaformativa_scienze_comunicazione-2026_04_23_15_01_55.report.json",
+    "summary": {
+      "performance": 0.77,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unibg.it/studiare/corsi/offertaformativa/scienze-comunicazione",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C037/lhci_filesystem/www_unibg_it-studiare_corsi_offertaformativa_scienze_comunicazione-2026_04_23_15_02_29.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C037/lhci_filesystem/www_unibg_it-studiare_corsi_offertaformativa_scienze_comunicazione-2026_04_23_15_02_29.report.json",
+    "summary": {
+      "performance": 0.66,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unibg.it/studiare/corsi/offertaformativa/scienze-comunicazione",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C037/lhci_filesystem/www_unibg_it-studiare_corsi_offertaformativa_scienze_comunicazione-2026_04_23_15_02_12.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C037/lhci_filesystem/www_unibg_it-studiare_corsi_offertaformativa_scienze_comunicazione-2026_04_23_15_02_12.report.json",
+    "summary": {
+      "performance": 0.77,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  }
+]

@@ -1,0 +1,41 @@
+HTTP/2 301 
+content-type: text/html; charset=utf-8
+content-length: 168
+location: http://www.uninettunouniversity.net/en/default.aspx
+date: Fri, 03 Apr 2026 15:43:46 GMT
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+server: Microsoft-IIS/10.0
+x-powered-by: ASP.NET
+access-control-allow-origin: *
+access-control-allow-methods: GET, PUT, POST, DELETE, HEAD, OPTIONS
+access-control-allow-credentials: true
+access-control-allow-headers: X-Requested-With, origin, content-type, accept
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-cache: Miss from cloudfront
+via: 1.1 39c7accced467cb2c995cfef7949cd7e.cloudfront.net (CloudFront)
+x-amz-cf-pop: MXP53-P7
+x-amz-cf-id: puL9N0R_YIn2aSUd5EutfUNVJocm1WBqmzKMD-EFwaPTlH9lZeSrHQ==
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 99084
+date: Fri, 03 Apr 2026 15:43:46 GMT
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+cache-control: private
+server: Microsoft-IIS/10.0
+set-cookie: ASP.NET_SessionId=iw2wlnajk4fwhwhboo3ogqgr; path=/; HttpOnly; SameSite=Lax
+set-cookie: UrlReferrer=/en/default.aspx; path=/
+x-aspnet-version: 4.0.30319
+x-powered-by: ASP.NET
+access-control-allow-origin: *
+access-control-allow-methods: GET, PUT, POST, DELETE, HEAD, OPTIONS
+access-control-allow-credentials: true
+access-control-allow-headers: X-Requested-With, origin, content-type, accept
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-cache: Miss from cloudfront
+via: 1.1 39c7accced467cb2c995cfef7949cd7e.cloudfront.net (CloudFront)
+x-amz-cf-pop: MXP53-P7
+x-amz-cf-id: PuYHwQt4F_rQdfh1z-mr7KIB8r5mR21kEUB5rZ1Tbfji6JCVwinQCA==
+

@@ -1,0 +1,27 @@
+batch_id: SERP_B005
+created_at: 2026-04-24T16:49:40
+courses_selected: 5
+total_rows: 15
+course_ids: [C023, C024, C025, C026, C027]
+collection_status: pre_collection
+crawl_run_id: '[ASSIGN before collection — register in crawl_run.csv]'
+
+workflow:
+  1. Assign CRxxx in data/collection/crawl_run.csv
+  2. Fill crawl_run_id in batch_observations.csv (all rows, same value)
+  3. Collect SERP observations per serp_collection_protocol.md
+  4. Fill remaining columns in batch_observations.csv
+  5. Optionally fill batch_results_long.csv
+  6. Run: python serp/scripts/validate_serp_batch.py --batch-id SERP_B005
+  7. Run: python serp/scripts/import_serp_batch.py --batch-id SERP_B005
+  8. Run: python serp/scripts/summarize_serp_coverage.py
+
+paths:
+  batch_dir: serp/batches/SERP_B005/
+  observations_template: serp/batches/SERP_B005/batch_observations.csv
+  results_long_template: serp/batches/SERP_B005/batch_results_long.csv
+  evidence_dir: artifacts/runs/SERP_B005/serp/
+
+imported_at: 2026-05-06T17:35:39
+imported_rows: 15
+obs_ids_assigned: SOBS0070 – SOBS0084

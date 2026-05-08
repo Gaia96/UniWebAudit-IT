@@ -1,0 +1,732 @@
+{
+  "status": {
+    "success": true,
+    "httpstatuscode": 200
+  },
+  "statistics": {
+    "pagetitle": "Corso di laurea magistrale in Comunicazione pubblicitaria, storytelling e cultura d'immagine (ComPSI)",
+    "pageurl": "https://www.unistrapg.it/offerta-formativa/corsi-di-laurea-e-laurea-magistrale/corso-di-laurea-magistrale-comunicazione-pubblicitaria-storytelling-e-cultura-dimmagine-compsi",
+    "time": 7.64,
+    "creditsremaining": 200,
+    "AIMscore": 9,
+    "allitemcount": 392,
+    "totalelements": 1758,
+    "waveurl": "http://wave.webaim.org/report?url=https://www.unistrapg.it/offerta-formativa/corsi-di-laurea-e-laurea-magistrale/corso-di-laurea-magistrale-comunicazione-pubblicitaria-storytelling-e-cultura-dimmagine-compsi"
+  },
+  "categories": {
+    "error": {
+      "description": "Errors",
+      "count": 4,
+      "items": {
+        "label_missing": {
+          "id": "label_missing",
+          "description": "Missing form label",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV + A + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + DIV + DIV > DIV:first-child > TEXTAREA#g-recaptcha-response-100000"
+          ]
+        },
+        "heading_empty": {
+          "id": "heading_empty",
+          "description": "Empty heading",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > DIV#paragraph-2293 > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > DIV#paragraph-2297 > DIV:first-child > H2:first-child"
+          ]
+        },
+        "th_empty": {
+          "id": "th_empty",
+          "description": "Empty table header",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child > P:first-child + UL + H3 + P + TABLE > THEAD:first-child > TR:first-child > TH:first-child + TH + TH"
+          ]
+        }
+      }
+    },
+    "contrast": {
+      "description": "Contrast Errors",
+      "count": 0,
+      "items": []
+    },
+    "alert": {
+      "description": "Alerts",
+      "count": 20,
+      "items": {
+        "heading_skipped": {
+          "id": "heading_skipped",
+          "description": "Skipped heading level",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child > H5#block-italiagov-offcanvas-menu-menu",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child > DIV#collapse-accordion_item--2290 > DIV:first-child > DIV:first-child > DIV:first-child > H4:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child + DIV > DIV#collapse-accordion_item--2291 > DIV:first-child > DIV:first-child > DIV:first-child > H4:first-child"
+          ]
+        },
+        "link_redundant": {
+          "id": "link_redundant",
+          "description": "Redundant link",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child > H5:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + A + A + A + A + A"
+          ]
+        },
+        "link_pdf": {
+          "id": "link_pdf",
+          "description": "Link to PDF document",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > DIV#edit-markup > P:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2304 > DIV:first-child > DIV:first-child + DIV + DIV > A:first-child"
+          ]
+        },
+        "noscript": {
+          "id": "noscript",
+          "description": "Noscript element",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT"
+          ]
+        },
+        "underline": {
+          "id": "underline",
+          "description": "Underlined text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > DIV:first-child > DIV#languages-menu > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child > SPAN:first-child > SPAN:first-child"
+          ]
+        },
+        "title_redundant": {
+          "id": "title_redundant",
+          "description": "Redundant title text",
+          "count": 11,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate > A#dropdown-aree-riservate",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2296 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2304 > DIV:first-child > DIV:first-child + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2307 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2307 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2308 > SECTION:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child + DIV + DIV > A:first-child"
+          ]
+        }
+      }
+    },
+    "feature": {
+      "description": "Features",
+      "count": 25,
+      "items": {
+        "alt": {
+          "id": "alt",
+          "description": "Alternative text",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2281 > DIV:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2308 > SECTION:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child > DIV#it-region-footer-brand > DIV#it-block-italiagov-footerbrand > DIV:first-child > DIV:first-child > SECTION#paragraph-3212 > DIV:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG"
+          ]
+        },
+        "alt_link": {
+          "id": "alt_link",
+          "description": "Linked image with alternative text",
+          "count": 10,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi > H2:first-child + DIV > DIV:first-child > SECTION#paragraph-1704 > DIV:first-child > DIV:first-child > A:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi > H2:first-child + DIV > DIV:first-child > SECTION#paragraph-1704 > DIV:first-child > DIV:first-child + DIV > A:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi > H2:first-child + DIV > DIV:first-child > SECTION#paragraph-1704 > DIV:first-child > DIV:first-child + DIV + DIV > A:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi > H2:first-child + DIV > DIV:first-child > SECTION#paragraph-1704 > DIV:first-child > DIV:first-child + DIV + DIV + DIV > A:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi > H2:first-child + DIV > DIV:first-child > SECTION#paragraph-1704 > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > A:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi > H2:first-child + DIV > DIV:first-child > SECTION#paragraph-1704 > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV > A:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi > H2:first-child + DIV > DIV:first-child > SECTION#paragraph-1704 > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV > A:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi > H2:first-child + DIV > DIV:first-child > SECTION#paragraph-1704 > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > A:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi > H2:first-child + DIV > DIV:first-child > SECTION#paragraph-1704 > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > A:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi > H2:first-child + DIV > DIV:first-child > SECTION#paragraph-1704 > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > A:first-child > DIV:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + SOURCE + IMG"
+          ]
+        },
+        "label": {
+          "id": "label",
+          "description": "Form label",
+          "count": 7,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#modal-header-center-search > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#it-block-italiagov-search > FORM#search-block-form > DIV:first-child > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > DIV:first-child > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > DIV:first-child + DIV > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > DIV:first-child + DIV + DIV > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > FIELDSET#edit-e-mail > LEGEND:first-child + DIV > DIV:first-child > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > FIELDSET#edit-e-mail > LEGEND:first-child + DIV > DIV:first-child + DIV > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > DIV:first-child + DIV + DIV + FIELDSET + DIV > LABEL:first-child"
+          ]
+        },
+        "fieldset": {
+          "id": "fieldset",
+          "description": "Fieldset",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > FIELDSET#edit-e-mail > LEGEND:first-child"
+          ]
+        },
+        "link_skip": {
+          "id": "link_skip",
+          "description": "Skip link",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child > UL:first-child > LI:first-child + LI > A:first-child"
+          ]
+        },
+        "link_skip_target": {
+          "id": "link_skip_target",
+          "description": "Skip link target",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer"
+          ]
+        },
+        "lang": {
+          "id": "lang",
+          "description": "Language",
+          "count": 2,
+          "selectors": [
+            false,
+            "HTML > HEAD:first-child + BODY > DIV#klaro > DIV:first-child"
+          ]
+        }
+      }
+    },
+    "structure": {
+      "description": "Structural Elements",
+      "count": 96,
+      "items": {
+        "table_data": {
+          "id": "table_data",
+          "description": "Data table",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV > DIV#collapse-accordion_item--2289 > DIV:first-child > DIV:first-child > DIV:first-child > TABLE:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child > P:first-child + UL + H3 + P + TABLE"
+          ]
+        },
+        "th": {
+          "id": "th",
+          "description": "Table header cell",
+          "count": 5,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV > DIV#collapse-accordion_item--2289 > DIV:first-child > DIV:first-child > DIV:first-child > TABLE:first-child > THEAD:first-child > TR:first-child > TH:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV > DIV#collapse-accordion_item--2289 > DIV:first-child > DIV:first-child > DIV:first-child > TABLE:first-child > THEAD:first-child > TR:first-child > TH:first-child + TH",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV > DIV#collapse-accordion_item--2289 > DIV:first-child > DIV:first-child > DIV:first-child > TABLE:first-child > THEAD:first-child > TR:first-child > TH:first-child + TH + TH",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child > P:first-child + UL + H3 + P + TABLE > THEAD:first-child > TR:first-child > TH:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child > P:first-child + UL + H3 + P + TABLE > THEAD:first-child > TR:first-child > TH:first-child + TH"
+          ]
+        },
+        "h1": {
+          "id": "h1",
+          "description": "Heading level 1",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-title > DIV#it-block-italiagov-page-title > H1:first-child"
+          ]
+        },
+        "h2": {
+          "id": "h2",
+          "description": "Heading level 2",
+          "count": 21,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate > H2#block-italiagov-areeriservate-menu",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#modal-header-center-search > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#it-block-italiagov-search > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b > H2#heading-accordion-title-2025235642",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b500270d-dd26-4232-b9ad-b65257787d19 > H2#heading-accordion-title-370805578",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_5a960fbe-8618-479d-b44e-451c37365b67 > H2#heading-accordion-title-1827315046",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b137b950-6fea-4131-b536-ec73b211f020 > H2#heading-accordion-title-2108368904",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_e6dc380a-7d9f-471e-896b-82d563da5e8f > H2#heading-accordion-title-2130364554",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child > DIV:first-child > DIV:first-child > DIV#it-region-breadcrumb > DIV#it-block-italiagov-breadcrumbs > NAV:first-child > H2#system-breadcrumb",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > H2#title-2299",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child > H2#heading-accordion_item--2290",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child + DIV > H2#heading-accordion_item--2291",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > DIV#paragraph-2293 > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > DIV#paragraph-2297 > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2#title-2300",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2301 > H2#title-2301",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2308 > SECTION:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child + MAIN + DIV > DIV:first-child > DIV#it-region-after-content-full-width > DIV#it-block-italiagov-bettersocialsharingbuttons > SECTION:first-child > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child + SECTION > NAV#block-italiagov-footer > H2#block-italiagov-footer-menu",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footercopyright > H2#block-italiagov-footercopyright-menu",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi > H2#block-italiagov-footerloghi-menu",
+            "HTML > HEAD:first-child + BODY > DIV#klaro > DIV:first-child > DIV#klaro-cookie-notice > DIV:first-child > H2#id-cookie-title"
+          ]
+        },
+        "h3": {
+          "id": "h3",
+          "description": "Heading level 3",
+          "count": 12,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child > H3#heading-accordion_item--2283",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV > H3#heading-accordion_item--2284",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV > H3#heading-accordion_item--2289",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > H3#heading-accordion_item--2294",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > H3#heading-accordion_item--2298",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child > P:first-child + UL + H3",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2301 > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > H3:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2301 > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > H3:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child + SECTION > NAV#block-italiagov-footer > H2:first-child + DIV > DIV:first-child > H3:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child + SECTION > NAV#block-italiagov-footer > H2:first-child + DIV > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child + SECTION > NAV#block-italiagov-footer > H2:first-child + DIV > DIV:first-child + DIV + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child + SECTION > DIV:first-child > DIV:first-child > DIV#it-region-footer-first > DIV#block-italiagov-followusblock > H3:first-child"
+          ]
+        },
+        "h4": {
+          "id": "h4",
+          "description": "Heading level 4",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child > DIV#collapse-accordion_item--2290 > DIV:first-child > DIV:first-child > DIV:first-child > H4:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child + DIV > DIV#collapse-accordion_item--2291 > DIV:first-child > DIV:first-child > DIV:first-child > H4:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child + DIV > DIV#collapse-accordion_item--2291 > DIV:first-child > DIV:first-child > DIV:first-child > H4:first-child + P + H4"
+          ]
+        },
+        "h5": {
+          "id": "h5",
+          "description": "Heading level 5",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child > H5#block-italiagov-offcanvas-menu-menu"
+          ]
+        },
+        "ol": {
+          "id": "ol",
+          "description": "Ordered list",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child > DIV:first-child > DIV:first-child > DIV#it-region-breadcrumb > DIV#it-block-italiagov-breadcrumbs > NAV:first-child > H2:first-child + OL"
+          ]
+        },
+        "ul": {
+          "id": "ul",
+          "description": "Unordered list",
+          "count": 34,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > DIV:first-child > DIV#languages-menu > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate > H2:first-child + A + DIV > DIV:first-child > DIV:first-child > DIV#aree-riservate > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b > DIV#collapse-accordion-title-2025235642 > DIV:first-child > DIV:first-child > A:first-child + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b > DIV#collapse-accordion-title-2025235642 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b > DIV#collapse-accordion-title-2025235642 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b > DIV#collapse-accordion-title-2025235642 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b > DIV#collapse-accordion-title-2025235642 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b > DIV#collapse-accordion-title-2025235642 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b > DIV#collapse-accordion-title-2025235642 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b500270d-dd26-4232-b9ad-b65257787d19 > DIV#collapse-accordion-title-370805578 > DIV:first-child > DIV:first-child > A:first-child + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_5a960fbe-8618-479d-b44e-451c37365b67 > DIV#collapse-accordion-title-1827315046 > DIV:first-child > DIV:first-child > A:first-child + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_5a960fbe-8618-479d-b44e-451c37365b67 > DIV#collapse-accordion-title-1827315046 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_5a960fbe-8618-479d-b44e-451c37365b67 > DIV#collapse-accordion-title-1827315046 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_5a960fbe-8618-479d-b44e-451c37365b67 > DIV#collapse-accordion-title-1827315046 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_5a960fbe-8618-479d-b44e-451c37365b67 > DIV#collapse-accordion-title-1827315046 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b137b950-6fea-4131-b536-ec73b211f020 > DIV#collapse-accordion-title-2108368904 > DIV:first-child > DIV:first-child > A:first-child + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b137b950-6fea-4131-b536-ec73b211f020 > DIV#collapse-accordion-title-2108368904 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_e6dc380a-7d9f-471e-896b-82d563da5e8f > DIV#collapse-accordion-title-2130364554 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_e6dc380a-7d9f-471e-896b-82d563da5e8f > DIV#collapse-accordion-title-2130364554 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_e6dc380a-7d9f-471e-896b-82d563da5e8f > DIV#collapse-accordion-title-2130364554 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_e6dc380a-7d9f-471e-896b-82d563da5e8f > DIV#collapse-accordion-title-2130364554 > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV + DIV + DIV > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV#header-nav-wrapper > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#header_nav-main-navbar > DIV:first-child + DIV + DIV > NAV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child > DIV#collapse-accordion_item--2283 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV > DIV#collapse-accordion_item--2284 > DIV:first-child > DIV:first-child > DIV:first-child > P:first-child + P + UL",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child > P:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child > P:first-child + UL + H3 + P + TABLE + P + P + P + P + P + UL",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#it-region-sidebar-second > DIV#block-italiagov-navigazioneprincipale > DIV:first-child > A:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#it-region-sidebar-second > DIV#block-italiagov-navigazioneprincipale > DIV:first-child > A:first-child + DIV > UL:first-child > LI:first-child > UL#main--menu-recursive--menu-link-content79c5d61c-10c6-441b-b61e-8e760a546275",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#it-region-sidebar-second > DIV#block-italiagov-navigazioneprincipale > DIV:first-child > A:first-child + DIV > UL:first-child > LI:first-child + LI > UL#main--menu-recursive--menu-link-content81967b9c-5a33-41cc-9f52-394e984b4ccf",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#it-region-sidebar-second > DIV#block-italiagov-navigazioneprincipale > DIV:first-child > A:first-child + DIV > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > UL#main--menu-recursive--menu-link-content606bffe9-4df5-49be-ae40-e5ddf3bfafbd",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child + SECTION > NAV#block-italiagov-footer > H2:first-child + DIV > DIV:first-child > H3:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child + SECTION > NAV#block-italiagov-footer > H2:first-child + DIV > DIV:first-child + DIV > H3:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child + SECTION > NAV#block-italiagov-footer > H2:first-child + DIV > DIV:first-child + DIV + DIV > H3:first-child + DIV > UL:first-child"
+          ]
+        },
+        "iframe": {
+          "id": "iframe",
+          "description": "Inline frame",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV + A + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + DIV + DIV > DIV:first-child > DIV:first-child > IFRAME:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV + A + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + DIV + DIV > DIV:first-child + IFRAME"
+          ]
+        },
+        "header": {
+          "id": "header",
+          "description": "Header",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child"
+          ]
+        },
+        "nav": {
+          "id": "nav",
+          "description": "Navigation",
+          "count": 8,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV#header-nav-wrapper > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#header_nav-main-navbar > DIV:first-child + DIV + DIV > NAV:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child > DIV:first-child > DIV:first-child > DIV#it-region-breadcrumb > DIV#it-block-italiagov-breadcrumbs > NAV:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child + SECTION > NAV#block-italiagov-footer",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footercopyright",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi"
+          ]
+        },
+        "search": {
+          "id": "search",
+          "description": "Search",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#modal-header-center-search > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#it-block-italiagov-search"
+          ]
+        },
+        "main": {
+          "id": "main",
+          "description": "Main content",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content"
+          ]
+        },
+        "footer": {
+          "id": "footer",
+          "description": "Footer",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer"
+          ]
+        },
+        "aside": {
+          "id": "aside",
+          "description": "Aside",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child + MAIN + DIV"
+          ]
+        }
+      }
+    },
+    "aria": {
+      "description": "ARIA",
+      "count": 247,
+      "items": {
+        "aria": {
+          "id": "aria",
+          "description": "ARIA",
+          "count": 81,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > DIV:first-child > A:first-child",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > DIV:first-child > DIV#languages-menu > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            false,
+            false,
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#modal-header-center-search",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#modal-header-center-search > DIV:first-child",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + A",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > BUTTON:first-child",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + A",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + A + A",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + A + A + A",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + A + A + A + A",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + A + A + A + A + A",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b > H2#heading-accordion-title-2025235642 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b500270d-dd26-4232-b9ad-b65257787d19",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b500270d-dd26-4232-b9ad-b65257787d19 > H2#heading-accordion-title-370805578 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_5a960fbe-8618-479d-b44e-451c37365b67",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_5a960fbe-8618-479d-b44e-451c37365b67 > H2#heading-accordion-title-1827315046 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b137b950-6fea-4131-b536-ec73b211f020",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b137b950-6fea-4131-b536-ec73b211f020 > H2#heading-accordion-title-2108368904 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_e6dc380a-7d9f-471e-896b-82d563da5e8f",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_e6dc380a-7d9f-471e-896b-82d563da5e8f > H2#heading-accordion-title-2130364554 > BUTTON:first-child",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child > DIV:first-child > DIV:first-child > DIV#it-region-breadcrumb > DIV#it-block-italiagov-breadcrumbs > NAV:first-child > H2:first-child + OL > LI:first-child + LI + LI + LI",
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child > H3#heading-accordion_item--2283 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV > H3#heading-accordion_item--2284 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV > H3#heading-accordion_item--2289 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > H3#heading-accordion_item--2294 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child > H2#heading-accordion_item--2290 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child + DIV > H2#heading-accordion_item--2291 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > H3#heading-accordion_item--2298 > BUTTON:first-child",
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            "HTML > HEAD:first-child + BODY > DIV#klaro > DIV:first-child > DIV#klaro-cookie-notice",
+            "HTML > HEAD:first-child + BODY > DIV#drupal-live-announce",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV + A + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + DIV + DIV > DIV:first-child > DIV:first-child > IFRAME:first-child"
+          ]
+        },
+        "aria_label": {
+          "id": "aria_label",
+          "description": "ARIA label",
+          "count": 63,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate > A#dropdown-aree-riservate",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate > H2:first-child + A + DIV",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate > H2:first-child + A + DIV > DIV:first-child > DIV:first-child > DIV#aree-riservate > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate > H2:first-child + A + DIV > DIV:first-child > DIV:first-child > DIV#aree-riservate > UL:first-child > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#modal-header-center-search",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#modal-header-center-search > DIV:first-child > DIV:first-child > DIV:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child > H5:first-child + DIV + BUTTON",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b > DIV#collapse-accordion-title-2025235642",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b500270d-dd26-4232-b9ad-b65257787d19 > DIV#collapse-accordion-title-370805578",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_5a960fbe-8618-479d-b44e-451c37365b67 > DIV#collapse-accordion-title-1827315046",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b137b950-6fea-4131-b536-ec73b211f020 > DIV#collapse-accordion-title-2108368904",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_e6dc380a-7d9f-471e-896b-82d563da5e8f > DIV#collapse-accordion-title-2130364554",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV#header-nav-wrapper > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#header_nav-main-navbar > DIV:first-child + DIV + DIV > NAV:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child > DIV:first-child > DIV:first-child > DIV#it-region-breadcrumb > DIV#it-block-italiagov-breadcrumbs > NAV:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child > DIV#collapse-accordion_item--2283",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV > DIV#collapse-accordion_item--2284",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV > DIV#collapse-accordion_item--2289",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child > DIV#collapse-accordion_item--2290",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child + DIV > DIV#collapse-accordion_item--2291",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2296 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2301",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#it-region-sidebar-second > DIV#block-italiagov-navigazioneprincipale > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2304 > DIV:first-child > DIV:first-child + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2307 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2307 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2308 > SECTION:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child + MAIN + DIV",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child + MAIN + DIV > DIV:first-child > DIV#it-region-after-content-full-width > DIV#it-block-italiagov-bettersocialsharingbuttons > SECTION:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child + MAIN + DIV > DIV:first-child > DIV#it-region-after-content-full-width > DIV#it-block-italiagov-bettersocialsharingbuttons > SECTION:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child + MAIN + DIV > DIV:first-child > DIV#it-region-after-content-full-width > DIV#it-block-italiagov-bettersocialsharingbuttons > SECTION:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child + A + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child + MAIN + DIV > DIV:first-child > DIV#it-region-after-content-full-width > DIV#it-block-italiagov-bettersocialsharingbuttons > SECTION:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child + A + A + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child + MAIN + DIV > DIV:first-child > DIV#it-region-after-content-full-width > DIV#it-block-italiagov-bettersocialsharingbuttons > SECTION:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child + A + A + A + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child + SECTION",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child > SECTION:first-child + SECTION > NAV#block-italiagov-footer",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child + SECTION",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child + SECTION > DIV:first-child > DIV:first-child > DIV#it-region-footer-first > DIV#block-italiagov-followusblock > H3:first-child + DIV > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child + SECTION > DIV:first-child > DIV:first-child > DIV#it-region-footer-first > DIV#block-italiagov-followusblock > H3:first-child + DIV > DIV:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child + SECTION > DIV:first-child > DIV:first-child > DIV#it-region-footer-first > DIV#block-italiagov-followusblock > H3:first-child + DIV > DIV:first-child > A:first-child + A + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child + SECTION > DIV:first-child > DIV:first-child > DIV#it-region-footer-first > DIV#block-italiagov-followusblock > H3:first-child + DIV > DIV:first-child > A:first-child + A + A + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child > DIV:first-child > DIV:first-child + SECTION > DIV:first-child > DIV:first-child > DIV#it-region-footer-first > DIV#block-italiagov-followusblock > H3:first-child + DIV > DIV:first-child > A:first-child + A + A + A + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footercopyright",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > FOOTER#footer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > NAV#block-italiagov-footerloghi",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV + A",
+            "HTML > HEAD:first-child + BODY > DIV#klaro > DIV:first-child > DIV#klaro-cookie-notice",
+            "HTML > HEAD:first-child + BODY > DIV#klaro > DIV:first-child > DIV#klaro-cookie-notice > DIV:first-child + BUTTON"
+          ]
+        },
+        "aria_describedby": {
+          "id": "aria_describedby",
+          "description": "ARIA description",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > DIV:first-child > SELECT#edit-indica-il-corso-di-interesse",
+            "HTML > HEAD:first-child + BODY > DIV#klaro > DIV:first-child > DIV#klaro-cookie-notice"
+          ]
+        },
+        "aria_tabindex": {
+          "id": "aria_tabindex",
+          "description": "ARIA tabindex",
+          "count": 11,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#modal-header-center-search",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + A + A + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + A + A + A + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + A + A + A + A + A",
+            "HTML > HEAD:first-child + BODY > DIV#klaro > DIV:first-child > DIV#klaro-cookie-notice",
+            "HTML > HEAD:first-child + BODY > DIV#klaro > DIV:first-child > DIV#klaro-cookie-notice > DIV:first-child + BUTTON"
+          ]
+        },
+        "aria_live_region": {
+          "id": "aria_live_region",
+          "description": "ARIA alert or live region",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > DIV#paragraph-2293 > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > DIV#paragraph-2297 > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#drupal-live-announce"
+          ]
+        },
+        "aria_button": {
+          "id": "aria_button",
+          "description": "ARIA button",
+          "count": 14,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate > A#dropdown-aree-riservate",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + A",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > DIV#collapse-accordion_item--2298 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2296 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-linklauree > DIV:first-child > DIV:first-child > SECTION#paragraph-1130 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#it-region-sidebar-second > DIV#block-italiagov-navigazioneprincipale > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2304 > DIV:first-child > DIV:first-child + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2307 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child + ASIDE > DIV#field-field_sidebar_paragraphs > DIV#paragraph-2307 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#klaro > DIV:first-child > DIV#klaro-cookie-notice > DIV:first-child > H2:first-child + P + DIV > A:first-child"
+          ]
+        },
+        "aria_hidden": {
+          "id": "aria_hidden",
+          "description": "ARIA hidden",
+          "count": 52,
+          "selectors": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > DIV:first-child + DIV > LABEL:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > DIV:first-child + DIV + DIV > LABEL:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > FIELDSET#edit-e-mail > LEGEND:first-child + DIV > DIV:first-child > LABEL:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > FIELDSET#edit-e-mail > LEGEND:first-child + DIV > DIV:first-child + DIV > LABEL:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2300 > DIV:first-child > H2:first-child + DIV + DIV > DIV#webform-submission-informazioni-corsi-laurea-paragraph-2300-form-ajax > FORM#webform-submission-informazioni-corsi-laurea-paragraph-2300-add-form > DIV:first-child + DIV + DIV + FIELDSET + DIV > LABEL:first-child > SPAN:first-child",
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "aria_expanded": {
+          "id": "aria_expanded",
+          "description": "ARIA expanded",
+          "count": 18,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate > A#dropdown-aree-riservate",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_40a31dc5-f066-41bd-8b83-da85beeb670b > H2#heading-accordion-title-2025235642 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b500270d-dd26-4232-b9ad-b65257787d19 > H2#heading-accordion-title-370805578 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_5a960fbe-8618-479d-b44e-451c37365b67 > H2#heading-accordion-title-1827315046 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_b137b950-6fea-4131-b536-ec73b211f020 > H2#heading-accordion-title-2108368904 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#it-region-header-center-search > DIV#italiagov_offcanvas_menu > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#accordion- > DIV#nav-tab-menu_link_content_e6dc380a-7d9f-471e-896b-82d563da5e8f > H2#heading-accordion-title-2130364554 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child > H3#heading-accordion_item--2283 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV > H3#heading-accordion_item--2284 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV > H3#heading-accordion_item--2289 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > H3#heading-accordion_item--2294 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child > H2#heading-accordion_item--2290 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV > DIV#collapse-accordion_item--2294 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SECTION#paragraph-2292 > DIV:first-child > DIV#accordion-2292 > DIV:first-child + DIV > H2#heading-accordion_item--2291 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > MAIN#it-main-content > SECTION:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#it-region-content > DIV#it-block-italiagov-content > ARTICLE:first-child > DIV:first-child > DIV#field-field_main_paragraphs > SECTION#paragraph-2299 > DIV:first-child > DIV#accordion-2299 > DIV:first-child + DIV + DIV + DIV + DIV > H3#heading-accordion_item--2298 > BUTTON:first-child",
+            false,
+            false,
+            false
+          ]
+        },
+        "aria_haspopup": {
+          "id": "aria_haspopup",
+          "description": "ARIA popup",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NAV:first-child + NOSCRIPT + DIV > DIV#page-default > HEADER:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child + DIV > NAV#block-italiagov-areeriservate > A#dropdown-aree-riservate",
+            "HTML > HEAD:first-child + BODY > DIV#klaro > DIV:first-child > DIV#klaro-cookie-notice > DIV:first-child > H2:first-child + P + DIV > A:first-child"
+          ]
+        }
+      }
+    }
+  }
+}

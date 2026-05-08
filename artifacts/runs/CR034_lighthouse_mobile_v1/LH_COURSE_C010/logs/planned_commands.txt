@@ -1,0 +1,2 @@
+npx --yes @lhci/cli@0.15.1 collect --numberOfRuns=3 --url=https://www.unisi.it/ugov/degree/82714
+npx --yes @lhci/cli@0.15.1 upload --target=filesystem --outputDir=../lhci_filesystem

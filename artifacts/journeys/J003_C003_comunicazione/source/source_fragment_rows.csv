@@ -1,0 +1,4 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0011,SD0005,title,1,Università di Padova,università di padova,//title,raw snapshot title
+SF0012,SD0006,title,1,Didattica | Università di Padova,didattica università di padova,//title,raw snapshot title
+SF0013,SD0007,title,1,Comunicazione | Università di Padova,comunicazione università di padova,//title,raw snapshot title; no h1 or meta description detected

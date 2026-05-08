@@ -1,0 +1,2 @@
+npx --yes @lhci/cli@0.15.1 collect --numberOfRuns=3 --url=https://www.uniroma3.it/corsi/dipartimento-di-filosofia-comunicazione-e-spettacolo/lm/2025-2026/scienze-cognitive-della-comunicazione-e-dellazione-0580707309300001/
+npx --yes @lhci/cli@0.15.1 upload --target=filesystem --outputDir=../lhci_filesystem

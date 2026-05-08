@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 03 Apr 2026 14:51:46 GMT
+Content-Type: text/html;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache-operation: plone.app.caching.moderateCaching
+content-language: it
+expires: Tue, 05 Apr 2016 14:47:27 GMT
+vary: X-Anonymous
+x-ua-compatible: IE=edge
+x-cache-rule: plone.content.itemView
+x-ids-involved: #acd65c56ddbe4bfba529d7d4b30e6543#
+x-frame-options: SAMEORIGIN
+X-Cacheable: YES
+x-url: /VirtualHostBase/https/www.unibo.it:443/unibo/VirtualHostRoot/it/studiare
+Age: 259
+Accept-Ranges: bytes
+grace: 
+Cache-Control: max-age=0, s-maxage=0, must-revalidate
+X-Cache: HIT
+X-Cache-Hits: 14
+X-Content-Type-Options: nosniff
+

@@ -1,0 +1,20 @@
+HTTP/2 200 
+date: Tue, 07 Apr 2026 12:23:21 GMT
+content-type: text/html; charset=UTF-8
+server: Apache
+cache-control: max-age=300, public
+x-drupal-dynamic-cache: MISS
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+vary: Cookie,Origin,Accept-Encoding
+x-drupal-cache: MISS
+access-control-allow-credentials: true
+last-modified: Tue, 07 Apr 2026 12:23:20 GMT
+x-varnish: 665159667
+age: 0
+etag: W/"1775564600-gzip"
+grace: none
+x-cache: MISS
+accept-ranges: bytes
+

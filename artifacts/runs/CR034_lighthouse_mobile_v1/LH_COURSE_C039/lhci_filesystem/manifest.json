@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://corsi.unitn.it/it/beni-culturali",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C039/lhci_filesystem/corsi_unitn_it-it_beni_culturali-2026_04_23_15_04_08.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C039/lhci_filesystem/corsi_unitn_it-it_beni_culturali-2026_04_23_15_04_08.report.json",
+    "summary": {
+      "performance": 0.69,
+      "accessibility": 0.94,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://corsi.unitn.it/it/beni-culturali",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C039/lhci_filesystem/corsi_unitn_it-it_beni_culturali-2026_04_23_15_04_25.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C039/lhci_filesystem/corsi_unitn_it-it_beni_culturali-2026_04_23_15_04_25.report.json",
+    "summary": {
+      "performance": 0.68,
+      "accessibility": 0.94,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://corsi.unitn.it/it/beni-culturali",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C039/lhci_filesystem/corsi_unitn_it-it_beni_culturali-2026_04_23_15_03_50.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C039/lhci_filesystem/corsi_unitn_it-it_beni_culturali-2026_04_23_15_03_50.report.json",
+    "summary": {
+      "performance": 0.67,
+      "accessibility": 0.94,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  }
+]

@@ -1,0 +1,22 @@
+HTTP/2 200 
+strict-transport-security: max-age=15768000
+content-security-policy: frame-ancestors 'self' https://*.unige.it
+x-content-type-options: nosniff
+date: Fri, 03 Apr 2026 15:12:18 GMT
+server: Apache
+x-drupal-dynamic-cache: UNCACHEABLE (poor cacheability)
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+x-drupal-cache-tags: CACHE_MISS_IF_UNCACHEABLE_HTTP_METHOD:form block_content:1 block_content:2 block_content:3 block_content_view block_view config:asset_injector.js.banner_img_fluid config:block.block.branding config:block.block.disclaimercookie config:block.block.formdiricerca config:block.block.languagedropdownswitcher config:block.block.mainnavigation config:block.block.navigationfooter config:block.block.navigazioneprincipalesplit2 config:block.block.orientamento config:block.block.shortcuts config:block.block.thirdfooter config:block.block.titolodellapagina config:block.block.unige_theme_breadcrumbs config:block.block.unige_theme_content config:block.block.unige_theme_local_actions config:block.block.unige_theme_messages config:block.block.unige_theme_page_title config:block.block.unige_theme_primary_local_tasks config:block.block.unige_theme_scegliiltuocorso config:block.block.unige_theme_secondary_local_tasks config:block.block.unige_theme_tocunigeblock config:block.block.unige_theme_views_block__slider_news_homepage__slider config:block.block.views_block__ultimo_aggiornamento_block_1 config:block_list config:configurable_language_list config:easy_breadcrumb.settings config:entityqueue.entity_queue.eventi_home_unige config:entityqueue.entity_queue.homepage config:entityqueue.entity_queue.notizie_home_unige config:field.storage.node.body config:field.storage.node.unige_teaser_media config:filter.format.basic_html config:filter.format.full_html config:honeypot.settings config:image.style.carosello config:paragraphs.settings config:search.settings config:system.menu.main config:system.menu.navigation-test config:system.menu.navigazione-principale-split-2 config:system.menu.shortcuts config:system.site config:user.role.anonymous config:views.view.anteprima_articoli_eventi config:views.view.slider_news_homepage_ config:workbench_access.access_scheme.redazione entity_field_info entity_subqueue:homepage entity_subqueue_list http_response local_task media:256874 media:256875 media:256876 media:256877 media:256878 media:260838 media:260839 media:267653 media:268086 media:268088 media:268101 media:268102 media:351 media:477 media:480 media:481 media:482 media:483 media:484 media:485 media:486 media:487 media_view node:1 node:3209 node:3416 node:3908 node:4656 node:4657 node:4699 node:4809 node:4834 node:4835 node:4836 node:4839 node:4840 node_list node_view paragraph:153 paragraph:154 paragraph:155 paragraph:156 paragraph:157 paragraph:158 paragraph:159 paragraph:160 paragraph:161 paragraph:162 paragraph:163 paragraph:164 paragraph:165 paragraph:166 paragraph:167 paragraph:168 paragraph:169 paragraph:170 paragraph:171 paragraph:172 paragraph:173 paragraph:174 paragraph:175 paragraph:176 paragraph:177 paragraph:178 paragraph:179 paragraph:180 paragraph:181 paragraph:1858 paragraph:1859 paragraph:1860 paragraph:2742 paragraph_view rendered user:0 user:1 views_data
+x-drupal-cache-contexts: cookies:big_pipe_nojs languages route session.exists theme timezone url.path url.query_args url.site user
+x-drupal-cache-max-age: 0 (Uncacheable)
+x-generator: Drupal 10 (https://www.drupal.org)
+x-drupal-cache: HIT
+vary: Accept-Encoding
+x-unige-host: web-drupal9-pot generazione D=29433, epoch t=1775229410737985
+content-type: text/html; charset=UTF-8
+link: </themes/custom/unige_theme/vendor/components-font-awesome/webfonts/fa-brands-400.woff2>; rel="preload"; as="font",         </themes/custom/unige_theme/vendor/components-font-awesome/webfonts/fa-solid-900.woff2>; rel="preload"; as="font",         </themes/custom/unige_theme/vendor/components-font-awesome/webfonts/fa-regular-400.woff2>; rel="preload"; as="font",         <https://use.typekit.net/gtu4lnw.css>; rel="preload"; as="style"
+x-cache: MISS from unige.it
+x-cache-detail: "cache miss: attempting entity save" from unige.it
+

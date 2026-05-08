@@ -1,0 +1,753 @@
+{
+  "status": {
+    "success": true,
+    "httpstatuscode": 200
+  },
+  "statistics": {
+    "pagetitle": "Università degli Studi di Siena",
+    "pageurl": "https://www.unisi.it/",
+    "time": 4.74,
+    "creditsremaining": 326,
+    "AIMscore": 3.1,
+    "allitemcount": 156,
+    "totalelements": 899,
+    "waveurl": "http://wave.webaim.org/report?url=https://www.unisi.it/"
+  },
+  "categories": {
+    "error": {
+      "description": "Errors",
+      "count": 2,
+      "items": {
+        "alt_missing": {
+          "id": "alt_missing",
+          "description": "Missing alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-one > DIV:first-child > DIV#block-block-12 > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + BR + IMG"
+          ]
+        },
+        "alt_link_missing": {
+          "id": "alt_link_missing",
+          "description": "Linked image missing alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-first > DIV:first-child > DIV#block-views-bb1-03-slider-block > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#flexslider_views_slideshow_main_bb1_03_slider-block_1 > DIV:first-child > DIV:first-child > UL#flexslider_views_slideshow_bb1_03_slider-block_1 > LI:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child"
+          ]
+        }
+      }
+    },
+    "contrast": {
+      "description": "Contrast Errors",
+      "count": 61,
+      "items": {
+        "contrast": {
+          "id": "contrast",
+          "description": "Very low contrast",
+          "count": 61,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-menu-menu-lingue > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-menu-menu-lingue > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-menu-menu-lingue > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-menu-menu-lingue > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-first > DIV:first-child > DIV#block-block-8 > DIV:first-child > DIV:first-child > H2#scegli-il-tuo-percorso-h2 > A#scegli-il-tuo-percorso > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > DIV#block-menu-menu-footer-evidenze > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > DIV#block-menu-menu-footer-evidenze > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > DIV#block-menu-menu-footer-evidenze > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > DIV#block-menu-menu-footer-evidenze > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > DIV#block-menu-menu-footer-evidenze > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > DIV#block-menu-menu-footer-evidenze > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child + DIV > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child + DIV > UL:first-child > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child + DIV > UL:first-child > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child + DIV > UL:first-child > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child + DIV > UL:first-child > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child + DIV > UL:first-child > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child + DIV > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child + DIV > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child + DIV > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-second > DIV:first-child > DIV#block-block-1 > DIV:first-child > DIV:first-child > P:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-second > DIV:first-child > DIV#block-block-1 > DIV:first-child > DIV:first-child > P:first-child > STRONG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-second > DIV:first-child > DIV#block-block-1 > DIV:first-child > DIV:first-child > P:first-child > STRONG:first-child + BR + A",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-second > DIV:first-child > DIV#block-block-1 > DIV:first-child > DIV:first-child > P:first-child > STRONG:first-child + BR + A + A",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-second > DIV:first-child > DIV#block-block-1 > DIV:first-child > DIV:first-child > P:first-child > STRONG:first-child + BR + A + A + A",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-second > DIV:first-child > DIV#block-block-1 > DIV:first-child > DIV:first-child > P:first-child > STRONG:first-child + BR + A + A + A + BR + A"
+          ],
+          "contrastdata": [
+            [
+              1,
+              "#00000000",
+              "#4c4c54",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#4c4c54",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#4c4c54",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#4c4c54",
+              false
+            ],
+            [
+              1,
+              "#ffffff",
+              "#ffffff",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#eeeded",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#eeeded",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#eeeded",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#eeeded",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#eeeded",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#eeeded",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#eeeded",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#eeeded",
+              false
+            ],
+            [
+              1,
+              "#00000000",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ],
+            [
+              1.16,
+              "#ffffff",
+              "#eeeded",
+              false
+            ]
+          ]
+        }
+      }
+    },
+    "alert": {
+      "description": "Alerts",
+      "count": 38,
+      "items": {
+        "alt_redundant": {
+          "id": "alt_redundant",
+          "description": "Redundant alternative text",
+          "count": 4,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-1 > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-2 > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-3 > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-4 > A:first-child > IMG:first-child"
+          ]
+        },
+        "link_internal_broken": {
+          "id": "link_internal_broken",
+          "description": "Broken same-page link",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#skip-link > A:first-child"
+          ]
+        },
+        "link_redundant": {
+          "id": "link_redundant",
+          "description": "Redundant link",
+          "count": 5,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-first > DIV:first-child > DIV#block-views-bb1-03-slider-block > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#flexslider_views_slideshow_main_bb1_03_slider-block_1 > DIV:first-child > DIV:first-child > UL#flexslider_views_slideshow_bb1_03_slider-block_1 > LI:first-child > DIV:first-child + DIV > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > SECTION#block-views-nodequeue-10-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#node-news-27621 > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > SECTION#block-views-nodequeue-10-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#node-news-27623 > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-second > DIV:first-child > SECTION#block-views-nodequeue-11-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#node-evento-27618 > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-second > DIV:first-child > SECTION#block-views-nodequeue-11-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#node-evento-27571 > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child"
+          ]
+        },
+        "text_small": {
+          "id": "text_small",
+          "description": "Very small text",
+          "count": 7,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50 > TBODY:first-child > TR:first-child > TD:first-child + TD > DIV#gs_st50 > A:first-child > SPAN#gs_cb50",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > SECTION#block-views-nodequeue-10-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#node-news-27621 > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > SECTION#block-views-nodequeue-10-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#node-news-27623 > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > DIV#block-views-nodequeue-10-block-2 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#node-news-27586 > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > DIV#block-views-nodequeue-10-block-2 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#node-news-27080 > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > DIV#block-views-nodequeue-10-block-2 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > DIV#node-news-27527 > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-second > DIV:first-child > DIV#block-block-1 > DIV:first-child > DIV:first-child > P:first-child"
+          ]
+        },
+        "title_redundant": {
+          "id": "title_redundant",
+          "description": "Redundant title text",
+          "count": 18,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-2 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-3 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-second > DIV:first-child > DIV#block-om-maximenu-om-maximenu-2 > DIV:first-child > DIV:first-child > DIV#om-maximenu-percorsi > DIV#om-menu-percorsi-ul-wrapper > UL#om-menu-percorsi > LI#om-leaf-om-u1-1704889400-1 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-second > DIV:first-child > DIV#block-om-maximenu-om-maximenu-2 > DIV:first-child > DIV:first-child > DIV#om-maximenu-percorsi > DIV#om-menu-percorsi-ul-wrapper > UL#om-menu-percorsi > LI#om-leaf-om-u1-1704889400-1 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-second > DIV:first-child > DIV#block-om-maximenu-om-maximenu-2 > DIV:first-child > DIV:first-child > DIV#om-maximenu-percorsi > DIV#om-menu-percorsi-ul-wrapper > UL#om-menu-percorsi > LI#om-leaf-om-u1-1704889400-1 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-second > DIV:first-child > DIV#block-om-maximenu-om-maximenu-2 > DIV:first-child > DIV:first-child > DIV#om-maximenu-percorsi > DIV#om-menu-percorsi-ul-wrapper > UL#om-menu-percorsi > LI#om-leaf-om-u1-1704889400-1 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-second > DIV:first-child > DIV#block-om-maximenu-om-maximenu-2 > DIV:first-child > DIV:first-child > DIV#om-maximenu-percorsi > DIV#om-menu-percorsi-ul-wrapper > UL#om-menu-percorsi > LI#om-leaf-om-u1-1704889400-1 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-second > DIV:first-child > DIV#block-om-maximenu-om-maximenu-2 > DIV:first-child > DIV:first-child > DIV#om-maximenu-percorsi > DIV#om-menu-percorsi-ul-wrapper > UL#om-menu-percorsi > LI#om-leaf-om-u1-1704889400-1 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-first > DIV:first-child > DIV#block-block-8 > DIV:first-child > DIV:first-child > H2#scegli-il-tuo-percorso-h2 > A#scegli-il-tuo-percorso",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child + DIV > UL:first-child > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > SECTION#block-views-nodequeue-10-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#node-news-27621 > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > SECTION#block-views-nodequeue-10-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#node-news-27623 > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-second > DIV:first-child > SECTION#block-views-nodequeue-11-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#node-evento-27618 > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-second > DIV:first-child > SECTION#block-views-nodequeue-11-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#node-evento-27571 > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child"
+          ]
+        },
+        "table_layout": {
+          "id": "table_layout",
+          "description": "Layout table",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50 > TBODY:first-child > TR:first-child > TD#gs_tti50",
+            "HTML > HEAD:first-child + BODY > DIV:first-child + DIV + DIV + DIV + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + STYLE + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + TABLE > TBODY:first-child > TR:first-child > TD:first-child"
+          ]
+        }
+      }
+    },
+    "feature": {
+      "description": "Features",
+      "count": 13,
+      "items": {
+        "alt": {
+          "id": "alt",
+          "description": "Alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-one > DIV:first-child > DIV#block-block-12 > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child"
+          ]
+        },
+        "alt_link": {
+          "id": "alt_link",
+          "description": "Linked image with alternative text",
+          "count": 11,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-1 > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-2 > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-3 > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-4 > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > SECTION#block-views-nodequeue-10-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#node-news-27621 > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > SECTION#block-views-nodequeue-10-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#node-news-27623 > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-second > DIV:first-child > SECTION#block-views-nodequeue-11-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV#node-evento-27618 > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-second > DIV:first-child > SECTION#block-views-nodequeue-11-block-1 > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV#node-evento-27571 > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-one > DIV:first-child > DIV#block-block-12 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > DIV#block-block-7 > DIV:first-child > DIV:first-child > P:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > DIV#block-block-7 > DIV:first-child > DIV:first-child > P:first-child + P + P > A:first-child > IMG:first-child"
+          ]
+        },
+        "lang": {
+          "id": "lang",
+          "description": "Language",
+          "count": 1,
+          "selectors": [
+            false
+          ]
+        }
+      }
+    },
+    "structure": {
+      "description": "Structural Elements",
+      "count": 31,
+      "items": {
+        "h1": {
+          "id": "h1",
+          "description": "Heading level 1",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-branding-wrapper > DIV#zone-branding > DIV#region-branding > DIV:first-child > DIV:first-child > HGROUP:first-child > H1:first-child"
+          ]
+        },
+        "h2": {
+          "id": "h2",
+          "description": "Heading level 2",
+          "count": 5,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-first > DIV:first-child > DIV#block-block-8 > DIV:first-child > DIV:first-child > H2#scegli-il-tuo-percorso-h2",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first > DIV:first-child > SECTION#block-views-nodequeue-10-block-1 > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-second > DIV:first-child > SECTION#block-views-nodequeue-11-block-1 > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-postscript-wrapper > DIV#zone-postscript > DIV#region-postscript-first > DIV:first-child > SECTION#block-views-nodequeue-4-block > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child"
+          ]
+        },
+        "ol": {
+          "id": "ol",
+          "description": "Ordered list",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-first > DIV:first-child > DIV#block-views-bb1-03-slider-block > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#flexslider_views_slideshow_main_bb1_03_slider-block_1 > DIV:first-child > DIV:first-child > UL:first-child + OL"
+          ]
+        },
+        "ul": {
+          "id": "ul",
+          "description": "Unordered list",
+          "count": 18,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-menu-menu-utilita > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-menu-menu-lingue > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-1 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-2 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-3 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-5 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-om-maximenu-om-maximenu-1 > DIV:first-child > DIV:first-child > DIV#om-maximenu-main-menu > DIV#om-menu-main-menu-ul-wrapper > UL#om-menu-main-menu > LI#om-leaf-om-u1-1605817277-4 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-second > DIV:first-child > DIV#block-om-maximenu-om-maximenu-2 > DIV:first-child > DIV:first-child > DIV#om-maximenu-percorsi > DIV#om-menu-percorsi-ul-wrapper > UL#om-menu-percorsi",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-second > DIV:first-child > DIV#block-om-maximenu-om-maximenu-2 > DIV:first-child > DIV:first-child > DIV#om-maximenu-percorsi > DIV#om-menu-percorsi-ul-wrapper > UL#om-menu-percorsi > LI#om-leaf-om-u1-1704889400-1 > A:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-first > DIV:first-child > DIV#block-views-bb1-03-slider-block > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#flexslider_views_slideshow_main_bb1_03_slider-block_1 > DIV:first-child > DIV:first-child > UL#flexslider_views_slideshow_bb1_03_slider-block_1",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-first > DIV:first-child > DIV#block-views-bb1-03-slider-block > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#flexslider_views_slideshow_main_bb1_03_slider-block_1 > DIV:first-child > DIV:first-child > UL:first-child + OL + UL",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-postscript-wrapper > DIV#zone-postscript > DIV#region-postscript-first > DIV:first-child > SECTION#block-views-nodequeue-4-block > DIV:first-child > H2:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-postscript-wrapper > DIV#zone-postscript > DIV#region-postscript-second > DIV:first-child > DIV#block-block-9 > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-two > DIV:first-child > DIV#block-menu-menu-footer > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-three > DIV:first-child > DIV#block-menu-menu-footer-2 > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > DIV#block-menu-menu-footer-evidenze > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first-four > DIV:first-child > SECTION#block-menu-menu-segui-unisi > DIV:first-child > H2:first-child + DIV > UL:first-child"
+          ]
+        },
+        "header": {
+          "id": "header",
+          "description": "Header",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header"
+          ]
+        },
+        "footer": {
+          "id": "footer",
+          "description": "Footer",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer"
+          ]
+        },
+        "aside": {
+          "id": "aside",
+          "description": "Aside",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-first",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > ASIDE#region-sidebar-second"
+          ]
+        },
+        "region": {
+          "id": "region",
+          "description": "Generic region",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#sliding-popup > DIV:first-child > DIV:first-child > DIV#popup-text > DIV:first-child > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#sliding-popup > DIV:first-child > DIV:first-child > DIV#popup-text > DIV:first-child > DIV:first-child + DIV"
+          ]
+        }
+      }
+    },
+    "aria": {
+      "description": "ARIA",
+      "count": 11,
+      "items": {
+        "aria": {
+          "id": "aria",
+          "description": "ARIA",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50",
+            "HTML > HEAD:first-child + BODY > DIV:first-child + DIV + DIV + DIV + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + STYLE + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + TABLE"
+          ]
+        },
+        "aria_label": {
+          "id": "aria_label",
+          "description": "ARIA label",
+          "count": 4,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50 > TBODY:first-child > TR:first-child > TD#gs_tti50 > INPUT#gsc-i-id1",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-second > DIV:first-child > DIV#block-block-1 > DIV:first-child > DIV:first-child > P:first-child > STRONG:first-child + BR + A + A + A + BR + A > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#sliding-popup > DIV:first-child > DIV:first-child > DIV#popup-text > DIV:first-child > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#sliding-popup > DIV:first-child > DIV:first-child > DIV#popup-text > DIV:first-child > DIV:first-child + DIV"
+          ]
+        },
+        "aria_tabindex": {
+          "id": "aria_tabindex",
+          "description": "ARIA tabindex",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-first > DIV:first-child > DIV#block-views-bb1-03-slider-block > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#flexslider_views_slideshow_main_bb1_03_slider-block_1 > DIV:first-child > DIV:first-child > UL:first-child + OL + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-header-first > DIV:first-child > DIV#block-views-bb1-03-slider-block > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#flexslider_views_slideshow_main_bb1_03_slider-block_1 > DIV:first-child > DIV:first-child > UL:first-child + OL + UL > LI:first-child + LI > A:first-child"
+          ]
+        },
+        "aria_button": {
+          "id": "aria_button",
+          "description": "ARIA button",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50 > TBODY:first-child > TR:first-child > TD:first-child + TD > DIV#gs_st50 > A:first-child"
+          ]
+        },
+        "aria_hidden": {
+          "id": "aria_hidden",
+          "description": "ARIA hidden",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-second > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50 > TBODY:first-child > TR:first-child > TD:first-child + TD > DIV#gs_st50 > A:first-child > SPAN#gs_cb50"
+          ]
+        }
+      }
+    }
+  }
+}

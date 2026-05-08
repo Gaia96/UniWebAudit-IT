@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C002",
+  "source_document_id": "SD0004",
+  "crawl_run_id": "CR001",
+  "university_id": "UNI01",
+  "sample_course_id": "C002",
+  "journey_id": "J002",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "medium",
+  "tested_url": "https://www.unibo.it/it/studiare/lauree-magistrali/corso/2025/6824",
+  "final_url": "https://www.unibo.it/it/studiare/lauree-magistrali/corso/2025/6824",
+  "notes": "tranche1; official ateneo course card"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unimi.it/it/corsi/laurea-magistrale/editoria-culture-della-comunicazione-e-della-moda",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C018/lhci_filesystem/www_unimi_it-it_corsi_laurea_magistrale_editoria_culture_della_comunicazione_e_della_moda-2026_04_23_14_43_08.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C018/lhci_filesystem/www_unimi_it-it_corsi_laurea_magistrale_editoria_culture_della_comunicazione_e_della_moda-2026_04_23_14_43_08.report.json",
+    "summary": {
+      "performance": 0.64,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unimi.it/it/corsi/laurea-magistrale/editoria-culture-della-comunicazione-e-della-moda",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C018/lhci_filesystem/www_unimi_it-it_corsi_laurea_magistrale_editoria_culture_della_comunicazione_e_della_moda-2026_04_23_14_43_40.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C018/lhci_filesystem/www_unimi_it-it_corsi_laurea_magistrale_editoria_culture_della_comunicazione_e_della_moda-2026_04_23_14_43_40.report.json",
+    "summary": {
+      "performance": 0.64,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unimi.it/it/corsi/laurea-magistrale/editoria-culture-della-comunicazione-e-della-moda",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C018/lhci_filesystem/www_unimi_it-it_corsi_laurea_magistrale_editoria_culture_della_comunicazione_e_della_moda-2026_04_23_14_43_24.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C018/lhci_filesystem/www_unimi_it-it_corsi_laurea_magistrale_editoria_culture_della_comunicazione_e_della_moda-2026_04_23_14_43_24.report.json",
+    "summary": {
+      "performance": 0.65,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  }
+]

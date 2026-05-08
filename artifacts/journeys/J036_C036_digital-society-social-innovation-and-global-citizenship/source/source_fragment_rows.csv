@@ -1,0 +1,8 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0157,SD0074,title,1,Home - Unina,home - unina,//title,raw snapshot title
+SF0158,SD0074,meta_description,2,pattern library e styleguide per Unina,pattern library e styleguide per unina,//meta[@name='description'],raw snapshot meta description
+SF0159,SD0074,h1,3,L'Università Federico II offre molteplici percorsi di studio in tredici aree didattiche,l'università federico ii offre molteplici percorsi di studio in tredici aree didattiche,//h1[1],raw snapshot first h1
+SF0161,SD0077,title,1,Corsi di Studio | Unina.it,corsi di studio unina.it,//title,raw snapshot title
+SF0182,SD0087,title,1,Offerta formativa - Unina,offerta formativa - unina,//title,raw snapshot title
+SF0183,SD0087,meta_description,2,pattern library e styleguide per Unina,pattern library e styleguide per unina,//meta[@name='description'],raw snapshot meta description
+SF0184,SD0087,h1,3,Didattica,didattica,//h1[1],raw snapshot first h1

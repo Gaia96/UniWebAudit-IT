@@ -1,0 +1,9 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0081,SD0042,title,1,UNISA | Home,unisa home,//title,raw snapshot title
+SF0082,SD0042,meta_description,2,Università degli Studi di Salerno - Via Giovanni Paolo II. 132 - 84084 Fisciano (SA),università degli studi di salerno - via giovanni paolo ii. 132 - 84084 fisciano (sa),//meta[@name='description'],raw snapshot meta description
+SF0083,SD0042,h1,3,UNISA | Home,unisa home,//h1[1],raw snapshot first h1
+SF0084,SD0043,title,1,Didattica | Corsi di Laurea e Laurea Magistrale,didattica corsi di laurea e laurea magistrale,//title,raw snapshot title
+SF0085,SD0043,meta_description,2,I corsi di laurea e di laurea magistrale ad UNISA,i corsi di laurea e di laurea magistrale ad unisa,//meta[@name='description'],raw snapshot meta description
+SF0086,SD0043,h1,3,Didattica | Corsi di Laurea e Laurea Magistrale,didattica corsi di laurea e laurea magistrale,//h1[1],raw snapshot first h1
+SF0089,SD0045,title,1,Corporate Communication e Media | Home,corporate communication e media home,//title,raw snapshot title
+SF0090,SD0045,h1,2,"Corporate Communication, Marketing Innovation e Media Digitali(Corporate Communication e Media)","corporate communication, marketing innovation e media digitali(corporate communication e media)",//h1[1],raw snapshot first h1

@@ -1,0 +1,24 @@
+HTTP/2 200 
+date: Fri, 03 Apr 2026 15:16:57 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: UNCACHEABLE
+link: <https://www.unimib.it/node/25200>; rel="canonical", <https://www.unimib.it/node/25200>; rel="shortlink", <https://www.unimib.it/>; rel="alternate"; hreflang="it"
+x-ua-compatible: IE=edge
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+vary: Cookie,Accept-Encoding
+expires: Fri, 03 Apr 2026 19:16:57 GMT
+x-drupal-cache: MISS
+last-modified: Fri, 03 Apr 2026 15:00:16 GMT
+cf-cache-status: HIT
+x-varnish: 241017966
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=2EfZNuXma3CeVM9ZVGQIo3OAM09xzb1QMR8oJKYfwFU-1775229417.0784826-1.0.1.1-89PUktIkODB9WrqtfxkqSjEj.Ys6ZPSX4f4cVjSGqi4_k1qzX43txGm3ZKhs1bqxLFmi8mMy5cNax82r7n0k21tL5Tgh.gv9PlwZQZfuUKmT0P3N5Qr.MyXt3UzL_ln5; HttpOnly; Secure; Path=/; Domain=www.unimib.it; Expires=Fri, 03 Apr 2026 15:46:57 GMT
+age: 999
+cf-ray: 9e690990bd99f373-FCO
+

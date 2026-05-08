@@ -1,0 +1,2 @@
+npx --yes @lhci/cli@0.15.1 collect --numberOfRuns=3 --url=https://www.unifi.it/it/studia-con-noi/corsi-di-laurea/corsi-di-laurea-magistrali/pratiche-linguaggi-e-culture-della
+npx --yes @lhci/cli@0.15.1 upload --target=filesystem --outputDir=../lhci_filesystem

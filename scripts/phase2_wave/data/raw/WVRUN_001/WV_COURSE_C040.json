@@ -1,0 +1,341 @@
+{
+  "status": {
+    "success": true,
+    "httpstatuscode": 200
+  },
+  "statistics": {
+    "pagetitle": "Organizzazione, società e tecnologia | UniTrento",
+    "pageurl": "https://corsi.unitn.it/it/organizzazione-societa-e-tecnologia",
+    "time": 8.34,
+    "creditsremaining": 170,
+    "AIMscore": 8.9,
+    "allitemcount": 113,
+    "totalelements": 705,
+    "waveurl": "http://wave.webaim.org/report?url=https://corsi.unitn.it/it/organizzazione-societa-e-tecnologia"
+  },
+  "categories": {
+    "error": {
+      "description": "Errors",
+      "count": 4,
+      "items": {
+        "button_empty": {
+          "id": "button_empty",
+          "description": "Empty button",
+          "count": 4,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child > SPAN:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI > SPAN:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI + LI > SPAN:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI + LI + LI > SPAN:first-child + BUTTON"
+          ]
+        }
+      }
+    },
+    "contrast": {
+      "description": "Contrast Errors",
+      "count": 0,
+      "items": []
+    },
+    "alert": {
+      "description": "Alerts",
+      "count": 7,
+      "items": {
+        "alt_duplicate": {
+          "id": "alt_duplicate",
+          "description": "A nearby image has the same alternative text",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide02 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > IMG:first-child"
+          ]
+        },
+        "alt_long": {
+          "id": "alt_long",
+          "description": "Long alternative text",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide00 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > IMG:first-child"
+          ]
+        },
+        "heading_skipped": {
+          "id": "heading_skipped",
+          "description": "Skipped heading level",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > H3:first-child"
+          ]
+        },
+        "link_internal_broken": {
+          "id": "link_internal_broken",
+          "description": "Broken same-page link",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV:first-child + FOOTER > DIV:first-child > DIV:first-child + DIV > SECTION:first-child > NAV#block-unitn-cds-menufooter > UL:first-child > LI:first-child + LI > A:first-child"
+          ]
+        }
+      }
+    },
+    "feature": {
+      "description": "Features",
+      "count": 12,
+      "items": {
+        "alt": {
+          "id": "alt",
+          "description": "Alternative text",
+          "count": 9,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top > SECTION:first-child > DIV#block-unitn-cds-burger > DIV:first-child > DIV:first-child > DIV:first-child > BUTTON:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top > SECTION:first-child > DIV#block-unitn-cds-burger > DIV:first-child > DIV:first-child > DIV:first-child > BUTTON:first-child > IMG:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child > A:first-child + DIV + DIV > DIV:first-child > DIV:first-child + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide01 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide03 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > IMG:first-child"
+          ]
+        },
+        "alt_link": {
+          "id": "alt_link",
+          "description": "Linked image with alternative text",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#block-unitn-cds-logo > DIV:first-child > DIV:first-child > DIV:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child > A:first-child > IMG:first-child"
+          ]
+        },
+        "lang": {
+          "id": "lang",
+          "description": "Language",
+          "count": 1,
+          "selectors": [
+            false
+          ]
+        }
+      }
+    },
+    "structure": {
+      "description": "Structural Elements",
+      "count": 23,
+      "items": {
+        "h1": {
+          "id": "h1",
+          "description": "Heading level 1",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child > A:first-child + DIV > DIV:first-child + H1"
+          ]
+        },
+        "h2": {
+          "id": "h2",
+          "description": "Heading level 2",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top > SECTION:first-child > DIV#block-unitn-cds-views-block-top-header-block-6 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child"
+          ]
+        },
+        "h3": {
+          "id": "h3",
+          "description": "Heading level 3",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > H3:first-child"
+          ]
+        },
+        "ul": {
+          "id": "ul",
+          "description": "Unordered list",
+          "count": 7,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child > SPAN:first-child + BUTTON + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI > SPAN:first-child + BUTTON + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI + LI > SPAN:first-child + BUTTON + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI + LI + LI > SPAN:first-child + BUTTON + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV:first-child + FOOTER > DIV:first-child > DIV:first-child + DIV > SECTION:first-child > NAV#block-unitn-cds-menufooter > UL:first-child"
+          ]
+        },
+        "header": {
+          "id": "header",
+          "description": "Header",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header"
+          ]
+        },
+        "nav": {
+          "id": "nav",
+          "description": "Navigation",
+          "count": 8,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top > SECTION:first-child > DIV#block-unitn-cds-selettorelingua-2",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top > SECTION:first-child > DIV#block-unitn-cds-selettorelingua-2 > DIV:first-child > NAV:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > NAV:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV:first-child + FOOTER > DIV:first-child > DIV:first-child + DIV > SECTION:first-child > NAV#block-unitn-cds-menufooter",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + NAV"
+          ]
+        },
+        "main": {
+          "id": "main",
+          "description": "Main content",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content"
+          ]
+        },
+        "footer": {
+          "id": "footer",
+          "description": "Footer",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV:first-child + FOOTER"
+          ]
+        },
+        "aside": {
+          "id": "aside",
+          "description": "Aside",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER:first-child + DIV > ASIDE:first-child"
+          ]
+        }
+      }
+    },
+    "aria": {
+      "description": "ARIA",
+      "count": 67,
+      "items": {
+        "aria": {
+          "id": "aria",
+          "description": "ARIA",
+          "count": 12,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top > SECTION:first-child > DIV#block-unitn-cds-selettorelingua-2 > DIV:first-child > NAV:first-child > SPAN:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top > SECTION:first-child > DIV#block-unitn-cds-burger > DIV:first-child > DIV:first-child > DIV:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide00",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide01",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide02",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide03",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child + UL",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child + UL > LI:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child + UL > LI:first-child > BUTTON#slick-slide-control00",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child + UL > LI:first-child + LI",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child + UL > LI:first-child + LI > BUTTON#slick-slide-control01",
+            "HTML > HEAD:first-child + BODY > DIV#drupal-live-announce"
+          ]
+        },
+        "aria_label": {
+          "id": "aria_label",
+          "description": "ARIA label",
+          "count": 11,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top > SECTION:first-child > DIV#block-unitn-cds-selettorelingua-2 > DIV:first-child > NAV:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top > SECTION:first-child > DIV#block-unitn-cds-burger > DIV:first-child > DIV:first-child > DIV:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > NAV:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > NAV:first-child > BUTTON:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child + UL > LI:first-child > BUTTON#slick-slide-control00",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child + UL > LI:first-child + LI > BUTTON#slick-slide-control01",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV:first-child + FOOTER > DIV:first-child > DIV:first-child + DIV > SECTION:first-child > NAV#block-unitn-cds-menufooter",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + NAV",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + SCRIPT + DIV + NAV > BUTTON#backtotop"
+          ]
+        },
+        "aria_describedby": {
+          "id": "aria_describedby",
+          "description": "ARIA description",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide00",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide02"
+          ]
+        },
+        "aria_tabindex": {
+          "id": "aria_tabindex",
+          "description": "ARIA tabindex",
+          "count": 24,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top > SECTION:first-child > DIV#block-unitn-cds-burger > DIV:first-child > DIV:first-child > DIV:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > A#main-content",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide00",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide00 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide01",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide01 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide02",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide02 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide03",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide03 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > SPAN:first-child > DIV:first-child + DIV > DIV:first-child + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child + UL > LI:first-child > BUTTON#slick-slide-control00",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child + UL > LI:first-child + LI > BUTTON#slick-slide-control01"
+          ]
+        },
+        "aria_live_region": {
+          "id": "aria_live_region",
+          "description": "ARIA alert or live region",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#drupal-live-announce"
+          ]
+        },
+        "aria_hidden": {
+          "id": "aria_hidden",
+          "description": "ARIA hidden",
+          "count": 8,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide02",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV#slick-slide03",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > DIV#main-wrapper > DIV#main > DIV:first-child > MAIN#content > SECTION:first-child > DIV#block-unitn-cds-content > DIV:first-child > ARTICLE:first-child > HEADER:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV#slick-eb51d466791 > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV + DIV"
+          ]
+        },
+        "aria_expanded": {
+          "id": "aria_expanded",
+          "description": "ARIA expanded",
+          "count": 5,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-top > SECTION:first-child > DIV#block-unitn-cds-burger > DIV:first-child > DIV:first-child > DIV:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child > SPAN:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI > SPAN:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI + LI > SPAN:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI + LI + LI > SPAN:first-child + BUTTON"
+          ]
+        },
+        "aria_haspopup": {
+          "id": "aria_haspopup",
+          "description": "ARIA popup",
+          "count": 4,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child > SPAN:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI > SPAN:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI + LI > SPAN:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > A:first-child + DIV > DIV#page-wrapper > DIV#page > HEADER#header > NAV#navbar-main > DIV#CollapsingNavbar > NAV#block-unitn-cds-navigazioneprincipale > UL:first-child > LI:first-child + LI + LI + LI > SPAN:first-child + BUTTON"
+          ]
+        }
+      }
+    }
+  }
+}

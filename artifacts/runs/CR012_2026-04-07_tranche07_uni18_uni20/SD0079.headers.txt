@@ -1,0 +1,22 @@
+HTTP/2 200 
+date: Tue, 07 Apr 2026 12:23:16 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: UNCACHEABLE
+x-ua-compatible: IE=edge
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+vary: Cookie,Accept-Encoding
+expires: Tue, 07 Apr 2026 16:23:16 GMT
+x-drupal-cache: HIT
+last-modified: Tue, 07 Apr 2026 12:13:40 GMT
+cf-cache-status: MISS
+x-varnish: 658707251
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=LHyRw6_BvxjpHxVEjG2eGG02O722wlES9RODOd17M1w-1775564596.2245681-1.0.1.1-9hWlXUvqli4KKRYNGmkKZP_s9besWvDO0n2UpAMF5A0gzCj006pCnYBnk7NdjwcJbrmkUMkt2xv41IsBTitshYHOtLn_7IZlKBIPm.hX4dgSTwPwK2mthbVMlyj76JG2; HttpOnly; Secure; Path=/; Domain=www.unibg.it; Expires=Tue, 07 Apr 2026 12:53:16 GMT
+cf-ray: 9e8900a66c5bea5f-FCO
+

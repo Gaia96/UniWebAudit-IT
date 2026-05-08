@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.uniroma3.it/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI12/lhci_filesystem/www_uniroma3_it--2026_04_23_14_09_41.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI12/lhci_filesystem/www_uniroma3_it--2026_04_23_14_09_41.report.json",
+    "summary": {
+      "performance": 0.23,
+      "accessibility": 0.96,
+      "best-practices": 0.79,
+      "seo": 0.91
+    }
+  },
+  {
+    "url": "https://www.uniroma3.it/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI12/lhci_filesystem/www_uniroma3_it--2026_04_23_14_10_37.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI12/lhci_filesystem/www_uniroma3_it--2026_04_23_14_10_37.report.json",
+    "summary": {
+      "performance": 0.27,
+      "accessibility": 0.96,
+      "best-practices": 0.79,
+      "seo": 0.91
+    }
+  },
+  {
+    "url": "https://www.uniroma3.it/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI12/lhci_filesystem/www_uniroma3_it--2026_04_23_14_10_10.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI12/lhci_filesystem/www_uniroma3_it--2026_04_23_14_10_10.report.json",
+    "summary": {
+      "performance": 0.28,
+      "accessibility": 0.96,
+      "best-practices": 0.79,
+      "seo": 0.91
+    }
+  }
+]

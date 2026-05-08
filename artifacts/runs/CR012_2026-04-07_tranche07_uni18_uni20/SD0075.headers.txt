@@ -1,0 +1,47 @@
+HTTP/1.1 302 
+set-cookie: JSESSIONID=1F5B380B4EDA1B2F16FBAF9C80D1A864; Path=/; HttpOnly
+location: https://www.unina.it/it/didattica/offerta-didattica
+content-length: 0
+date: Tue, 07 Apr 2026 12:25:54 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+referrer-policy: strict-origin-when-cross-origin
+Set-Cookie: cookiesession1=678B286E775726FC653883BB03F497E8;Expires=Wed, 07 Apr 2027 12:25:58 GMT;Path=/;HttpOnly
+
+HTTP/1.1 302 Found
+content-length: 0
+location: https://www.old.unina.it/didattica/offerta-didattica
+cache-control: no-cache
+
+HTTP/1.1 302 Found
+set-cookie: JSESSIONID=6EA0039F364F68F4E9152AF1F049EE97.node_publisher11; Path=/; HttpOnly
+set-cookie: GUEST_LANGUAGE_ID=it_IT; Expires=Wed, 07-Apr-2027 12:25:59 GMT; Path=/
+set-cookie: COOKIE_SUPPORT=true; Expires=Wed, 07-Apr-2027 12:25:59 GMT; Path=/
+liferay-portal: Liferay Portal Enterprise Edition 6.1.20 EE (Paton / Build 6120 / July 31, 2012)
+location: http://www.old.unina.it/web/guest/didattica;jsessionid=6EA0039F364F68F4E9152AF1F049EE97.node_publisher11
+content-type: text/html;charset=UTF-8
+content-length: 0
+date: Tue, 07 Apr 2026 12:25:59 GMT
+content-security-policy: upgrade-insecure-requests
+Set-Cookie: cookiesession1=678B2871E4869F583A0B4B98715657BD;Expires=Wed, 07 Apr 2027 12:25:59 GMT;Path=/;HttpOnly
+
+HTTP/1.1 301 Moved Permanently
+Location: https://www.old.unina.it:443/web/guest/didattica;jsessionid=6EA0039F364F68F4E9152AF1F049EE97.node_publisher11
+Content-Length: 98
+Content-Type: text/html
+
+HTTP/1.1 200 OK
+set-cookie: JSESSIONID=0BD3786F2AA4B6CAD27B8313BB1E0DD6.node_publisher12; Path=/; HttpOnly
+liferay-portal: Liferay Portal Enterprise Edition 6.1.20 EE (Paton / Build 6120 / July 31, 2012)
+set-cookie: GUEST_LANGUAGE_ID=it_IT; Expires=Wed, 07-Apr-2027 12:25:59 GMT; Path=/
+set-cookie: COOKIE_SUPPORT=true; Expires=Wed, 07-Apr-2027 12:25:59 GMT; Path=/
+etag: "0"
+set-cookie: GUEST_LANGUAGE_ID=it_IT; Expires=Wed, 07-Apr-2027 12:25:59 GMT; Path=/
+set-cookie: COOKIE_SUPPORT=true; Expires=Wed, 07-Apr-2027 12:25:59 GMT; Path=/
+content-type: text/html
+content-length: 32
+date: Tue, 07 Apr 2026 12:25:58 GMT
+content-security-policy: upgrade-insecure-requests
+

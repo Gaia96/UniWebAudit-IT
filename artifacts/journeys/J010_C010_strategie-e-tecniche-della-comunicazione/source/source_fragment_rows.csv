@@ -1,0 +1,9 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0031,SD0017,title,1,Università degli Studi di Siena,università degli studi di siena,//title,raw snapshot title
+SF0032,SD0017,h1,2,Università degli Studi di Siena,università degli studi di siena,//h1[1],raw snapshot first h1
+SF0033,SD0018,title,1,Didattica | Università degli Studi di Siena,didattica università degli studi di siena,//title,raw snapshot title
+SF0034,SD0018,h1,2,Didattica,didattica,//h1[1],raw snapshot first h1
+SF0037,SD0020,title,1,[D003] STRATEGIE E TECNICHE DELLA COMUNICAZIONE | Università degli Studi di Siena,d003 strategie e tecniche della comunicazione università degli studi di siena,//title,raw snapshot title
+SF0038,SD0020,h1,2,[D003] STRATEGIE E TECNICHE DELLA COMUNICAZIONE,d003 strategie e tecniche della comunicazione,//h1[1],raw snapshot first h1
+SF0187,SD0091,title,1,[D615] STRATEGIE E TECNICHE DELLA COMUNICAZIONE | Università degli Studi di Siena,d615 strategie e tecniche della comunicazione università degli studi di siena,//title,raw snapshot title
+SF0188,SD0091,h1,2,[D615] STRATEGIE E TECNICHE DELLA COMUNICAZIONE,d615 strategie e tecniche della comunicazione,//h1[1],raw snapshot first h1

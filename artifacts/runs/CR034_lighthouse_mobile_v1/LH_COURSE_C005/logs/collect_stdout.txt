@@ -1,0 +1,5 @@
+Running Lighthouse 3 time(s) on https://www.unipi.it/didattica/corsi/lauree-triennali-ciclo-unico/discipline-dello-spettacolo-e-della-comunicazione-dscr-l/
+Run #1...done.
+Run #2...done.
+Run #3...done.
+Done running Lighthouse!

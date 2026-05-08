@@ -1,0 +1,2 @@
+sample_course_id,university_id,university_name,course_name,degree_type,course_class,disciplinary_cluster,selection_role,selection_priority,course_page_url,url_origin,normalization_status,selection_rationale,notes
+C040,UNI20,Università degli Studi di Trento,"Organizzazione, società e tecnologia",magistrale,LM-88,social_sciences_technology,core_magistrale,core,https://corsi.unitn.it/it/organizzazione-societa-e-tecnologia,official_search_apr2026,searched_seed,digital society oriented magistrale added for Trento,current official course page

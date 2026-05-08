@@ -1,0 +1,24 @@
+HTTP/2 200 
+date: Fri, 03 Apr 2026 15:24:50 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: UNCACHEABLE
+link: <https://www.uninsubria.it/>; rel="canonical", <https://www.uninsubria.it/>; rel="shortlink"
+x-ua-compatible: IE=edge
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+vary: Cookie,Accept-Encoding
+expires: Fri, 03 Apr 2026 19:24:50 GMT
+x-drupal-cache: HIT
+last-modified: Fri, 03 Apr 2026 14:00:12 GMT
+cf-cache-status: HIT
+x-varnish: 15597901
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=4ui.mfyBPTkWVz9WpCSaPBzaIidLNKeiJlGCzF.XRg8-1775229890.513314-1.0.1.1-6NB3.ReRLXiUw5ABtIAAGhQV7quWLk9FExzD3lajZ.DpxJfK0hGCzP_pmPkwySe_5KyNzUIM3b8pSQIq2KA1S2qekblzGjv6hds6m1Jnz2VTu21dkgceajsVCYKiVMMJ; HttpOnly; Secure; Path=/; Domain=www.uninsubria.it; Expires=Fri, 03 Apr 2026 15:54:50 GMT
+age: 1468
+cf-ray: 9e69151fbd62ea45-FCO
+

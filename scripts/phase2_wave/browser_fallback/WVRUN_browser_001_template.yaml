@@ -1,0 +1,411 @@
+# WAVE Browser Extension — Data Entry Template
+# Run ID: WVRUN_browser_001
+#
+# HOW TO FILL IN:
+#   1. Open each URL in Chrome with the WAVE extension installed.
+#   2. Activate WAVE and wait for it to finish analysing the page.
+#   3. Read the summary panel (category counts + page info).
+#   4. For each category, expand the item list and note each rule ID + count.
+#   5. Replace all FILL_IN values below with what you observe.
+#      Leave fields as null if the value is genuinely not available.
+#   6. Do NOT save this file until you have real data.
+#
+# AFTER FILLING IN:
+#   Run:  python wave/scripts/wave_browser_import.py
+#   The script validates this file and appends rows to wave_results.csv
+#   and wave_items_long.csv. It will refuse to run if any required fieldc
+#   is still set to FILL_IN.
+#
+# WAVE extension item IDs follow the same rule taxonomy as the API.
+# A reference list is at: https://wave.webaim.org/api/docs
+
+run_id: WVRUN_browser_001
+tool_name: WAVE WebAIM
+tool_mode: browser_extension
+
+targets:
+
+  - wave_target_id: WV_COURSE_C035
+    source_document_id: SD0076
+    page_role: course_page
+    requested_url: https://www.corsi.unina.it/D27/home
+    # --- Observable during audit ---
+    returned_pageurl: https://www.corsi.unina.it/D27/home       # URL in browser address bar after full load
+    http_status: 200            # e.g. 200 (check DevTools Network tab if unsure)
+    wave_success: true           # true if WAVE completed without error, false otherwise
+    tool_version: 3.3.0.4           # WAVE extension version (shown in extension popup)
+    audit_date: 2026-04-25T12:38:00Z             # ISO 8601, e.g. 2026-04-25T14:30:00Z
+    viewport_width: 1536         # browser window inner width in px (DevTools → toggle device toolbar)
+    pagetitle: "Il corso"              # <title> as shown by WAVE or in browser tab
+    # --- Summary panel counts (top of WAVE panel) ---
+    aimscore: 5.9               # AIM accessibility score shown by WAVE, or null
+    allitemcount: 231           # total item count shown
+    totalelements: null          # total elements count, or null if not shown
+    error_count: 19
+    contrast_count: 2
+    alert_count: 81
+    feature_count: 4
+    structure_count: 23
+    aria_count: 102
+    notes: "browser_extension manual collection; Angular SPA (high JS); totalelements not exposed in extension panel"
+
+    items:
+      - category: error
+        item_id: alt_missing
+        description: Missing alternative text
+        count: 3
+        selector_available: true
+      - category: error
+        item_id: label_missing
+        description: Missing form label
+        count: 2
+        selector_available: true
+      - category: error
+        item_id: button_empty
+        description: Empty button
+        count: 14
+        selector_available: true
+
+      - category: contrast
+        item_id: low_contrast
+        description: Very low contrast
+        count: 2
+        selector_available: true
+
+      - category: alert
+        item_id: alt_redundant
+        description: Redundant alternative text
+        count: 1
+        selector_available: true
+      - category: alert
+        item_id: label_orphaned
+        description: Orphaned form label
+        count: 10
+        selector_available: true
+      - category: alert
+        item_id: list_possible
+        description: Possible list
+        count: 1
+        selector_available: true
+      - category: alert
+        item_id: noscript
+        description: Noscript element
+        count: 2
+        selector_available: true
+      - category: alert
+        item_id: text_small
+        description: Very small text
+        count: 19
+        selector_available: true
+      - category: alert
+        item_id: text_justified
+        description: Justified text
+        count: 40
+        selector_available: true
+      - category: alert
+        item_id: title_redundant
+        description: Redundant title text
+        count: 8
+        selector_available: true
+
+      - category: feature
+        item_id: alt_link
+        description: Linked image with alternative text
+        count: 1
+        selector_available: true
+      - category: feature
+        item_id: label
+        description: Form label
+        count: 2
+        selector_available: true
+      - category: feature
+        item_id: lang
+        description: Language
+        count: 1
+        selector_available: true
+
+      - category: structure
+        item_id: h1
+        description: Heading level 1
+        count: 1
+        selector_available: true
+      - category: structure
+        item_id: h2
+        description: Heading level 2
+        count: 4
+        selector_available: true
+      - category: structure
+        item_id: h3
+        description: Heading level 3
+        count: 4
+        selector_available: true
+      - category: structure
+        item_id: ol
+        description: Ordered list
+        count: 1
+        selector_available: true
+      - category: structure
+        item_id: ul
+        description: Unordered list
+        count: 7
+        selector_available: true
+      - category: structure
+        item_id: nav
+        description: Navigation
+        count: 4
+        selector_available: true
+      - category: structure
+        item_id: main
+        description: Main content
+        count: 1
+        selector_available: true
+      - category: structure
+        item_id: footer
+        description: Footer
+        count: 1
+        selector_available: true
+
+      - category: aria
+        item_id: aria
+        description: ARIA
+        count: 40
+        selector_available: true
+      - category: aria
+        item_id: aria_label
+        description: ARIA label
+        count: 12
+        selector_available: true
+      - category: aria
+        item_id: aria_description
+        description: ARIA description
+        count: 1
+        selector_available: true
+      - category: aria
+        item_id: tabindex
+        description: ARIA tabindex
+        count: 14
+        selector_available: true
+      - category: aria
+        item_id: aria_alert
+        description: ARIA alert or live region
+        count: 2
+        selector_available: true
+      - category: aria
+        item_id: aria_button
+        description: ARIA button
+        count: 2
+        selector_available: true
+      - category: aria
+        item_id: aria_hidden
+        description: ARIA hidden
+        count: 28
+        selector_available: true
+      - category: aria
+        item_id: aria_expanded
+        description: ARIA expanded
+        count: 3
+        selector_available: true
+
+  - wave_target_id: WV_COURSE_C036
+    source_document_id: SD0077
+    page_role: course_page
+    requested_url: https://www.corsi.unina.it/DA2/home
+    # --- Observable during audit ---
+    returned_pageurl: https://www.corsi.unina.it/DA2/home
+    http_status: 200
+    wave_success: true
+    tool_version: 3.3.0.4           # WAVE extension version (shown in extension popup)
+    audit_date: 2026-04-25T13:14:00Z             # ISO 8601, e.g. 2026-04-25T14:30:00Z
+    viewport_width: 1536         # browser window inner width in px (DevTools → toggle device toolbar)
+    pagetitle: "Il corso"
+    # --- Summary panel counts ---
+    aimscore: 6
+    allitemcount: 210
+    totalelements: null
+    error_count: 19
+    contrast_count: 2
+    alert_count: 61
+    feature_count: 4
+    structure_count: 23
+    aria_count: 101
+    notes: "browser_extension manual collection; Angular SPA (high JS); totalelements not exposed in extension panel"
+    items:
+      - category: error
+        item_id: alt_missing
+        description: Missing alternative text
+        count: 3
+        selector_available: true
+
+      - category: error
+        item_id: label_missing
+        description: Missing form label
+        count: 2
+        selector_available: true
+
+      - category: error
+        item_id: button_empty
+        description: Empty button
+        count: 14
+        selector_available: true
+
+      - category: contrast
+        item_id: low_contrast
+        description: Very low contrast
+        count: 2
+        selector_available: true
+
+      - category: alert
+        item_id: alt_redundant
+        description: Redundant alternative text
+        count: 1
+        selector_available: true
+
+      - category: alert
+        item_id: label_orphaned
+        description: Orphaned form label
+        count: 10
+        selector_available: true
+
+      - category: alert
+        item_id: list_possible
+        description: Possible list
+        count: 1
+        selector_available: true
+
+      - category: alert
+        item_id: noscript
+        description: Noscript element
+        count: 2
+        selector_available: true
+
+      - category: alert
+        item_id: text_small
+        description: Very small text
+        count: 19
+        selector_available: true
+
+      - category: alert
+        item_id: text_justified
+        description: Justified text
+        count: 20
+        selector_available: true
+
+      - category: alert
+        item_id: title_redundant
+        description: Redundant title text
+        count: 8
+        selector_available: true
+
+      - category: feature
+        item_id: alt_link
+        description: Linked image with alternative text
+        count: 1
+        selector_available: true
+
+      - category: feature
+        item_id: label
+        description: Form label
+        count: 2
+        selector_available: true
+
+      - category: feature
+        item_id: lang
+        description: Language
+        count: 1
+        selector_available: true
+
+      - category: structure
+        item_id: h1
+        description: Heading level 1
+        count: 1
+        selector_available: true
+
+      - category: structure
+        item_id: h2
+        description: Heading level 2
+        count: 4
+        selector_available: true
+
+      - category: structure
+        item_id: h3
+        description: Heading level 3
+        count: 4
+        selector_available: true
+
+      - category: structure
+        item_id: ol
+        description: Ordered list
+        count: 1
+        selector_available: true
+
+      - category: structure
+        item_id: ul
+        description: Unordered list
+        count: 7
+        selector_available: true
+
+      - category: structure
+        item_id: nav
+        description: Navigation
+        count: 4
+        selector_available: true
+
+      - category: structure
+        item_id: main
+        description: Main content
+        count: 1
+        selector_available: true
+
+      - category: structure
+        item_id: footer
+        description: Footer
+        count: 1
+        selector_available: true
+
+      - category: aria
+        item_id: aria
+        description: ARIA
+        count: 40
+        selector_available: true
+
+      - category: aria
+        item_id: aria_label
+        description: ARIA label
+        count: 12
+        selector_available: true
+
+      - category: aria
+        item_id: aria_description
+        description: ARIA description
+        count: 1
+        selector_available: true
+
+      - category: aria
+        item_id: tabindex
+        description: ARIA tabindex
+        count: 14
+        selector_available: true
+
+      - category: aria
+        item_id: aria_alert
+        description: ARIA alert or live region
+        count: 1
+        selector_available: true
+
+      - category: aria
+        item_id: aria_button
+        description: ARIA button
+        count: 2
+        selector_available: true
+
+      - category: aria
+        item_id: aria_hidden
+        description: ARIA hidden
+        count: 28
+        selector_available: true
+
+      - category: aria
+        item_id: aria_expanded
+        description: ARIA expanded
+        count: 3
+        selector_available: true

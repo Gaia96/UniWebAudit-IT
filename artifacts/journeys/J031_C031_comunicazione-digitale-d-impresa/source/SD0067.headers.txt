@@ -1,0 +1,24 @@
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 116105
+date: Fri, 03 Apr 2026 15:43:47 GMT
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+cache-control: no-cache, no-store, must-revalidate, post-check=0,pre-check=0
+pragma: no-cache
+expires: -1
+server: Microsoft-IIS/10.0
+set-cookie: ASP.NET_SessionId=l40rh1cqkgrzf1irkcl2w1d3; path=/; HttpOnly; SameSite=Lax
+set-cookie: UrlReferrer=/it/indirizzo-comunicazione-digitale-d-impresa.aspx?degree=334&faculty=7&idindirizzo=179&mode=cs; path=/
+x-aspnet-version: 4.0.30319
+x-powered-by: ASP.NET
+access-control-allow-origin: *
+access-control-allow-methods: GET, PUT, POST, DELETE, HEAD, OPTIONS
+access-control-allow-credentials: true
+access-control-allow-headers: X-Requested-With, origin, content-type, accept
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-cache: Miss from cloudfront
+via: 1.1 13e7a5c1a13784332d7cec750b0f99a6.cloudfront.net (CloudFront)
+x-amz-cf-pop: MXP53-P7
+x-amz-cf-id: ieAQbUxNBmquxq9JbtX-_vdiUgVwuC1v7-mf4lD7f0NL3yLmE_bSiw==
+

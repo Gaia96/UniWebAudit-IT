@@ -1,0 +1,153 @@
+# Audit Matrix — Threshold values for interpretive flags (Phase 5)
+#
+# This file is GATED. The Phase 5 build pipeline refuses to compute interpretive
+# flags unless `status: approved` is set, with `approved_by` and `approved_on`.
+#
+# Workflow: see `matrix/operational_plan.md` Step E.
+# Methodology: see `docs/methods/audit_matrix_methodology_decisions.md` §16, §31.
+
+status: approved
+approved_by: gaia.lorenzoni@edu.unige.it
+approved_on: 2026-05-07
+schema_version: v1.1
+last_modified_on: 2026-05-07
+
+thresholds:
+
+  - flag: journey_high_friction
+    components:
+      - name: T_clickdepth
+        threshold: 4
+        kind: distribution
+        rationale: >
+          p75 of journey_click_depth on the 35 successful journeys = 3.
+          Threshold set at 4 (p75+1) to isolate genuinely extreme cases,
+          avoiding classification of journeys just above the median as high-friction.
+          With max=4 in the sample, this flags only the top tail.
+        data_range: { min: 1, p25: 2, p50: 2, p75: 3, max: 4, n: 35 }
+      - name: T_jtime
+        threshold: 35
+        kind: distribution
+        rationale: >
+          p75 of journey_time_seconds on successful journeys = 34 sec.
+          Threshold set at 35 sec (≈p75), sensitive to the slowest quartile
+          without shifting to outlier-only territory. All journeys in the sample
+          complete under 60 sec; 40 sec would flag only 3-4 courses.
+        data_range: { min: 19, p25: 20, p50: 24, p75: 34, max: 45, n: 35 }
+    notes: >
+      OR composition: flag = 1 if journey_success=1 AND
+      (click_depth >= 4 OR time_seconds >= 35 OR journey_path_type=onsite_search).
+      journey_path_type=onsite_search is protocol-based (no numeric threshold).
+      journey_blocked courses are not flagged as high_friction.
+
+  - flag: journey_blocked
+    components: []
+    kind: protocol
+    rationale: >
+      Protocol-based: journey_success=0 AND journey_path_type=failed (blocked_js).
+      No numeric threshold. Applies to 6 courses: C002, C003, C004, C035, C036, C040.
+
+  - flag: weak_external_findability
+    components: []
+    kind: protocol
+    rationale: >
+      Protocol-based: serp_missing_all_core_queries=1, i.e. course not found in
+      top-10 for either SQ01 (known-institution) or SQ02 (user-like) query.
+      No numeric threshold; top-10 cutoff follows Phase 3 protocol.
+      Observed in sample: 0/41 courses triggered this flag.
+
+  - flag: accessibility_risk
+    components:
+      - name: T_wave_err
+        threshold: 8
+        kind: distribution
+        rationale: >
+          p75 of course-page wave_error_count = 7. Threshold at 8 (p75+1)
+          flags the top ~25% of courses by WAVE error count.
+          Computed on all 41 courses including 2 browser_fallback rows
+          (wave_metric_comparability=reduced); flag interpretation notes
+          reduced comparability where applicable.
+        data_range: { min: 0, p25: 1, p50: 4, p75: 7, max: 29, n: 41 }
+      - name: T_wave_contrast
+        threshold: 10
+        kind: distribution
+        rationale: >
+          Contrast errors are numerous even in moderately problematic pages;
+          p75=8 would flag too broad a set. Threshold at 10 selects top ~20%
+          (5 courses), isolating more severe contrast issues.
+          Distribution is right-skewed (14/41 courses have 0 contrast errors).
+        data_range: { min: 0, p25: 0, p50: 2, p75: 8, max: 42, n: 41 }
+      - name: T_lh_a11y
+        threshold: 0.90
+        kind: tool
+        rationale: >
+          Lighthouse accessibility score < 0.90 corresponds to the "needs improvement"
+          category in Lighthouse's own scoring system. Standard tool-based cutoff;
+          only 4/41 courses fall below this threshold in the sample (min=0.82).
+        data_range: { min: 0.82, p25: 0.92, p50: 0.94, p75: 0.96, max: 1.0, n: 41 }
+    notes: >
+      OR composition: flag = 1 if wave_error_count >= 8 OR
+      wave_contrast_error_count >= 10 OR lighthouse_accessibility < 0.90.
+
+  - flag: technical_risk
+    components:
+      - name: T_lh_perf
+        threshold: 0.50
+        kind: tool
+        rationale: >
+          Lighthouse performance score < 0.50 = "poor" in Lighthouse's own
+          scoring categories. Standard, widely cited cutoff. Mobile strategy only
+          (lighthouse_strategy=mobile throughout the sample).
+          11/41 courses fall below 0.50 in the sample (min=0.29).
+        data_range: { min: 0.29, p25: 0.48, p50: 0.59, p75: 0.70, max: 0.97, n: 41 }
+    notes: "Mobile strategy only (§27 methodology)."
+
+  - flag: information_fragmentation
+    components: []
+    kind: composite
+    rationale: >
+      Derived from structural_fragmented_information=1 OR
+      structural_external_portal_dependency=1. No numeric threshold;
+      rule encoded in Phase 4 location_type taxonomy and Phase 5 derivation
+      (structural_fragmented_information: ≥4/7 Essential indicators with
+      location_type in {linked_pdf, external_official_portal}).
+      Observed in sample: 1/41 courses.
+
+  - flag: critical_student_pathway
+    components: []
+    kind: composite
+    rationale: >
+      Conjunction: journey_high_friction=1 AND weak_external_findability=1
+      AND (accessibility_risk=1 OR technical_risk=1 OR information_fragmentation=1).
+      Inherits thresholds from component flags. No additional numeric threshold.
+      Note: with weak_external_findability=0/41 in this sample, this flag
+      will be 0 for all courses; the construct is retained for replication.
+
+  - flag: multi_phase_critical_case
+    components:
+      - name: T_flag_count
+        threshold: 3
+        kind: composite
+        rationale: >
+          Count of active construct-level flags >= 3 signals a course with
+          simultaneous problems across at least three distinct constructs.
+          Default value of 3 retained: requires at least one flag per construct
+          in three different areas (journey, findability/accessibility/technical,
+          structural). Counted flags: journey_high_friction, journey_blocked,
+          weak_external_findability, accessibility_risk, technical_risk,
+          information_fragmentation.
+        data_range: { min: 0, p25: null, p50: null, p75: null, max: 6 }
+    notes: >
+      Distinct from critical_student_pathway: purely a flag counter;
+      pathway is a structured conjunction requiring specific co-occurrence.
+
+# Approval history (append-only)
+approval_history:
+  - approved_by: gaia.lorenzoni@edu.unige.it
+    approved_on: 2026-05-07
+    note: >
+      Initial approval. All thresholds set after distributional analysis of
+      41-course sample. T_clickdepth and T_jtime distribution-based (p75/p75+1);
+      T_lh_perf and T_lh_a11y tool-based (Lighthouse categories);
+      T_wave_err and T_wave_contrast distribution-based.
+      weak_external_findability observed at 0/41 in this sample.

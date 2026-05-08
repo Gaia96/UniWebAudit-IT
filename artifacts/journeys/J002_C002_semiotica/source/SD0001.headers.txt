@@ -1,0 +1,39 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 03 Apr 2026 14:51:46 GMT
+Content-Length: 0
+Connection: keep-alive
+x-frame-options: SAMEORIGIN
+location: https://www.unibo.it/it
+X-Cacheable: YES (override - backend not setting cache control)
+x-url: /VirtualHostBase/https/www.unibo.it:443/unibo/VirtualHostRoot/
+Age: 222
+grace: 
+X-Cache: HIT
+X-Cache-Hits: 258
+X-Content-Type-Options: nosniff
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 03 Apr 2026 14:51:46 GMT
+Content-Type: text/html;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache-operation: plone.app.caching.moderateCaching
+content-language: it
+expires: Tue, 05 Apr 2016 14:49:06 GMT
+vary: X-Anonymous
+x-ua-compatible: IE=edge
+x-cache-rule: plone.content.itemView
+x-ids-involved: #cf6b8e62bbc74b369fe01ec4570d5ecb#
+x-frame-options: SAMEORIGIN
+X-Cacheable: YES
+x-url: /VirtualHostBase/https/www.unibo.it:443/unibo/VirtualHostRoot/it
+Age: 159
+Accept-Ranges: bytes
+grace: 
+Cache-Control: max-age=0, s-maxage=0, must-revalidate
+X-Cache: HIT
+X-Cache-Hits: 278
+X-Content-Type-Options: nosniff
+

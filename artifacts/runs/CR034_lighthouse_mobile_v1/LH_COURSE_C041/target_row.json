@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C041",
+  "source_document_id": "SD0086",
+  "crawl_run_id": "CR012",
+  "university_id": "UNI20",
+  "sample_course_id": "C041",
+  "journey_id": "J041",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://corsi.unitn.it/it/giurisprudenza",
+  "final_url": "https://corsi.unitn.it/it/giurisprudenza",
+  "notes": "tranche7; official course page"
+}

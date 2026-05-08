@@ -1,0 +1,486 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0001,SD0001,title,1,Università di Bologna,università di bologna,//title,raw snapshot title
+SF0002,SD0001,meta_description,2,"L'Alma Mater Studiorum è la prima università del mondo occidentale e oggi promuove la strada dell'innovazione offrendo un'ampia offerta formativa, corsi di laurea internazionali e post laurea.","l'alma mater studiorum è la prima università del mondo occidentale e oggi promuove la strada dell'innovazione offrendo un'ampia offerta formativa, corsi di laurea internazionali e post laurea.",//meta[@name='description'],raw snapshot meta description
+SF0003,SD0001,h1,3,Home page,home page,//h1[1],raw snapshot first h1
+SF0004,SD0002,title,1,Studiare — Università di Bologna,studiare università di bologna,//title,raw snapshot title
+SF0005,SD0002,h1,2,Studiare,studiare,//h1[1],raw snapshot first h1
+SF0006,SD0003,title,1,Scienze della comunicazione - Laurea - Bologna,scienze della comunicazione laurea bologna,//title,raw snapshot title
+SF0007,SD0003,meta_description,2,"Il Corso forma nelle aree della pubblicità, pubbliche relazioni, vendita e distribuzione, organizzazione di fiere convegni e eventi culturali, nuovi media e social media","il corso forma nelle aree della pubblicità, pubbliche relazioni, vendita e distribuzione, organizzazione di fiere convegni e eventi culturali, nuovi media e social media",//meta[@name='description'],raw snapshot meta description
+SF0008,SD0003,h1,3,home page,home page,//h1[1],raw snapshot first h1
+SF0009,SD0004,title,1,Semiotica — Università di Bologna,semiotica università di bologna,//title,raw snapshot title
+SF0010,SD0004,h1,2,Laurea Magistrale in Semiotica,laurea magistrale in semiotica,//h1[1],raw snapshot first h1
+SF0011,SD0005,title,1,Università di Padova,università di padova,//title,raw snapshot title
+SF0012,SD0006,title,1,Didattica | Università di Padova,didattica università di padova,//title,raw snapshot title
+SF0013,SD0007,title,1,Comunicazione | Università di Padova,comunicazione università di padova,//title,raw snapshot title; no h1 or meta description detected
+SF0014,SD0008,title,1,| Università di Padova,università di padova,//title,raw snapshot title only; page likely needs rendered DOM follow-up
+SF0015,SD0009,title,1,Home ~ UNIPI,home unipi,//title,raw snapshot title
+SF0016,SD0010,title,1,Didattica ~ UNIPI,didattica unipi,//title,raw snapshot title
+SF0017,SD0010,meta_description,2,"Studiare all’Unipi: corsi, iscrizioni e servizi per ogni fase del percorso accademico, dall’orientamento alle opportunità post-laurea.","studiare all’unipi: corsi, iscrizioni e servizi per ogni fase del percorso accademico, dall’orientamento alle opportunità post-laurea.",//meta[@name='description'],raw snapshot meta description
+SF0018,SD0011,title,1,Discipline dello spettacolo e della comunicazione ~ UNIPI,discipline dello spettacolo e della comunicazione unipi,//title,raw snapshot title
+SF0019,SD0011,h1,2,Discipline dello spettacolo e della comunicazione,discipline dello spettacolo e della comunicazione,//h1[1],raw snapshot first h1
+SF0020,SD0012,title,1,"Comunicazione, media, tecnologie ~ UNIPI",comunicazione media tecnologie unipi,//title,raw snapshot title
+SF0021,SD0012,h1,2,"Comunicazione, media, tecnologie",comunicazione media tecnologie,//h1[1],raw snapshot first h1
+SF0022,SD0013,title,1,Università di Firenze,università di firenze,//title,raw snapshot title
+SF0023,SD0013,meta_description,2,"L'Università di Firenze è una delle più grandi organizzazioni per la ricerca e la formazione superiore in Italia, ha sedi in vari punti della città e anche oltre l'area urbana. Nel 2024 festeggia il centenario dalla sua istituzione, anche se le sue origini sono più antiche e risalgono allo Studium Generale che la repubblica fiorentina volle far nascere nel 1321.","l'università di firenze è una delle più grandi organizzazioni per la ricerca e la formazione superiore in italia, ha sedi in vari punti della città e anche oltre l'area urbana. nel 2024 festeggia il centenario dalla sua istituzione, anche se le sue origini sono più antiche e risalgono allo studium generale che la repubblica fiorentina volle far nascere nel 1321.",//meta[@name='description'],raw snapshot meta description
+SF0024,SD0013,h1,3,Home,home,//h1[1],raw snapshot first h1
+SF0025,SD0014,title,1,Pagina non trovata | Università di Firenze,pagina non trovata università di firenze,//title,404 page title collected from master hub URL
+SF0026,SD0014,h1,2,Pagina non trovata,pagina non trovata,//h1[1],404 page first h1
+SF0027,SD0015,title,1,Scienze Umanistiche per la Comunicazione | Università di Firenze,scienze umanistiche per la comunicazione università di firenze,//title,raw snapshot title
+SF0028,SD0015,h1,2,Scienze Umanistiche per la Comunicazione,scienze umanistiche per la comunicazione,//h1[1],raw snapshot first h1
+SF0029,SD0016,title,1,"[B385] PRATICHE, LINGUAGGI E CULTURE DELLA COMUNICAZIONE | Università di Firenze",b385 pratiche linguaggi e culture della comunicazione università di firenze,//title,raw snapshot title
+SF0030,SD0016,h1,2,"PRATICHE, LINGUAGGI E CULTURE DELLA COMUNICAZIONE",pratiche linguaggi e culture della comunicazione,//h1[1],raw snapshot first h1
+SF0031,SD0017,title,1,Università degli Studi di Siena,università degli studi di siena,//title,raw snapshot title
+SF0032,SD0017,h1,2,Università degli Studi di Siena,università degli studi di siena,//h1[1],raw snapshot first h1
+SF0033,SD0018,title,1,Didattica | Università degli Studi di Siena,didattica università degli studi di siena,//title,raw snapshot title
+SF0034,SD0018,h1,2,Didattica,didattica,//h1[1],raw snapshot first h1
+SF0035,SD0019,title,1,SCIENZE DELLA COMUNICAZIONE |,scienze della comunicazione,//title,raw snapshot title
+SF0036,SD0019,h1,2,SCIENZE DELLA COMUNICAZIONE,scienze della comunicazione,//h1[1],raw snapshot first h1
+SF0037,SD0020,title,1,[D003] STRATEGIE E TECNICHE DELLA COMUNICAZIONE | Università degli Studi di Siena,d003 strategie e tecniche della comunicazione università degli studi di siena,//title,raw snapshot title
+SF0038,SD0020,h1,2,[D003] STRATEGIE E TECNICHE DELLA COMUNICAZIONE,d003 strategie e tecniche della comunicazione,//h1[1],raw snapshot first h1
+SF0039,SD0021,title,1,Corsi di laurea | Università di Firenze,corsi di laurea università di firenze,//title,raw snapshot title
+SF0040,SD0021,h1,2,Corsi di laurea,corsi di laurea,//h1[1],raw snapshot first h1
+SF0041,SD0022,title,1,L'Università di Torino,l'università di torino,//title,raw snapshot title
+SF0042,SD0022,meta_description,2,"Dal 1404 a oggi offre percorsi formativi di qualità in molteplici ambiti disciplinari, una solida rete internazionale e un forte legame con il territorio.","dal 1404 a oggi offre percorsi formativi di qualità in molteplici ambiti disciplinari, una solida rete internazionale e un forte legame con il territorio.",//meta[@name='description'],raw snapshot meta description
+SF0043,SD0022,h1,3,Home page,home page,//h1[1],raw snapshot first h1
+SF0044,SD0023,title,1,Didattica | Università di Torino,didattica università di torino,//title,raw snapshot title
+SF0045,SD0023,meta_description,2,"Scegli il tuo percorso di studi tra corsi di laurea, master, dottorati, scuole di specializzazione e altre opportunità formative per accrescere le tue competenze e costruire il tuo futuro","scegli il tuo percorso di studi tra corsi di laurea, master, dottorati, scuole di specializzazione e altre opportunità formative per accrescere le tue competenze e costruire il tuo futuro",//meta[@name='description'],raw snapshot meta description
+SF0046,SD0023,h1,3,Didattica,didattica,//h1[1],raw snapshot first h1
+SF0047,SD0024,title,1,[2705L31] SCIENZE DELLA COMUNICAZIONE | Università di Torino,2705l31 scienze della comunicazione università di torino,//title,raw snapshot title
+SF0048,SD0024,h1,2,SCIENZE DELLA COMUNICAZIONE,scienze della comunicazione,//h1[1],raw snapshot first h1
+SF0049,SD0025,title,1,[0507M21] COMUNICAZIONE E CULTURE DEI MEDIA | Università di Torino,0507m21 comunicazione e culture dei media università di torino,//title,raw snapshot title
+SF0050,SD0025,h1,2,COMUNICAZIONE E CULTURE DEI MEDIA,comunicazione e culture dei media,//h1[1],raw snapshot first h1
+SF0051,SD0026,title,1,Università degli Studi di Genova | UniGe,università degli studi di genova unige,//title,raw snapshot title
+SF0052,SD0026,h1,2,"Arrivando a Genova vedrai una città imperiosa, coronata da aspre montagne, superba per uomini e per mura, signora del mare.","arrivando a genova vedrai una città imperiosa, coronata da aspre montagne, superba per uomini e per mura, signora del mare.",//h1[1],raw snapshot first h1
+SF0053,SD0027,title,1,Offerta formativa | Corsi di Studio UniGe,offerta formativa corsi di studio unige,//title,raw snapshot title; no h1 or meta description detected
+SF0054,SD0028,title,1,"CORSO DI LAUREA TRIENNALE (D.M. 1648/2023) in MEDIA, COMUNICAZIONE E SOCIETÀ | UniGe | Università di Genova | Corsi di Studio UniGe","corso di laurea triennale (d.m. 1648/2023) in media, comunicazione e società unige università di genova corsi di studio unige",//title,raw snapshot title
+SF0055,SD0028,h1,2,Panoramica,panoramica,//h1[1],raw snapshot first h1; course name is mainly exposed in the title
+SF0056,SD0029,title,1,CORSO DI LAUREA MAGISTRALE (D.M. 1649/2023) in DIGITAL HUMANITIES - INTERACTIVE SYSTEMS AND DIGITAL MEDIA | UniGe | Università di Genova | Corsi di Studio UniGe,corso di laurea magistrale (d.m. 1649/2023) in digital humanities - interactive systems and digital media unige università di genova corsi di studio unige,//title,raw snapshot title
+SF0057,SD0029,h1,2,Panoramica,panoramica,//h1[1],raw snapshot first h1; course name is mainly exposed in the title
+SF0058,SD0030,title,1,Università degli Studi di Milano-Bicocca,università degli studi di milano-bicocca,//title,raw snapshot title; no h1 or meta description detected
+SF0059,SD0031,title,1,STUDIARE | Università degli Studi di Milano-Bicocca,studiare università degli studi di milano-bicocca,//title,raw snapshot title
+SF0060,SD0031,h1,2,STUDIARE,studiare,//h1[1],raw snapshot first h1
+SF0061,SD0032,title,1,Comunicazione interculturale | Università degli Studi di Milano-Bicocca,comunicazione interculturale università degli studi di milano-bicocca,//title,raw snapshot title
+SF0062,SD0032,h1,2,Comunicazione interculturale,comunicazione interculturale,//h1[1],raw snapshot first h1
+SF0063,SD0033,title,1,Teoria e tecnologia della comunicazione | Università degli Studi di Milano-Bicocca,teoria e tecnologia della comunicazione università degli studi di milano-bicocca,//title,raw snapshot title
+SF0064,SD0033,h1,2,Teoria e tecnologia della comunicazione,teoria e tecnologia della comunicazione,//h1[1],raw snapshot first h1
+SF0065,SD0034,title,1,home | Università degli Studi di Milano Statale,home università degli studi di milano statale,//title,raw snapshot title
+SF0066,SD0034,meta_description,2,"Conosciuta anche come La Statale, l’Università degli Studi di Milano è una Università pubblica ai primi posti in Italia per l’impegno nella ricerca scientifica con un livello di eccellenza della ricerca riconosciuto dai principali ranking internazionali. Offre più di 140 corsi di Laurea, oltre 30 corsi di Dottorato e oltre 60 Scuole di specializzazione. La vocazione interdisciplinare ne fa un ambiente stimolante per studiare, lavorare e costruire il proprio futuro in una città viva di cultura, spettacolo e attività produttive","conosciuta anche come la statale, l’università degli studi di milano è una università pubblica ai primi posti in italia per l’impegno nella ricerca scientifica con un livello di eccellenza della ricerca riconosciuto dai principali ranking internazionali. offre più di 140 corsi di laurea, oltre 30 corsi di dottorato e oltre 60 scuole di specializzazione. la vocazione interdisciplinare ne fa un ambiente stimolante per studiare, lavorare e costruire il proprio futuro in una città viva di cultura, spettacolo e attività produttive",//meta[@name='description'],raw snapshot meta description
+SF0067,SD0034,h1,3,home,home,//h1[1],raw snapshot first h1
+SF0068,SD0035,title,1,Corsi | Università degli Studi di Milano Statale,corsi università degli studi di milano statale,//title,raw snapshot title
+SF0069,SD0035,h1,2,Corsi,corsi,//h1[1],raw snapshot first h1
+SF0070,SD0036,title,1,Comunicazione e società (CES) | Università degli Studi di Milano Statale,comunicazione e società ces università degli studi di milano statale,//title,raw snapshot title
+SF0071,SD0036,h1,2,Comunicazione e società (CES),comunicazione e società ces,//h1[1],raw snapshot first h1
+SF0072,SD0037,title,1,"Editoria, culture della comunicazione e della moda | Università degli Studi di Milano Statale","editoria, culture della comunicazione e della moda università degli studi di milano statale",//title,raw snapshot title
+SF0073,SD0037,h1,2,"Editoria, culture della comunicazione e della moda","editoria, culture della comunicazione e della moda",//h1[1],raw snapshot first h1
+SF0074,SD0038,title,1,Home page | Università degli studi dell'Insubria,home page università degli studi dell'insubria,//title,raw snapshot title; no h1 or meta description detected
+SF0075,SD0039,title,1,Pagina non trovata | Università degli studi dell'Insubria,pagina non trovata università degli studi dell'insubria,//title,404 page title collected from master hub URL
+SF0076,SD0039,h1,2,Pagina non trovata,pagina non trovata,//h1[1],404 page first h1
+SF0077,SD0040,title,1,[SU02] SCIENZE DELLA COMUNICAZIONE | Università degli studi dell'Insubria,su02 scienze della comunicazione università degli studi dell'insubria,//title,raw snapshot title
+SF0078,SD0040,h1,2,SCIENZE DELLA COMUNICAZIONE,scienze della comunicazione,//h1[1],raw snapshot first h1
+SF0079,SD0041,title,1,[SU03] SCIENZE E TECNICHE DELLA COMUNICAZIONE | Università degli studi dell'Insubria,su03 scienze e tecniche della comunicazione università degli studi dell'insubria,//title,raw snapshot title
+SF0080,SD0041,h1,2,SCIENZE E TECNICHE DELLA COMUNICAZIONE,scienze e tecniche della comunicazione,//h1[1],raw snapshot first h1
+SF0081,SD0042,title,1,UNISA | Home,unisa home,//title,raw snapshot title
+SF0082,SD0042,meta_description,2,Università degli Studi di Salerno - Via Giovanni Paolo II. 132 - 84084 Fisciano (SA),università degli studi di salerno - via giovanni paolo ii. 132 - 84084 fisciano (sa),//meta[@name='description'],raw snapshot meta description
+SF0083,SD0042,h1,3,UNISA | Home,unisa home,//h1[1],raw snapshot first h1
+SF0084,SD0043,title,1,Didattica | Corsi di Laurea e Laurea Magistrale,didattica corsi di laurea e laurea magistrale,//title,raw snapshot title
+SF0085,SD0043,meta_description,2,I corsi di laurea e di laurea magistrale ad UNISA,i corsi di laurea e di laurea magistrale ad unisa,//meta[@name='description'],raw snapshot meta description
+SF0086,SD0043,h1,3,Didattica | Corsi di Laurea e Laurea Magistrale,didattica corsi di laurea e laurea magistrale,//h1[1],raw snapshot first h1
+SF0087,SD0044,title,1,Scienze della Comunicazione | Home,scienze della comunicazione home,//title,raw snapshot title
+SF0088,SD0044,h1,2,Scienze della Comunicazione,scienze della comunicazione,//h1[1],raw snapshot first h1
+SF0089,SD0045,title,1,Corporate Communication e Media | Home,corporate communication e media home,//title,raw snapshot title
+SF0090,SD0045,h1,2,"Corporate Communication, Marketing Innovation e Media Digitali(Corporate Communication e Media)","corporate communication, marketing innovation e media digitali(corporate communication e media)",//h1[1],raw snapshot first h1
+SF0091,SD0046,title,1,La nostra didattica | Università degli studi dell'Insubria,la nostra didattica università degli studi dell'insubria,//title,raw snapshot title
+SF0092,SD0046,h1,2,La nostra didattica,la nostra didattica,//h1[1],raw snapshot first h1
+SF0093,SD0047,title,1,Homepage - Università Roma Tre,homepage - università roma tre,//title,raw snapshot title
+SF0094,SD0047,h1,2,Università Roma Tre,università roma tre,//h1[1],raw snapshot first h1
+SF0095,SD0048,title,1,Studiare a Roma Tre - Università Roma Tre,studiare a roma tre - università roma tre,//title,raw snapshot title
+SF0096,SD0048,h1,2,Studiare a Roma Tre,studiare a roma tre,//h1[1],raw snapshot first h1
+SF0097,SD0049,title,1,Scienze della Comunicazione - Università Roma Tre,scienze della comunicazione - università roma tre,//title,raw snapshot title
+SF0098,SD0049,meta_description,2,Il Corso di Laurea triennale in Scienze della Comunicazione propone un percorso formativo volto a fornire alle studentesse e agli…,il corso di laurea triennale in scienze della comunicazione propone un percorso formativo volto a fornire alle studentesse e agli…,//meta[@name='description'],raw snapshot meta description
+SF0099,SD0049,h1,3,Scienze della Comunicazione,scienze della comunicazione,//h1[1],raw snapshot first h1
+SF0100,SD0050,title,1,Scienze Cognitive della Comunicazione e dell'Azione - Università Roma Tre,scienze cognitive della comunicazione e dell'azione - università roma tre,//title,raw snapshot title
+SF0101,SD0050,meta_description,2,La scienza cognitiva si occupa dello studio dei processi cognitivi intesi come elaborazioni di informazione da parte di un sistema…,la scienza cognitiva si occupa dello studio dei processi cognitivi intesi come elaborazioni di informazione da parte di un sistema…,//meta[@name='description'],raw snapshot meta description
+SF0102,SD0050,h1,3,Scienze Cognitive della Comunicazione e dell'Azione,scienze cognitive della comunicazione e dell'azione,//h1[1],raw snapshot first h1
+SF0103,SD0051,title,1,Università degli Studi di Palermo,università degli studi di palermo,//title,raw snapshot title
+SF0104,SD0051,meta_description,2,"L'Università degli Studi di Palermo, fondata nel 1806, con i suoi oltre 40000 iscritti è uno degli 11 mega Atenei italiani. La sua offerta formativa comprende più di 130 corsi di studio, tra lauree triennali, magistrali e magistrali a ciclo unico","l'università degli studi di palermo, fondata nel 1806, con i suoi oltre 40000 iscritti è uno degli 11 mega atenei italiani. la sua offerta formativa comprende più di 130 corsi di studio, tra lauree triennali, magistrali e magistrali a ciclo unico",//meta[@name='description'],raw snapshot meta description
+SF0105,SD0052,title,1,| Università degli Studi di Palermo,università degli studi di palermo,//title,raw snapshot title
+SF0106,SD0053,title,1,2447 - SCIENZE DELLA COMUNICAZIONE | Università degli Studi di Palermo,2447 - scienze della comunicazione università degli studi di palermo,//title,raw snapshot title
+SF0107,SD0053,meta_description,2,2447 - SCIENZE DELLA COMUNICAZIONE,2447 - scienze della comunicazione,//meta[@name='description'],raw snapshot meta description
+SF0108,SD0054,title,1,2215 - COMUNICAZIONE DEL PATRIMONIO CULTURALE | Università degli Studi di Palermo,2215 - comunicazione del patrimonio culturale università degli studi di palermo,//title,raw snapshot title
+SF0109,SD0054,meta_description,2,2215 - COMUNICAZIONE DEL PATRIMONIO CULTURALE,2215 - comunicazione del patrimonio culturale,//meta[@name='description'],raw snapshot meta description
+SF0110,SD0055,title,1,Università per Stranieri di Perugia | Ambasciatrice dell'Italia nel mondo,università per stranieri di perugia ambasciatrice dell'italia nel mondo,//title,raw snapshot title
+SF0111,SD0055,meta_description,2,"L'Università per Stranieri di Perugia è la più antica e prestigiosa istituzione italiana impegnata nell'attività di insegnamento, ricerca e diffusione della lingua e della civiltà d'Italia in tutte le loro espressioni. Oltre ai Corsi di Lingua e Cultura Italiana sono attivi presso l'Ateneo Corsi di Laurea, Laurea Magistrale e Master.","l'università per stranieri di perugia è la più antica e prestigiosa istituzione italiana impegnata nell'attività di insegnamento, ricerca e diffusione della lingua e della civiltà d'italia in tutte le loro espressioni. oltre ai corsi di lingua e cultura italiana sono attivi presso l'ateneo corsi di laurea, laurea magistrale e master.",//meta[@name='description'],raw snapshot meta description
+SF0112,SD0055,h1,3,Università per Stranieri di Perugia,università per stranieri di perugia,//h1[1],raw snapshot first h1
+SF0113,SD0056,title,1,Offerta formativa,offerta formativa,//title,raw snapshot title
+SF0114,SD0056,h1,2,Offerta formativa,offerta formativa,//h1[1],raw snapshot first h1
+SF0115,SD0057,title,1,Corso di laurea in Comunicazione internazionale e pubblicitaria (ComIP),corso di laurea in comunicazione internazionale e pubblicitaria (comip),//title,raw snapshot title
+SF0116,SD0057,h1,2,Corso di laurea in Comunicazione internazionale e pubblicitaria (ComIP),corso di laurea in comunicazione internazionale e pubblicitaria (comip),//h1[1],raw snapshot first h1
+SF0117,SD0058,title,1,"Corso di laurea magistrale in Comunicazione pubblicitaria, storytelling e cultura d'immagine (ComPSI)","corso di laurea magistrale in comunicazione pubblicitaria, storytelling e cultura d'immagine (compsi)",//title,raw snapshot title
+SF0118,SD0058,h1,2,"Corso di laurea magistrale in Comunicazione pubblicitaria, storytelling e cultura d'immagine (ComPSI)","corso di laurea magistrale in comunicazione pubblicitaria, storytelling e cultura d'immagine (compsi)",//h1[1],raw snapshot first h1
+SF0119,SD0059,title,1,Offerta formativa - Università Roma Tre,offerta formativa - università roma tre,//title,raw snapshot title
+SF0120,SD0059,h1,2,Offerta formativa,offerta formativa,//h1[1],raw snapshot first h1
+SF0121,SD0060,title,1,Offerta Formativa | Didattica | Università degli Studi di Palermo,offerta formativa didattica università degli studi di palermo,//title,raw snapshot title
+SF0122,SD0060,meta_description,2,Offerta Formativa,offerta formativa,//meta[@name='description'],raw snapshot meta description
+SF0123,SD0061,title,1,Università degli Studi di Urbino Carlo Bo,università degli studi di urbino carlo bo,//title,raw snapshot title
+SF0124,SD0061,meta_description,2,"L'Università di Urbino Carlo Bo è un ateneo ricco di storia e di una grande tradizione del sapere, impegnata da sempre nella ricerca e al contempo nell'innovazione. Con oltre 500 anni di storia e 15mila studenti, produce conoscenza in molti ambiti di studio. Studia con noi!","l'università di urbino carlo bo è un ateneo ricco di storia e di una grande tradizione del sapere, impegnata da sempre nella ricerca e al contempo nell'innovazione. con oltre 500 anni di storia e 15mila studenti, produce conoscenza in molti ambiti di studio. studia con noi!",//meta[@name='description'],raw snapshot meta description
+SF0125,SD0062,title,1,Università degli Studi di Urbino Carlo Bo,università degli studi di urbino carlo bo,//title,raw snapshot title
+SF0126,SD0062,meta_description,2,"L'Università di Urbino Carlo Bo è un ateneo ricco di storia e di una grande tradizione del sapere, impegnata da sempre nella ricerca e al contempo nell'innovazione. Con oltre 500 anni di storia e 15mila studenti, produce conoscenza in molti ambiti di studio. Studia con noi!","l'università di urbino carlo bo è un ateneo ricco di storia e di una grande tradizione del sapere, impegnata da sempre nella ricerca e al contempo nell'innovazione. con oltre 500 anni di storia e 15mila studenti, produce conoscenza in molti ambiti di studio. studia con noi!",//meta[@name='description'],raw snapshot meta description
+SF0127,SD0062,h1,3,Pagina non trovata / Errore 404,pagina non trovata / errore 404,//h1[1],raw snapshot first h1
+SF0128,SD0063,title,1,"INFORMAZIONE, MEDIA, PUBBLICITÀ - A.A. 2025/2026 - LAUREA","informazione, media, pubblicità - a.a. 2025/2026 - laurea",//title,raw snapshot title
+SF0129,SD0063,meta_description,2,A.A. 2025/2026 - Corso ad accesso libero - Puoi immatricolarti dal 06/05/2025 al 13/10/2025,a.a. 2025/2026 - corso ad accesso libero - puoi immatricolarti dal 06/05/2025 al 13/10/2025,//meta[@name='description'],raw snapshot meta description
+SF0130,SD0063,h1,3,"Informazione, Media, Pubblicità","informazione, media, pubblicità",//h1[1],raw snapshot first h1
+SF0131,SD0064,title,1,COMUNICAZIONE DIGITALE PER LA CULTURA - A.A. 2025/2026 - LAUREA MAGISTRALE,comunicazione digitale per la cultura - a.a. 2025/2026 - laurea magistrale,//title,raw snapshot title
+SF0132,SD0064,meta_description,2,A.A. 2025/2026 - Corso ad accesso libero - Puoi iscriverti dal 06/05/2025 al 13/11/2025,a.a. 2025/2026 - corso ad accesso libero - puoi iscriverti dal 06/05/2025 al 13/11/2025,//meta[@name='description'],raw snapshot meta description
+SF0133,SD0064,h1,3,Comunicazione Digitale per la Cultura,comunicazione digitale per la cultura,//h1[1],raw snapshot first h1
+SF0134,SD0065,title,1,International Telematic University UNINETTUNO: Online Degree,international telematic university uninettuno: online degree,//title,raw snapshot title
+SF0135,SD0065,meta_description,2,L'unica Università Telematica Italiana valutata positivamente e senza riserve dal CNVSU.,l'unica università telematica italiana valutata positivamente e senza riserve dal cnvsu.,//meta[@name='description'],raw snapshot meta description
+SF0136,SD0066,title,1,Laurea in Scienze della Comunicazione On Line: la Facoltà Telematica,laurea in scienze della comunicazione on line: la facoltà telematica,//title,raw snapshot title
+SF0137,SD0066,meta_description,2,Trova nella Facoltà di Scienze della Comunicazione online di Uninettuno la tua laurea in scienze della comunicazione telematica e i corsi a distanza.,trova nella facoltà di scienze della comunicazione online di uninettuno la tua laurea in scienze della comunicazione telematica e i corsi a distanza.,//meta[@name='description'],raw snapshot meta description
+SF0138,SD0066,h1,3,Facoltà di Scienze della Comunicazione online Uninettuno,facoltà di scienze della comunicazione online uninettuno,//h1[1],raw snapshot first h1
+SF0139,SD0067,title,1,Indirizzo: Comunicazione digitale d'impresa,indirizzo: comunicazione digitale d'impresa,//title,raw snapshot title
+SF0140,SD0067,meta_description,2,L'unica Università Telematica Italiana valutata positivamente e senza riserve dal CNVSU.,l'unica università telematica italiana valutata positivamente e senza riserve dal cnvsu.,//meta[@name='description'],raw snapshot meta description
+SF0141,SD0067,h1,3,Scienze della Comunicazione (Anno Accademico 2025/2026) - Comunicazione digitale d'impresa,scienze della comunicazione (anno accademico 2025/2026) - comunicazione digitale d'impresa,//h1[1],raw snapshot first h1
+SF0142,SD0068,title,1,"Culture, linguaggi e strategie per la comunicazione nell'era digitale","culture, linguaggi e strategie per la comunicazione nell'era digitale",//title,raw snapshot title
+SF0143,SD0068,meta_description,2,L'unica Università Telematica Italiana valutata positivamente e senza riserve dal CNVSU.,l'unica università telematica italiana valutata positivamente e senza riserve dal cnvsu.,//meta[@name='description'],raw snapshot meta description
+SF0144,SD0069,title,1,Portale istituzionale - Università della Calabria,portale istituzionale - università della calabria,//title,raw snapshot title
+SF0145,SD0069,meta_description,2,"Il Campus per eccellenza che cresce con il territorio ed è capace di creare prospettive di crescita culturale, sociale ed economica per i propri studenti.","il campus per eccellenza che cresce con il territorio ed è capace di creare prospettive di crescita culturale, sociale ed economica per i propri studenti.",//meta[@name='description'],raw snapshot meta description
+SF0146,SD0069,h1,3,Scopri in pochi passi,scopri in pochi passi,//h1[1],raw snapshot first h1
+SF0147,SD0070,title,1,Offerta Formativa - Università della Calabria,offerta formativa - università della calabria,//title,raw snapshot title
+SF0148,SD0070,meta_description,2,Sito istituzionale dell'Università della Calabria,sito istituzionale dell'università della calabria,//meta[@name='description'],raw snapshot meta description
+SF0149,SD0070,h1,3,Offerta Formativa,offerta formativa,//h1[1],raw snapshot first h1
+SF0150,SD0071,title,1,Il Corso - COMUNICAZIONE E DAMS - Corsi di Laurea,il corso - comunicazione e dams - corsi di laurea,//title,raw snapshot title
+SF0151,SD0071,meta_description,2,Sito istituzionale dell'Università della Calabria,sito istituzionale dell'università della calabria,//meta[@name='description'],raw snapshot meta description
+SF0152,SD0072,title,1,LINGUAGGI DELLA COMUNICAZIONE E DELLO SPETTACOLO - Corsi di Laurea,linguaggi della comunicazione e dello spettacolo - corsi di laurea,//title,raw snapshot title
+SF0153,SD0072,meta_description,2,Sito istituzionale dell'Università della Calabria,sito istituzionale dell'università della calabria,//meta[@name='description'],raw snapshot meta description
+SF0154,SD0073,title,1,Corsi di laurea - Università di Urbino,corsi di laurea - università di urbino,//title,raw snapshot title
+SF0155,SD0073,meta_description,2,"Elenco completo dei corsi di laurea attivati nell'anno accademico presso l'Università degli Studi di Urbino. Obiettivi formativi, prospettive e didattica.","elenco completo dei corsi di laurea attivati nell'anno accademico presso l'università degli studi di urbino. obiettivi formativi, prospettive e didattica.",//meta[@name='description'],raw snapshot meta description
+SF0156,SD0073,h1,3,Lauree,lauree,//h1[1],raw snapshot first h1
+SF0157,SD0074,title,1,Home - Unina,home - unina,//title,raw snapshot title
+SF0158,SD0074,meta_description,2,pattern library e styleguide per Unina,pattern library e styleguide per unina,//meta[@name='description'],raw snapshot meta description
+SF0159,SD0074,h1,3,L'Università Federico II offre molteplici percorsi di studio in tredici aree didattiche,l'università federico ii offre molteplici percorsi di studio in tredici aree didattiche,//h1[1],raw snapshot first h1
+SF0160,SD0076,title,1,Corsi di Studio | Unina.it,corsi di studio unina.it,//title,raw snapshot title
+SF0161,SD0077,title,1,Corsi di Studio | Unina.it,corsi di studio unina.it,//title,raw snapshot title
+SF0162,SD0078,title,1,Università degli studi di Bergamo | UniBg,università degli studi di bergamo unibg,//title,raw snapshot title
+SF0163,SD0078,meta_description,2,"L'Università degli studi di Bergamo è una università statale italiana fondata nel 1968. 42 corsi di laurea, tra triennali e magistrali, 9 corsi di laurea magistrale in lingua inglese. 8 Dipartimenti. Tasso di occupazione a 1 anno dalla laurea 77,9%, Tasso di occupazione a 5 anni dalla laurea 92,4%.","l'università degli studi di bergamo è una università statale italiana fondata nel 1968. 42 corsi di laurea, tra triennali e magistrali, 9 corsi di laurea magistrale in lingua inglese. 8 dipartimenti. tasso di occupazione a 1 anno dalla laurea 77,9%, tasso di occupazione a 5 anni dalla laurea 92,4%.",//meta[@name='description'],raw snapshot meta description
+SF0164,SD0079,title,1,I corsi | Università degli studi di Bergamo,i corsi università degli studi di bergamo,//title,raw snapshot title
+SF0165,SD0079,h1,2,I corsi,i corsi,//h1[1],raw snapshot first h1
+SF0166,SD0080,title,1,[92-R] SCIENZE DELLA COMUNICAZIONE | Università degli studi di Bergamo,[92-r] scienze della comunicazione università degli studi di bergamo,//title,raw snapshot title
+SF0167,SD0080,h1,2,SCIENZE DELLA COMUNICAZIONE,scienze della comunicazione,//h1[1],raw snapshot first h1
+SF0168,SD0081,title,1,Valorizzazione del Patrimonio Culturale Materiale e Immateriale | UniBG,valorizzazione del patrimonio culturale materiale e immateriale unibg,//title,raw snapshot title
+SF0169,SD0081,h1,2,Menu top,menu top,//h1[1],raw snapshot first h1
+SF0170,SD0082,title,1,UniTrento,unitrento,//title,raw snapshot title
+SF0171,SD0082,meta_description,2,"Unitn - Università di Trento - Ateneo di eccellenza per i suoi corsi di laurea, dottorati e master. Ricerca internazionale e innovazione. Campus moderni nel cuore delle Alpi","unitn - università di trento - ateneo di eccellenza per i suoi corsi di laurea, dottorati e master. ricerca internazionale e innovazione. campus moderni nel cuore delle alpi",//meta[@name='description'],raw snapshot meta description
+SF0172,SD0082,h1,3,Home Page,home page,//h1[1],raw snapshot first h1
+SF0173,SD0083,title,1,Corsi | UniTrento,corsi unitrento,//title,raw snapshot title
+SF0174,SD0083,meta_description,2,"Lauree, lauree magistrali e a ciclo unico, master, dottorati e scuole di specializzazione. Scopri l'offerta formativa dell'Università di Trento - Unitn","lauree, lauree magistrali e a ciclo unico, master, dottorati e scuole di specializzazione. scopri l'offerta formativa dell'università di trento - unitn",//meta[@name='description'],raw snapshot meta description
+SF0175,SD0083,h1,3,Corsi,corsi,//h1[1],raw snapshot first h1
+SF0176,SD0084,title,1,Beni culturali | UniTrento,beni culturali unitrento,//title,raw snapshot title
+SF0177,SD0084,h1,2,Beni culturali,beni culturali,//h1[1],raw snapshot first h1
+SF0178,SD0085,title,1,"Organizzazione, società e tecnologia | UniTrento","organizzazione, società e tecnologia unitrento",//title,raw snapshot title
+SF0179,SD0085,h1,2,"Organizzazione, società e tecnologia","organizzazione, società e tecnologia",//h1[1],raw snapshot first h1
+SF0180,SD0086,title,1,Giurisprudenza | UniTrento,giurisprudenza unitrento,//title,raw snapshot title
+SF0181,SD0086,h1,2,Giurisprudenza,giurisprudenza,//h1[1],raw snapshot first h1
+SF0182,SD0087,title,1,Offerta formativa - Unina,offerta formativa - unina,//title,raw snapshot title
+SF0183,SD0087,meta_description,2,pattern library e styleguide per Unina,pattern library e styleguide per unina,//meta[@name='description'],raw snapshot meta description
+SF0184,SD0087,h1,3,Didattica,didattica,//h1[1],raw snapshot first h1
+SF0185,SD0090,title,1,STRATEGIE DI COMUNICAZIONE | Università di Padova,strategie di comunicazione università di padova,//title,raw snapshot title
+SF0186,SD0090,h1,2,STRATEGIE DI COMUNICAZIONE,strategie di comunicazione,//h1[1],raw snapshot first h1
+SF0187,SD0091,title,1,[D615] STRATEGIE E TECNICHE DELLA COMUNICAZIONE | Università degli Studi di Siena,d615 strategie e tecniche della comunicazione università degli studi di siena,//title,raw snapshot title
+SF0188,SD0091,h1,2,[D615] STRATEGIE E TECNICHE DELLA COMUNICAZIONE,d615 strategie e tecniche della comunicazione,//h1[1],raw snapshot first h1
+SF0189,SD0092,title,1,Semiotica - Laurea Magistrale - Bologna,semiotica - laurea magistrale - bologna,,historical LM-92 pilot fragment
+SF0190,SD0092,heading,2,home page,home page,,historical LM-92 pilot fragment
+SF0191,SD0092,heading,3,All’origine del senso,all’origine del senso,,historical LM-92 pilot fragment
+SF0192,SD0092,heading,4,Cosa ti serve oggi,cosa ti serve oggi,,historical LM-92 pilot fragment
+SF0193,SD0092,heading,5,Cosa devi sapere,cosa devi sapere,,historical LM-92 pilot fragment
+SF0194,SD0092,heading,6,Driving Innovation Hackathon 2026,driving innovation hackathon 2026,,historical LM-92 pilot fragment
+SF0195,SD0092,heading,7,Percorsi formativi Progetto Manager Lab,percorsi formativi progetto manager lab,,historical LM-92 pilot fragment
+SF0196,SD0092,heading,8,Test di idoneità linguistica per Erasmus+ tirocinio,test di idoneita linguistica per erasmus+ tirocinio,,historical LM-92 pilot fragment
+SF0197,SD0092,heading,9,Call for Players,call for players,,historical LM-92 pilot fragment
+SF0198,SD0092,heading,10,ICONE del DESIGN: Workshop di modellazione e stampa 3D,icone del design: workshop di modellazione e stampa 3d,,historical LM-92 pilot fragment
+SF0199,SD0092,heading,11,Jornada de Puertas Abiertas Virtual,jornada de puertas abiertas virtual,,historical LM-92 pilot fragment
+SF0200,SD0092,heading,12,Incontra il corso,incontra il corso,,historical LM-92 pilot fragment
+SF0201,SD0094,title,1,"Comunicazione, Media, Tecnologie • Dipartimento di Civiltà e Forme del Sapere","comunicazione, media, tecnologie • dipartimento di civilta e forme del sapere",,historical LM-92 pilot fragment
+SF0202,SD0094,heading,2,"Comunicazione, Media, Tecnologie","comunicazione, media, tecnologie",,historical LM-92 pilot fragment
+SF0203,SD0094,heading,3,News,news,,historical LM-92 pilot fragment
+SF0204,SD0094,heading,4,Eventi,eventi,,historical LM-92 pilot fragment
+SF0205,SD0094,paragraph,5,"Con la laurea magistrale in Comunicazione Media e Tecnologie, impari a conoscere e gestire le trasformazioni legate al digitale nei media . Il corso offre conoscenze specialistiche sulle diverse forme di comunicazione in rapporto alle nuove tecnologie, in particolare all’Intelligenza Artificiale e ai media visuali. Si articola in due percorsi a scelta:","con la laurea magistrale in comunicazione media e tecnologie, impari a conoscere e gestire le trasformazioni legate al digitale nei media . il corso offre conoscenze specialistiche sulle diverse forme di comunicazione in rapporto alle nuove tecnologie, in particolare all’intelligenza artificiale e ai media visuali. si articola in due percorsi a scelta:",,historical LM-92 pilot fragment
+SF0206,SD0094,paragraph,6,Il corso appartiene alla classe di laurea magistrale LM-92 (Teorie della Comunicazione).,il corso appartiene alla classe di laurea magistrale lm-92 (teorie della comunicazione).,,historical LM-92 pilot fragment
+SF0207,SD0094,paragraph,7,Leggi la presentazione completa,leggi la presentazione completa,,historical LM-92 pilot fragment
+SF0208,SD0094,paragraph,8,Guarda il video,guarda il video,,historical LM-92 pilot fragment
+SF0209,SD0094,paragraph,9,"Ad aprile 2026, nell'ambito del progetto speciale per la didattica ""Immagini dal presente futuro"" a cura di Elena Marcheschi, si tiene un ciclo di tre seminari su arte, multimedialità e cultura visuale con Denis Brotto, Andrea Gatopoulos e Giorgio Andreotta Calò. Aula G3, Polo Guidotti. Ingresso libero.…","ad aprile 2026, nell'ambito del progetto speciale per la didattica ""immagini dal presente futuro"" a cura di elena marcheschi, si tiene un ciclo di tre seminari su arte, multimedialita e cultura visuale con denis brotto, andrea gatopoulos e giorgio andreotta calo. aula g3, polo guidotti. ingresso libero....",,historical LM-92 pilot fragment
+SF0210,SD0094,paragraph,10,Leggi tutto...,leggi tutto...,,historical LM-92 pilot fragment
+SF0211,SD0094,paragraph,11,"La Compagnia IF Prana cerca stagiste e stagisti per l’edizione 2026 di InForme Festival, rassegna di teatro, danza e arti…","la compagnia if prana cerca stagiste e stagisti per l’edizione 2026 di informe festival, rassegna di teatro, danza e arti...",,historical LM-92 pilot fragment
+SF0212,SD0094,paragraph,12,Leggi tutto...,leggi tutto...,,historical LM-92 pilot fragment
+SF0213,SD0094,paragraph,13,"Sono disponibili 100 borse di soggiorno per partecipare al Link Media Festival Academy 2026 a Trieste (10-12 aprile), uno dei principali festival del giornalismo in Italia.…","sono disponibili 100 borse di soggiorno per partecipare al link media festival academy 2026 a trieste (10-12 aprile), uno dei principali festival del giornalismo in italia....",,historical LM-92 pilot fragment
+SF0214,SD0094,paragraph,14,Leggi tutto...,leggi tutto...,,historical LM-92 pilot fragment
+SF0215,SD0094,paragraph,15,Il Centro Interdisciplinare Scienze per la Pace (CISP) dell’Università di Pisa offre un’opportunità di tirocinio curriculare con Scienza & Pace…,il centro interdisciplinare scienze per la pace (cisp) dell’universita di pisa offre un’opportunita di tirocinio curriculare con scienza & pace...,,historical LM-92 pilot fragment
+SF0216,SD0094,paragraph,16,Leggi tutto...,leggi tutto...,,historical LM-92 pilot fragment
+SF0217,SD0094,paragraph,17,"L’archivio regionale dei film amatoriali di famiglia 8mmezzo, con sede a Livorno, cerca un tirocinante o una tirocinante da inserire…","l’archivio regionale dei film amatoriali di famiglia 8mmezzo, con sede a livorno, cerca un tirocinante o una tirocinante da inserire...",,historical LM-92 pilot fragment
+SF0218,SD0094,paragraph,18,Leggi tutto...,leggi tutto...,,historical LM-92 pilot fragment
+SF0219,SD0094,paragraph,19,"Il 10 febbraio 2026 si sono laureate le prime quattro studentesse del corso di Laurea Magistrale in Comunicazione, Media, Tecnologie con tesi su tesi su AI e accessibilità, deepfake, teatro digitale e giornalismo culturale…","il 10 febbraio 2026 si sono laureate le prime quattro studentesse del corso di laurea magistrale in comunicazione, media, tecnologie con tesi su tesi su ai e accessibilita, deepfake, teatro digitale e giornalismo culturale...",,historical LM-92 pilot fragment
+SF0220,SD0094,paragraph,20,Leggi tutto...,leggi tutto...,,historical LM-92 pilot fragment
+SF0221,SD0095,title,1,"Corso di Laurea Magistrale in Pratiche, linguaggi e culture della comunicazione - UniFI","corso di laurea magistrale in pratiche, linguaggi e culture della comunicazione - unifi",,historical LM-92 pilot fragment
+SF0222,SD0095,heading,2,"Corso di Laurea Magistrale in Pratiche, linguaggi e culture della comunicazione","corso di laurea magistrale in pratiche, linguaggi e culture della comunicazione",,historical LM-92 pilot fragment
+SF0223,SD0095,paragraph,3,Facebook Twitter YouTube Behance issuu Instagram linkedin,facebook twitter youtube behance issuu instagram linkedin,,historical LM-92 pilot fragment
+SF0224,SD0095,list_item,4,Corso di studio Presentazione del Corso Sedi e strutture Norme e regolamenti Organizzazione Per iscriversi Per laurearsi Proseguire dopo la laurea Qualità del Corso Area riservata Segnalazioni e reclami,corso di studio presentazione del corso sedi e strutture norme e regolamenti organizzazione per iscriversi per laurearsi proseguire dopo la laurea qualita del corso area riservata segnalazioni e reclami,,historical LM-92 pilot fragment
+SF0225,SD0095,list_item,5,Presentazione del Corso,presentazione del corso,,historical LM-92 pilot fragment
+SF0226,SD0095,list_item,6,Sedi e strutture,sedi e strutture,,historical LM-92 pilot fragment
+SF0227,SD0095,list_item,7,Norme e regolamenti,norme e regolamenti,,historical LM-92 pilot fragment
+SF0228,SD0095,list_item,8,Organizzazione,organizzazione,,historical LM-92 pilot fragment
+SF0229,SD0095,list_item,9,Per iscriversi,per iscriversi,,historical LM-92 pilot fragment
+SF0230,SD0095,list_item,10,Per laurearsi,per laurearsi,,historical LM-92 pilot fragment
+SF0231,SD0095,list_item,11,Proseguire dopo la laurea,proseguire dopo la laurea,,historical LM-92 pilot fragment
+SF0232,SD0095,list_item,12,Qualità del Corso,qualita del corso,,historical LM-92 pilot fragment
+SF0233,SD0095,list_item,13,Area riservata,area riservata,,historical LM-92 pilot fragment
+SF0234,SD0095,list_item,14,Segnalazioni e reclami,segnalazioni e reclami,,historical LM-92 pilot fragment
+SF0235,SD0095,list_item,15,Didattica Piani di studio Insegnamenti Commissioni d'esame Conoscenza di altre lingue Conoscenze informatiche Orientamento Stage/Tirocinio Mobilità internazionale,didattica piani di studio insegnamenti commissioni d'esame conoscenza di altre lingue conoscenze informatiche orientamento stage/tirocinio mobilita internazionale,,historical LM-92 pilot fragment
+SF0236,SD0095,list_item,16,Piani di studio,piani di studio,,historical LM-92 pilot fragment
+SF0237,SD0095,list_item,17,Insegnamenti,insegnamenti,,historical LM-92 pilot fragment
+SF0238,SD0095,list_item,18,Commissioni d'esame,commissioni d'esame,,historical LM-92 pilot fragment
+SF0239,SD0095,list_item,19,Conoscenza di altre lingue,conoscenza di altre lingue,,historical LM-92 pilot fragment
+SF0240,SD0095,list_item,20,Conoscenze informatiche,conoscenze informatiche,,historical LM-92 pilot fragment
+SF0241,SD0095,list_item,21,Orientamento,orientamento,,historical LM-92 pilot fragment
+SF0242,SD0095,list_item,22,Stage/Tirocinio,stage/tirocinio,,historical LM-92 pilot fragment
+SF0243,SD0095,list_item,23,Mobilità internazionale,mobilita internazionale,,historical LM-92 pilot fragment
+SF0244,SD0095,list_item,24,Docenti Docenti,docenti docenti,,historical LM-92 pilot fragment
+SF0245,SD0096,title,1,STRATEGIE E TECNICHE DELLA COMUNICAZIONE |,strategie e tecniche della comunicazione |,,historical LM-92 pilot fragment
+SF0246,SD0096,paragraph,2,"La società dell’informazione, l’economia della conoscenza, la cultura dei dati, il design di interfacce, servizi e artefatti tecnologici, i linguaggi della comunicazione istituzionale, il giornalismo all’epoca dei social media, la pubblicità digitale. Sono queste alcune delle parole chiave che stanno alla base di questo corso di laurea, che invita gli studenti ad intraprendere un percorso di esplorazione e formazione per orientarsi e sapersi muovere in un ambiente mediale in rapida trasformazione. Il corso propone una formazione teorica e pratica alle strategie e le tecniche della comunicazione, declinata secondo tre diversi curricula:","la societa dell’informazione, l’economia della conoscenza, la cultura dei dati, il design di interfacce, servizi e artefatti tecnologici, i linguaggi della comunicazione istituzionale, il giornalismo all’epoca dei social media, la pubblicita digitale. sono queste alcune delle parole chiave che stanno alla base di questo corso di laurea, che invita gli studenti ad intraprendere un percorso di esplorazione e formazione per orientarsi e sapersi muovere in un ambiente mediale in rapida trasformazione. il corso propone una formazione teorica e pratica alle strategie e le tecniche della comunicazione, declinata secondo tre diversi curricula:",,historical LM-92 pilot fragment
+SF0247,SD0096,paragraph,3,(a) Tecnologie e metodi per l’Experience Design;,(a) tecnologie e metodi per l’experience design;,,historical LM-92 pilot fragment
+SF0248,SD0096,paragraph,4,(b) Comunicazione per le industrie creative e culturali;,(b) comunicazione per le industrie creative e culturali;,,historical LM-92 pilot fragment
+SF0249,SD0096,paragraph,5,(c) Comunicazione strategica per i mercati e le istituzioni.,(c) comunicazione strategica per i mercati e le istituzioni.,,historical LM-92 pilot fragment
+SF0250,SD0096,paragraph,6,Classe: LM-92 Classe delle lauree magistrali in teoria della comunicazione,classe: lm-92 classe delle lauree magistrali in teoria della comunicazione,,historical LM-92 pilot fragment
+SF0251,SD0096,paragraph,7,Durata: 2 anni. Crediti formativi: 120,durata: 2 anni. crediti formativi: 120,,historical LM-92 pilot fragment
+SF0252,SD0096,paragraph,8,Assistente Virtuale del corso,assistente virtuale del corso,,historical LM-92 pilot fragment
+SF0253,SD0096,paragraph,9,Presentazione curricula 2024/25,presentazione curricula 2024/25,,historical LM-92 pilot fragment
+SF0254,SD0096,paragraph,10,"Ufficio servizi agli studenti - Via Mattioli Via P.A. Mattioli, 10 53100 Siena - Italia Tel. +39 0577 235540 (sportello telefonico dal lunedì al venerdì, dalle ore 12 alle ore 13) Email: studenti.mattioli@unisi.it","ufficio servizi agli studenti - via mattioli via p.a. mattioli, 10 53100 siena - italia tel. +39 0577 235540 (sportello telefonico dal lunedi al venerdi, dalle ore 12 alle ore 13) email: studenti.mattioli@unisi.it",,historical LM-92 pilot fragment
+SF0255,SD0096,paragraph,11,"Rettorato, via Banchi di Sotto 55, 53100 Siena ITALIA P.IVA 00273530527 | C.F. 80002070524 | Caselle Pec: Posta Elettronica Certificata Contatti: urp@unisi.it - URP - Ufficio Relazioni con il Pubblico Tel. 0577 235555 (dal lunedì al venerdì dalle 9.30 alle 10.30)","rettorato, via banchi di sotto 55, 53100 siena italia p.iva 00273530527 | c.f. 80002070524 | caselle pec: posta elettronica certificata contatti: urp@unisi.it - urp - ufficio relazioni con il pubblico tel. 0577 235555 (dal lunedi al venerdi dalle 9.30 alle 10.30)",,historical LM-92 pilot fragment
+SF0256,SD0096,list_item,12,Il corso Presentazione Requisiti di ammissione Sbocchi professionali Cosa si studia Strutture e sede Contatti Comitato per la didattica Regolamento didattico AQ-Didattica Tutorato Tutti i corsi del Dipartimento,il corso presentazione requisiti di ammissione sbocchi professionali cosa si studia strutture e sede contatti comitato per la didattica regolamento didattico aq-didattica tutorato tutti i corsi del dipartimento,,historical LM-92 pilot fragment
+SF0257,SD0096,list_item,13,Presentazione,presentazione,,historical LM-92 pilot fragment
+SF0258,SD0096,list_item,14,Requisiti di ammissione,requisiti di ammissione,,historical LM-92 pilot fragment
+SF0259,SD0096,list_item,15,Sbocchi professionali,sbocchi professionali,,historical LM-92 pilot fragment
+SF0260,SD0096,list_item,16,Cosa si studia,cosa si studia,,historical LM-92 pilot fragment
+SF0261,SD0096,list_item,17,Strutture e sede,strutture e sede,,historical LM-92 pilot fragment
+SF0262,SD0096,list_item,18,Contatti,contatti,,historical LM-92 pilot fragment
+SF0263,SD0096,list_item,19,Comitato per la didattica,comitato per la didattica,,historical LM-92 pilot fragment
+SF0264,SD0096,list_item,20,Regolamento didattico,regolamento didattico,,historical LM-92 pilot fragment
+SF0265,SD0096,list_item,21,AQ-Didattica,aq-didattica,,historical LM-92 pilot fragment
+SF0266,SD0096,list_item,22,Tutorato,tutorato,,historical LM-92 pilot fragment
+SF0267,SD0096,list_item,23,Tutti i corsi del Dipartimento,tutti i corsi del dipartimento,,historical LM-92 pilot fragment
+SF0268,SD0096,list_item,24,Iscriversi Orientamento Iscriversi Test di lingua inglese Tasse Bandi e borse,iscriversi orientamento iscriversi test di lingua inglese tasse bandi e borse,,historical LM-92 pilot fragment
+SF0269,SD0097,title,1,Homepage - Corso di laurea magistrale inComunicazione e Culture dei media - UniversitÃ degli Studi di Torino,homepage - corso di laurea magistrale incomunicazione e culture dei media - universita degli studi di torino,,historical LM-92 pilot fragment
+SF0270,SD0097,heading,2,Auguri a tutta la comunitÃ universitaria,auguri a tutta la comunita universitaria,,historical LM-92 pilot fragment
+SF0271,SD0097,heading,3,Mentors4u: candidature aperte,mentors4u: candidature aperte,,historical LM-92 pilot fragment
+SF0272,SD0097,heading,4,per diventare Mentee,per diventare mentee,,historical LM-92 pilot fragment
+SF0273,SD0097,heading,5,fino al 14 aprile 2026,fino al 14 aprile 2026,,historical LM-92 pilot fragment
+SF0274,SD0097,heading,6,QS Subject Ranking,qs subject ranking,,historical LM-92 pilot fragment
+SF0275,SD0097,heading,7,Eccellente posizionamento dei Corsi di laurea in Filosofia e Scienze dellâEducazione dellâUniversitÃ di Torino,eccellente posizionamento dei corsi di laurea in filosofia e scienze dellaeducazione dellauniversita di torino,,historical LM-92 pilot fragment
+SF0276,SD0097,heading,8,"Summer School per docenti (Bologna, 10â12 luglio 2026)","summer school per docenti (bologna, 10a12 luglio 2026)",,historical LM-92 pilot fragment
+SF0277,SD0097,heading,9,JOB PLACEMENT INCONTRA VITAMINA C14 Aprile 2026,job placement incontra vitamina c14 aprile 2026,,historical LM-92 pilot fragment
+SF0278,SD0097,heading,10,BANDO PER STUDENTI,bando per studenti,,historical LM-92 pilot fragment
+SF0279,SD0097,heading,11,COLLABORAZIONI A TEMPO PARZIALE â A.A. 2026 - 2027,collaborazioni a tempo parziale a a.a. 2026 - 2027,,historical LM-92 pilot fragment
+SF0280,SD0097,heading,12,Scadenza: 13 aprile 2026 alle 12 a.m.,scadenza: 13 aprile 2026 alle 12 a.m.,,historical LM-92 pilot fragment
+SF0281,SD0098,title,1,CORSO DI LAUREA MAGISTRALE (D.M. 1649/2023) in DIGITAL HUMANITIES - INTERACTIVE SYSTEMS AND DIGITAL MEDIA | UniGe | Università di Genova | Corsi di Studio UniGe,corso di laurea magistrale (d.m. 1649/2023) in digital humanities - interactive systems and digital media | unige | universita di genova | corsi di studio unige,,historical LM-92 pilot fragment
+SF0282,SD0098,heading,2,Navigazione principale,navigazione principale,,historical LM-92 pilot fragment
+SF0283,SD0098,heading,3,Breadcrumb,breadcrumb,,historical LM-92 pilot fragment
+SF0284,SD0098,heading,4,DIGITAL HUMANITIES - INTERACTIVE SYSTEMS AND DIGITAL MEDIA,digital humanities - interactive systems and digital media,,historical LM-92 pilot fragment
+SF0285,SD0098,heading,5,Panoramica,panoramica,,historical LM-92 pilot fragment
+SF0286,SD0098,heading,6,Informazioni 2026/2027,informazioni 2026/2027,,historical LM-92 pilot fragment
+SF0287,SD0098,heading,7,News ed eventi,news ed eventi,,historical LM-92 pilot fragment
+SF0288,SD0098,heading,8,Servizio civile universale 2026,servizio civile universale 2026,,historical LM-92 pilot fragment
+SF0289,SD0098,heading,9,"Ciclo di incontri con mondo del lavoro e alumni - CONDIVISO: CREATIVITÀ, TECNOLOGIA E COWORKING NEI PROGETTI DI INNOVAZIONE DIGITALE","ciclo di incontri con mondo del lavoro e alumni - condiviso: creativita, tecnologia e coworking nei progetti di innovazione digitale",,historical LM-92 pilot fragment
+SF0290,SD0098,heading,10,"Ciclo di incontri con mondo del lavoro e alumni - IMPATTO DELL'AI E DELLE NUOVE TECNOLOGIE SU MEDIA, COMUNICAZIONE E MARKETING","ciclo di incontri con mondo del lavoro e alumni - impatto dell'ai e delle nuove tecnologie su media, comunicazione e marketing",,historical LM-92 pilot fragment
+SF0291,SD0098,heading,11,Il corso in breve,il corso in breve,,historical LM-92 pilot fragment
+SF0292,SD0098,heading,12,Presentazione,presentazione,,historical LM-92 pilot fragment
+SF0293,SD0099,title,1,Teoria e tecnologia della comunicazione | Università degli Studi di Milano-Bicocca,teoria e tecnologia della comunicazione | universita degli studi di milano-bicocca,,historical LM-92 pilot fragment
+SF0294,SD0099,heading,2,Teoria e tecnologia della comunicazione,teoria e tecnologia della comunicazione,,historical LM-92 pilot fragment
+SF0295,SD0099,heading,3,Navigazione rapida corso di laurea,navigazione rapida corso di laurea,,historical LM-92 pilot fragment
+SF0296,SD0099,heading,4,collegamenti rapidi,collegamenti rapidi,,historical LM-92 pilot fragment
+SF0297,SD0099,heading,5,Ammissione e iscrizione,ammissione e iscrizione,,historical LM-92 pilot fragment
+SF0298,SD0099,paragraph,6,Torna all'elenco,torna all'elenco,,historical LM-92 pilot fragment
+SF0299,SD0099,paragraph,7,La comunicazione è sempre più mediata dalla tecnologia: il contributo delle discipline psico-linguistiche si integra con quelli del design e deve considerare la natura interattiva e pervasiva degli strumenti ICT tramite i quali ha luogo.,la comunicazione e sempre piu mediata dalla tecnologia: il contributo delle discipline psico-linguistiche si integra con quelli del design e deve considerare la natura interattiva e pervasiva degli strumenti ict tramite i quali ha luogo.,,historical LM-92 pilot fragment
+SF0300,SD0099,paragraph,8,"Il corso di laurea magistrale in Teoria e Tecnologia della Comunicazione ha una natura interdisciplinare che prevede percorsi didattici e scientifici progettati e gestiti in modo integrato dal Dipartimento di Informatica, Sistemistica e Comunicazione e dal Dipartimento di Psicologia. Gli studenti hanno modo di acquisire basi metodologiche, tecniche e scientifiche, sviluppare attività progettuali di gruppo, approfondire competenze di analisi, di progettazione di servizi interattivi, ideare ed attuare campagne di comunicazione con l’utilizzo di strumenti ICT.","il corso di laurea magistrale in teoria e tecnologia della comunicazione ha una natura interdisciplinare che prevede percorsi didattici e scientifici progettati e gestiti in modo integrato dal dipartimento di informatica, sistemistica e comunicazione e dal dipartimento di psicologia. gli studenti hanno modo di acquisire basi metodologiche, tecniche e scientifiche, sviluppare attivita progettuali di gruppo, approfondire competenze di analisi, di progettazione di servizi interattivi, ideare ed attuare campagne di comunicazione con l’utilizzo di strumenti ict.",,historical LM-92 pilot fragment
+SF0301,SD0099,paragraph,9,"Il carattere fortemente interdisciplinare del corso rispecchia fortemente le esigenze del mercato del lavoro, che richiede figure professionali con competenze sempre più trasversali, che vertono sulla comunicazione come processo cognitivo e sociale mediato o supportato dalla tecnologia.","il carattere fortemente interdisciplinare del corso rispecchia fortemente le esigenze del mercato del lavoro, che richiede figure professionali con competenze sempre piu trasversali, che vertono sulla comunicazione come processo cognitivo e sociale mediato o supportato dalla tecnologia.",,historical LM-92 pilot fragment
+SF0302,SD0099,paragraph,10,"Gli sbocchi professionali per i laureati in Teoria e Tecnologia della comunicazione sono quindi molto vari e differenti: si va dallo user experience designer, al web content manager, al progettista di servizi di comunicazione, all’ideatore di campagne di marketing. Gli ambiti di impiego spaziano dalle agenzie di comunicazione, alla stampa, radio e tv, alle società di digital marketing.","gli sbocchi professionali per i laureati in teoria e tecnologia della comunicazione sono quindi molto vari e differenti: si va dallo user experience designer, al web content manager, al progettista di servizi di comunicazione, all’ideatore di campagne di marketing. gli ambiti di impiego spaziano dalle agenzie di comunicazione, alla stampa, radio e tv, alle societa di digital marketing.",,historical LM-92 pilot fragment
+SF0303,SD0099,paragraph,11,New application platform for candidates with foreign qualifications,new application platform for candidates with foreign qualifications,,historical LM-92 pilot fragment
+SF0304,SD0099,paragraph,12,Collegamenti utili,collegamenti utili,,historical LM-92 pilot fragment
+SF0305,SD0099,paragraph,13,tutti i contenuti per scoprire e studiare in Bicocca,tutti i contenuti per scoprire e studiare in bicocca,,historical LM-92 pilot fragment
+SF0306,SD0099,paragraph,14,"© 2025 Università degli Studi di Milano-Bicocca Piazza dell'Ateneo Nuovo, 1 - 20126, Milano Casella PEC: [email protected] P.I. 12621570154 | Contattaci","© 2025 universita degli studi di milano-bicocca piazza dell'ateneo nuovo, 1 - 20126, milano casella pec: [email protected] p.i. 12621570154 | contattaci",,historical LM-92 pilot fragment
+SF0307,SD0099,list_item,15,Segreterie online,segreterie online,,historical LM-92 pilot fragment
+SF0308,SD0099,list_item,16,MyUniMiB-staff,myunimib-staff,,historical LM-92 pilot fragment
+SF0309,SD0099,list_item,17,e-learning,e-learning,,historical LM-92 pilot fragment
+SF0310,SD0099,list_item,18,Modifica scheda rubrica,modifica scheda rubrica,,historical LM-92 pilot fragment
+SF0311,SD0099,list_item,19,Calendario lezioni/esami,calendario lezioni/esami,,historical LM-92 pilot fragment
+SF0312,SD0099,list_item,20,Webmail,webmail,,historical LM-92 pilot fragment
+SF0313,SD0099,list_item,21,Dipartimenti,dipartimenti,,historical LM-92 pilot fragment
+SF0314,SD0099,list_item,22,Comunicazione,comunicazione,,historical LM-92 pilot fragment
+SF0315,SD0099,list_item,23,Biblioteca,biblioteca,,historical LM-92 pilot fragment
+SF0316,SD0099,list_item,24,Dove siamo,dove siamo,,historical LM-92 pilot fragment
+SF0317,SD0100,title,1,"Editoria, culture della comunicazione e della moda | Università degli Studi di Milano Statale","editoria, culture della comunicazione e della moda | universita degli studi di milano statale",,historical LM-92 pilot fragment
+SF0318,SD0100,heading,2,Language switcher,language switcher,,historical LM-92 pilot fragment
+SF0319,SD0100,heading,3,Profili,profili,,historical LM-92 pilot fragment
+SF0320,SD0100,heading,4,Main navigation,main navigation,,historical LM-92 pilot fragment
+SF0321,SD0100,heading,5,I corsi,i corsi,,historical LM-92 pilot fragment
+SF0322,SD0100,heading,6,Main navigation,main navigation,,historical LM-92 pilot fragment
+SF0323,SD0100,heading,7,Top navbar,top navbar,,historical LM-92 pilot fragment
+SF0324,SD0100,heading,8,Ammissione,ammissione,,historical LM-92 pilot fragment
+SF0325,SD0100,heading,9,A.A. 2026/2027,a.a. 2026/2027,,historical LM-92 pilot fragment
+SF0326,SD0100,heading,10,A.A. 2025/2026,a.a. 2025/2026,,historical LM-92 pilot fragment
+SF0327,SD0100,heading,11,A.A. 2024/2025,a.a. 2024/2025,,historical LM-92 pilot fragment
+SF0328,SD0100,heading,12,A.A. 2023/2024,a.a. 2023/2024,,historical LM-92 pilot fragment
+SF0329,SD0101,title,1,[SU03] SCIENZE E TECNICHE DELLA COMUNICAZIONE | Università degli studi dell'Insubria,[su03] scienze e tecniche della comunicazione | universita degli studi dell'insubria,,historical LM-92 pilot fragment
+SF0330,SD0101,heading,2,SCIENZE E TECNICHE DELLA COMUNICAZIONE,scienze e tecniche della comunicazione,,historical LM-92 pilot fragment
+SF0331,SD0101,heading,3,Descrizione del corso,descrizione del corso,,historical LM-92 pilot fragment
+SF0332,SD0101,heading,4,Cosa ti occorre sapere,cosa ti occorre sapere,,historical LM-92 pilot fragment
+SF0333,SD0101,heading,5,Percorsi formativi e programmi,percorsi formativi e programmi,,historical LM-92 pilot fragment
+SF0334,SD0101,heading,6,Opportunità e agevolazioni,opportunita e agevolazioni,,historical LM-92 pilot fragment
+SF0335,SD0101,heading,7,Iscriversi,iscriversi,,historical LM-92 pilot fragment
+SF0336,SD0101,heading,8,Frequentare,frequentare,,historical LM-92 pilot fragment
+SF0337,SD0101,heading,9,"Studiare, sostenere gli esami e laurearsi","studiare, sostenere gli esami e laurearsi",,historical LM-92 pilot fragment
+SF0338,SD0101,heading,10,Servizi per gli studenti,servizi per gli studenti,,historical LM-92 pilot fragment
+SF0339,SD0101,heading,11,Organi del corso e rappresentanti,organi del corso e rappresentanti,,historical LM-92 pilot fragment
+SF0340,SD0101,heading,12,Seguici su,seguici su,,historical LM-92 pilot fragment
+SF0341,SD0102,title,1,Corporate Communication e Media | Home,corporate communication e media | home,,historical LM-92 pilot fragment
+SF0342,SD0102,heading,2,"Corporate Communication, Marketing Innovation e Media Digitali","corporate communication, marketing innovation e media digitali",,historical LM-92 pilot fragment
+SF0343,SD0102,heading,3,Corporate Communication e Media Home,corporate communication e media home,,historical LM-92 pilot fragment
+SF0344,SD0102,heading,4,ultime news,ultime news,,historical LM-92 pilot fragment
+SF0345,SD0102,heading,5,avvisi docenti,avvisi docenti,,historical LM-92 pilot fragment
+SF0346,SD0102,heading,6,agenda,agenda,,historical LM-92 pilot fragment
+SF0347,SD0102,heading,7,CAMPUS MAP,campus map,,historical LM-92 pilot fragment
+SF0348,SD0102,heading,8,-,-,,historical LM-92 pilot fragment
+SF0349,SD0102,paragraph,9,Didattica,didattica,,historical LM-92 pilot fragment
+SF0350,SD0102,paragraph,10,Didattica,didattica,,historical LM-92 pilot fragment
+SF0351,SD0102,paragraph,11,Premi e riconoscimenti,premi e riconoscimenti,,historical LM-92 pilot fragment
+SF0352,SD0102,paragraph,12,Nuovo riconoscimento per la...,nuovo riconoscimento per la...,,historical LM-92 pilot fragment
+SF0353,SD0102,paragraph,13,"Avviso - Martedì 24 marzo 2026 non si terranno le lezioni di Italiano istituzionale (l20), Comunicazione pubblica e Linguaggi istituzionali (LM59), Linguaggi giornalistici (LM92)","avviso - martedi 24 marzo 2026 non si terranno le lezioni di italiano istituzionale (l20), comunicazione pubblica e linguaggi istituzionali (lm59), linguaggi giornalistici (lm92)",,historical LM-92 pilot fragment
+SF0354,SD0102,paragraph,14,Avviso per gli studenti del Laboratorio di Human Computer Interaction,avviso per gli studenti del laboratorio di human computer interaction,,historical LM-92 pilot fragment
+SF0355,SD0102,paragraph,15,"Università degli Studi di Salerno - Via Giovanni Paolo II, 132 - 84084 Fisciano (SA)","universita degli studi di salerno - via giovanni paolo ii, 132 - 84084 fisciano (sa)",,historical LM-92 pilot fragment
+SF0356,SD0102,paragraph,16,P.IVA 00851300657 - C.F. 80018670655,p.iva 00851300657 - c.f. 80018670655,,historical LM-92 pilot fragment
+SF0357,SD0102,list_item,17,Sitemap,sitemap,,historical LM-92 pilot fragment
+SF0358,SD0102,list_item,18,it,it,,historical LM-92 pilot fragment
+SF0359,SD0102,list_item,19,Home,home,,historical LM-92 pilot fragment
+SF0360,SD0102,list_item,20,Dipartimento,dipartimento,,historical LM-92 pilot fragment
+SF0361,SD0102,list_item,21,Consiglio Didattico,consiglio didattico,,historical LM-92 pilot fragment
+SF0362,SD0102,list_item,22,Corporate Communication e Media,corporate communication e media,,historical LM-92 pilot fragment
+SF0363,SD0102,list_item,23,Home,home,,historical LM-92 pilot fragment
+SF0364,SD0102,list_item,24,Didattica Didattica D. D. di surroga della rappresentanza studentesca in seno alla CPDS del DISPC,didattica didattica d. d. di surroga della rappresentanza studentesca in seno alla cpds del dispc,,historical LM-92 pilot fragment
+SF0365,SD0103,title,1,Scienze Cognitive della Comunicazione e dell'Azione - Università Roma Tre,scienze cognitive della comunicazione e dell'azione - universita roma tre,,historical LM-92 pilot fragment
+SF0366,SD0103,heading,2,Scienze Cognitive della Comunicazione e dell'Azione - Università Roma Tre,scienze cognitive della comunicazione e dell'azione - universita roma tre,,historical LM-92 pilot fragment
+SF0367,SD0103,heading,3,Primary Menu,primary menu,,historical LM-92 pilot fragment
+SF0368,SD0103,heading,4,Header info sidebar,header info sidebar,,historical LM-92 pilot fragment
+SF0369,SD0103,heading,5,header,header,,historical LM-92 pilot fragment
+SF0370,SD0103,heading,6,Follow Us,follow us,,historical LM-92 pilot fragment
+SF0371,SD0103,heading,7,Menu di ricerca labelledby,menu di ricerca labelledby,,historical LM-92 pilot fragment
+SF0372,SD0103,heading,8,Scienze Cognitive della Comunicazione e dell'Azione,scienze cognitive della comunicazione e dell'azione,,historical LM-92 pilot fragment
+SF0373,SD0103,heading,9,soddisfazione degli studenti,soddisfazione degli studenti,,historical LM-92 pilot fragment
+SF0374,SD0103,heading,10,Iscriversi,iscriversi,,historical LM-92 pilot fragment
+SF0375,SD0103,heading,11,Frequentare le lezioni,frequentare le lezioni,,historical LM-92 pilot fragment
+SF0376,SD0103,heading,12,Cosa studiare,cosa studiare,,historical LM-92 pilot fragment
+SF0377,SD0104,title,1,2215 - COMUNICAZIONE DEL PATRIMONIO CULTURALE | Università degli Studi di Palermo,2215 - comunicazione del patrimonio culturale | universita degli studi di palermo,,historical LM-92 pilot fragment
+SF0378,SD0104,heading,2,Coordinatore,coordinatore,,historical LM-92 pilot fragment
+SF0379,SD0104,heading,3,Coordinatore vicario,coordinatore vicario,,historical LM-92 pilot fragment
+SF0380,SD0104,heading,4,Referente amministrativo,referente amministrativo,,historical LM-92 pilot fragment
+SF0381,SD0104,heading,5,Laboratori e personalizzazione del piano di studi,laboratori e personalizzazione del piano di studi,,historical LM-92 pilot fragment
+SF0382,SD0104,heading,6,Doppio Titolo,doppio titolo,,historical LM-92 pilot fragment
+SF0383,SD0104,heading,7,Comunicazione del patrimonio culturale in pillole,comunicazione del patrimonio culturale in pillole,,historical LM-92 pilot fragment
+SF0384,SD0104,heading,8,News,news,,historical LM-92 pilot fragment
+SF0385,SD0104,heading,9,Bacheca,bacheca,,historical LM-92 pilot fragment
+SF0386,SD0104,paragraph,10,Sede: PALERMO Anni attivi: II Classe: LM-92,sede: palermo anni attivi: ii classe: lm-92,,historical LM-92 pilot fragment
+SF0387,SD0104,paragraph,11,COORDINATORE : DARIO MANGANO,coordinatore : dario mangano,,historical LM-92 pilot fragment
+SF0388,SD0104,paragraph,12,Le procedure amministrative per l'iscrizione ai Corsi di Laurea Magistrale saranno pubblicate nella pagina di Ateneo disponibile al seguente link:,le procedure amministrative per l'iscrizione ai corsi di laurea magistrale saranno pubblicate nella pagina di ateneo disponibile al seguente link:,,historical LM-92 pilot fragment
+SF0389,SD0104,paragraph,13,Per essere ammessi a uno dei corsi di Comunicazione è necessario avere conseguito una Laurea nonché essere in possesso dei requisiti curriculari previsti e di un’adeguata preparazione personale. I requisiti sono precisati nella pagina raggiungibile dal link Informazioni>>Regolamenti.,per essere ammessi a uno dei corsi di comunicazione e necessario avere conseguito una laurea nonche essere in possesso dei requisiti curriculari previsti e di un’adeguata preparazione personale. i requisiti sono precisati nella pagina raggiungibile dal link informazioni>>regolamenti.,,historical LM-92 pilot fragment
+SF0390,SD0104,paragraph,14,Per l'accesso al corso di Laurea Magistrale è richiesta una verifica della personale preparazione e un livello di conoscenza dell’inglese pari ad almeno B2.,per l'accesso al corso di laurea magistrale e richiesta una verifica della personale preparazione e un livello di conoscenza dell’inglese pari ad almeno b2.,,historical LM-92 pilot fragment
+SF0391,SD0104,paragraph,15,"L'adeguatezza della personale preparazione si ritiene automaticamente verificata nel caso il titolo di primo livello sia incluso fra quelli che consentono l'accesso diretto e sia stato conseguito con una votazione finale maggiore o uguale a 90/110. Nel caso in cui lo studente non abbia ancora conseguito la laurea (studente laureando), l’adeguata preparazione si ritiene verificata se la media pesata del voto in trentesimi di tutte le materie sostenute risulta non inferiore a 24/30. Nel caso in cui i requisiti di cui sopra non siano verificati, lo studente potrà essere ammesso a seguito di una valutazione positiva effettuata mediante colloquio. Tale colloquio, volto ad accertare il livello di personale preparazione, verrà svolto da un’apposita Commissione. Per quanto riguarda la lingua inglese , nel caso in cui la Laurea di primo livello non preveda il livello B2 come livello di uscita e il candidato non disponga di un formale attestato di conoscenza pari almeno a tale livello o equivalente, il candidato dovrà sottoporsi ad un test/colloquio, volto ad accertare il proprio livello. Si ricorda che la Laurea in Scienze della Comunicazione per i Media e le istituzioni e la Laurea in Scienze della Comunicazione per le Culture e le arti prevedono entrambe un livello di inglese in uscita equivalente al B2.","l'adeguatezza della personale preparazione si ritiene automaticamente verificata nel caso il titolo di primo livello sia incluso fra quelli che consentono l'accesso diretto e sia stato conseguito con una votazione finale maggiore o uguale a 90/110. nel caso in cui lo studente non abbia ancora conseguito la laurea (studente laureando), l’adeguata preparazione si ritiene verificata se la media pesata del voto in trentesimi di tutte le materie sostenute risulta non inferiore a 24/30. nel caso in cui i requisiti di cui sopra non siano verificati, lo studente potra essere ammesso a seguito di una valutazione positiva effettuata mediante colloquio. tale colloquio, volto ad accertare il livello di personale preparazione, verra svolto da un’apposita commissione. per quanto riguarda la lingua inglese , nel caso in cui la laurea di primo livello non preveda il livello b2 come livello di uscita e il candidato non disponga di un formale attestato di conoscenza pari almeno a tale livello o equivalente, il candidato dovra sottoporsi ad un test/colloquio, volto ad accertare il proprio livello. si ricorda che la laurea in scienze della comunicazione per i media e le istituzioni e la laurea in scienze della comunicazione per le culture e le arti prevedono entrambe un livello di inglese in uscita equivalente al b2.",,historical LM-92 pilot fragment
+SF0392,SD0104,paragraph,16,"Per informazioni è possibile contattare la referrente amministrativa, dott.ssa Giovanna Cancascì.","per informazioni e possibile contattare la referrente amministrativa, dott.ssa giovanna cancasci.",,historical LM-92 pilot fragment
+SF0393,SD0104,paragraph,17,La Commissione per l'ammissione ai Corsi di Laurea Magistrale in Comunicazione è composta da:,la commissione per l'ammissione ai corsi di laurea magistrale in comunicazione e composta da:,,historical LM-92 pilot fragment
+SF0394,SD0104,paragraph,18,"La Commissione si riunirà presso il Dipartimento Culture e Società, viale delle Scienze ed. 15, stanza 303, terzo piano, nelle seguenti date:","la commissione si riunira presso il dipartimento culture e societa, viale delle scienze ed. 15, stanza 303, terzo piano, nelle seguenti date:",,historical LM-92 pilot fragment
+SF0395,SD0104,paragraph,19,Accertamento del possesso del requisito linguistico (Inglese di livello B2),accertamento del possesso del requisito linguistico (inglese di livello b2),,historical LM-92 pilot fragment
+SF0396,SD0104,paragraph,20,"Coloro che sono in possesso di una Laurea che NON prevede un livello di inglese B2 o che non hanno una certificazione di tal genere, potranno sostenere una prova per accertare le proprie competenze linguistiche sia on line, attraverso il Centro Linguistico di Ateneo, sia in presenza con la Commissione.","coloro che sono in possesso di una laurea che non prevede un livello di inglese b2 o che non hanno una certificazione di tal genere, potranno sostenere una prova per accertare le proprie competenze linguistiche sia on line, attraverso il centro linguistico di ateneo, sia in presenza con la commissione.",,historical LM-92 pilot fragment
+SF0397,SD0105,title,1,"Corso di laurea magistrale in Comunicazione pubblicitaria, storytelling e cultura d'immagine (ComPSI)","corso di laurea magistrale in comunicazione pubblicitaria, storytelling e cultura d'immagine (compsi)",,historical LM-92 pilot fragment
+SF0398,SD0105,heading,2,Accedi a,accedi a,,historical LM-92 pilot fragment
+SF0399,SD0105,heading,3,Cerca,cerca,,historical LM-92 pilot fragment
+SF0400,SD0105,heading,4,Briciole di pane,briciole di pane,,historical LM-92 pilot fragment
+SF0401,SD0105,heading,5,Informazioni sul corso,informazioni sul corso,,historical LM-92 pilot fragment
+SF0402,SD0105,heading,6,Requisiti curriculari,requisiti curriculari,,historical LM-92 pilot fragment
+SF0403,SD0105,heading,7,Vuoi altre informazioni sui corsi?,vuoi altre informazioni sui corsi?,,historical LM-92 pilot fragment
+SF0404,SD0105,heading,8,Avvisi,avvisi,,historical LM-92 pilot fragment
+SF0405,SD0105,heading,9,Hai dubbi su che corso scegliere?,hai dubbi su che corso scegliere?,,historical LM-92 pilot fragment
+SF0406,SD0105,heading,10,Vuoi condividere questo contenuto?,vuoi condividere questo contenuto?,,historical LM-92 pilot fragment
+SF0407,SD0105,heading,11,Footer menu,footer menu,,historical LM-92 pilot fragment
+SF0408,SD0105,heading,12,Trasparenza,trasparenza,,historical LM-92 pilot fragment
+SF0409,SD0106,title,1,COMUNICAZIONE DIGITALE PER LA CULTURA - A.A. 2025/2026 - LAUREA MAGISTRALE,comunicazione digitale per la cultura - a.a. 2025/2026 - laurea magistrale,,historical LM-92 pilot fragment
+SF0410,SD0106,heading,2,Sportello online,sportello online,,historical LM-92 pilot fragment
+SF0411,SD0106,heading,3,Sportello in presenza,sportello in presenza,,historical LM-92 pilot fragment
+SF0412,SD0106,heading,4,Starting point,starting point,,historical LM-92 pilot fragment
+SF0413,SD0106,heading,5,Sportello Telefonico — da luglio a ottobre,sportello telefonico — da luglio a ottobre,,historical LM-92 pilot fragment
+SF0414,SD0106,heading,6,Sportello Telefonico — da novembre a giugno,sportello telefonico — da novembre a giugno,,historical LM-92 pilot fragment
+SF0415,SD0106,heading,7,Periodo di chiusura sportello,periodo di chiusura sportello,,historical LM-92 pilot fragment
+SF0416,SD0106,heading,8,Privacy,privacy,,historical LM-92 pilot fragment
+SF0417,SD0106,heading,9,Accesso ai servizi,accesso ai servizi,,historical LM-92 pilot fragment
+SF0418,SD0106,heading,10,in Corsi di Studio:,in corsi di studio:,,historical LM-92 pilot fragment
+SF0419,SD0106,heading,11,in Futuri studenti:,in futuri studenti:,,historical LM-92 pilot fragment
+SF0420,SD0106,heading,12,Comunicazione Digitale per la Cultura,comunicazione digitale per la cultura,,historical LM-92 pilot fragment
+SF0421,SD0107,title,1,"Culture, linguaggi e strategie per la comunicazione nell'era digitale","culture, linguaggi e strategie per la comunicazione nell'era digitale",,historical LM-92 pilot fragment
+SF0422,SD0107,heading,2,Login,login,,historical LM-92 pilot fragment
+SF0423,SD0107,heading,3,Login,login,,historical LM-92 pilot fragment
+SF0424,SD0107,heading,4,Menu secondario,menu secondario,,historical LM-92 pilot fragment
+SF0425,SD0107,heading,5,"Culture, linguaggi e strategie per la comunicazione nell’era digitale","culture, linguaggi e strategie per la comunicazione nell’era digitale",,historical LM-92 pilot fragment
+SF0426,SD0107,heading,6,Conoscenze richieste per l’accesso,conoscenze richieste per l’accesso,,historical LM-92 pilot fragment
+SF0427,SD0107,heading,7,Sbocchi professionali,sbocchi professionali,,historical LM-92 pilot fragment
+SF0428,SD0107,heading,8,"Corso di Laurea Magistrale in Culture, linguaggi e strategie per la comunicazione nell'era digitale","corso di laurea magistrale in culture, linguaggi e strategie per la comunicazione nell'era digitale",,historical LM-92 pilot fragment
+SF0429,SD0107,heading,9,Documenti di supporto all’attivazione del CdLM,documenti di supporto all’attivazione del cdlm,,historical LM-92 pilot fragment
+SF0430,SD0107,heading,10,Tutor tecnico e di Corso di Studi,tutor tecnico e di corso di studi,,historical LM-92 pilot fragment
+SF0431,SD0107,paragraph,11,"Se sei uno studente clicca sul pulsante ""STUDENTE"" altrimenti clicca sul pulsante ""ALTRO""","se sei uno studente clicca sul pulsante ""studente"" altrimenti clicca sul pulsante ""altro""",,historical LM-92 pilot fragment
+SF0432,SD0107,paragraph,12,"Corso Vittorio Emanuele II, 39 - Roma 0687940271","corso vittorio emanuele ii, 39 - roma 0687940271",,historical LM-92 pilot fragment
+SF0433,SD0107,paragraph,13,"Se sei uno studente clicca sul pulsante ""STUDENTE"" altrimenti clicca sul pulsante ""ALTRO""","se sei uno studente clicca sul pulsante ""studente"" altrimenti clicca sul pulsante ""altro""",,historical LM-92 pilot fragment
+SF0434,SD0107,paragraph,14,"Il corso di laurea magistrale in Culture, linguaggi e strategie per la comunicazione nell'era digitale offre un approccio interdisciplinare alla comunicazione, combinando elementi di teoria sociale, linguistica e dei media, insieme al marketing digitale, per formare professionisti altamente qualificati. L'obiettivo principale del corso è sviluppare competenze avanzate per la gestione della comunicazione in contesti pubblici e privati, integrando aspetti strategici, sociali, linguistico-semiotici e tecnologici. L'impianto generale attinge dunque a discipline dell'area umanistica e dell'area sociologica e massmediologica, estendendo il progetto formativo in un’ottica interdisciplinare e di integrazione reciproca del sapere.","il corso di laurea magistrale in culture, linguaggi e strategie per la comunicazione nell'era digitale offre un approccio interdisciplinare alla comunicazione, combinando elementi di teoria sociale, linguistica e dei media, insieme al marketing digitale, per formare professionisti altamente qualificati. l'obiettivo principale del corso e sviluppare competenze avanzate per la gestione della comunicazione in contesti pubblici e privati, integrando aspetti strategici, sociali, linguistico-semiotici e tecnologici. l'impianto generale attinge dunque a discipline dell'area umanistica e dell'area sociologica e massmediologica, estendendo il progetto formativo in un’ottica interdisciplinare e di integrazione reciproca del sapere.",,historical LM-92 pilot fragment
+SF0435,SD0107,paragraph,15,"Il percorso formativo è dunque volto a creare una commistione tra settori disciplinari che sono coinvolti nel costante cambiamento dei processi sociali e comunicativi nell’attuale contesto contemporaneo sempre più caratterizzato dalla svolta digitale. Per questo motivo, il CdS si concentra sull'analisi dei fenomeni legati alla comunicazione di aziende, brand, istituzioni e organizzazioni, ma permette altresì agli studenti di acquisire competenze per comprendere e utilizzare le interdipendenze tra le principali istituzioni dei processi di modernizzazione, con particolare attenzione alle nuove sfide digitali, alla customer e user experience , e una conoscenza approfondita dei linguaggi e dei sistemi semiotici che sono più rilevanti per il mondo della comunicazione digitale contemporanea e per l'attuale industria culturale.","il percorso formativo e dunque volto a creare una commistione tra settori disciplinari che sono coinvolti nel costante cambiamento dei processi sociali e comunicativi nell’attuale contesto contemporaneo sempre piu caratterizzato dalla svolta digitale. per questo motivo, il cds si concentra sull'analisi dei fenomeni legati alla comunicazione di aziende, brand, istituzioni e organizzazioni, ma permette altresi agli studenti di acquisire competenze per comprendere e utilizzare le interdipendenze tra le principali istituzioni dei processi di modernizzazione, con particolare attenzione alle nuove sfide digitali, alla customer e user experience , e una conoscenza approfondita dei linguaggi e dei sistemi semiotici che sono piu rilevanti per il mondo della comunicazione digitale contemporanea e per l'attuale industria culturale.",,historical LM-92 pilot fragment
+SF0436,SD0107,paragraph,16,"Il corso di Laurea magistrale in Culture, linguaggi e strategie per la comunicazione nell’era digitale mira a fornire strumenti solidi per inserire i futuri laureati in un quadro di alta professionalità nel campo della comunicazione e a formare esperti in grado di pensare la comunicazione da un punto di vista strategico, saper leggere e interpretare i contesti sociali contemporanei e diagnosticare la comunicazione come problema e risorsa.","il corso di laurea magistrale in culture, linguaggi e strategie per la comunicazione nell’era digitale mira a fornire strumenti solidi per inserire i futuri laureati in un quadro di alta professionalita nel campo della comunicazione e a formare esperti in grado di pensare la comunicazione da un punto di vista strategico, saper leggere e interpretare i contesti sociali contemporanei e diagnosticare la comunicazione come problema e risorsa.",,historical LM-92 pilot fragment
+SF0437,SD0107,paragraph,17,"Per essere ammessi al corso di laurea magistrale in Culture, linguaggi e strategie per la comunicazione nell'era digitale occorre essere in possesso di una laurea o del diploma universitario di durata triennale, ovvero di altro titolo di studio conseguito all'estero, riconosciuto idoneo. Sono richiesti i seguenti requisiti curriculari:","per essere ammessi al corso di laurea magistrale in culture, linguaggi e strategie per la comunicazione nell'era digitale occorre essere in possesso di una laurea o del diploma universitario di durata triennale, ovvero di altro titolo di studio conseguito all'estero, riconosciuto idoneo. sono richiesti i seguenti requisiti curriculari:",,historical LM-92 pilot fragment
+SF0438,SD0107,paragraph,18,"Avere conseguito la Laurea in una delle seguenti classi : Beni Culturali (L-1); Discipline delle arti figurative, della musica, dello spettacolo e della moda (L-3); Filosofia (L-5); Ingegneria dell’Informazione (L-8); Lettere (L-10); Lingue e culture Moderne (L-11); Mediazione linguistica (L-12); Scienze del turismo (L-15); Scienze della Comunicazione (L-20); Scienze e tecniche psicologiche (L-24); Scienze e tecnologie informatiche (L‐31); Scienze economiche (L-33); Sociologia (L-40).","avere conseguito la laurea in una delle seguenti classi : beni culturali (l-1); discipline delle arti figurative, della musica, dello spettacolo e della moda (l-3); filosofia (l-5); ingegneria dell’informazione (l-8); lettere (l-10); lingue e culture moderne (l-11); mediazione linguistica (l-12); scienze del turismo (l-15); scienze della comunicazione (l-20); scienze e tecniche psicologiche (l-24); scienze e tecnologie informatiche (l‐31); scienze economiche (l-33); sociologia (l-40).",,historical LM-92 pilot fragment
+SF0439,SD0107,paragraph,19,"Nel caso in cui il candidato abbia conseguito la laurea in una classe diversa, è richiesto il possesso di almeno 48 CFU nei seguenti Settori Scientifico Disciplinari : INF/01 Informatica - ING-INF/05 - Sistemi di elaborazione delle informazioni; L-ART/04 Museologia e Critica artistica e del restauro; L-ART/05 Discipline dello spettacolo; L-ART/06 Cinema, fotografia e televisione; L-ART/07 Musicologia e storia della musica; L-LIN/01 Glottologia e linguistica; L-LIN/12 - Lingua e traduzione - lingua inglese; M-FIL/04 Estetica; M-FIL/05 Filosofia e teoria dei linguaggi; M-PSI/01 - Psicologia generale; M-PSI/05 - Psicologia sociale; M-STO/04 Storia contemporanea; SPS/07 - Sociologia generale; SPS/08 - Sociologia dei processi culturali e comunicativi; SPS/09 - Sociologia dei processi economici e del lavoro.","nel caso in cui il candidato abbia conseguito la laurea in una classe diversa, e richiesto il possesso di almeno 48 cfu nei seguenti settori scientifico disciplinari : inf/01 informatica - ing-inf/05 - sistemi di elaborazione delle informazioni; l-art/04 museologia e critica artistica e del restauro; l-art/05 discipline dello spettacolo; l-art/06 cinema, fotografia e televisione; l-art/07 musicologia e storia della musica; l-lin/01 glottologia e linguistica; l-lin/12 - lingua e traduzione - lingua inglese; m-fil/04 estetica; m-fil/05 filosofia e teoria dei linguaggi; m-psi/01 - psicologia generale; m-psi/05 - psicologia sociale; m-sto/04 storia contemporanea; sps/07 - sociologia generale; sps/08 - sociologia dei processi culturali e comunicativi; sps/09 - sociologia dei processi economici e del lavoro.",,historical LM-92 pilot fragment
+SF0440,SD0107,paragraph,20,Le conoscenze linguistiche risultano funzionali alla comprensione dei contenuti tecnico-specialistici del CdS. Per questo motivo sono richiesti: Almeno 6 CFU nel settore L-LIN/12 lingua e traduzione - lingua inglese o corrispondente attestato di conoscenza della lingua inglese di livello B1.,le conoscenze linguistiche risultano funzionali alla comprensione dei contenuti tecnico-specialistici del cds. per questo motivo sono richiesti: almeno 6 cfu nel settore l-lin/12 lingua e traduzione - lingua inglese o corrispondente attestato di conoscenza della lingua inglese di livello b1.,,historical LM-92 pilot fragment
+SF0441,SD0108,title,1,LINGUAGGI DELLA COMUNICAZIONE E DELLO SPETTACOLO - Corsi di Laurea,linguaggi della comunicazione e dello spettacolo - corsi di laurea,,historical LM-92 pilot fragment
+SF0442,SD0108,heading,2,Gestione del consenso sui cookie,gestione del consenso sui cookie,,historical LM-92 pilot fragment
+SF0443,SD0108,paragraph,3,[[ cds.CourseTypeDescription ]] interclasse - [[ joint.name ]] in,[[ cds.coursetypedescription ]] interclasse - [[ joint.name ]] in,,historical LM-92 pilot fragment
+SF0444,SD0108,paragraph,4,[[ cds.CdSName ]],[[ cds.cdsname ]],,historical LM-92 pilot fragment
+SF0445,SD0108,paragraph,5,[[ cds.CourseClassCod ]] /[[ cds.CourseInterClassCod ]] / Cod. [[ cds.CdSCod ]],[[ cds.courseclasscod ]] /[[ cds.courseinterclasscod ]] / cod. [[ cds.cdscod ]],,historical LM-92 pilot fragment
+SF0446,SD0108,paragraph,6,[[ fixed_cds.CourseTypeDescription ]] interclasse - [[ joint.name ]] in,[[ fixed_cds.coursetypedescription ]] interclasse - [[ joint.name ]] in,,historical LM-92 pilot fragment
+SF0447,SD0108,paragraph,7,[[ fixed_cds.CdSName ]],[[ fixed_cds.cdsname ]],,historical LM-92 pilot fragment
+SF0448,SD0108,paragraph,8,[[ fixed_cds.CourseClassCod ]] /[[ fixed_cds.CourseInterClassCod ]] / Cod. [[ fixed_cds.CdSCod ]],[[ fixed_cds.courseclasscod ]] /[[ fixed_cds.courseinterclasscod ]] / cod. [[ fixed_cds.cdscod ]],,historical LM-92 pilot fragment
+SF0449,SD0108,paragraph,9,[[ slide.SliderDescription ]],[[ slide.sliderdescription ]],,historical LM-92 pilot fragment
+SF0450,SD0108,paragraph,10,Il corso in sintesi,il corso in sintesi,,historical LM-92 pilot fragment
+SF0451,SD0108,paragraph,11,[[ slide.SliderDescription ]],[[ slide.sliderdescription ]],,historical LM-92 pilot fragment
+SF0452,SD0108,paragraph,12,Il corso in sintesi,il corso in sintesi,,historical LM-92 pilot fragment
+SF0453,SD0108,paragraph,13,[[ CdsName ]],[[ cdsname ]],,historical LM-92 pilot fragment
+SF0454,SD0108,paragraph,14,Il corso in sintesi,il corso in sintesi,,historical LM-92 pilot fragment
+SF0455,SD0108,paragraph,15,[[ CdsName ]],[[ cdsname ]],,historical LM-92 pilot fragment
+SF0456,SD0108,paragraph,16,Il corso in sintesi,il corso in sintesi,,historical LM-92 pilot fragment
+SF0457,SD0108,paragraph,17,Vai a tutte le notizie,vai a tutte le notizie,,historical LM-92 pilot fragment
+SF0458,SD0108,paragraph,18,per accedere alla versione precedente del sito,per accedere alla versione precedente del sito,,historical LM-92 pilot fragment
+SF0459,SD0108,paragraph,19,Vai a tutti gli avvisi,vai a tutti gli avvisi,,historical LM-92 pilot fragment
+SF0460,SD0108,paragraph,20,Via Pietro Bucci 87036 Rende CS Posta certificata C.F. 80003950781 / P.I. 00419160783,via pietro bucci 87036 rende cs posta certificata c.f. 80003950781 / p.i. 00419160783,,historical LM-92 pilot fragment
+SF0461,SD0109,title,1,Corsi di Studio | Unina.it,corsi di studio | unina.it,,historical LM-92 pilot fragment
+SF0462,SD0110,title,1,Valorizzazione del Patrimonio Culturale Materiale e Immateriale | UniBG,valorizzazione del patrimonio culturale materiale e immateriale | unibg,,historical LM-92 pilot fragment
+SF0463,SD0110,heading,2,Menu top,menu top,,historical LM-92 pilot fragment
+SF0464,SD0110,heading,3,Form di ricerca,form di ricerca,,historical LM-92 pilot fragment
+SF0465,SD0110,heading,4,Form di ricerca,form di ricerca,,historical LM-92 pilot fragment
+SF0466,SD0110,heading,5,Scegliere,scegliere,,historical LM-92 pilot fragment
+SF0467,SD0110,paragraph,6,"Il corso di laurea magistrale in Valorizzazione del patrimonio culturale materiale e immateriale (classi LM5-LM92), attraverso un approccio innovativo alla didattica, forma figure professionali specializzate nella valorizzazione dell’intera gamma dei beni culturali, dalla loro analisi scientifica alla loro comunicazione al pubblico attraverso le tecnologie digitali, con una speciale attenzione per il settore dei beni archivistici e librari, come elemento cardine della memoria delle comunità e punto d’accesso alla conoscenza del patrimonio culturale materiale e immateriale.","il corso di laurea magistrale in valorizzazione del patrimonio culturale materiale e immateriale (classi lm5-lm92), attraverso un approccio innovativo alla didattica, forma figure professionali specializzate nella valorizzazione dell’intera gamma dei beni culturali, dalla loro analisi scientifica alla loro comunicazione al pubblico attraverso le tecnologie digitali, con una speciale attenzione per il settore dei beni archivistici e librari, come elemento cardine della memoria delle comunita e punto d’accesso alla conoscenza del patrimonio culturale materiale e immateriale.",,historical LM-92 pilot fragment
+SF0468,SD0110,paragraph,7,"Ascolta la presentazione del Corso in ""Un corso di laurea, cinque parole chiave, 50 secondi"" (a cura di UniBg OnAir )","ascolta la presentazione del corso in ""un corso di laurea, cinque parole chiave, 50 secondi"" (a cura di unibg onair )",,historical LM-92 pilot fragment
+SF0469,SD0110,paragraph,8,"Presidente del corso: prof.ssa Cecilia Nobili Referente per l'orientamento: prof. Federico Zoni Corso di laurea magistrale : Valorizzazione del patrimonio culturale materiale e immateriale Classi di laurea : LM5-LM92, Archivistica e biblioteconomia - Teoria della comunicazione Crediti : 120","presidente del corso: prof.ssa cecilia nobili referente per l'orientamento: prof. federico zoni corso di laurea magistrale : valorizzazione del patrimonio culturale materiale e immateriale classi di laurea : lm5-lm92, archivistica e biblioteconomia - teoria della comunicazione crediti : 120",,historical LM-92 pilot fragment
+SF0470,SD0110,paragraph,9,Non sono presenti news e appuntamenti,non sono presenti news e appuntamenti,,historical LM-92 pilot fragment
+SF0471,SD0110,paragraph,10,Non ci sono avvisi per il corso di laurea.,non ci sono avvisi per il corso di laurea.,,historical LM-92 pilot fragment
+SF0472,SD0110,list_item,11,Il corso Scegliere Piano di studio Requisiti di accesso Obiettivi e figure professionali Partner del corso Statistiche del corso Organizzazione e Assicurazione Qualità,il corso scegliere piano di studio requisiti di accesso obiettivi e figure professionali partner del corso statistiche del corso organizzazione e assicurazione qualita,,historical LM-92 pilot fragment
+SF0473,SD0110,list_item,12,Scegliere Piano di studio Requisiti di accesso Obiettivi e figure professionali Partner del corso Statistiche del corso Organizzazione e Assicurazione Qualità,scegliere piano di studio requisiti di accesso obiettivi e figure professionali partner del corso statistiche del corso organizzazione e assicurazione qualita,,historical LM-92 pilot fragment
+SF0474,SD0110,list_item,13,Scegliere,scegliere,,historical LM-92 pilot fragment
+SF0475,SD0110,list_item,14,Piano di studio,piano di studio,,historical LM-92 pilot fragment
+SF0476,SD0110,list_item,15,Requisiti di accesso,requisiti di accesso,,historical LM-92 pilot fragment
+SF0477,SD0110,list_item,16,Obiettivi e figure professionali,obiettivi e figure professionali,,historical LM-92 pilot fragment
+SF0478,SD0110,list_item,17,Partner del corso,partner del corso,,historical LM-92 pilot fragment
+SF0479,SD0110,list_item,18,Statistiche del corso,statistiche del corso,,historical LM-92 pilot fragment
+SF0480,SD0110,list_item,19,Organizzazione e Assicurazione Qualità,organizzazione e assicurazione qualita,,historical LM-92 pilot fragment
+SF0481,SD0110,list_item,20,Studiare Insegnamenti attivi Docenti Calendario didattico e appelli Orario lezioni Riconoscimento certificazioni Project work Laboratori Tirocinio,studiare insegnamenti attivi docenti calendario didattico e appelli orario lezioni riconoscimento certificazioni project work laboratori tirocinio,,historical LM-92 pilot fragment
+SF0482,SD0110,list_item,21,Insegnamenti attivi Docenti Calendario didattico e appelli Orario lezioni Riconoscimento certificazioni Project work Laboratori Tirocinio,insegnamenti attivi docenti calendario didattico e appelli orario lezioni riconoscimento certificazioni project work laboratori tirocinio,,historical LM-92 pilot fragment
+SF0483,SD0110,list_item,22,Insegnamenti attivi,insegnamenti attivi,,historical LM-92 pilot fragment
+SF0484,SD0110,list_item,23,Docenti,docenti,,historical LM-92 pilot fragment
+SF0485,SD0110,list_item,24,Calendario didattico e appelli,calendario didattico e appelli,,historical LM-92 pilot fragment

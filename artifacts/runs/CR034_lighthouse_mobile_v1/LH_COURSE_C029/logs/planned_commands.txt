@@ -1,0 +1,2 @@
+npx --yes @lhci/cli@0.15.1 collect --numberOfRuns=3 --url=https://www.uniurb.it/corsi/1757256
+npx --yes @lhci/cli@0.15.1 upload --target=filesystem --outputDir=../lhci_filesystem

@@ -1,0 +1,26 @@
+HTTP/2 302 
+strict-transport-security: max-age=15768000
+content-security-policy: frame-ancestors 'self' https://*.unige.it
+location: https://corsi.unige.it/corsi/11945
+content-length: 218
+content-type: text/html; charset=iso-8859-1
+date: Fri, 03 Apr 2026 15:16:53 GMT
+server: Apache
+
+HTTP/2 200 
+strict-transport-security: max-age=15768000
+content-security-policy: frame-ancestors 'self' https://*.unige.it
+date: Fri, 03 Apr 2026 15:16:56 GMT
+server: Apache
+x-drupal-dynamic-cache: UNCACHEABLE (poor cacheability)
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+x-generator: Drupal 10 (https://www.drupal.org)
+x-drupal-cache: UNCACHEABLE (response policy)
+vary: Accept-Encoding
+x-unige-host: web-drupal9-pot generazione D=2783337, epoch t=1775229414024189
+content-type: text/html; charset=UTF-8
+x-cache: MISS from corsi.unige.it
+x-cache-detail: "cache miss: attempting entity save" from corsi.unige.it
+

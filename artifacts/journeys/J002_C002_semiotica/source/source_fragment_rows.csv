@@ -1,0 +1,8 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0001,SD0001,title,1,Università di Bologna,università di bologna,//title,raw snapshot title
+SF0002,SD0001,meta_description,2,"L'Alma Mater Studiorum è la prima università del mondo occidentale e oggi promuove la strada dell'innovazione offrendo un'ampia offerta formativa, corsi di laurea internazionali e post laurea.","l'alma mater studiorum è la prima università del mondo occidentale e oggi promuove la strada dell'innovazione offrendo un'ampia offerta formativa, corsi di laurea internazionali e post laurea.",//meta[@name='description'],raw snapshot meta description
+SF0003,SD0001,h1,3,Home page,home page,//h1[1],raw snapshot first h1
+SF0004,SD0002,title,1,Studiare — Università di Bologna,studiare università di bologna,//title,raw snapshot title
+SF0005,SD0002,h1,2,Studiare,studiare,//h1[1],raw snapshot first h1
+SF0009,SD0004,title,1,Semiotica — Università di Bologna,semiotica università di bologna,//title,raw snapshot title
+SF0010,SD0004,h1,2,Laurea Magistrale in Semiotica,laurea magistrale in semiotica,//h1[1],raw snapshot first h1

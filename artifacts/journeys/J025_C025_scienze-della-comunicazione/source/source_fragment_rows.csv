@@ -1,0 +1,7 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0103,SD0051,title,1,Università degli Studi di Palermo,università degli studi di palermo,//title,raw snapshot title
+SF0104,SD0051,meta_description,2,"L'Università degli Studi di Palermo, fondata nel 1806, con i suoi oltre 40000 iscritti è uno degli 11 mega Atenei italiani. La sua offerta formativa comprende più di 130 corsi di studio, tra lauree triennali, magistrali e magistrali a ciclo unico","l'università degli studi di palermo, fondata nel 1806, con i suoi oltre 40000 iscritti è uno degli 11 mega atenei italiani. la sua offerta formativa comprende più di 130 corsi di studio, tra lauree triennali, magistrali e magistrali a ciclo unico",//meta[@name='description'],raw snapshot meta description
+SF0106,SD0053,title,1,2447 - SCIENZE DELLA COMUNICAZIONE | Università degli Studi di Palermo,2447 - scienze della comunicazione università degli studi di palermo,//title,raw snapshot title
+SF0107,SD0053,meta_description,2,2447 - SCIENZE DELLA COMUNICAZIONE,2447 - scienze della comunicazione,//meta[@name='description'],raw snapshot meta description
+SF0121,SD0060,title,1,Offerta Formativa | Didattica | Università degli Studi di Palermo,offerta formativa didattica università degli studi di palermo,//title,raw snapshot title
+SF0122,SD0060,meta_description,2,Offerta Formativa,offerta formativa,//meta[@name='description'],raw snapshot meta description

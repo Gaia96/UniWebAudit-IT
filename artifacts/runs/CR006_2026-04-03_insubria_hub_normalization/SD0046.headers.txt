@@ -1,0 +1,23 @@
+HTTP/2 200 
+date: Fri, 03 Apr 2026 15:25:20 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: UNCACHEABLE
+link: <https://www.uninsubria.it/formazione/la-nostra-didattica>; rel="canonical", <https://www.uninsubria.it/node/1886>; rel="shortlink"
+x-ua-compatible: IE=edge
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+vary: Cookie,Accept-Encoding
+expires: Fri, 03 Apr 2026 19:25:20 GMT
+x-drupal-cache: MISS
+last-modified: Fri, 03 Apr 2026 15:22:45 GMT
+cf-cache-status: HIT
+x-varnish: 13110983
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=hrSlJ.yQ7RAPqIzQVhwhrPPHiknEVjBHbHDmCSTwQJ0-1775229920.595692-1.0.1.1-DJK03dhVb4pOE8XtgC9wmrZQk8Kd_wS_54OmMMwtNgK.YAUklcXnhvh8MTEe28PY.XjjYFk7SQJFmtjeQdKHEnqohCjmNibfnX4VPqAfJJPpC3lqWNsU9bFDhMaTDLQo; HttpOnly; Secure; Path=/; Domain=www.uninsubria.it; Expires=Fri, 03 Apr 2026 15:55:20 GMT
+cf-ray: 9e6915dbbcd4ea62-FCO
+

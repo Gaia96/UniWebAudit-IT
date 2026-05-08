@@ -1,0 +1,8 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0134,SD0065,title,1,International Telematic University UNINETTUNO: Online Degree,international telematic university uninettuno: online degree,//title,raw snapshot title
+SF0135,SD0065,meta_description,2,L'unica Università Telematica Italiana valutata positivamente e senza riserve dal CNVSU.,l'unica università telematica italiana valutata positivamente e senza riserve dal cnvsu.,//meta[@name='description'],raw snapshot meta description
+SF0136,SD0066,title,1,Laurea in Scienze della Comunicazione On Line: la Facoltà Telematica,laurea in scienze della comunicazione on line: la facoltà telematica,//title,raw snapshot title
+SF0137,SD0066,meta_description,2,Trova nella Facoltà di Scienze della Comunicazione online di Uninettuno la tua laurea in scienze della comunicazione telematica e i corsi a distanza.,trova nella facoltà di scienze della comunicazione online di uninettuno la tua laurea in scienze della comunicazione telematica e i corsi a distanza.,//meta[@name='description'],raw snapshot meta description
+SF0138,SD0066,h1,3,Facoltà di Scienze della Comunicazione online Uninettuno,facoltà di scienze della comunicazione online uninettuno,//h1[1],raw snapshot first h1
+SF0142,SD0068,title,1,"Culture, linguaggi e strategie per la comunicazione nell'era digitale","culture, linguaggi e strategie per la comunicazione nell'era digitale",//title,raw snapshot title
+SF0143,SD0068,meta_description,2,L'unica Università Telematica Italiana valutata positivamente e senza riserve dal CNVSU.,l'unica università telematica italiana valutata positivamente e senza riserve dal cnvsu.,//meta[@name='description'],raw snapshot meta description

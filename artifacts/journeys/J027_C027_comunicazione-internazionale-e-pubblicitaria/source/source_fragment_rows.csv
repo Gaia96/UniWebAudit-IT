@@ -1,0 +1,8 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0110,SD0055,title,1,Università per Stranieri di Perugia | Ambasciatrice dell'Italia nel mondo,università per stranieri di perugia ambasciatrice dell'italia nel mondo,//title,raw snapshot title
+SF0111,SD0055,meta_description,2,"L'Università per Stranieri di Perugia è la più antica e prestigiosa istituzione italiana impegnata nell'attività di insegnamento, ricerca e diffusione della lingua e della civiltà d'Italia in tutte le loro espressioni. Oltre ai Corsi di Lingua e Cultura Italiana sono attivi presso l'Ateneo Corsi di Laurea, Laurea Magistrale e Master.","l'università per stranieri di perugia è la più antica e prestigiosa istituzione italiana impegnata nell'attività di insegnamento, ricerca e diffusione della lingua e della civiltà d'italia in tutte le loro espressioni. oltre ai corsi di lingua e cultura italiana sono attivi presso l'ateneo corsi di laurea, laurea magistrale e master.",//meta[@name='description'],raw snapshot meta description
+SF0112,SD0055,h1,3,Università per Stranieri di Perugia,università per stranieri di perugia,//h1[1],raw snapshot first h1
+SF0113,SD0056,title,1,Offerta formativa,offerta formativa,//title,raw snapshot title
+SF0114,SD0056,h1,2,Offerta formativa,offerta formativa,//h1[1],raw snapshot first h1
+SF0115,SD0057,title,1,Corso di laurea in Comunicazione internazionale e pubblicitaria (ComIP),corso di laurea in comunicazione internazionale e pubblicitaria (comip),//title,raw snapshot title
+SF0116,SD0057,h1,2,Corso di laurea in Comunicazione internazionale e pubblicitaria (ComIP),corso di laurea in comunicazione internazionale e pubblicitaria (comip),//h1[1],raw snapshot first h1

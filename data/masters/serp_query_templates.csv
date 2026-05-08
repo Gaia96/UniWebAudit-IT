@@ -1,0 +1,4 @@
+query_template_id,query_type,use_in_paper,query_template,notes
+SQ01,exact,1,"""{course_name}"" ""{university_name}""",primary exact query for official course result
+SQ02,generic,1,"{course_name} {short_name}",primary generic query for course-level visibility
+SQ03,fallback_generic,0,"{course_name} {degree_type} {city}",fallback query for ambiguous course names

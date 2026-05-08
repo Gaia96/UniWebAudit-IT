@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C006",
+  "source_document_id": "SD0012",
+  "crawl_run_id": "CR002",
+  "university_id": "UNI03",
+  "sample_course_id": "C006",
+  "journey_id": "J006",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://www.unipi.it/didattica/corsi/lauree-triennali-ciclo-unico/comunicazione-media-tecnologie-wcm-lm",
+  "final_url": "https://www.unipi.it/didattica/corsi/lauree-magistrali/comunicazione-media-tecnologie-wcm-lm/",
+  "notes": "tranche2; final URL normalized from master seed to the lauree-magistrali path"
+}

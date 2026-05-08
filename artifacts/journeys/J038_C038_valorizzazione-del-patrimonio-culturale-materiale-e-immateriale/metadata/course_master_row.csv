@@ -1,0 +1,2 @@
+sample_course_id,university_id,university_name,course_name,degree_type,course_class,disciplinary_cluster,selection_role,selection_priority,course_page_url,url_origin,normalization_status,selection_rationale,notes
+C038,UNI19,Università degli Studi di Bergamo,Valorizzazione del patrimonio culturale materiale e immateriale,magistrale,LM-5/LM-92,communication_cultural_heritage,core_magistrale,core,https://ls-vpcm.unibg.it/it,pilot_lm92_seed,reviewed_interclass,pilot magistrale retained for definitive seed,interclass confirmed on official UniBg overview

@@ -1,0 +1,20 @@
+HTTP/2 200 
+date: Fri, 03 Apr 2026 14:56:51 GMT
+content-type: text/html; charset=utf-8
+server: Apache
+x-drupal-cache: HIT
+content-language: it
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+link: <https://scienze-comunicazione.unisi.it/it>; rel="canonical",<https://scienze-comunicazione.unisi.it/it>; rel="shortlink"
+cache-control: public, max-age=180
+vary: Cookie,Accept-Encoding
+x-content-type-options: nosniff
+last-modified: Fri, 03 Apr 2026 14:33:22 GMT
+x-varnish: 32081964
+age: 0
+etag: W/"1775226802-1"
+grace: none
+x-cache: MISS
+accept-ranges: bytes
+

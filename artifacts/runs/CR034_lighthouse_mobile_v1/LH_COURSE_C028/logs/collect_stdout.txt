@@ -1,0 +1,5 @@
+Running Lighthouse 3 time(s) on https://www.unistrapg.it/offerta-formativa/corsi-di-laurea-e-laurea-magistrale/corso-di-laurea-magistrale-comunicazione-pubblicitaria-storytelling-e-cultura-dimmagine-compsi
+Run #1...done.
+Run #2...done.
+Run #3...done.
+Done running Lighthouse!

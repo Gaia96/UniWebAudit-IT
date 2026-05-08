@@ -1,0 +1,19 @@
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+date: Wed, 22 Apr 2026 12:07:53 GMT
+link: <https://www.unipd.it/corsi-di-laurea>; rel="alternate"; hreflang="it", <https://www.unipd.it/en/corsi-di-laurea>; rel="alternate"; hreflang="en", <https://www.unipd.it/corsi-di-laurea>; rel="alternate"; hreflang="x-default"
+link: </_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/b4e85636e2ca4056-s.p.9ecc21d7.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2"
+x-frame-options: ALLOW-FROM https://www.unipd.it
+x-middleware-rewrite: /it/corsi-di-laurea
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-powered-by: Next.js
+cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+x-cache: Miss from cloudfront
+via: 1.1 709ab53068a9c1303a4f58a20d8744e6.cloudfront.net (CloudFront)
+x-amz-cf-pop: FCO50-P3
+x-amz-cf-id: tTWpR17wWREOlTom0dnq-HMnHFlVzDOHjBU97krb6iPU860NecH2Mw==
+x-xss-protection: 1; mode=block
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+

@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C012",
+  "source_document_id": "SD0025",
+  "crawl_run_id": "CR004",
+  "university_id": "UNI06",
+  "sample_course_id": "C012",
+  "journey_id": "J012",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://www.unito.it/didattica/offerta-formativa/corsi-di-studio/comunicazione-e-culture-dei-media",
+  "final_url": "https://www.unito.it/didattica/offerta-formativa/corsi-di-studio/comunicazione-e-culture-dei-media",
+  "notes": "tranche3; official ateneo course card"
+}

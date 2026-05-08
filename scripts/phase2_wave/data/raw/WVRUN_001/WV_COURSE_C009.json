@@ -1,0 +1,219 @@
+{
+  "status": {
+    "success": true,
+    "httpstatuscode": 200
+  },
+  "statistics": {
+    "pagetitle": "SCIENZE DELLA COMUNICAZIONE |",
+    "pageurl": "https://scienze-comunicazione.unisi.it/it",
+    "time": 5.33,
+    "creditsremaining": 257,
+    "AIMscore": 9.9,
+    "allitemcount": 41,
+    "totalelements": 562,
+    "waveurl": "http://wave.webaim.org/report?url=https://scienze-comunicazione.unisi.it/it"
+  },
+  "categories": {
+    "error": {
+      "description": "Errors",
+      "count": 0,
+      "items": []
+    },
+    "contrast": {
+      "description": "Contrast Errors",
+      "count": 0,
+      "items": []
+    },
+    "alert": {
+      "description": "Alerts",
+      "count": 5,
+      "items": {
+        "text_small": {
+          "id": "text_small",
+          "description": "Very small text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50 > TBODY:first-child > TR:first-child > TD:first-child + TD > DIV#gs_st50 > A:first-child > SPAN#gs_cb50"
+          ]
+        },
+        "table_layout": {
+          "id": "table_layout",
+          "description": "Layout table",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50 > TBODY:first-child > TR:first-child > TD#gs_tti50",
+            "HTML > HEAD:first-child + BODY > DIV:first-child + DIV + DIV + DIV + SCRIPT + SCRIPT + DIV + DIV + TABLE > TBODY:first-child > TR:first-child > TD:first-child"
+          ]
+        },
+        "youtube_video": {
+          "id": "youtube_video",
+          "description": "YouTube video",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > DIV#region-content > DIV:first-child > DIV#block-menu-block-7 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI > DIV#node-article-157 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#file-97--2 > H2:first-child + DIV > DIV:first-child > IFRAME:first-child"
+          ]
+        }
+      }
+    },
+    "feature": {
+      "description": "Features",
+      "count": 3,
+      "items": {
+        "alt": {
+          "id": "alt",
+          "description": "Alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first > DIV:first-child > DIV#block-block-1 > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child"
+          ]
+        },
+        "alt_link": {
+          "id": "alt_link",
+          "description": "Linked image with alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-branding-wrapper > DIV#zone-branding > DIV#region-postscript-fifth > DIV:first-child > DIV#block-delta-blocks-logo > DIV:first-child > DIV:first-child > DIV:first-child > A#logo > IMG:first-child"
+          ]
+        },
+        "lang": {
+          "id": "lang",
+          "description": "Language",
+          "count": 1,
+          "selectors": [
+            false
+          ]
+        }
+      }
+    },
+    "structure": {
+      "description": "Structural Elements",
+      "count": 23,
+      "items": {
+        "h1": {
+          "id": "h1",
+          "description": "Heading level 1",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-branding-wrapper > DIV#zone-branding > DIV#region-branding > DIV:first-child > DIV#block-delta-blocks-site-name > DIV:first-child > DIV:first-child > H1:first-child"
+          ]
+        },
+        "h2": {
+          "id": "h2",
+          "description": "Heading level 2",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > DIV#region-content > DIV:first-child > DIV#block-menu-block-7 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI > DIV#node-article-157 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#file-97--2 > H2:first-child"
+          ]
+        },
+        "ul": {
+          "id": "ul",
+          "description": "Unordered list",
+          "count": 15,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-menu-block-6 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-menu-block-6 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-menu-block-6 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-menu-block-6 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-menu-block-6 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-unisicdl-custom-header-config-language > DIV:first-child > DIV:first-child > UL#unisicdl-custom-header-config-block-language",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-nice-menus-1 > DIV:first-child > DIV:first-child > UL#nice-menu-1",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-nice-menus-1 > DIV:first-child > DIV:first-child > UL#nice-menu-1 > LI:first-child > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-nice-menus-1 > DIV:first-child > DIV:first-child > UL#nice-menu-1 > LI:first-child + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-nice-menus-1 > DIV:first-child > DIV:first-child > UL#nice-menu-1 > LI:first-child + LI + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-menu-wrapper > DIV#zone-menu > DIV#region-menu > DIV:first-child > DIV#block-nice-menus-1 > DIV:first-child > DIV:first-child > UL#nice-menu-1 > LI:first-child + LI + LI + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > DIV#region-content > DIV:first-child > DIV#block-menu-block-7 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-postscript-wrapper > DIV#zone-postscript > DIV#region-postscript-second > DIV:first-child > DIV#block-menu-block-1 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-postscript-wrapper > DIV#zone-postscript > DIV#region-postscript-third > DIV:first-child > DIV#block-menu-block-2 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-second > DIV:first-child > DIV#block-menu-block-3 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child"
+          ]
+        },
+        "iframe": {
+          "id": "iframe",
+          "description": "Inline frame",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > DIV#region-content > DIV:first-child > DIV#block-menu-block-7 > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child > LI:first-child + LI + LI > DIV#node-article-157 > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV#file-97--2 > H2:first-child + DIV > DIV:first-child > IFRAME:first-child"
+          ]
+        },
+        "header": {
+          "id": "header",
+          "description": "Header",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header"
+          ]
+        },
+        "nav": {
+          "id": "nav",
+          "description": "Navigation",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > SECTION#section-content > DIV#zone-content-wrapper > DIV#zone-content > DIV#region-content > DIV:first-child > DIV#block-system-main > DIV:first-child > DIV:first-child > ARTICLE#node-page-1 > SPAN:first-child + DIV + DIV > NAV:first-child"
+          ]
+        },
+        "footer": {
+          "id": "footer",
+          "description": "Footer",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer"
+          ]
+        },
+        "region": {
+          "id": "region",
+          "description": "Generic region",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#sliding-popup > DIV:first-child > DIV:first-child > DIV#popup-text > DIV:first-child > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#sliding-popup > DIV:first-child > DIV:first-child > DIV#popup-text > DIV:first-child > DIV:first-child + DIV"
+          ]
+        }
+      }
+    },
+    "aria": {
+      "description": "ARIA",
+      "count": 10,
+      "items": {
+        "aria": {
+          "id": "aria",
+          "description": "ARIA",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50",
+            "HTML > HEAD:first-child + BODY > DIV:first-child + DIV + DIV + DIV + SCRIPT + SCRIPT + DIV + DIV + TABLE"
+          ]
+        },
+        "aria_label": {
+          "id": "aria_label",
+          "description": "ARIA label",
+          "count": 5,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50 > TBODY:first-child > TR:first-child > TD#gs_tti50 > INPUT#gsc-i-id1",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-postscript-wrapper > DIV#zone-postscript > DIV#region-postscript-first > DIV:first-child > DIV#block-unisicdl-custom-header-config-cdl-location > DIV:first-child > DIV:first-child > DIV:first-child + P > BR:first-child + BR + BR + BR + A > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#page > FOOTER#section-footer > DIV#zone-footer-wrapper > DIV#zone-footer > DIV#region-footer-first > DIV:first-child > DIV#block-unisicdl-custom-header-config-ateneo-location > DIV:first-child > DIV:first-child > DIV:first-child + P > BR:first-child + A + BR + A > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#sliding-popup > DIV:first-child > DIV:first-child > DIV#popup-text > DIV:first-child > DIV:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#sliding-popup > DIV:first-child > DIV:first-child > DIV#popup-text > DIV:first-child > DIV:first-child + DIV"
+          ]
+        },
+        "aria_button": {
+          "id": "aria_button",
+          "description": "ARIA button",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50 > TBODY:first-child > TR:first-child > TD:first-child + TD > DIV#gs_st50 > A:first-child"
+          ]
+        },
+        "aria_hidden": {
+          "id": "aria_hidden",
+          "description": "ARIA hidden",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#page > HEADER#section-header > DIV#zone-user-wrapper > DIV#zone-user > DIV#region-user-first > DIV:first-child > DIV#block-custom-google-cse-custom-google-cse > DIV:first-child > DIV:first-child > DIV#___gcse_0 > DIV:first-child > FORM:first-child > TABLE:first-child > TBODY:first-child > TR:first-child > TD:first-child > DIV#gsc-iw-id1 > TABLE#gs_id50 > TBODY:first-child > TR:first-child > TD:first-child + TD > DIV#gs_st50 > A:first-child > SPAN#gs_cb50"
+          ]
+        }
+      }
+    }
+  }
+}

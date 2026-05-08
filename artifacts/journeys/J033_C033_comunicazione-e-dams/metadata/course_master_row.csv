@@ -1,0 +1,2 @@
+sample_course_id,university_id,university_name,course_name,degree_type,course_class,disciplinary_cluster,selection_role,selection_priority,course_page_url,url_origin,normalization_status,selection_rationale,notes
+C033,UNI17,Università della Calabria,Comunicazione e DAMS,triennale,L-3/L-20,communication_media_culture,core_triennale,core,https://corsi.unical.it/lt-lmcu/comunicazione-e-dams/cds/corso/?lang=it,official_search_apr2026,searched_seed,communication adjacent triennale paired with pilot magistrale,interclass confirmed from official Unical materials

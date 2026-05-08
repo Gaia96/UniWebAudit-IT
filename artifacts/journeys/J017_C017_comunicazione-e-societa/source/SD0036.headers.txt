@@ -1,0 +1,20 @@
+HTTP/2 200 
+date: Fri, 03 Apr 2026 15:24:49 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: MISS
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+vary: Cookie,Accept-Encoding
+expires: Fri, 03 Apr 2026 19:24:49 GMT
+x-drupal-cache: HIT
+last-modified: Fri, 03 Apr 2026 14:26:14 GMT
+cf-cache-status: MISS
+x-varnish: 346621443
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=pJCCylCB6PTujV3QXoNRKN8SLFOV1BdyrbmY873oS7c-1775229889.5941296-1.0.1.1-9nbd0A4SF6i3d5v9LZl4xZxP.IitU8RyYYBlV05x8wXuCHmNO4KP90RxmdtO4YgVLav6_Ixq_kpzBHBNqMZ5doRt0TSwu5C5zGZ1eQyKqF6zyzbalqi88LnEjIvdOd3u; HttpOnly; Secure; Path=/; Domain=www.unimi.it; Expires=Fri, 03 Apr 2026 15:54:49 GMT
+cf-ray: 9e691519fb23bb8e-FCO
+

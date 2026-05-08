@@ -1,0 +1,21 @@
+HTTP/2 200 
+server: nginx
+date: Fri, 03 Apr 2026 14:51:47 GMT
+content-type: text/html;charset=utf-8
+x-cache-operation: plone.app.caching.moderateCaching
+content-language: it
+expires: Tue, 05 Apr 2016 14:44:36 GMT
+vary: X-Anonymous
+x-cache-rule: plone.content.folderView
+x-ids-involved: #03f99473ee144f919ed83d14e93b6543#
+x-frame-options: SAMEORIGIN
+x-cacheable: YES
+x-url: /VirtualHostBase/https/corsi.unibo.it:443/cds/VirtualHostRoot/laurea/ScienzeComunicazione
+age: 431
+accept-ranges: bytes
+grace: 
+cache-control: max-age=0, s-maxage=0, must-revalidate
+x-cache: HIT
+x-cache-hits: 3
+access-control-allow-origin: *
+

@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unitn.it/it",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI20/lhci_filesystem/www_unitn_it-it-2026_04_23_14_21_44.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI20/lhci_filesystem/www_unitn_it-it-2026_04_23_14_21_44.report.json",
+    "summary": {
+      "performance": 0.58,
+      "accessibility": 0.96,
+      "best-practices": 1,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unitn.it/it",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI20/lhci_filesystem/www_unitn_it-it-2026_04_23_14_22_04.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI20/lhci_filesystem/www_unitn_it-it-2026_04_23_14_22_04.report.json",
+    "summary": {
+      "performance": 0.62,
+      "accessibility": 0.96,
+      "best-practices": 1,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unitn.it/it",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI20/lhci_filesystem/www_unitn_it-it-2026_04_23_14_22_24.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI20/lhci_filesystem/www_unitn_it-it-2026_04_23_14_22_24.report.json",
+    "summary": {
+      "performance": 0.59,
+      "accessibility": 0.96,
+      "best-practices": 1,
+      "seo": 0.92
+    }
+  }
+]

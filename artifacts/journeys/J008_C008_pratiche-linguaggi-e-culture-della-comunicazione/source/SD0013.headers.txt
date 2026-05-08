@@ -1,0 +1,56 @@
+HTTP/2 301 
+date: Fri, 03 Apr 2026 14:56:47 GMT
+content-type: text/html; charset=utf-8
+location: http://www.unifi.it/it
+server: cloudflare
+x-drupal-route-normalizer: 1
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+cache-control: public, max-age=14400
+vary: Cookie
+expires: Fri, 03 Apr 2026 18:56:47 GMT
+x-drupal-cache: HIT
+last-modified: Fri, 03 Apr 2026 07:47:11 GMT
+x-varnish: 247367884
+x-cache: MISS
+grace: none
+set-cookie: __cf_bm=3Ufe9Y_igQll4gD8VIas3zXv6UFtHbOSG5smajfaPsU-1775228207.1636307-1.0.1.1-gRW1iwC0Amt_KgzNfKRrDzhrur9zU7ZMdCmtQitZQ_c6cdH4O294xhgEnCxUyZ4M.R8_Vf8YCZ_cYxhYjbobej72t5okCob6DqCZlek.q2x5vlMioFDnvt9W8AWfI8Ws; HttpOnly; Secure; Path=/; Domain=www.unifi.it; Expires=Fri, 03 Apr 2026 15:26:47 GMT
+age: 6376
+cf-cache-status: HIT
+cf-ray: 9e68ec06ce1cea46-FCO
+
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 03 Apr 2026 14:56:47 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+set-cookie: __cf_bm=kj4.2AAgyokpm1MRZgJw3j_DDj_hcWt81W.F6gRFpus-1775228207.325491-1.0.1.1-gMFtqgGpAgSKoJ1PS11d2GjlpKOD11wN1q5qnr70l4K0HwNbe9o_QK6dDna0KGyIBMTHFOfJxqs3WIDqrjO9wYbBVYU52OkUA6JNJH2v4bf_g4KnbYZDTo1q62zUE4VU; HttpOnly; Path=/; Domain=www.unifi.it; Expires=Fri, 03 Apr 2026 15:26:47 GMT
+Location: https://www.unifi.it:443/it
+Age: 5169
+expires: Fri, 03 Apr 2026 18:56:47 GMT
+Cache-Control: public, max-age=14400
+cf-cache-status: HIT
+CF-RAY: 9e68ec07c820ea54-FCO
+
+HTTP/2 200 
+date: Fri, 03 Apr 2026 14:56:47 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+vary: Cookie,Accept-Encoding
+expires: Fri, 03 Apr 2026 18:56:47 GMT
+x-drupal-cache: HIT
+last-modified: Fri, 03 Apr 2026 13:04:33 GMT
+cf-cache-status: HIT
+x-varnish: 249826120
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=JUAWoq_F9zoJlgKgq8qz0V2akrIE9B0cX0mw0np.v5w-1775228207.354907-1.0.1.1-puhplu9tACDpT6J75H8MIS9dAeJB0FcqkyTz2mtTzJAtx048RpIdcIj4cQ3rWalIeBkfQMImKTEH3N_m01434cpMn3XshxuMv5LkhyTDtaib.9RS3NH9k5jk9E64sSql; HttpOnly; Secure; Path=/; Domain=www.unifi.it; Expires=Fri, 03 Apr 2026 15:26:47 GMT
+age: 2775
+cf-ray: 9e68ec07f9f5ea46-FCO
+

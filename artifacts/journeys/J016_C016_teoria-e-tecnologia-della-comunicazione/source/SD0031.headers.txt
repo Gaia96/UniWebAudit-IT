@@ -1,0 +1,24 @@
+HTTP/2 200 
+date: Fri, 03 Apr 2026 15:16:57 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: UNCACHEABLE
+link: <https://www.unimib.it/studiare>; rel="canonical", <https://www.unimib.it/node/33243>; rel="shortlink", <https://www.unimib.it/studiare>; rel="alternate"; hreflang="it"
+x-ua-compatible: IE=edge
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+vary: Cookie,Accept-Encoding
+expires: Fri, 03 Apr 2026 19:16:57 GMT
+x-drupal-cache: MISS
+last-modified: Fri, 03 Apr 2026 15:01:18 GMT
+cf-cache-status: HIT
+x-varnish: 257625463
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=mhzbmRm0PRoYLYJkEhIsHinXNBjxSUu38Ja_FPylW4Y-1775229417.364634-1.0.1.1-YQ40kk7h2Kd.lp5_LFgR_PLWP_mH4JArLWbuZrpYw5ZhUEYuvwSb643MjXT6uQdp.izmwyO2KV5W2TohGEJGogUG_YYyFBZV4yBEYgS87vFrVSAZCDgAmWiGidxfeQs8; HttpOnly; Secure; Path=/; Domain=www.unimib.it; Expires=Fri, 03 Apr 2026 15:46:57 GMT
+age: 938
+cf-ray: 9e6909928a0bea6a-FCO
+

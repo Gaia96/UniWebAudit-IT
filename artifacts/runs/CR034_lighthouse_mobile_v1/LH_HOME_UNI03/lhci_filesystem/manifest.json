@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unipi.it/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI03/lhci_filesystem/www_unipi_it--2026_04_23_14_00_06.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI03/lhci_filesystem/www_unipi_it--2026_04_23_14_00_06.report.json",
+    "summary": {
+      "performance": 0.63,
+      "accessibility": 0.84,
+      "best-practices": 0.93,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unipi.it/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI03/lhci_filesystem/www_unipi_it--2026_04_23_14_00_35.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI03/lhci_filesystem/www_unipi_it--2026_04_23_14_00_35.report.json",
+    "summary": {
+      "performance": 0.54,
+      "accessibility": 0.84,
+      "best-practices": 0.93,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unipi.it/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI03/lhci_filesystem/www_unipi_it--2026_04_23_13_59_38.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI03/lhci_filesystem/www_unipi_it--2026_04_23_13_59_38.report.json",
+    "summary": {
+      "performance": 0.58,
+      "accessibility": 0.84,
+      "best-practices": 0.93,
+      "seo": 0.92
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unipi.it/didattica/corsi/lauree-magistrali/comunicazione-media-tecnologie-wcm-lm/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C006/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_magistrali_comunicazione_media_tecnologie_wcm_lm_-2026_04_23_14_32_15.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C006/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_magistrali_comunicazione_media_tecnologie_wcm_lm_-2026_04_23_14_32_15.report.json",
+    "summary": {
+      "performance": 0.71,
+      "accessibility": 0.91,
+      "best-practices": 1,
+      "seo": 0.85
+    }
+  },
+  {
+    "url": "https://www.unipi.it/didattica/corsi/lauree-magistrali/comunicazione-media-tecnologie-wcm-lm/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C006/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_magistrali_comunicazione_media_tecnologie_wcm_lm_-2026_04_23_14_32_33.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C006/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_magistrali_comunicazione_media_tecnologie_wcm_lm_-2026_04_23_14_32_33.report.json",
+    "summary": {
+      "performance": 0.68,
+      "accessibility": 0.91,
+      "best-practices": 1,
+      "seo": 0.77
+    }
+  },
+  {
+    "url": "https://www.unipi.it/didattica/corsi/lauree-magistrali/comunicazione-media-tecnologie-wcm-lm/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C006/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_magistrali_comunicazione_media_tecnologie_wcm_lm_-2026_04_23_14_31_16.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C006/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_magistrali_comunicazione_media_tecnologie_wcm_lm_-2026_04_23_14_31_16.report.json",
+    "summary": {
+      "performance": 0.68,
+      "accessibility": 0.9,
+      "best-practices": 1,
+      "seo": 0.85
+    }
+  }
+]

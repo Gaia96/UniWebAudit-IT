@@ -1,0 +1,9 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0001,SD0001,title,1,Università di Bologna,università di bologna,//title,raw snapshot title
+SF0002,SD0001,meta_description,2,"L'Alma Mater Studiorum è la prima università del mondo occidentale e oggi promuove la strada dell'innovazione offrendo un'ampia offerta formativa, corsi di laurea internazionali e post laurea.","l'alma mater studiorum è la prima università del mondo occidentale e oggi promuove la strada dell'innovazione offrendo un'ampia offerta formativa, corsi di laurea internazionali e post laurea.",//meta[@name='description'],raw snapshot meta description
+SF0003,SD0001,h1,3,Home page,home page,//h1[1],raw snapshot first h1
+SF0004,SD0002,title,1,Studiare — Università di Bologna,studiare università di bologna,//title,raw snapshot title
+SF0005,SD0002,h1,2,Studiare,studiare,//h1[1],raw snapshot first h1
+SF0006,SD0003,title,1,Scienze della comunicazione - Laurea - Bologna,scienze della comunicazione laurea bologna,//title,raw snapshot title
+SF0007,SD0003,meta_description,2,"Il Corso forma nelle aree della pubblicità, pubbliche relazioni, vendita e distribuzione, organizzazione di fiere convegni e eventi culturali, nuovi media e social media","il corso forma nelle aree della pubblicità, pubbliche relazioni, vendita e distribuzione, organizzazione di fiere convegni e eventi culturali, nuovi media e social media",//meta[@name='description'],raw snapshot meta description
+SF0008,SD0003,h1,3,home page,home page,//h1[1],raw snapshot first h1

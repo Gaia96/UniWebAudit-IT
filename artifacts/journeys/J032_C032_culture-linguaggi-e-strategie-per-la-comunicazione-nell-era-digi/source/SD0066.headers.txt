@@ -1,0 +1,48 @@
+HTTP/2 302 
+content-type: text/html; charset=utf-8
+content-length: 195
+location: http://www.uninettunouniversity.net/it/laurea-scienze-della-comunicazione.aspx
+date: Fri, 03 Apr 2026 15:43:46 GMT
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+cache-control: no-cache, no-store, must-revalidate, post-check=0,pre-check=0
+pragma: no-cache
+expires: -1
+server: Microsoft-IIS/10.0
+set-cookie: ASP.NET_SessionId=gqihxkmlk34xqzqchlr2uziw; path=/; HttpOnly; SameSite=Lax
+set-cookie: UrlReferrer=/it/facoltascienzacomunicaz.aspx; path=/
+x-powered-by: ASP.NET
+access-control-allow-origin: *
+access-control-allow-methods: GET, PUT, POST, DELETE, HEAD, OPTIONS
+access-control-allow-credentials: true
+access-control-allow-headers: X-Requested-With, origin, content-type, accept
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-cache: Miss from cloudfront
+via: 1.1 15319820542bb361a19d84a76dad0c80.cloudfront.net (CloudFront)
+x-amz-cf-pop: MXP53-P7
+x-amz-cf-id: OyKjJFYMOoO0M-azRHZkxIZhEZHE-CyZwIiYPlU0vEBJjefZ9i9efw==
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 69213
+date: Fri, 03 Apr 2026 15:43:46 GMT
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+cache-control: no-cache, no-store, must-revalidate, post-check=0,pre-check=0
+pragma: no-cache
+expires: -1
+server: Microsoft-IIS/10.0
+set-cookie: ASP.NET_SessionId=nm1wnsgach3oizhjzalpe5ae; path=/; HttpOnly; SameSite=Lax
+set-cookie: UrlReferrer=/it/laurea-scienze-della-comunicazione.aspx; path=/
+x-aspnet-version: 4.0.30319
+x-powered-by: ASP.NET
+access-control-allow-origin: *
+access-control-allow-methods: GET, PUT, POST, DELETE, HEAD, OPTIONS
+access-control-allow-credentials: true
+access-control-allow-headers: X-Requested-With, origin, content-type, accept
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-cache: Miss from cloudfront
+via: 1.1 15319820542bb361a19d84a76dad0c80.cloudfront.net (CloudFront)
+x-amz-cf-pop: MXP53-P7
+x-amz-cf-id: yAp7172y5hN_2I1G3hVqcBYR-PsgvW-ZHVYw12UuvHEvFvyFamcGGA==
+

@@ -1,0 +1,2 @@
+university_id,university_name,short_name,macro_area,institution_type,city,university_homepage_url,programmes_hub_url,included_from_lm92_pilot,core_sampling_strategy,sample_status,notes
+UNI19,Università degli Studi di Bergamo,UniBg,Nord,statale,Bergamo,https://www.unibg.it/,https://www.unibg.it/studiare/corsi,1,triennale_plus_magistrale_core_optional_cycle_unique,seeded,initial definitive sample

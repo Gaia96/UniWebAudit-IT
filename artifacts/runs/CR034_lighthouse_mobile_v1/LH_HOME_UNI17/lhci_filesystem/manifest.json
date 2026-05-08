@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unical.it/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI17/lhci_filesystem/www_unical_it--2026_04_23_14_18_56.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI17/lhci_filesystem/www_unical_it--2026_04_23_14_18_56.report.json",
+    "summary": {
+      "performance": 0.51,
+      "accessibility": 0.98,
+      "best-practices": 1,
+      "seo": 1
+    }
+  },
+  {
+    "url": "https://www.unical.it/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI17/lhci_filesystem/www_unical_it--2026_04_23_14_19_11.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI17/lhci_filesystem/www_unical_it--2026_04_23_14_19_11.report.json",
+    "summary": {
+      "performance": 0.63,
+      "accessibility": 0.98,
+      "best-practices": 1,
+      "seo": 1
+    }
+  },
+  {
+    "url": "https://www.unical.it/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI17/lhci_filesystem/www_unical_it--2026_04_23_14_18_40.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI17/lhci_filesystem/www_unical_it--2026_04_23_14_18_40.report.json",
+    "summary": {
+      "performance": 0.62,
+      "accessibility": 0.98,
+      "best-practices": 1,
+      "seo": 1
+    }
+  }
+]

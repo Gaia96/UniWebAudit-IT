@@ -1,0 +1,28 @@
+HTTP/1.1 302 
+set-cookie: JSESSIONID=0A6AF771238091DCC807CF421628A188; Path=/; HttpOnly
+location: https://www.unina.it/it/
+content-length: 0
+date: Tue, 07 Apr 2026 12:25:51 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+referrer-policy: strict-origin-when-cross-origin
+Set-Cookie: cookiesession1=678B286E1A0C6D22F78A45286011226B;Expires=Wed, 07 Apr 2027 12:25:54 GMT;Path=/;HttpOnly
+
+HTTP/1.1 200 
+set-cookie: JSESSIONID=D02BA1CF6DCCF68D979210485EC4676E; Path=/; HttpOnly
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+cache-control: private, no-cache, no-store, must-revalidate
+pragma: no-cache
+set-cookie: COOKIE_SUPPORT=true; Max-Age=31536000; Expires=Wed, 07 Apr 2027 12:25:51 GMT; Path=/; HttpOnly
+liferay-portal: Liferay Digital Experience Platform
+content-type: text/html;charset=UTF-8
+date: Tue, 07 Apr 2026 12:25:50 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+referrer-policy: strict-origin-when-cross-origin
+content-length: 268715
+

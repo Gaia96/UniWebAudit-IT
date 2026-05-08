@@ -1,0 +1,62 @@
+wave_target_id,lighthouse_target_id,source_document_id,university_id,course_id,journey_id,page_role,url_to_audit,js_dependency_level,wave_collection_mode,scope_status,notes
+WV_HOME_UNI01,LH_HOME_UNI01,SD0001,UNI01,,,university_homepage,https://www.unibo.it/it,low,api_primary,canonical_default,root redirects to /it
+WV_HOME_UNI02,LH_HOME_UNI02,SD0005,UNI02,,,university_homepage,https://www.unipd.it/,low,api_primary,canonical_default,
+WV_HOME_UNI03,LH_HOME_UNI03,SD0009,UNI03,,,university_homepage,https://www.unipi.it/,low,api_primary,canonical_default,
+WV_HOME_UNI04,LH_HOME_UNI04,SD0013,UNI04,,,university_homepage,https://www.unifi.it:443/it,low,api_primary,canonical_default,root redirects to port 443 /it; verify URL resolves correctly for WAVE
+WV_HOME_UNI05,LH_HOME_UNI05,SD0017,UNI05,,,university_homepage,https://www.unisi.it/,low,api_primary,canonical_default,
+WV_HOME_UNI06,LH_HOME_UNI06,SD0022,UNI06,,,university_homepage,https://www.unito.it/,low,api_primary,canonical_default,
+WV_HOME_UNI07,LH_HOME_UNI07,SD0026,UNI07,,,university_homepage,https://unige.it/,low,api_primary,canonical_default,
+WV_HOME_UNI08,LH_HOME_UNI08,SD0030,UNI08,,,university_homepage,https://www.unimib.it/,low,api_primary,canonical_default,
+WV_HOME_UNI09,LH_HOME_UNI09,SD0034,UNI09,,,university_homepage,https://www.unimi.it/it,low,api_primary,canonical_default,root redirects to /it
+WV_HOME_UNI10,LH_HOME_UNI10,SD0038,UNI10,,,university_homepage,https://www.uninsubria.it/,low,api_primary,canonical_default,
+WV_HOME_UNI11,LH_HOME_UNI11,SD0042,UNI11,,,university_homepage,https://www.unisa.it/,low,api_primary,canonical_default,
+WV_HOME_UNI12,LH_HOME_UNI12,SD0047,UNI12,,,university_homepage,https://www.uniroma3.it/,low,api_primary,canonical_default,
+WV_HOME_UNI13,LH_HOME_UNI13,SD0051,UNI13,,,university_homepage,https://www.unipa.it/,low,api_primary,canonical_default,
+WV_HOME_UNI14,LH_HOME_UNI14,SD0055,UNI14,,,university_homepage,https://www.unistrapg.it/,low,api_primary,canonical_default,
+WV_HOME_UNI15,LH_HOME_UNI15,SD0061,UNI15,,,university_homepage,https://www.uniurb.it/,low,api_primary,canonical_default,source collection required browser UA; verify WAVE API can reach this URL
+WV_HOME_UNI16,LH_HOME_UNI16,SD0065,UNI16,,,university_homepage,http://www.uninettunouniversity.net/en/default.aspx,low,api_primary,canonical_default,HTTP not HTTPS; root redirects to English default
+WV_HOME_UNI17,LH_HOME_UNI17,SD0069,UNI17,,,university_homepage,https://www.unical.it/,low,api_primary,canonical_default,
+WV_HOME_UNI18,LH_HOME_UNI18,SD0074,UNI18,,,university_homepage,https://www.unina.it/it/,low,api_primary,canonical_default,source collection required browser UA; root to /it/; verify WAVE API access
+WV_HOME_UNI19,LH_HOME_UNI19,SD0078,UNI19,,,university_homepage,https://www.unibg.it/,low,api_primary,canonical_default,
+WV_HOME_UNI20,LH_HOME_UNI20,SD0082,UNI20,,,university_homepage,https://www.unitn.it/it,low,api_primary,canonical_default,root redirects to /it
+WV_COURSE_C001,LH_COURSE_C001,SD0003,UNI01,C001,J001,course_page,https://corsi.unibo.it/laurea/ScienzeComunicazione,low,api_primary,canonical_default,
+WV_COURSE_C002,LH_COURSE_C002,SD0004,UNI01,C002,J002,course_page,https://www.unibo.it/it/studiare/lauree-magistrali/corso/2025/6824,medium,api_primary,canonical_default,
+WV_COURSE_C003,LH_COURSE_C003,SD0089,UNI02,C003,J003,course_page,https://www.unipd.it/corsi-di-laurea/comunicazione,medium,api_primary,canonical_default,post-platform migration URL (Next.js)
+WV_COURSE_C004,LH_COURSE_C004,SD0090,UNI02,C004,J004,course_page,https://www.unipd.it/corsi-di-laurea/strategie-di-comunicazione,medium,api_primary,canonical_default,post-platform migration URL (Next.js)
+WV_COURSE_C005,LH_COURSE_C005,SD0011,UNI03,C005,J005,course_page,https://www.unipi.it/didattica/corsi/lauree-triennali-ciclo-unico/discipline-dello-spettacolo-e-della-comunicazione-dscr-l/,low,api_primary,canonical_default,trailing slash normalized
+WV_COURSE_C006,LH_COURSE_C006,SD0012,UNI03,C006,J006,course_page,https://www.unipi.it/didattica/corsi/lauree-magistrali/comunicazione-media-tecnologie-wcm-lm/,low,api_primary,canonical_default,final URL uses /lauree-magistrali/ path
+WV_COURSE_C007,LH_COURSE_C007,SD0015,UNI04,C007,J007,course_page,https://www.unifi.it/it/node/6520,low,api_primary,canonical_default,
+WV_COURSE_C008,LH_COURSE_C008,SD0016,UNI04,C008,J008,course_page,https://www.unifi.it/it/studia-con-noi/corsi-di-laurea/corsi-di-laurea-magistrali/pratiche-linguaggi-e-culture-della,low,api_primary,canonical_default,
+WV_COURSE_C009,LH_COURSE_C009,SD0019,UNI05,C009,J009,course_page,https://scienze-comunicazione.unisi.it/it,low,api_primary,canonical_default,dedicated course subdomain
+WV_COURSE_C010,LH_COURSE_C010,SD0091,UNI05,C010,J010,course_page,https://www.unisi.it/ugov/degree/82714,low,api_primary,canonical_default,U-GOV sheet
+WV_COURSE_C011,LH_COURSE_C011,SD0024,UNI06,C011,J011,course_page,https://www.unito.it/didattica/offerta-formativa/corsi-di-studio/scienze-della-comunicazione,low,api_primary,canonical_default,
+WV_COURSE_C012,LH_COURSE_C012,SD0025,UNI06,C012,J012,course_page,https://www.unito.it/didattica/offerta-formativa/corsi-di-studio/comunicazione-e-culture-dei-media,low,api_primary,canonical_default,
+WV_COURSE_C013,LH_COURSE_C013,SD0028,UNI07,C013,J013,course_page,https://corsi.unige.it/corsi/11938,low,api_primary,canonical_default,seed redirected to /corsi/11938
+WV_COURSE_C014,LH_COURSE_C014,SD0029,UNI07,C014,J014,course_page,https://corsi.unige.it/corsi/11945,low,api_primary,canonical_default,seed redirected to /corsi/11945
+WV_COURSE_C015,LH_COURSE_C015,SD0032,UNI08,C015,J015,course_page,https://www.unimib.it/triennale/comunicazione-interculturale,low,api_primary,canonical_default,
+WV_COURSE_C016,LH_COURSE_C016,SD0033,UNI08,C016,J016,course_page,https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione,low,api_primary,canonical_default,
+WV_COURSE_C017,LH_COURSE_C017,SD0036,UNI09,C017,J017,course_page,https://www.unimi.it/it/corsi/laurea-triennale/comunicazione-e-societa-ces,low,api_primary,canonical_default,
+WV_COURSE_C018,LH_COURSE_C018,SD0037,UNI09,C018,J018,course_page,https://www.unimi.it/it/corsi/laurea-magistrale/editoria-culture-della-comunicazione-e-della-moda,low,api_primary,canonical_default,
+WV_COURSE_C019,LH_COURSE_C019,SD0040,UNI10,C019,J019,course_page,https://www.uninsubria.it/formazione/offerta-formativa/corsi-di-laurea/scienze-della-comunicazione,low,api_primary,canonical_default,
+WV_COURSE_C020,LH_COURSE_C020,SD0041,UNI10,C020,J020,course_page,https://www.uninsubria.it/formazione/offerta-formativa/corsi-di-laurea/scienze-e-tecniche-della-comunicazione,low,api_primary,canonical_default,
+WV_COURSE_C021,LH_COURSE_C021,SD0044,UNI11,C021,J021,course_page,https://corsi.unisa.it/scienze-della-comunicazione,low,api_primary,canonical_default,
+WV_COURSE_C022,LH_COURSE_C022,SD0045,UNI11,C022,J022,course_page,https://corsi.unisa.it/corporate-communication-e-media,low,api_primary,canonical_default,
+WV_COURSE_C023,LH_COURSE_C023,SD0049,UNI12,C023,J023,course_page,https://www.uniroma3.it/corsi/dipartimento-di-filosofia-comunicazione-e-spettacolo/l/2025-2026/scienze-della-comunicazione-0580706202000001/,low,api_primary,canonical_default,
+WV_COURSE_C024,LH_COURSE_C024,SD0050,UNI12,C024,J024,course_page,https://www.uniroma3.it/corsi/dipartimento-di-filosofia-comunicazione-e-spettacolo/lm/2025-2026/scienze-cognitive-della-comunicazione-e-dellazione-0580707309300001/,low,api_primary,canonical_default,
+WV_COURSE_C025,LH_COURSE_C025,SD0053,UNI13,C025,J025,course_page,https://www.unipa.it/dipartimenti/cultureesocieta/cds/scienzedellacomunicazione2447,low,api_primary,canonical_default,
+WV_COURSE_C026,LH_COURSE_C026,SD0054,UNI13,C026,J026,course_page,https://www.unipa.it/dipartimenti/cultureesocieta/cds/comunicazionedelpatrimonioculturale2215,low,api_primary,canonical_default,
+WV_COURSE_C027,LH_COURSE_C027,SD0057,UNI14,C027,J027,course_page,https://www.unistrapg.it/offerta-formativa/corsi-di-laurea-e-laurea-magistrale/corso-di-laurea-comunicazione-internazionale-e-pubblicitaria-comip,low,api_primary,canonical_default,seed redirected to canonical URL
+WV_COURSE_C028,LH_COURSE_C028,SD0058,UNI14,C028,J028,course_page,https://www.unistrapg.it/offerta-formativa/corsi-di-laurea-e-laurea-magistrale/corso-di-laurea-magistrale-comunicazione-pubblicitaria-storytelling-e-cultura-dimmagine-compsi,low,api_primary,canonical_default,
+WV_COURSE_C029,LH_COURSE_C029,SD0063,UNI15,C029,J029,course_page,https://www.uniurb.it/corsi/1757256,low,api_primary,canonical_default,source collection required browser UA
+WV_COURSE_C030,LH_COURSE_C030,SD0064,UNI15,C030,J030,course_page,https://www.uniurb.it/corsi/1757220,low,api_primary,canonical_default,source collection required browser UA
+WV_COURSE_C031,LH_COURSE_C031,SD0067,UNI16,C031,J031,course_page,https://www.uninettunouniversity.net/it/indirizzo-comunicazione-digitale-d-impresa.aspx?degree=334&faculty=7&idindirizzo=179&mode=cs,low,api_primary,canonical_default,URL contains query params
+WV_COURSE_C032,LH_COURSE_C032,SD0068,UNI16,C032,J032,course_page,https://www.uninettunouniversity.net/it/culture-linguaggi-e-strategie-per-la-comunicazione-nell-era-digitale.aspx,low,api_primary,canonical_default,
+WV_COURSE_C033,LH_COURSE_C033,SD0071,UNI17,C033,J033,course_page,https://corsi.unical.it/lt-lmcu/comunicazione-e-dams/cds/corso/?lang=it,medium,api_primary,canonical_default,
+WV_COURSE_C034,LH_COURSE_C034,SD0072,UNI17,C034,J034,course_page,https://corsi.unical.it/lm/linguaggi-della-comunicazione-e-dello-spettacolo/,medium,api_primary,canonical_default,
+WV_COURSE_C035,LH_COURSE_C035,SD0076,UNI18,C035,J035,course_page,https://www.corsi.unina.it/D27/home,high,browser_fallback,canonical_default,JS-heavy Angular SPA; WAVE API will return empty/partial; browser extension required when available
+WV_COURSE_C036,LH_COURSE_C036,SD0077,UNI18,C036,J036,course_page,https://www.corsi.unina.it/DA2/home,high,browser_fallback,canonical_default,JS-heavy Angular SPA; WAVE API will return empty/partial; browser extension required when available
+WV_COURSE_C037,LH_COURSE_C037,SD0080,UNI19,C037,J037,course_page,https://www.unibg.it/studiare/corsi/offertaformativa/scienze-comunicazione,low,api_primary,canonical_default,
+WV_COURSE_C038,LH_COURSE_C038,SD0081,UNI19,C038,J038,course_page,https://ls-vpcm.unibg.it/it,low,api_primary,canonical_default,interclass course site on subdomain
+WV_COURSE_C039,LH_COURSE_C039,SD0084,UNI20,C039,J039,course_page,https://corsi.unitn.it/it/beni-culturali,low,api_primary,canonical_default,
+WV_COURSE_C040,LH_COURSE_C040,SD0085,UNI20,C040,J040,course_page,https://corsi.unitn.it/it/organizzazione-societa-e-tecnologia,medium,api_primary,canonical_default,
+WV_COURSE_C041,LH_COURSE_C041,SD0086,UNI20,C041,J041,course_page,https://corsi.unitn.it/it/giurisprudenza,low,api_primary,canonical_default,

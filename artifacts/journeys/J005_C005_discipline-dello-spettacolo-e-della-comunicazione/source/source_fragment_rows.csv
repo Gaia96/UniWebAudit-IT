@@ -1,0 +1,6 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0015,SD0009,title,1,Home ~ UNIPI,home unipi,//title,raw snapshot title
+SF0016,SD0010,title,1,Didattica ~ UNIPI,didattica unipi,//title,raw snapshot title
+SF0017,SD0010,meta_description,2,"Studiare all’Unipi: corsi, iscrizioni e servizi per ogni fase del percorso accademico, dall’orientamento alle opportunità post-laurea.","studiare all’unipi: corsi, iscrizioni e servizi per ogni fase del percorso accademico, dall’orientamento alle opportunità post-laurea.",//meta[@name='description'],raw snapshot meta description
+SF0018,SD0011,title,1,Discipline dello spettacolo e della comunicazione ~ UNIPI,discipline dello spettacolo e della comunicazione unipi,//title,raw snapshot title
+SF0019,SD0011,h1,2,Discipline dello spettacolo e della comunicazione,discipline dello spettacolo e della comunicazione,//h1[1],raw snapshot first h1

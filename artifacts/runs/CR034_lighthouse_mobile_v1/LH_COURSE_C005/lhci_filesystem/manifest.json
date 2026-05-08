@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unipi.it/didattica/corsi/lauree-triennali-ciclo-unico/discipline-dello-spettacolo-e-della-comunicazione-dscr-l/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C005/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_triennali_ciclo_unico_discipline_dello_spettacolo_e_della_comunicazione_dscr_l_-2026_04_23_14_30_05.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C005/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_triennali_ciclo_unico_discipline_dello_spettacolo_e_della_comunicazione_dscr_l_-2026_04_23_14_30_05.report.json",
+    "summary": {
+      "performance": 0.71,
+      "accessibility": 0.91,
+      "best-practices": 1,
+      "seo": 0.85
+    }
+  },
+  {
+    "url": "https://www.unipi.it/didattica/corsi/lauree-triennali-ciclo-unico/discipline-dello-spettacolo-e-della-comunicazione-dscr-l/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C005/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_triennali_ciclo_unico_discipline_dello_spettacolo_e_della_comunicazione_dscr_l_-2026_04_23_14_30_44.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C005/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_triennali_ciclo_unico_discipline_dello_spettacolo_e_della_comunicazione_dscr_l_-2026_04_23_14_30_44.report.json",
+    "summary": {
+      "performance": 0.66,
+      "accessibility": 0.91,
+      "best-practices": 1,
+      "seo": 0.77
+    }
+  },
+  {
+    "url": "https://www.unipi.it/didattica/corsi/lauree-triennali-ciclo-unico/discipline-dello-spettacolo-e-della-comunicazione-dscr-l/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C005/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_triennali_ciclo_unico_discipline_dello_spettacolo_e_della_comunicazione_dscr_l_-2026_04_23_14_30_24.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C005/lhci_filesystem/www_unipi_it-didattica_corsi_lauree_triennali_ciclo_unico_discipline_dello_spettacolo_e_della_comunicazione_dscr_l_-2026_04_23_14_30_24.report.json",
+    "summary": {
+      "performance": 0.69,
+      "accessibility": 0.91,
+      "best-practices": 1,
+      "seo": 0.85
+    }
+  }
+]

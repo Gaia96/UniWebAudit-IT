@@ -1,0 +1,31 @@
+# WAVE API Pipeline Configuration
+# All paths are relative to the repository root.
+
+api:
+  endpoint: "https://wave.webaim.org/api/request"
+  # reporttype: 1=summary counts, 2=rule+counts, 3=rule+counts+xpaths, 4=rule+counts+xpaths+screenshot
+  reporttype: 4
+  viewportwidth: 1200
+  # useragent: null  # leave null to use WAVE default
+  useragent: null
+  evaldelay: 500  # ms — time WAVE waits for JS before evaluating
+
+collection:
+  max_workers: 1            # concurrent API calls; increase to 2-3 only if credits allow
+  retry_attempts: 3
+  retry_delay_s: 15
+  request_timeout_s: 90
+  delay_between_requests_s: 3   # polite rate limiting between sequential calls
+
+paths:
+  manifest: "wave/wave_target_manifest.csv"
+  raw_output_dir: "wave/data/raw"
+  results_csv: "data/collection/wave_results.csv"
+  items_long_csv: "data/collection/wave_items_long.csv"
+  log_dir: "wave/logs"
+
+run:
+  tool_name: "WAVE WebAIM"
+  tool_mode: "api"
+  viewport_policy: "desktop_1200"
+  useragent_profile: "wave_default"

@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C036",
+  "source_document_id": "SD0077",
+  "crawl_run_id": "CR012",
+  "university_id": "UNI18",
+  "sample_course_id": "C036",
+  "journey_id": "J036",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "high",
+  "tested_url": "https://www.corsi.unina.it/DA2/home",
+  "final_url": "https://www.corsi.unina.it/DA2/home",
+  "notes": "tranche7; JS-heavy course portal shell page collected before hub normalization; parent relinked to normalized programmes hub SD0087 in CR013"
+}

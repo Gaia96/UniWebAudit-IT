@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C016",
+  "source_document_id": "SD0033",
+  "crawl_run_id": "CR004",
+  "university_id": "UNI08",
+  "sample_course_id": "C016",
+  "journey_id": "J016",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione",
+  "final_url": "https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione",
+  "notes": "tranche3; official course page"
+}

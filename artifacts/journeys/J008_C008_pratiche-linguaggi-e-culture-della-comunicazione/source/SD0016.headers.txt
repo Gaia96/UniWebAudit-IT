@@ -1,0 +1,19 @@
+HTTP/2 200 
+date: Fri, 03 Apr 2026 14:56:50 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+vary: Cookie,Accept-Encoding
+expires: Fri, 03 Apr 2026 18:56:50 GMT
+x-drupal-cache: HIT
+last-modified: Fri, 03 Apr 2026 13:58:39 GMT
+cf-cache-status: HIT
+x-varnish: 259391876
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=sLfIUU5uRAjAOTJkhYbxKlPeirX0tt6rfk0R.NTwpk0-1775228210.4870546-1.0.1.1-819qTFNJ6G6b8onPrNVzN8IyLJRJlOjIrULd0f4rh1imj9ipFLW3Cv0yXxZFr1X1cZgpZvfuOgRdiEzkVSF_XK8bv4d1H8fuFWLRWvHud9EM3RLtQvhFeHvxArtwCmRP; HttpOnly; Secure; Path=/; Domain=www.unifi.it; Expires=Fri, 03 Apr 2026 15:26:50 GMT
+cf-ray: 9e68ec1b8e47ea6b-FCO
+

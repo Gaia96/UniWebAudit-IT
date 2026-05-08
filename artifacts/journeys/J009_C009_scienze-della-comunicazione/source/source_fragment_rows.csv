@@ -1,0 +1,7 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0031,SD0017,title,1,Università degli Studi di Siena,università degli studi di siena,//title,raw snapshot title
+SF0032,SD0017,h1,2,Università degli Studi di Siena,università degli studi di siena,//h1[1],raw snapshot first h1
+SF0033,SD0018,title,1,Didattica | Università degli Studi di Siena,didattica università degli studi di siena,//title,raw snapshot title
+SF0034,SD0018,h1,2,Didattica,didattica,//h1[1],raw snapshot first h1
+SF0035,SD0019,title,1,SCIENZE DELLA COMUNICAZIONE |,scienze della comunicazione,//title,raw snapshot title
+SF0036,SD0019,h1,2,SCIENZE DELLA COMUNICAZIONE,scienze della comunicazione,//h1[1],raw snapshot first h1

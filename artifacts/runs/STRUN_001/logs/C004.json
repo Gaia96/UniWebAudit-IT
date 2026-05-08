@@ -1,0 +1,41 @@
+{
+  "captured_at": "2026-05-06T18:57:37.926541+00:00",
+  "final_url": "https://www.unipd.it/",
+  "http_status": 200,
+  "console": [
+    {
+      "type": "warning",
+      "text": "The resource https://www.unipd.it/_next/static/chunks/e0f4eb9f935054d5.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+    }
+  ],
+  "network_errors": [
+    {
+      "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-B3WV5DRLH0&gtm=45be6550v9221340787za20gzb860662596zd860662596&_p=1778093846465&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&gdid=dMWZhNz&ecid=1358482688&_eu=AAAAAAAC&are=1&cid=2139603875.1778093847&frm=0&pscdl=denied&rcb=7&sr=1536x960&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=macOS&uapv=26.4.1&uaw=0&ul=it-it&_s=2&tag_exp=0~115938465~115938468~117384406~118463261~118494633~118812187&sid=1778093846&sct=1&seg=0&dl=https%3A%2F%2Fwww.unipd.it%2F&dt=Universit%C3%A0%20di%20Padova%20%7C%20Universit%C3%A0%20di%20Padova&_tu=CA&en=user_engagement&_et=6687&tfd=8480",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.unipd.it%2F&scrsrc=www.googletagmanager.com&rnd=899967063.1778093854&dt=Universit%C3%A0%20di%20Padova%20%7C%20Universit%C3%A0%20di%20Padova&auid=1175423717.1778093847&navt=n&npa=1&ep.ads_data_redaction=0&gtm=45He6550v860662596za200zd860662596xea&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115616986~115938466~115938468~116363097~117884344~118463262~118812176&apve=1&apvf=f&apvc=1&tft=1778093854026&tfd=982",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-B3WV5DRLH0&gtm=45be6550v9221340787z8860662596za20gzb860662596zd860662596&_p=1778093853913&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&ecid=308591400&_eu=AAAAAAAC&are=1&cid=390604933.1778093854&ec_mode=a&frm=0&pscdl=denied&rcb=10&sr=1536x960&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=macOS&uapv=26.4.1&uaw=0&ul=it-it&_s=1&tag_exp=0~115616985~115938466~115938468~116363097~117884344~118463261&sid=1778093854&sct=1&seg=0&dl=https%3A%2F%2Fwww.unipd.it%2F&dt=Universit%C3%A0%20di%20Padova%20%7C%20Universit%C3%A0%20di%20Padova&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=1013",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.unipd.it/lavora-con-noi?_rsc=eqsiu",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.unipd.it/area-stampa?_rsc=eqsiu",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=10&frm=0&en=page_view&dl=https%3A%2F%2Fwww.unipd.it%2F&scrsrc=www.googletagmanager.com&rnd=899967063.1778093854&navt=n&npa=1&gtm=45be6550v9221340787z8860662596za20gzb860662596zd860662596xec&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115616985~115938466~115938468~116363097~117884344~118463261&apve=1&apvf=f&apvc=0&tids=AW-17075773591~AW-608956197&tid=AW-17075773591&tft=1778093854060&tfd=1016",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com/pagead/conversion/11111625403/?random=1778093854105&cv=11&fst=1778093854105&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6550v9210865341z8860662596za20gzb860662596zd860662596xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tag_exp=0~115616986~115938466~115938468~116363097~118463261&u_w=1536&u_h=960&url=https%3A%2F%2Fwww.unipd.it%2F&rcb=12&label=cm5TCImWnbAZELvlt7Ip&frm=0&tiba=Universit%C3%A0%20di%20Padova%20%7C%20Universit%C3%A0%20di%20Padova&bttype=purchase&value=0&hn=www.googleadservices.com&npa=1&pscdl=denied&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=26.4.1&uaw=0&_tu=CA&category=acrcp_v1_512",
+      "failure": "net::ERR_ABORTED"
+    }
+  ]
+}

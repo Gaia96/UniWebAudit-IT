@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C001/lhci_filesystem/corsi_unibo_it-laurea_ScienzeComunicazione-2026_04_23_14_22_52.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C001/lhci_filesystem/corsi_unibo_it-laurea_ScienzeComunicazione-2026_04_23_14_22_52.report.json",
+    "summary": {
+      "performance": 0.36,
+      "accessibility": 0.97,
+      "best-practices": 1,
+      "seo": 1
+    }
+  },
+  {
+    "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C001/lhci_filesystem/corsi_unibo_it-laurea_ScienzeComunicazione-2026_04_23_14_23_22.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C001/lhci_filesystem/corsi_unibo_it-laurea_ScienzeComunicazione-2026_04_23_14_23_22.report.json",
+    "summary": {
+      "performance": 0.36,
+      "accessibility": 0.97,
+      "best-practices": 1,
+      "seo": 1
+    }
+  },
+  {
+    "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C001/lhci_filesystem/corsi_unibo_it-laurea_ScienzeComunicazione-2026_04_23_14_23_07.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C001/lhci_filesystem/corsi_unibo_it-laurea_ScienzeComunicazione-2026_04_23_14_23_07.report.json",
+    "summary": {
+      "performance": 0.36,
+      "accessibility": 0.97,
+      "best-practices": 1,
+      "seo": 1
+    }
+  }
+]

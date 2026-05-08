@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C004",
+  "source_document_id": "SD0090",
+  "crawl_run_id": "CR017",
+  "university_id": "UNI02",
+  "sample_course_id": "C004",
+  "journey_id": "J004",
+  "page_role": "course_page",
+  "source_kind": "normalization_check",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "medium",
+  "tested_url": "https://www.unipd.it/corsi-di-laurea/strategie-di-comunicazione",
+  "final_url": "https://www.unipd.it/corsi-di-laurea/strategie-di-comunicazione",
+  "notes": "CR017; canonical C004/J004 URL resolved on the current Next.js platform; replaces dead pre-migration /offerta-didattica seed"
+}

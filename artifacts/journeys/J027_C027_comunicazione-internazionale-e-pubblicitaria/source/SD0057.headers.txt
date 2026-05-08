@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 02 Apr 2026 11:14:36 GMT
+Server: Apache/2.4.66 (Debian)
+X-Redirect-ID: 53
+Content-language: it
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Cache-Control: must-revalidate, no-cache, private
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 11 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Location: https://www.unistrapg.it/offerta-formativa/corsi-di-laurea-e-laurea-magistrale/corso-di-laurea-comunicazione-internazionale-e-pubblicitaria-comip
+Accept-Ranges: bytes
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
+HTTP/1.1 200 OK
+Date: Fri, 03 Apr 2026 12:37:07 GMT
+Server: Apache/2.4.66 (Debian)
+Cache-Control: must-revalidate, no-cache, private
+X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
+Content-language: it
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 11 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+

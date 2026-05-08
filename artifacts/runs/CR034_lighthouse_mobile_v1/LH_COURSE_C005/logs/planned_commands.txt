@@ -1,0 +1,2 @@
+npx --yes @lhci/cli@0.15.1 collect --numberOfRuns=3 --url=https://www.unipi.it/didattica/corsi/lauree-triennali-ciclo-unico/discipline-dello-spettacolo-e-della-comunicazione-dscr-l/
+npx --yes @lhci/cli@0.15.1 upload --target=filesystem --outputDir=../lhci_filesystem

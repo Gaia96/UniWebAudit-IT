@@ -1,0 +1,9 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0134,SD0065,title,1,International Telematic University UNINETTUNO: Online Degree,international telematic university uninettuno: online degree,//title,raw snapshot title
+SF0135,SD0065,meta_description,2,L'unica Università Telematica Italiana valutata positivamente e senza riserve dal CNVSU.,l'unica università telematica italiana valutata positivamente e senza riserve dal cnvsu.,//meta[@name='description'],raw snapshot meta description
+SF0136,SD0066,title,1,Laurea in Scienze della Comunicazione On Line: la Facoltà Telematica,laurea in scienze della comunicazione on line: la facoltà telematica,//title,raw snapshot title
+SF0137,SD0066,meta_description,2,Trova nella Facoltà di Scienze della Comunicazione online di Uninettuno la tua laurea in scienze della comunicazione telematica e i corsi a distanza.,trova nella facoltà di scienze della comunicazione online di uninettuno la tua laurea in scienze della comunicazione telematica e i corsi a distanza.,//meta[@name='description'],raw snapshot meta description
+SF0138,SD0066,h1,3,Facoltà di Scienze della Comunicazione online Uninettuno,facoltà di scienze della comunicazione online uninettuno,//h1[1],raw snapshot first h1
+SF0139,SD0067,title,1,Indirizzo: Comunicazione digitale d'impresa,indirizzo: comunicazione digitale d'impresa,//title,raw snapshot title
+SF0140,SD0067,meta_description,2,L'unica Università Telematica Italiana valutata positivamente e senza riserve dal CNVSU.,l'unica università telematica italiana valutata positivamente e senza riserve dal cnvsu.,//meta[@name='description'],raw snapshot meta description
+SF0141,SD0067,h1,3,Scienze della Comunicazione (Anno Accademico 2025/2026) - Comunicazione digitale d'impresa,scienze della comunicazione (anno accademico 2025/2026) - comunicazione digitale d'impresa,//h1[1],raw snapshot first h1

@@ -1,0 +1,537 @@
+{
+  "status": {
+    "success": true,
+    "httpstatuscode": 200
+  },
+  "statistics": {
+    "pagetitle": "2447 - SCIENZE DELLA COMUNICAZIONE | Università degli Studi di Palermo",
+    "pageurl": "https://www.unipa.it/dipartimenti/cultureesocieta/cds/scienzedellacomunicazione2447",
+    "time": 7.04,
+    "creditsremaining": 209,
+    "AIMscore": 7.6,
+    "allitemcount": 274,
+    "totalelements": 899,
+    "waveurl": "http://wave.webaim.org/report?url=https://www.unipa.it/dipartimenti/cultureesocieta/cds/scienzedellacomunicazione2447"
+  },
+  "categories": {
+    "error": {
+      "description": "Errors",
+      "count": 8,
+      "items": {
+        "aria_menu_broken": {
+          "id": "aria_menu_broken",
+          "description": "Broken ARIA menu",
+          "count": 8,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI + LI > A:first-child + UL"
+          ]
+        }
+      }
+    },
+    "contrast": {
+      "description": "Contrast Errors",
+      "count": 0,
+      "items": []
+    },
+    "alert": {
+      "description": "Alerts",
+      "count": 141,
+      "items": {
+        "alt_duplicate": {
+          "id": "alt_duplicate",
+          "description": "A nearby image has the same alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child + A + A + A + A > IMG:first-child"
+          ]
+        },
+        "image_title": {
+          "id": "image_title",
+          "description": "Image with title",
+          "count": 13,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child > DIV#promo-slider > UL:first-child > LI:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > H2:first-child + P + P > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > H2:first-child + P + P > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > H2:first-child + P + P > IMG:first-child"
+          ]
+        },
+        "label_title": {
+          "id": "label_title",
+          "description": "Unlabeled form control with title",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#search-navigation-xs > LI:first-child > FORM:first-child > FIELDSET:first-child + DIV > INPUT:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#a3-profile > LI:first-child + LI > A:first-child + UL > LI:first-child > FORM:first-child > FIELDSET:first-child + DIV > INPUT:first-child"
+          ]
+        },
+        "heading_skipped": {
+          "id": "heading_skipped",
+          "description": "Skipped heading level",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > H3:first-child"
+          ]
+        },
+        "link_redundant": {
+          "id": "link_redundant",
+          "description": "Redundant link",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE > DIV#readcontent > DIV#accordion-1f5d3024-cc43-11ee-941f-005056010139 > A:first-child"
+          ]
+        },
+        "link_pdf": {
+          "id": "link_pdf",
+          "description": "Link to PDF document",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE > DIV#readcontent > DIV#accordion-1f5d3024-cc43-11ee-941f-005056010139 > A:first-child + DIV + DIV + P > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE > DIV#readcontent > DIV#accordion-1f5d3024-cc43-11ee-941f-005056010139 > A:first-child + DIV + DIV + P + P + P + P + P + P + P > A:first-child"
+          ]
+        },
+        "noscript": {
+          "id": "noscript",
+          "description": "Noscript element",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER + SCRIPT + SCRIPT + SCRIPT + NOSCRIPT",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER + SCRIPT + SCRIPT + SCRIPT + NOSCRIPT + SCRIPT + NOSCRIPT"
+          ]
+        },
+        "accesskey": {
+          "id": "accesskey",
+          "description": "Accesskey",
+          "count": 41,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE > DIV#readcontent > DIV#accordion-16e05372-cc3f-11ee-941f-005056010139 > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE > DIV#readcontent > DIV#accordion-1f5d3024-cc43-11ee-941f-005056010139 > A:first-child"
+          ]
+        },
+        "title_redundant": {
+          "id": "title_redundant",
+          "description": "Redundant title text",
+          "count": 76,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI + LI > A:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI + LI > A:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE > DIV#readcontent > DIV#accordion-1f5d3024-cc43-11ee-941f-005056010139 > A:first-child + DIV + DIV + P > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child + A > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child + A + A > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child + A + A + A > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child + A + A + A + A + A > IMG:first-child"
+          ]
+        },
+        "youtube_video": {
+          "id": "youtube_video",
+          "description": "YouTube video",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE + DIV + DIV > H3:first-child + DIV > IFRAME:first-child"
+          ]
+        }
+      }
+    },
+    "feature": {
+      "description": "Features",
+      "count": 36,
+      "items": {
+        "alt": {
+          "id": "alt",
+          "description": "Alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-start > DIV:first-child > DIV:first-child > IMG:first-child"
+          ]
+        },
+        "alt_null": {
+          "id": "alt_null",
+          "description": "Null or empty alternative text",
+          "count": 12,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > H2:first-child + P + P > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > H2:first-child + P + P > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > H2:first-child + P + P > SPAN:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > H2:first-child + P + P > IMG:first-child"
+          ]
+        },
+        "alt_link": {
+          "id": "alt_link",
+          "description": "Linked image with alternative text",
+          "count": 16,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > DIV#main-navbar-header > A:first-child + BUTTON + A + A + BUTTON + A > IMG#logo_nav",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER > DIV:first-child > H1:first-child > A:first-child > IMG#logo",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER > DIV:first-child > H1:first-child + DIV > BR:first-child + DIV + DIV > UL:first-child > LI:first-child > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER > DIV:first-child > H1:first-child + DIV > BR:first-child + DIV + DIV > UL:first-child > LI:first-child + LI > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER > DIV:first-child > H1:first-child + DIV > BR:first-child + DIV + DIV > UL:first-child > LI:first-child + LI + LI > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER > DIV:first-child > H1:first-child + DIV > BR:first-child + DIV + DIV > UL:first-child > LI:first-child + LI + LI + LI > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER > DIV:first-child > H1:first-child + DIV > BR:first-child + DIV + DIV > UL:first-child > LI:first-child + LI + LI + LI + LI > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER > DIV:first-child > H1:first-child + DIV > BR:first-child + DIV + DIV > UL:first-child > LI:first-child + LI + LI + LI + LI + LI > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER > DIV:first-child > H1:first-child + DIV > BR:first-child + DIV + DIV + DIV > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE > DIV#readcontent > DIV#accordion-1f5d3024-cc43-11ee-941f-005056010139 > A:first-child + DIV + DIV + P > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child + A > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child + A + A > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child + A + A + A > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child + A + A + A + A > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > SPAN:first-child + P > A:first-child + A + A + A + A + A > IMG:first-child"
+          ]
+        },
+        "label": {
+          "id": "label",
+          "description": "Form label",
+          "count": 4,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#search-navigation-xs > LI:first-child > FORM:first-child > FIELDSET:first-child > LEGEND:first-child + INPUT + LABEL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#search-navigation-xs > LI:first-child > FORM:first-child > FIELDSET:first-child > LEGEND:first-child + INPUT + LABEL + INPUT + LABEL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#a3-profile > LI:first-child + LI > A:first-child + UL > LI:first-child > FORM:first-child > FIELDSET:first-child > LEGEND:first-child + INPUT + LABEL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#a3-profile > LI:first-child + LI > A:first-child + UL > LI:first-child > FORM:first-child > FIELDSET:first-child > LEGEND:first-child + INPUT + LABEL + INPUT + LABEL"
+          ]
+        },
+        "fieldset": {
+          "id": "fieldset",
+          "description": "Fieldset",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#search-navigation-xs > LI:first-child > FORM:first-child > FIELDSET:first-child > LEGEND:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#a3-profile > LI:first-child + LI > A:first-child + UL > LI:first-child > FORM:first-child > FIELDSET:first-child > LEGEND:first-child"
+          ]
+        },
+        "lang": {
+          "id": "lang",
+          "description": "Language",
+          "count": 1,
+          "selectors": [
+            false
+          ]
+        }
+      }
+    },
+    "structure": {
+      "description": "Structural Elements",
+      "count": 66,
+      "items": {
+        "h1": {
+          "id": "h1",
+          "description": "Heading level 1",
+          "count": 4,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER > DIV:first-child > H1:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child > H1:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child"
+          ]
+        },
+        "h2": {
+          "id": "h2",
+          "description": "Heading level 2",
+          "count": 21,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-873e1bdd-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-7b18ac33-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-7b18ac33-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-7b18ac33-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-7b18ac33-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-7b18ac33-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-7b18ac33-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-7b18ac33-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-7b18ac33-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV > H2:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child + DIV + DIV + DIV > DIV#news-carousel-7b18ac33-fb65-11e3-998d-005056010139-all > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV > H2:first-child"
+          ]
+        },
+        "h3": {
+          "id": "h3",
+          "description": "Heading level 3",
+          "count": 4,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > H3:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > H3:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > H3:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE + DIV + DIV > H3:first-child"
+          ]
+        },
+        "h4": {
+          "id": "h4",
+          "description": "Heading level 4",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE > DIV#readcontent > H4:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE > DIV#readcontent > H4:first-child"
+          ]
+        },
+        "ul": {
+          "id": "ul",
+          "description": "Unordered list",
+          "count": 29,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#common-navigation > LI:first-child + LI + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#a3-profile-xs",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#workplace-navigation-xs",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#workplace-navigation",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#search-navigation-xs",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#a3-profile",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#a3-profile > LI:first-child + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER > DIV:first-child > H1:first-child + DIV > BR:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER > DIV:first-child > H1:first-child + DIV > BR:first-child + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV#site-navbar-collapse > UL#application-menu > LI:first-child + LI + LI + LI + LI + LI > A:first-child + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child > H1:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-start > DIV:first-child + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-start > DIV:first-child + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child > DIV#promo-slider > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE > DIV#readcontent > DIV#accordion-16e05372-cc3f-11ee-941f-005056010139 > A:first-child + DIV + DIV + P + P + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE > DIV#readcontent > DIV#accordion-16e05372-cc3f-11ee-941f-005056010139 > A:first-child + DIV + DIV + P + P + UL + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE > DIV#readcontent > DIV#accordion-16e05372-cc3f-11ee-941f-005056010139 > A:first-child + DIV + DIV + P + P + UL + UL + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE > DIV#readcontent > DIV#accordion-16e05372-cc3f-11ee-941f-005056010139 > A:first-child + DIV + DIV + P + P + UL + UL + UL + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE > DIV#readcontent > DIV#accordion-16e05372-cc3f-11ee-941f-005056010139 > A:first-child + DIV + DIV + P + P + UL + UL + UL + UL + UL",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV#footerlinkscontainer1 > DIV:first-child > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV#footerlinkscontainer2 > DIV:first-child > DIV:first-child > UL:first-child"
+          ]
+        },
+        "iframe": {
+          "id": "iframe",
+          "description": "Inline frame",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE + DIV + DIV > H3:first-child + DIV > IFRAME:first-child"
+          ]
+        },
+        "header": {
+          "id": "header",
+          "description": "Header",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child"
+          ]
+        },
+        "nav": {
+          "id": "nav",
+          "description": "Navigation",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV"
+          ]
+        },
+        "footer": {
+          "id": "footer",
+          "description": "Footer",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV + FOOTER"
+          ]
+        }
+      }
+    },
+    "aria": {
+      "description": "ARIA",
+      "count": 23,
+      "items": {
+        "aria_label": {
+          "id": "aria_label",
+          "description": "ARIA label",
+          "count": 13,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > DIV#main-navbar-header > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > DIV#main-navbar-header > A:first-child + BUTTON + A",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > DIV#main-navbar-header > A:first-child + BUTTON + A + A",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > DIV#main-navbar-header > A:first-child + BUTTON + A + A + BUTTON + A",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#a3-profile > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#a3-profile > LI:first-child + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV + HEADER + NAV > DIV:first-child > DIV:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE > DIV#readcontent > DIV#accordion-16e05372-cc3f-11ee-941f-005056010139 > DIV#xp1 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE > DIV#readcontent > DIV#accordion-1f5d3024-cc43-11ee-941f-005056010139 > DIV#xp1 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV > DIV:first-child > P:first-child + A + A + A + A",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child > H1:first-child + DIV + DIV > DIV:first-child > P:first-child + A + A + A + A + A",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child + DIV + DIV > DIV:first-child > P:first-child + A + A + A + A",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainertemplate-end > SECTION:first-child + SECTION > H1:first-child + DIV + DIV > DIV:first-child > P:first-child + A + A + A + A + A"
+          ]
+        },
+        "aria_tabindex": {
+          "id": "aria_tabindex",
+          "description": "ARIA tabindex",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content"
+          ]
+        },
+        "aria_hidden": {
+          "id": "aria_hidden",
+          "description": "ARIA hidden",
+          "count": 5,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#a3-profile > LI:first-child > A:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE > DIV#readcontent > H4:first-child + DIV > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE > DIV#readcontent > DIV#accordion-16e05372-cc3f-11ee-941f-005056010139 > DIV#xp1 > BUTTON:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE > DIV#readcontent > H4:first-child + DIV > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE > DIV#readcontent > DIV#accordion-1f5d3024-cc43-11ee-941f-005056010139 > DIV#xp1 > BUTTON:first-child > SPAN:first-child"
+          ]
+        },
+        "aria_expanded": {
+          "id": "aria_expanded",
+          "description": "ARIA expanded",
+          "count": 4,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#workplace-navigation-xs",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV:first-child + NAV > DIV:first-child > UL#search-navigation-xs",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE > DIV#readcontent > DIV#accordion-16e05372-cc3f-11ee-941f-005056010139 > DIV#xp1 > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + A + DIV > DIV#content > DIV:first-child > HEADER:first-child + DIV > DIV:first-child > DIV:first-child > DIV#centercontainer > DIV:first-child + DIV + ARTICLE + ARTICLE > DIV#readcontent > DIV#accordion-1f5d3024-cc43-11ee-941f-005056010139 > DIV#xp1 > BUTTON:first-child"
+          ]
+        }
+      }
+    }
+  }
+}

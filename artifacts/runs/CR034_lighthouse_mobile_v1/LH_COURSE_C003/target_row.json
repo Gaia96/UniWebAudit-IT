@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C003",
+  "source_document_id": "SD0089",
+  "crawl_run_id": "CR015",
+  "university_id": "UNI02",
+  "sample_course_id": "C003",
+  "journey_id": "J003",
+  "page_role": "course_page",
+  "source_kind": "normalization_check",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "medium",
+  "tested_url": "https://www.unipd.it/corsi-di-laurea/comunicazione",
+  "final_url": "https://www.unipd.it/corsi-di-laurea/comunicazione",
+  "notes": "CR015; new canonical URL for C003/J003 post Unipd platform migration; L-20 confirmed in static HTML; replaces dead SD0007 (/offerta-didattica/... -> 308 -> homepage)"
+}

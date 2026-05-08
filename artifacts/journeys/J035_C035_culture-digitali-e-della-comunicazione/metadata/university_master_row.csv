@@ -1,0 +1,2 @@
+university_id,university_name,short_name,macro_area,institution_type,city,university_homepage_url,programmes_hub_url,included_from_lm92_pilot,core_sampling_strategy,sample_status,notes
+UNI18,"Università degli Studi di Napoli ""Federico II""",Unina,Sud,statale,Napoli,https://www.unina.it/,https://www.unina.it/it/didattica/offerta-formativa,1,triennale_plus_magistrale_core_optional_cycle_unique,seeded,initial definitive sample; programmes_hub_url normalized 2026-04-07 after CR013

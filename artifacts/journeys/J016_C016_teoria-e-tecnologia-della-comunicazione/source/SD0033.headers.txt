@@ -1,0 +1,23 @@
+HTTP/2 200 
+date: Fri, 03 Apr 2026 15:16:58 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: UNCACHEABLE
+link: <https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione>; rel="canonical", <https://www.unimib.it/node/25235>; rel="shortlink", <https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione>; rel="alternate"; hreflang="it"
+x-ua-compatible: IE=edge
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+vary: Cookie,Accept-Encoding
+expires: Fri, 03 Apr 2026 19:16:58 GMT
+x-drupal-cache: MISS
+last-modified: Fri, 03 Apr 2026 15:04:33 GMT
+cf-cache-status: HIT
+x-varnish: 255101994
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=okEWpy2aVjwXU1SDdWwuqCpnEvad1jpWXlpvDpRaEF0-1775229418.5070755-1.0.1.1-QR3c6R6OfOA6XLvvgjduGMnXXNazdQg_eHuREly_COc0N5UjC5lfIoJEDmFXD41KLcuuu95J4gVkzLUvqk3EYw93uDjE3vY6APuKk14Bx0FrkzAMHWlZ7zbOSk3fEkHL; HttpOnly; Secure; Path=/; Domain=www.unimib.it; Expires=Fri, 03 Apr 2026 15:46:58 GMT
+cf-ray: 9e690999a9f9ea3f-FCO
+

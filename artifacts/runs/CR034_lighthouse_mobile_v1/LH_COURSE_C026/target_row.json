@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C026",
+  "source_document_id": "SD0054",
+  "crawl_run_id": "CR007",
+  "university_id": "UNI13",
+  "sample_course_id": "C026",
+  "journey_id": "J026",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://www.unipa.it/dipartimenti/cultureesocieta/cds/comunicazionedelpatrimonioculturale2215",
+  "final_url": "https://www.unipa.it/dipartimenti/cultureesocieta/cds/comunicazionedelpatrimonioculturale2215",
+  "notes": "tranche5; collected before hub normalization; parent relinked to normalized programmes hub SD0060 in CR009"
+}

@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 03 Apr 2026 14:51:47 GMT
+Content-Type: text/html;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache-operation: plone.app.caching.moderateCaching
+content-language: it
+expires: Tue, 05 Apr 2016 14:49:47 GMT
+vary: X-Anonymous
+x-ua-compatible: IE=edge
+x-cache-rule: plone.content.itemView
+x-ids-involved: #48f9bd74c6d24243ba2070ba387f65c4#
+x-frame-options: SAMEORIGIN
+X-Cacheable: YES
+x-url: /VirtualHostBase/https/www.unibo.it:443/unibo/VirtualHostRoot/it/studiare/lauree-magistrali/corso/2025/6824
+Age: 120
+Accept-Ranges: bytes
+grace: 
+Cache-Control: max-age=0, s-maxage=0, must-revalidate
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Content-Type-Options: nosniff
+

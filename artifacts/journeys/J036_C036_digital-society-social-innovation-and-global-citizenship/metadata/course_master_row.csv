@@ -1,0 +1,2 @@
+sample_course_id,university_id,university_name,course_name,degree_type,course_class,disciplinary_cluster,selection_role,selection_priority,course_page_url,url_origin,normalization_status,selection_rationale,notes
+C036,UNI18,"Università degli Studi di Napoli ""Federico II""","Digital Society, Social Innovation and Global Citizenship",magistrale,LM-92,communication_digital,core_magistrale,core,https://www.corsi.unina.it/DA2/home,pilot_lm92_seed,reviewed_js_heavy_portal,pilot magistrale retained for definitive seed,JS heavy course portal confirmed

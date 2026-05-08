@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unipd.it/corsi-di-laurea/strategie-di-comunicazione",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C004/lhci_filesystem/www_unipd_it-corsi_di_laurea_strategie_di_comunicazione-2026_04_23_14_27_27.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C004/lhci_filesystem/www_unipd_it-corsi_di_laurea_strategie_di_comunicazione-2026_04_23_14_27_27.report.json",
+    "summary": {
+      "performance": 0.34,
+      "accessibility": 0.96,
+      "best-practices": 0.71,
+      "seo": 0.66
+    }
+  },
+  {
+    "url": "https://www.unipd.it/corsi-di-laurea/strategie-di-comunicazione",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C004/lhci_filesystem/www_unipd_it-corsi_di_laurea_strategie_di_comunicazione-2026_04_23_14_27_48.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C004/lhci_filesystem/www_unipd_it-corsi_di_laurea_strategie_di_comunicazione-2026_04_23_14_27_48.report.json",
+    "summary": {
+      "performance": 0.32,
+      "accessibility": 0.96,
+      "best-practices": 0.71,
+      "seo": 0.66
+    }
+  },
+  {
+    "url": "https://www.unipd.it/corsi-di-laurea/strategie-di-comunicazione",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C004/lhci_filesystem/www_unipd_it-corsi_di_laurea_strategie_di_comunicazione-2026_04_23_14_28_52.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C004/lhci_filesystem/www_unipd_it-corsi_di_laurea_strategie_di_comunicazione-2026_04_23_14_28_52.report.json",
+    "summary": {
+      "performance": 0.36,
+      "accessibility": 0.96,
+      "best-practices": 0.71,
+      "seo": 0.66
+    }
+  }
+]

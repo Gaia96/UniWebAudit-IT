@@ -1,0 +1,8 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0093,SD0047,title,1,Homepage - Università Roma Tre,homepage - università roma tre,//title,raw snapshot title
+SF0094,SD0047,h1,2,Università Roma Tre,università roma tre,//h1[1],raw snapshot first h1
+SF0100,SD0050,title,1,Scienze Cognitive della Comunicazione e dell'Azione - Università Roma Tre,scienze cognitive della comunicazione e dell'azione - università roma tre,//title,raw snapshot title
+SF0101,SD0050,meta_description,2,La scienza cognitiva si occupa dello studio dei processi cognitivi intesi come elaborazioni di informazione da parte di un sistema…,la scienza cognitiva si occupa dello studio dei processi cognitivi intesi come elaborazioni di informazione da parte di un sistema…,//meta[@name='description'],raw snapshot meta description
+SF0102,SD0050,h1,3,Scienze Cognitive della Comunicazione e dell'Azione,scienze cognitive della comunicazione e dell'azione,//h1[1],raw snapshot first h1
+SF0119,SD0059,title,1,Offerta formativa - Università Roma Tre,offerta formativa - università roma tre,//title,raw snapshot title
+SF0120,SD0059,h1,2,Offerta formativa,offerta formativa,//h1[1],raw snapshot first h1

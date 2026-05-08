@@ -1,0 +1,9 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0041,SD0022,title,1,L'Università di Torino,l'università di torino,//title,raw snapshot title
+SF0042,SD0022,meta_description,2,"Dal 1404 a oggi offre percorsi formativi di qualità in molteplici ambiti disciplinari, una solida rete internazionale e un forte legame con il territorio.","dal 1404 a oggi offre percorsi formativi di qualità in molteplici ambiti disciplinari, una solida rete internazionale e un forte legame con il territorio.",//meta[@name='description'],raw snapshot meta description
+SF0043,SD0022,h1,3,Home page,home page,//h1[1],raw snapshot first h1
+SF0044,SD0023,title,1,Didattica | Università di Torino,didattica università di torino,//title,raw snapshot title
+SF0045,SD0023,meta_description,2,"Scegli il tuo percorso di studi tra corsi di laurea, master, dottorati, scuole di specializzazione e altre opportunità formative per accrescere le tue competenze e costruire il tuo futuro","scegli il tuo percorso di studi tra corsi di laurea, master, dottorati, scuole di specializzazione e altre opportunità formative per accrescere le tue competenze e costruire il tuo futuro",//meta[@name='description'],raw snapshot meta description
+SF0046,SD0023,h1,3,Didattica,didattica,//h1[1],raw snapshot first h1
+SF0049,SD0025,title,1,[0507M21] COMUNICAZIONE E CULTURE DEI MEDIA | Università di Torino,0507m21 comunicazione e culture dei media università di torino,//title,raw snapshot title
+SF0050,SD0025,h1,2,COMUNICAZIONE E CULTURE DEI MEDIA,comunicazione e culture dei media,//h1[1],raw snapshot first h1

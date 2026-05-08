@@ -1,0 +1,5 @@
+Running Lighthouse 3 time(s) on https://www.uninettunouniversity.net/it/indirizzo-comunicazione-digitale-d-impresa.aspx?degree=334&faculty=7&idindirizzo=179&mode=cs
+Run #1...done.
+Run #2...done.
+Run #3...done.
+Done running Lighthouse!

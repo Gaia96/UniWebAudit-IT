@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C010",
+  "source_document_id": "SD0091",
+  "crawl_run_id": "CR019",
+  "university_id": "UNI05",
+  "sample_course_id": "C010",
+  "journey_id": "J010",
+  "page_role": "course_page",
+  "source_kind": "normalization_check",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://www.unisi.it/ugov/degree/82714",
+  "final_url": "https://www.unisi.it/ugov/degree/82714",
+  "notes": "CR019; current official C010/J010 U-GOV sheet surfaced by Didattica > Corsi di studio 2025-2026; replaces historical D003 /ugov/degree/22463 as master target while older sheet remains in provenance"
+}

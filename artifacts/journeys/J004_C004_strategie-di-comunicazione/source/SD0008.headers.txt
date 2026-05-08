@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Date: Fri, 03 Apr 2026 14:51:51 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 81473
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-Frame-Options: SameOrigin
+Content-Language: it
+Permissions-Policy: interest-cohort=()
+Cache-Control: public, max-age=600
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Last-Modified: Fri, 03 Apr 2026 14:49:37 GMT
+X-Varnish: 777827450 771942464
+Age: 132
+ETag: W/"1775227777-0-gzip"
+X-Cache: HIT
+X-Cache-Hits: 1
+Accept-Ranges: bytes
+Server: www.unipd.it
+Strict-Transport-Security: max-age=63072000; preload
+

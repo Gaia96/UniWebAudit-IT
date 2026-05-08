@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.corsi.unina.it/DA2/home",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C036/lhci_filesystem/www_corsi_unina_it-DA2_home-2026_04_23_15_01_06.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C036/lhci_filesystem/www_corsi_unina_it-DA2_home-2026_04_23_15_01_06.report.json",
+    "summary": {
+      "performance": 0.28,
+      "accessibility": 0.92,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.corsi.unina.it/DA2/home",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C036/lhci_filesystem/www_corsi_unina_it-DA2_home-2026_04_23_15_01_20.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C036/lhci_filesystem/www_corsi_unina_it-DA2_home-2026_04_23_15_01_20.report.json",
+    "summary": {
+      "performance": 0.29,
+      "accessibility": 0.92,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.corsi.unina.it/DA2/home",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C036/lhci_filesystem/www_corsi_unina_it-DA2_home-2026_04_23_15_01_33.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C036/lhci_filesystem/www_corsi_unina_it-DA2_home-2026_04_23_15_01_33.report.json",
+    "summary": {
+      "performance": 0.29,
+      "accessibility": 0.92,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  }
+]

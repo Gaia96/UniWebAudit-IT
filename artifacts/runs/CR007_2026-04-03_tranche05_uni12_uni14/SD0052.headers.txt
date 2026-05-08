@@ -1,0 +1,34 @@
+HTTP/1.1 302 Found
+Date: Fri, 03 Apr 2026 15:30:13 GMT
+Server: OpenCms/8.0.4
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, must-revalidate
+Pragma: no-cache
+Location: https://www.unipa.it/errore.html?code=404&resource=/didattica/offerta-formativa/
+Content-Type: text/html;charset=UTF-8
+X-Varnish: 4338885
+Age: 0
+Via: 1.1 varnish (Varnish/7.0)
+Content-Length: 0
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: *
+
+HTTP/1.1 200 OK
+Date: Fri, 03 Apr 2026 15:30:14 GMT
+Server: OpenCms/8.0.4
+X-Frame-Options: SAMEORIGIN
+X-Varnish: 2765231
+Age: 0
+Via: 1.1 varnish (Varnish/7.0)
+Accept-Ranges: bytes
+Set-Cookie: JSESSIONID=DFACECF0B19FE3DA15DD51BA68483A3A; Path=/; HttpOnly
+X-Mod-Pagespeed: 1.13.35.2-0
+Vary: Accept-Encoding
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=0, no-cache, s-maxage=10
+Content-Length: 455084
+Content-Type: text/html;charset=UTF-8
+

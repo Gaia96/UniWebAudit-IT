@@ -1,0 +1,17 @@
+HTTP/2 200 
+strict-transport-security: max-age=15768000
+content-security-policy: frame-ancestors 'self' https://*.unige.it
+date: Fri, 03 Apr 2026 12:23:01 GMT
+server: Apache
+x-drupal-dynamic-cache: HIT
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+x-generator: Drupal 10 (https://www.drupal.org)
+x-drupal-cache: HIT
+vary: Accept-Encoding
+x-unige-host: web-drupal9-pot generazione D=25860, epoch t=1775229411100069
+content-type: text/html; charset=UTF-8
+x-cache: MISS from corsi.unige.it
+x-cache-detail: "cache miss: attempting entity save" from corsi.unige.it
+

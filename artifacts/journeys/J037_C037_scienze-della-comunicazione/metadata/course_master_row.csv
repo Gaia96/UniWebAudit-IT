@@ -1,0 +1,2 @@
+sample_course_id,university_id,university_name,course_name,degree_type,course_class,disciplinary_cluster,selection_role,selection_priority,course_page_url,url_origin,normalization_status,selection_rationale,notes
+C037,UNI19,Università degli Studi di Bergamo,Scienze della Comunicazione,triennale,L-20,communication_media,core_triennale,core,https://www.unibg.it/studiare/corsi/offertaformativa/scienze-comunicazione,official_search_apr2026,searched_seed,communication L-course paired with pilot seed,current official course page

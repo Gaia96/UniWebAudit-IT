@@ -1,0 +1,24 @@
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 67493
+date: Fri, 03 Apr 2026 15:43:47 GMT
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+cache-control: no-cache, no-store, must-revalidate, post-check=0,pre-check=0
+pragma: no-cache
+expires: -1
+server: Microsoft-IIS/10.0
+set-cookie: ASP.NET_SessionId=zlqvpgtag23nd5j2o2vwmnnm; path=/; HttpOnly; SameSite=Lax
+set-cookie: UrlReferrer=/it/culture-linguaggi-e-strategie-per-la-comunicazione-nell-era-digitale.aspx; path=/
+x-aspnet-version: 4.0.30319
+x-powered-by: ASP.NET
+access-control-allow-origin: *
+access-control-allow-methods: GET, PUT, POST, DELETE, HEAD, OPTIONS
+access-control-allow-credentials: true
+access-control-allow-headers: X-Requested-With, origin, content-type, accept
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-cache: Miss from cloudfront
+via: 1.1 1f9756e5a67b29b62ea941193293d6fa.cloudfront.net (CloudFront)
+x-amz-cf-pop: MXP53-P7
+x-amz-cf-id: __vy8FscxBbJ7Ts4kSxyiJVdrmLVpGfE1B3OUAqGgsmM9MrpzPIAJQ==
+

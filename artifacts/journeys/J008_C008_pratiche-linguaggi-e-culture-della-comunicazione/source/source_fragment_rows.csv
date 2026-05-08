@@ -1,0 +1,8 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0022,SD0013,title,1,Università di Firenze,università di firenze,//title,raw snapshot title
+SF0023,SD0013,meta_description,2,"L'Università di Firenze è una delle più grandi organizzazioni per la ricerca e la formazione superiore in Italia, ha sedi in vari punti della città e anche oltre l'area urbana. Nel 2024 festeggia il centenario dalla sua istituzione, anche se le sue origini sono più antiche e risalgono allo Studium Generale che la repubblica fiorentina volle far nascere nel 1321.","l'università di firenze è una delle più grandi organizzazioni per la ricerca e la formazione superiore in italia, ha sedi in vari punti della città e anche oltre l'area urbana. nel 2024 festeggia il centenario dalla sua istituzione, anche se le sue origini sono più antiche e risalgono allo studium generale che la repubblica fiorentina volle far nascere nel 1321.",//meta[@name='description'],raw snapshot meta description
+SF0024,SD0013,h1,3,Home,home,//h1[1],raw snapshot first h1
+SF0029,SD0016,title,1,"[B385] PRATICHE, LINGUAGGI E CULTURE DELLA COMUNICAZIONE | Università di Firenze",b385 pratiche linguaggi e culture della comunicazione università di firenze,//title,raw snapshot title
+SF0030,SD0016,h1,2,"PRATICHE, LINGUAGGI E CULTURE DELLA COMUNICAZIONE",pratiche linguaggi e culture della comunicazione,//h1[1],raw snapshot first h1
+SF0039,SD0021,title,1,Corsi di laurea | Università di Firenze,corsi di laurea università di firenze,//title,raw snapshot title
+SF0040,SD0021,h1,2,Corsi di laurea,corsi di laurea,//h1[1],raw snapshot first h1

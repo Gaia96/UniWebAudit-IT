@@ -1,0 +1,43 @@
+HTTP/2 301 
+date: Fri, 03 Apr 2026 15:24:48 GMT
+content-type: text/html; charset=utf-8
+location: https://www.unimi.it/it
+server: cloudflare
+x-drupal-route-normalizer: 1
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+cache-control: public, max-age=14400
+vary: Cookie
+expires: Fri, 03 Apr 2026 19:24:48 GMT
+x-drupal-cache: HIT
+last-modified: Fri, 03 Apr 2026 05:02:57 GMT
+x-varnish: 322273802
+x-cache: MISS
+grace: none
+set-cookie: __cf_bm=mgeiqc4vwjeG0yAgPnWqjKRxsv9_bnfrtc8AGvmWm30-1775229888.7077863-1.0.1.1-i_.SzrgL00hGmJu5E311RPgQSWr92Iy.PcGN2ryY4up7waleGYy47r7iAtcovWBgffSrlWec75RHHBNkoIFo2bGTfhHR.bYw2TeidKjZdHKj6iAjXlRidcQu5LV3f0MN; HttpOnly; Secure; Path=/; Domain=www.unimi.it; Expires=Fri, 03 Apr 2026 15:54:48 GMT
+age: 8075
+cf-cache-status: HIT
+cf-ray: 9e6915146895ea51-FCO
+
+HTTP/2 200 
+date: Fri, 03 Apr 2026 15:24:48 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: UNCACHEABLE (poor cacheability)
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+vary: Cookie,Accept-Encoding
+expires: Fri, 03 Apr 2026 19:24:48 GMT
+x-drupal-cache: HIT
+last-modified: Fri, 03 Apr 2026 14:08:20 GMT
+cf-cache-status: HIT
+x-varnish: 334300788
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=weJImS6C.oiBTXM4SgP6LM3yIDofaXLPKo00nSfb9tc-1775229888.899489-1.0.1.1-DK62kFxYR0rEQXe.UJWeHZQCQL6dF8mRFZueyhQhoN7r4g_AIDp.kE6H2NCil.zge8S1yAmzFwgnH_I53Jj41iMKU3FFCk9aIGFFXN6GGv2Ih4H1dhBC5Wj5VqRCVCpM; HttpOnly; Secure; Path=/; Domain=www.unimi.it; Expires=Fri, 03 Apr 2026 15:54:48 GMT
+age: 251
+cf-ray: 9e6915159d20ea51-FCO
+

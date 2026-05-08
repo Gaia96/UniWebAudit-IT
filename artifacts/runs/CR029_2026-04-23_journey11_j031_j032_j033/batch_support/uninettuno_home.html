@@ -1,0 +1,1494 @@
+
+
+<!DOCTYPE html>
+<html id="ctl01_html_tag" lang="it">
+
+<head>
+    <!-- Matomo -->
+    <script>
+        // Disattivazione di Matomo per i bot di Silktide in modo da prevenire
+        // i falsi positivi (errore "net::ERR_BLOCKED_BY_CLIENT") nei report di accessibilitÃ /qualitÃ .
+        if (navigator.userAgent && !navigator.userAgent.includes("Silktide") && !navigator.userAgent.includes("Sitebeam")) {
+            var _paq = window._paq = window._paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function () {
+                var u = "https://uninettunouniversity.matomo.cloud/";
+                _paq.push(['setTrackerUrl', u + 'matomo.php']);
+                _paq.push(['setSiteId', '1']);
+                var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+                g.async = true; g.src = '//cdn.matomo.cloud/uninettunouniversity.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g, s);
+            })();
+        }
+    </script>
+    <!-- End Matomo Code -->
+
+    <!-- Accessibility Code for "uninettunouniversity.net" -->
+    <script>
+        // Disattivazione del widget EqualWeb esclusivamente per i bot di Silktide per due motivi:
+        // 1. Evitare errori CORS in console ("Access-Control-Allow-Origin") dovuti al CDN di EqualWeb.
+        // 2. Consentire a Silktide di validare il codice nativo della piattaforma anzichÃ© l'overlay generato.
+        if (navigator.userAgent && !navigator.userAgent.includes("Silktide") && !navigator.userAgent.includes("Sitebeam")) {
+            window.interdeal = {
+                "sitekey": "5fa9b1adb034db4eb0248e8258d4b607",
+                "Position": (document.documentElement.getAttribute("dir") === "rtl" ? "Right" : "Left"),
+                "Menulang": (document.documentElement.getAttribute("lang")),
+                "domains": {
+                    "js": "https://cdn.equalweb.com/",
+                    "acc": "https://access.equalweb.com/"
+                },
+                "btnStyle": {
+                    "vPosition": [
+                        "80%",
+                        null
+                    ],
+                    "scale": [
+                        "0.8",
+                        "0.8"
+                    ],
+                    "icon": {
+                        "type": 11,
+                        "shape": "semicircle",
+                        "outline": false
+                    }
+                }
+            };
+            (function (doc, head, body) {
+                var coreCall = doc.createElement('script');
+                coreCall.src = interdeal.domains.js + 'core/4.5.2/accessibility.js';
+                coreCall.defer = true;
+                coreCall.integrity = 'sha512-GVvo5c2SV7jwI6rUxQrAjIT6u0WHdJ+pbzRZyzfhOUGMaiKekbDs26ipItwEjD9jCvaV1qWbWurNBQGF5eY9aw==';
+                coreCall.crossOrigin = 'anonymous';
+                coreCall.setAttribute('data-cfasync', true);
+                body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+            })(document, document.head, document.body);
+        }
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="keywords" content="università telematica, università online, università on line, università a distanza, università online roma, università on line roma" lang="it" />
+<meta name="description" lang="it" content="L'unica Università Telematica Italiana valutata positivamente e senza riserve dal CNVSU."/>
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="description" content="
+Scopri come laurearti online grazie ai corsi di laurea a distanza dell' Università Uninettuno, la prima Università telematica a Roma e in Italia.
+" lang="it" />
+
+    <!-- Bootstrap CSS -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="/ClassicResources/bootstrap/5.1.3/css/bootstrap.min.css" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" /><link rel="stylesheet" href="/data/font-awesome/css/font-awesome.min.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&amp;display=swap" rel="stylesheet" /><link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css" /><link href="//fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet" type="text/css" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet" /><link rel="stylesheet" href="/data/skins/uninettunonew/css-new/login.css" /><link rel="stylesheet" href="/Data/skins/uninettunonew/jquery.sweet-dropdown.css" /><link href='/Data/Skins/uninettunonew/uninettuno.css?v=202604086200000'  rel='stylesheet'>
+<link href='/classicresources/jQuery/mCustomScrollbar/jquery.mCustomScrollbar.css'  rel='stylesheet'>
+<link href='/Data/Skins/uninettunonew/izimodal/iziModal.min.css'  rel='stylesheet'>
+
+
+
+
+    <!--   <script>
+        if (window.location.href.includes("cyberspazio")) {
+            var element = document.createElement("link");
+            element.setAttribute("rel", "stylesheet");
+            element.setAttribute("href", '/ClassicResources/bootstrap/3.3.7/css/bootstrap.css');
+            document.getElementsByTagName("head")[0].appendChild(element);
+        }</script>  -->
+
+    <title>
+	
+Università Telematica Internazionale UNINETTUNO:  Laurea Online
+
+</title>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+
+    <script type='text/javascript' src='/clientscript/jQuery/jquery-1.11.1.min.js?v=69E65F72'></script><script type='text/javascript' src='/clientscript/jQuery/jquery-migrate-1.2.1.js?v=69E65F72'></script><script type='text/javascript' src='/clientscript/libs/angular.min.js?v=69E65F72'></script><script type='text/javascript' src='/clientscript/libs/angular-animate.min.js?v=69E65F72'></script><script type='text/javascript' src='/clientscript/utiudom.js?v=69E65F74'></script><script type='text/javascript' src='/clientscript/homesearch.js?v=69E65F72'></script><script type='text/javascript' src='/clientscript/izimodal/izimodal.min.js?v=69E65F72'></script><script type='text/javascript' src='/clientscript/libs/scroll-handler.js?v=69E65F72'></script></head>
+
+<body id="ctl01_bodyContainer">
+    <form method="post" action="./default.aspx?languagecode=it" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATEFIELDCOUNT" id="__VIEWSTATEFIELDCOUNT" value="31" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Mud525KYt1iN7Qbce68+l6jJ/GoShYueYRlcRH05cAsPUSzMFHezLdHgAlehMdnOE0tB2glVve+WziVDkRo8e1cbfDPE0umuPrMH" />
+<input type="hidden" name="__VIEWSTATE1" id="__VIEWSTATE1" value="QyJANWqcgsSaDGKO+vfY4yMSPzwAZ0KyJ/iWOyOqQ9Nkrxz6LZTXflPdrOrnt92Xvc8bh5dUEO/QDO4Bq4E7FMITJu3OldkjvRE8" />
+<input type="hidden" name="__VIEWSTATE2" id="__VIEWSTATE2" value="jD4qpwuEf0lA967ZcGy2CLZPGudZzGHWdEhvaPMeBtl61XO60lLK8fi/iG1hr4ZNcLfuhL7zKxc23otUNBaFots9EQ9UcLG+OPsC" />
+<input type="hidden" name="__VIEWSTATE3" id="__VIEWSTATE3" value="Dz4hK5ZZFbr5mvjaWPsJVlLkD9Wv+W6OKitzsYgpsBiCK9fEMUvaQRWuOGTPmrKk20h3CLazPeeKFBw7OixocaAIOUvpyUp4CoPW" />
+<input type="hidden" name="__VIEWSTATE4" id="__VIEWSTATE4" value="FzYZC2R43hd81HSdKyTQPtEZJysIiUdiredgZ1fvhIjTUu9Q0siX7VDjkIZsrLmVR9LDAD2FsQ/8dLIwdjTzN4Ss3MvesZAWWaOR" />
+<input type="hidden" name="__VIEWSTATE5" id="__VIEWSTATE5" value="J0AlHg/kQLGgbUSzr+kweePFfqxPfAgeSx7Vrv2P+x48ZYso9oZpsqVO6iPWwP+NdzlcUq0j8TnY4MpKN1117r3tvJ4L6Ss2RhnD" />
+<input type="hidden" name="__VIEWSTATE6" id="__VIEWSTATE6" value="oHfuGGL3vhwBF6Df+kF2lTf0G+cqNLUIMUYQyFm7MUchlaAFEiDK7aQ8/9kyPyaawlN45aJIg3/AJgZ28wEQLcOsaYVcyNxa9F29" />
+<input type="hidden" name="__VIEWSTATE7" id="__VIEWSTATE7" value="6hQMowqL1BVOgcSw716ia45qmFQp7hDStbNp6cLzsl5KcWuT5nkPU1cA5a6TF0cKnWfVvoujOS95zEEaliwQ8vSP+7uGOj0SA60w" />
+<input type="hidden" name="__VIEWSTATE8" id="__VIEWSTATE8" value="y60LcIELQUUqgOT52I+k9JFPXn43dAYh5FoKsUTkgauSQ4PYlscOehZhomNas21wRc9eTk/m67pAcy5npr9ZNL3bGh5EA2jagme1" />
+<input type="hidden" name="__VIEWSTATE9" id="__VIEWSTATE9" value="SouBMnPcHk+wfmdLRtix0JxbaFDNTZIZ93NhO3kuen31QriNbcjxQITuI06SWxab6kNCHdfITxq0mFjZWNQTHxTn4qs0o1QmKzxX" />
+<input type="hidden" name="__VIEWSTATE10" id="__VIEWSTATE10" value="sC76hJ5AF8yhKFoxbPmxDeIvV0RmZ5cfJUzbDT4SQydBVLodcXt5XNfNqknNWCZ8bAq1dwf7/Wpms3s/9MpGT+GECRqvkr0bzbBV" />
+<input type="hidden" name="__VIEWSTATE11" id="__VIEWSTATE11" value="9DzxuzKeTgUbZmlSEbkYwMdmAVnXl/9xL9hUAbM/USXP2yOIBCtRh5h36MSQukqTOwcTAybrGYjBeC6+bXodCwxVzDgyv6WGUvQK" />
+<input type="hidden" name="__VIEWSTATE12" id="__VIEWSTATE12" value="GeEK4qlTrLatIj1dAxTSlBVama0f1ceOiyUXlWrK1r4OBrdqPqlSaZoVUnlv0BzLOwa7J6fqXn66lMSuf2QZF95n6to1i+gPfFRX" />
+<input type="hidden" name="__VIEWSTATE13" id="__VIEWSTATE13" value="lGJK4As/BfDQPZKZG+BuaisBcvJJsKfXGaiF4mVwylmaWjxhOvZyQ2LLxoZogUEu+WY8N8CN1EbuSxUYtICNVu9Lm2tbs4Jhsqjl" />
+<input type="hidden" name="__VIEWSTATE14" id="__VIEWSTATE14" value="dU7Z7a8LdxaFQPYlUm5vCJn7QpNhWgMOPy3WsSCNVaIjbzDQrzOmyLjw+NjGjMzsToNaCoFV+fUnWgk0qF3TESa0ZZuAKPmxG1FB" />
+<input type="hidden" name="__VIEWSTATE15" id="__VIEWSTATE15" value="NXi6RvyhOBm2NIMfh80gSE3XilhCmGmzC6afR5jCKQzzKvs/sjPW645DDFa4bMl6yymsavdqkJ7l4A1PGj9xIEsvdTKj8XMioZM4" />
+<input type="hidden" name="__VIEWSTATE16" id="__VIEWSTATE16" value="mWpO8055+uMlY+C7F87kZpBU8vWMNwgjJO2dHViEnbNn4KRaRNr/ZMN+0u+5iOkElUIpKEwiE5s0GOVLc1QPjxuCvJ4OWB8Ranw7" />
+<input type="hidden" name="__VIEWSTATE17" id="__VIEWSTATE17" value="t+rRIpyD7UW+0VS1HVUz251SkuX3WrTd1+kKHdBYP4fYwYB3jBdeOSJt6MsKgMqdNwvTn/v3HDHKQkuozXq2vXZVO4pvvZmviHfT" />
+<input type="hidden" name="__VIEWSTATE18" id="__VIEWSTATE18" value="us41/NZ+FAfdKZDJ6gXWG8Q5QP6JpBvmadEIC87zJU/EV+FxZ6o+LnAmSG0cwtCNTfSh1tVzVgSAxWWS/mkToxW3oiwmU6VLo2Ya" />
+<input type="hidden" name="__VIEWSTATE19" id="__VIEWSTATE19" value="UyLNKjAaD7qq4Zc8duQK7bckBK03V8eDFKQKennQubm/n7wmCHLsptSMw0rtpzlNTpuNEV3mPV+mAt+cEbh58BbHdUed9Y26lvgY" />
+<input type="hidden" name="__VIEWSTATE20" id="__VIEWSTATE20" value="NuoJxluAR7HtBVAKYzQEzYrTyTxdU7z3W/tfQijH5q6yA8wUudY0RywWhZ/TqEtFp2NyMZh25VfeVYQYHqQIkKJstw5RiPJ7vkYJ" />
+<input type="hidden" name="__VIEWSTATE21" id="__VIEWSTATE21" value="GGU1QFIfPARCAyGvI1zZ459ACit0Ep5fEIZcop/rHTwGB1e055WFRDqGG20+DZQHI0AJTlJ/RhEfj8XoQP1VqKG6ejaNViX1WjYh" />
+<input type="hidden" name="__VIEWSTATE22" id="__VIEWSTATE22" value="LTwKs3TlFiRTs58gpaDbSTBJrK852wKHrHR9XeflyyUutvpn3eYQwxjRbdfnvfGdeMlxVCAHwrw9/jVmzmUtinLy/vxX/7G536S9" />
+<input type="hidden" name="__VIEWSTATE23" id="__VIEWSTATE23" value="/6mEG/Mb4u0rHEGEXggf5Qj99jj7DR5hNx/ZUkeWSnsszhYwck4mZ3/0Z1y2B1hFQNo8E+3ioUj6dReXAH4yRgjXDJBJJBz/qw/3" />
+<input type="hidden" name="__VIEWSTATE24" id="__VIEWSTATE24" value="MsLRlco2xvxojs/uRf1G4A4r7qMQpWY7gOEAQfXIpwVCYQ9ZlXpmoMPuzYS7S8ZkRzNGSaNH5cFwV+0j62UbRVWwTfebxaTba5yG" />
+<input type="hidden" name="__VIEWSTATE25" id="__VIEWSTATE25" value="8+rr5H7UM+KuhUQNPBHmOVatup4FlSxphT76WcpYelYl9VC3Q+44347/jETJXVnb7HNLSBeZC1g2jV1YrATmmOsd4UV06/TnwsIa" />
+<input type="hidden" name="__VIEWSTATE26" id="__VIEWSTATE26" value="5vzX+7N08HBNIvRt/s7xF73VppQ5cYMTdAietomy3blMUSsKynQ9zq275x1/GdQg2WvKbGjvdqD672GZYgxtMdipoDtudvDQqsjd" />
+<input type="hidden" name="__VIEWSTATE27" id="__VIEWSTATE27" value="WvGln/Q4xJLS0OR0iIF/YRYfVqD5GwKeGc7ag0tOhuVf12MoUJqBuyDigVDN2lwJrjI9KesATt/eyxWaVEcM81BVcLPKo3c73v3g" />
+<input type="hidden" name="__VIEWSTATE28" id="__VIEWSTATE28" value="M3gr5dx5ZEf2NY8hpSnhP8+zYX+M2duoDlfpIo0H3urzLFpbs06pcBLNJQBrJdgDnYNS1BvbGzyK8ozxbTved60ZEcUXtig31qHW" />
+<input type="hidden" name="__VIEWSTATE29" id="__VIEWSTATE29" value="jksEan6j93YmNqnLswk1QJ8hCIROcFI3/m1AbyQPi+2uUqqJIjw4chL1SkbBchboDPnCDCiP1nfNRbO1QvBr5z3dHKoOW5pmp+NB" />
+<input type="hidden" name="__VIEWSTATE30" id="__VIEWSTATE30" value="8C3waxzE3waMFz2OtWMLt2BKYAz84hCdF3k=" />
+
+
+<script src="/ClientScript/swfobject.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yDFiSbgUhYvFJszU-qsocFoocsXQ-Jg8jRDePu91F19RzucUkSM4VAavAK7QoeVB7HxqWbiBHIHp6wSDa1QoywT0IlSwywqCZc7Ccp2YFTCgltgsk1uj9Xe8bdGoRTwh00wAh2g1&amp;t=5c0e0825" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="dAkdIunz8jfY+uflV0XjL4T8W5zWQIqlRwHHTS6ykxE4Pk68HCpaO0LMA75f0MzN57ciUCLCO4nfIAEiwaYp2hRd5OYfUHaCRCNpKn4Z+ZL2c3Sd1/U9PapWCvPBi6ShCLsKew==" />
+
+        
+        
+        
+        
+
+        <!-- Submit di fallback per accessibilitÃ : consente a tecnologie assistive di inviare il form principale anche senza pulsanti visibili. -->
+        <button type="submit" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">Invia</button>
+
+        <!-- Link di salto per tastiera/screen reader: porta il focus sul contenuto centrale (#main-content) evitando di tabulare l'header fisso e i menu ripetitivi. -->
+        <a class="skip-to-content" href="#main-content">Salta al contenuto principale</a>
+
+        <!--for printing webpage-->
+        <div id="printonly" style="border-bottom: #c1d2ee 1px solid;">
+        <img width="250px"alt="Uninettuno University Logo" class="img-fluid" src="/data/skins/uninettunonew/images/logo.png" title="Uninettuno University Web Site" />
+        <span style="font-size:12px;">| Corso Vittorio Emanuele II, 39 - Roma 0669207671 - info@uninettunouniversity.net</span></div>
+
+        <!-- Navigation -->
+
+        <header id="ctl01_utiuHeader" class="fixed-top header-home">
+            <!-- Inizio Mobile header -->
+            <div class="container-fluid p-0">
+                <div class="row bg-primary_homePage m-0 p-0 g-1 align-items-center w-100 text-center justify-content-center">
+                    <div class="col-12 col-md-auto ms-lg-auto my-0 py-2 d-block d-lg-none">
+                        <div class="row align-items-center text-center">
+                            <div class="col-4 col-md-auto border-end py-1">
+                                <small>
+                                    <a class="text-light" href="/it/contattaci.aspx">Contatti</a></small>
+                            </div>
+                            <div class="col-4 col-md-auto border-end py-1">
+                                <small>
+                                    <a class="text-light" href="https://community.uninettunouniversity.net">Community</a></small>
+                            </div>
+                            <div class="col-4 col-md-auto py-1 d-flex justify-content-center">
+                                <small>
+                                    <a class="text-light" href="/it/searchonsite.aspx"><i class="bi bi-search text-light me-3"></i>Cerca</a></small>
+                            </div>
+                            <div class="col-6 col-md-auto  ms-lg-auto me-3 my-0 py-1 d-flex justify-content-center">
+                                
+
+<style>
+    .login-link {
+        cursor: pointer;
+    }
+</style>
+
+<script>
+
+    $(document).ready(function () {
+        if (typeof (Shared) != "undefined")
+            Shared.addSharedData({ element: $("#elementiCarrello"), isSmall: true }, "ecomcartlistener");
+        $('[id]').each(function () {
+            if (['myModal',
+                'myResetPwd',
+                'inputUsername',
+                'inputPassword',
+                'navbarSupportedContent',
+                'smalllogin',
+                'divProfileIcon',
+                'divIconProfile',
+                'btnLogin'].includes(this.id))
+            {
+                var $ids = $('[id=' + this.id + ']');
+                $ids.not(":first").attr("id", this.id + "3");
+            } 
+
+
+
+        });
+        $('label[for="inputUsername"]').not(":first").attr('for', 'inputUsername3');
+        $('label[for="inputPassword"]').not(":first").attr('for', 'inputPassword3');
+        $("#myModal").iziModal();
+        $("#myResetPwd").iziModal();
+    });
+
+    //function apri(url) { newin = window.open(url, 'user Login', 'scrollbars=no,resizable=yes, width=400,height=700,status=no,location=no,toolbar=no'); } 
+    function openLogin3() {
+        event.preventDefault();
+        $('#myModal').iziModal('open', { zindex: 10001 });
+
+    }
+
+    function openForgetPassword() {
+        $('#myModal').iziModal('close');
+        setTimeout(function () { $("#myResetPwd").iziModal('open', { zindex: 10001 }) }, 0);
+    }
+
+   
+    function disabilitaPulsanteLogin(btn) {
+        var el = btn
+            || document.getElementById("btnLogin3")
+            || document.getElementById("btnLogin")
+            || document.querySelector('.btn-login');
+
+        if (!el) {
+            console.error('disabilitaPulsanteLogin: button not found');
+            return false;
+        }
+
+        el.disabled = true;
+        return true;
+    }
+</script>
+
+<div id="smalllogin3" class="small-login">
+    
+    
+    <style>
+	.small-login-text { cursor: pointer }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/tether"></script>
+<div class="header-separator"></div>
+
+
+<a href="https://www.uninettunouniversity.net/shibsecure/loginsso.aspx?returnurl=home">
+	<span class="small-login-text small-login-text3" style="float:left">
+		Accedi
+	</span>
+	<span class="small-login-text header-caret" style="float:left;margin-left:5px">
+		<i class="bi bi-caret-down-fill login-triangle"></i>
+		<i class="glyphicon glyphicon-triangle-bottom login-triangle"></i>
+	</span>
+</a>
+
+
+    
+
+    <input name="ctl01$SmallLoginMobile$userInfo" type="hidden" id="ctl01_SmallLoginMobile_userInfo" />
+    <script>
+        function showUserInfo() {
+            alert($("#ctl01_SmallLoginMobile_userInfo").val());
+        }
+    </script>
+
+
+    <!--<style>
+	.form-control, .btn-primary { font-size: 2.5rem; }
+</style>-->
+<script>
+	$(document).ready(function () {
+        $("input[name='password']").keypress(function (event) {
+			if (event.which != 13) return;
+            event.preventDefault();
+            elem = document.getElementsByClassName("btn-login3");
+            elem[0].onclick.apply(elem[0]);
+        });
+	})
+
+</script>
+
+<div id="myModal" style="display: none" class="myModal3" data-izimodal-zindex="10001">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="btn-close close" data-dismiss="modal" data-izimodal-close="" style="position:absolute; top:0px; right:4px;" aria-label="Close" onclick="closeModal();"></button>
+			<a href="/it/default.aspx">
+				<span style="margin-left: 5px !important;"><img alt="Università telematica internazionale UNINETTUNO" src="https://www.uninettunouniversity.net/Data/Skins/uninettunonew/img/logo.png" /></span>
+			</a>
+		</div>
+		<div class="modal-body modal-login">
+			<h2>Login</h2>
+			<div>
+				<label for="inputUsername" class="form-label">Nome utente:</label>
+				<input class="form-control input-username input-username3" id="inputUsername" name="username" placeholder="Username" type="text" />
+				<label for="inputPassword" class="form-label">Password:</label>
+				<input class="form-control input-password input-password3" autocomplete="pass-word" id="inputPassword" name="password" placeholder="Password" type="password" />
+			</div>
+			<div style="margin-top:10px">
+				<!--<a href="#" onclick="openForgetPassword()" style="cursor: pointer;">Hai dimenticato la password?</a><br />-->
+				<a href="#" onclick="window.location.href='/secure/forgotpassword.aspx'" style="cursor: pointer;">Hai dimenticato la password?</a><br />
+
+			</div>
+			<div style="margin-top:10px">
+                <button class="btn btn-blu btn-login btn-login3 btn-primary btn-block" id="btnLogin"
+						style="width:100%"
+					onclick="disabilitaPulsanteLogin(this);$(this).postTo('/secure/it/loginpostto.aspx?returnurl=%2f', ['username', 'password'])" type="button">
+					Accedi
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+    
+
+    <!--<style>
+	.modal-body, .modal-header { font-size: 2.5rem; }
+</style>-->
+
+<div id="myResetPwd" data-izimodal-zindex="10001" style="display: none">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="btn-close close" data-dismiss="modal" data-izimodal-close="" style="position:absolute; top:0px; right:4px;" aria-label="Close" onclick="closeModal();"></button>
+			Password dimenticata - Cambio password
+		</div>
+		<div class="modal-body" style="min-height: 150px !important">
+			<p>
+				Se sei uno studente clicca sul pulsante "STUDENTE" altrimenti clicca sul pulsante "ALTRO"
+			</p>
+			<div style="margin-top: 25px; text-align:center">
+				<a class="btn btn-primary btn-md col-md-5"
+					href="https://uninettuno.esse3.cineca.it/Anagrafica/PasswordDimenticata.do?menu_opened_cod=menu_link-navbox_account_Area_Riservata"
+					role="button" style="margin-right: 50px" target="_blank">Studente</a>
+				<a class="btn btn-primary btn-md col-md-5 pull-right" href="/secure/forgotpassword.aspx" role="button"
+					target="_blank">Altro</a>
+			</div>
+		</div>
+	</div>
+</div>
+    
+    <!-- Fine modale di reset password -->
+</div>
+
+                            </div>
+                            <div class="col-auto py-1">
+                                
+
+<script type="text/javascript">
+    function GetLinkWithAnchor(link) {
+        try {
+            var url = window.location.href;
+            if (url.indexOf("#") != -1) {
+                var anchor = url.substr(url.indexOf("#"));
+                var hrefValue = link.attributes.getNamedItem("href").nodeValue;
+                link.attributes.getNamedItem("href").nodeValue = hrefValue + anchor;
+            }
+        }
+        catch (e) { }
+    }
+</script>
+
+
+
+<div class='header-right-language bg-primary_homePage menubar'><ul class="menuLanguage"><li><a class="active" href="/it/default.aspx" hreflang="it" onclick="GetLinkWithAnchor(this);" title="Lingua selezionata: IT">IT | </a></li><li><a href="/en/default.aspx" hreflang="en" onclick="GetLinkWithAnchor(this);" title="EN">EN | </a></li><li><a href="/fr/default.aspx" hreflang="fr" onclick="GetLinkWithAnchor(this);" title="FR">FR | </a></li><li><a href="/ar/default.aspx" hreflang="عربي" onclick="GetLinkWithAnchor(this);" title="عربي">عربي | </a></li><li><a href="/el/default.aspx" hreflang="gr" onclick="GetLinkWithAnchor(this);" title="GR">GR</a></li></ul></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-1 m-0 align-items-start">
+                <div class="col-12 col-xl-auto p-0 m-0 text-center">
+                    
+                        <a href="/it/default.aspx" class="mx-auto d-none d-lg-block">
+                            <img src="/data/skins/uninettunonew/images/logo.png" title="Uninettuno University Web Site" alt="Uninettuno University Logo" class="img-fluid" />
+                        </a>
+                    
+                    <nav class="navbar navbar-expand-lg navbar-light d-block d-lg-none pb-0">
+                        <div class="hstack gap-3 p-3">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon display-5 color-primary"></span>
+                            </button>
+                            <a href="/it/default.aspx" class="mx-auto">
+                                <img src="/data/skins/uninettunonew/images/logo.png" alt="Uninettuno University Logo" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
+                            <ul class=" pb-3 navbar-nav w-100 justify-content-between m-0 list-unstyled">
+                                <li class="nav-item list-unstyled text-start">
+                                    <a class="nav-link border-0 py-1  university" id="university-mobile" href="/it/universita.aspx" rel="alternate">UNIVERSITÀ</a>
+                                </li>
+                                <li class="nav-item list-unstyled text-start">
+                                    <a class="nav-link border-0 py-1 didacticoffer" id="didacticoffer-mobile" href="/it/offertaformativa.aspx" rel="alternate">OFFERTA FORMATIVA</a>
+                                </li>
+                                <li class="nav-item list-unstyled text-start">
+                                    <a class="nav-link border-0 py-1 enrolment" id="enrolment-mobile" href="/it/iscrizione-studenti.aspx" rel="alternate">ISCRIZIONE</a>
+                                </li>
+                                <li class="nav-item list-unstyled text-start">
+                                    <a class="nav-link border-0 py-1 students" id="students-mobile" href="/it/area-studenti.aspx" rel="alternate">STUDENTI</a>
+                                </li>
+                                <li class="nav-item list-unstyled text-start">
+                                    <a class="nav-link border-0 py-1 cyberspace" id="cyberspace-mobile" href="/it/cyberspaziodidattico.aspx" rel="alternate">CYBERSPAZIO DIDATTICO</a>
+                                </li>
+                                <li class="nav-item list-unstyled text-start">
+                                    <a class="nav-link border-0 py-1 biblioteque" id="biblioteque-mobile" href="/it/redirect-biblioteca-universitaria-online.aspx" rel="alternate">BIBLIOTECA</a>
+                                </li>
+                                <li class="nav-item list-unstyled text-start">
+                                    <a class="nav-link border-0 py-1 research" id="research-mobile" href="/it/area-ricerca.aspx" rel="alternate">RICERCA</a>
+                                </li>
+                                <li class="nav-item list-unstyled text-start">
+                                    <a class="nav-link border-0 py-1 international" id="communication-mobile" href="/it/default.aspx#acommunication" rel="alternate">COMUNICAZIONE</a>
+                                </li>
+                                <li class="nav-item list-unstyled text-start">
+                                    <a class="nav-link border-0 py-1 international" id="international-mobile" href="/it/universita-internazionale.aspx" rel="alternate">INTERNAZIONALIZZAZIONE</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <!-- Fine Mobile header -->
+                <!-- Inizio desktop area -->
+                <div id="ctl01_headerMenu" class="col p-0 m-0 desktop-area">
+                    <div class="row m-0 align-items-start">
+                        <div class="col p-0 d-flex align-items-end m-0">
+                            <div class="triangolo-pre d-none d-xl-inline-block" style="margin-left: 1px;"></div>
+                            <div class="row bg-primary_homePage m-0 p-0 g-1 align-items-center w-100 text-center justify-content-center" style="height: 44px;">
+
+                                <div class="inlineOverride">
+                                </div>
+
+                                <div class="indirizzo-head col-12 col-lg-auto text-light my-0 py-2 ms-3 d-none d-xl-block">
+                                    <p>Corso Vittorio Emanuele II, 39 - Roma 0687940271 </p>
+                                </div>
+                                <div class="col-12 col-md-auto ms-xl-auto my-0 py-2 d-none d-lg-block community-container">
+                                    <div class="row align-items-center text-center g-1 row-community">
+                                        <div class="col border-end py-1 px-2">
+                                            <a class="text-light" href="/it/contattaci.aspx">Contatti</a>
+                                        </div>
+                                        <div class="col border-end py-1 px-2">
+                                            <a class="text-light" href="https://community.uninettunouniversity.net">Community</a>
+                                        </div>
+                                        <div class="col py-1 d-flex pl-3 search-box">
+                                            <i class="bi bi-search text-light me-3"></i>
+                                            <label for="homesearch" class="visually-hidden" style="color:#FAFAFA;">Filtro</label>
+                                            <input type="search" placeholder='Cerca' class="input-white form-control bg-transparent border-0" autocomplete="one-time-code" name="homesearch" id="homesearch" style="width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-auto ms-lg-3 me-3 my-0 py-2 d-none d-lg-flex justify-content-center login-and-langs">
+                                    <div class="row-profile">
+                                        
+
+<style>
+    .login-link {
+        cursor: pointer;
+    }
+</style>
+
+<script>
+
+    $(document).ready(function () {
+        if (typeof (Shared) != "undefined")
+            Shared.addSharedData({ element: $("#elementiCarrello"), isSmall: true }, "ecomcartlistener");
+        $('[id]').each(function () {
+            if (['myModal',
+                'myResetPwd',
+                'inputUsername',
+                'inputPassword',
+                'navbarSupportedContent',
+                'smalllogin',
+                'divProfileIcon',
+                'divIconProfile',
+                'btnLogin'].includes(this.id))
+            {
+                var $ids = $('[id=' + this.id + ']');
+                $ids.not(":first").attr("id", this.id + "2");
+            } 
+
+
+
+        });
+        $('label[for="inputUsername"]').not(":first").attr('for', 'inputUsername2');
+        $('label[for="inputPassword"]').not(":first").attr('for', 'inputPassword2');
+        $("#myModal").iziModal();
+        $("#myResetPwd").iziModal();
+    });
+
+    //function apri(url) { newin = window.open(url, 'user Login', 'scrollbars=no,resizable=yes, width=400,height=700,status=no,location=no,toolbar=no'); } 
+    function openLogin2() {
+        event.preventDefault();
+        $('#myModal').iziModal('open', { zindex: 10001 });
+
+    }
+
+    function openForgetPassword() {
+        $('#myModal').iziModal('close');
+        setTimeout(function () { $("#myResetPwd").iziModal('open', { zindex: 10001 }) }, 0);
+    }
+
+   
+    function disabilitaPulsanteLogin(btn) {
+        var el = btn
+            || document.getElementById("btnLogin2")
+            || document.getElementById("btnLogin")
+            || document.querySelector('.btn-login');
+
+        if (!el) {
+            console.error('disabilitaPulsanteLogin: button not found');
+            return false;
+        }
+
+        el.disabled = true;
+        return true;
+    }
+</script>
+
+<div id="smalllogin2" class="small-login">
+    
+    
+    <style>
+	.small-login-text { cursor: pointer }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/tether"></script>
+<div class="header-separator"></div>
+
+
+<a href="https://www.uninettunouniversity.net/shibsecure/loginsso.aspx?returnurl=home">
+	<span class="small-login-text small-login-text2" style="float:left">
+		Accedi
+	</span>
+	<span class="small-login-text header-caret" style="float:left;margin-left:5px">
+		<i class="bi bi-caret-down-fill login-triangle"></i>
+		<i class="glyphicon glyphicon-triangle-bottom login-triangle"></i>
+	</span>
+</a>
+
+
+    
+
+    <input name="ctl01$SmallLogin$userInfo" type="hidden" id="ctl01_SmallLogin_userInfo" />
+    <script>
+        function showUserInfo() {
+            alert($("#ctl01_SmallLogin_userInfo").val());
+        }
+    </script>
+
+
+    <!--<style>
+	.form-control, .btn-primary { font-size: 2.5rem; }
+</style>-->
+<script>
+	$(document).ready(function () {
+        $("input[name='password2']").keypress(function (event) {
+			if (event.which != 13) return;
+            event.preventDefault();
+            elem = document.getElementsByClassName("btn-login2");
+            elem[0].onclick.apply(elem[0]);
+        });
+	})
+
+</script>
+
+<div id="myModal" style="display: none" class="myModal2" data-izimodal-zindex="10001">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="btn-close close" data-dismiss="modal" data-izimodal-close="" style="position:absolute; top:0px; right:4px;" aria-label="Close" onclick="closeModal();"></button>
+			<a href="/it/default.aspx">
+				<span style="margin-left: 5px !important;"><img alt="Università telematica internazionale UNINETTUNO" src="https://www.uninettunouniversity.net/Data/Skins/uninettunonew/img/logo.png" /></span>
+			</a>
+		</div>
+		<div class="modal-body modal-login">
+			<h2>Login</h2>
+			<div>
+				<label for="inputUsername" class="form-label">Nome utente:</label>
+				<input class="form-control input-username input-username2" id="inputUsername" name="username2" placeholder="Username" type="text" />
+				<label for="inputPassword" class="form-label">Password:</label>
+				<input class="form-control input-password input-password2" autocomplete="pass-word" id="inputPassword" name="password2" placeholder="Password" type="password" />
+			</div>
+			<div style="margin-top:10px">
+				<!--<a href="#" onclick="openForgetPassword()" style="cursor: pointer;">Hai dimenticato la password?</a><br />-->
+				<a href="#" onclick="window.location.href='/secure/forgotpassword.aspx'" style="cursor: pointer;">Hai dimenticato la password?</a><br />
+
+			</div>
+			<div style="margin-top:10px">
+                <button class="btn btn-blu btn-login btn-login2 btn-primary btn-block" id="btnLogin"
+						style="width:100%"
+					onclick="disabilitaPulsanteLogin(this);$(this).postTo('/secure/it/loginpostto.aspx?returnurl=%2f', ['username2', 'password2'])" type="button">
+					Accedi
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+    
+
+    <!--<style>
+	.modal-body, .modal-header { font-size: 2.5rem; }
+</style>-->
+
+<div id="myResetPwd" data-izimodal-zindex="10001" style="display: none">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="btn-close close" data-dismiss="modal" data-izimodal-close="" style="position:absolute; top:0px; right:4px;" aria-label="Close" onclick="closeModal();"></button>
+			Password dimenticata - Cambio password
+		</div>
+		<div class="modal-body" style="min-height: 150px !important">
+			<p>
+				Se sei uno studente clicca sul pulsante "STUDENTE" altrimenti clicca sul pulsante "ALTRO"
+			</p>
+			<div style="margin-top: 25px; text-align:center">
+				<a class="btn btn-primary btn-md col-md-5"
+					href="https://uninettuno.esse3.cineca.it/Anagrafica/PasswordDimenticata.do?menu_opened_cod=menu_link-navbox_account_Area_Riservata"
+					role="button" style="margin-right: 50px" target="_blank">Studente</a>
+				<a class="btn btn-primary btn-md col-md-5 pull-right" href="/secure/forgotpassword.aspx" role="button"
+					target="_blank">Altro</a>
+			</div>
+		</div>
+	</div>
+</div>
+    
+    <!-- Fine modale di reset password -->
+</div>
+
+                                    </div>
+                                    <div class="text-white hstack ms-3 row-languages">
+                                        <a href="/it/default.aspx" onclick="GetLinkWithAnchor(this);" title="Lingua selezionata" class="active text-white border-end border-white px-2"></a>
+                                        
+
+<script type="text/javascript">
+    function GetLinkWithAnchor(link) {
+        try {
+            var url = window.location.href;
+            if (url.indexOf("#") != -1) {
+                var anchor = url.substr(url.indexOf("#"));
+                var hrefValue = link.attributes.getNamedItem("href").nodeValue;
+                link.attributes.getNamedItem("href").nodeValue = hrefValue + anchor;
+            }
+        }
+        catch (e) { }
+    }
+</script>
+
+
+
+<div class='header-right-language bg-primary_homePage menubar'><ul class="menuLanguage"><li><a class="active" href="/it/default.aspx" hreflang="it" onclick="GetLinkWithAnchor(this);" title="Lingua selezionata: IT">IT | </a></li><li><a href="/en/default.aspx" hreflang="en" onclick="GetLinkWithAnchor(this);" title="EN">EN | </a></li><li><a href="/fr/default.aspx" hreflang="fr" onclick="GetLinkWithAnchor(this);" title="FR">FR | </a></li><li><a href="/ar/default.aspx" hreflang="عربي" onclick="GetLinkWithAnchor(this);" title="عربي">عربي | </a></li><li><a href="/el/default.aspx" hreflang="gr" onclick="GetLinkWithAnchor(this);" title="GR">GR</a></li></ul></div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+										
+                    <div class="row m-0">
+                        <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-block ps-5">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="navbar-collapse collapse show" id="navbarSupportedContent" style="">
+                                <ul class="navbar-nav w-100 justify-content-between m-0 list-unstyled align-items-center">
+                                    <li class="nav-item list-unstyled text-start border-bottom-0 mx-3">
+                                        <a class="nav-link border-0 py-2 university" id="university" href="/it/universita.aspx" rel="alternate">UNIVERSITÀ</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled text-start border-bottom-0 mx-3" style="line-height: 21px;">
+                                        <a class="nav-link border-0 py-2 didacticoffer" id="didacticoffer" href="/it/offertaformativa.aspx" rel="alternate">OFFERTA FORMATIVA</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled text-start border-bottom-0 mx-3">
+                                        <a class="nav-link border-0 py-2 enrolment" id="enrolment" href="/it/iscrizione-studenti.aspx" rel="alternate">ISCRIZIONE</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled text-start border-bottom-0 mx-3">
+                                        <a class="nav-link border-0 py-2 students" id="students" href="/it/area-studenti.aspx" rel="alternate">STUDENTI</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled text-start border-bottom-0 mx-3">
+                                        <a class="nav-link border-0 py-2 cyberspace" id="cyberspace" href="/it/cyberspaziodidattico.aspx" rel="alternate" style="line-height: 21px;">CYBERSPAZIO DIDATTICO</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled text-start border-bottom-0 mx-3">
+                                        <a class="nav-link border-0 py-2 biblioteque" id="biblioteque" href="/it/redirect-biblioteca-universitaria-online.aspx" rel="alternate">BIBLIOTECA</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled text-start border-bottom-0 mx-3">
+                                        <a class="nav-link border-0 py-2 research" id="research" href="/it/area-ricerca.aspx" rel="alternate">RICERCA</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled text-start border-bottom-0 mx-3">
+                                        <a class="nav-link border-0 py-2 comunication" id="communication" href="/it/default.aspx#acommunication" rel="alternate">COMUNICAZIONE</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled text-start border-bottom-0 mx-3">
+                                        <a class="nav-link border-0 py-2 international" id="international" href="/it/universita-internazionale.aspx" rel="alternate">INTERNAZIONALIZZAZIONE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Fine Desktop Area -->
+            </div>
+        </header>
+
+        <!-- Banner part start -->
+        <!--<section id="banner">
+			<div class="container-fluid px-0">
+				<img src="/data/skins/uninettunonew/images/banner.png" alt="banner" class="bannerImg img-fluid">
+			</div>
+			<div class="bannerDwnTxt">
+				UNINETTUNO LâUNIVERSITAâ NEL METAVERSO
+			</div>
+		</section>-->
+        <!-- Banner part end here -->
+
+        <!-- <div class="container">
+            <div class="row"> -->
+
+        <section class="full-wrapper">
+            
+
+
+            <div id="ctl01_divContentCenter" class="col-md-12 div-content-center">
+	
+                <div style="display:none;"><img id="imgsetcookies" src="https://www.uninettunouniversity.net/setawscookies.ashx?t=QTNERDI3NDJDQkYzNTREMDk1NzAzNUNGMTA3Q0NBNUU0Q0M4RDFDNUU5MjZCRkQ0OTYwMTg5NTE5RjVCNzBFMUM2RTM3MUVGRTFEQzBGQjFBNkY3MkFGNEI1MUIzNDc0NEE1MkY1RjBDNUY2RDhGNDIyOEZEMEZGRDEyODNBNjJEODVCQUU4OEY2QTM5M0Y2MDk5NjQxMzIwNkM1MzhBQzhDMjk0MzRFODI5QTNBOUIyRTZDQURCNjM5NTY3QThENTQ5NDI5MjlFQUEyRTA4OTVCMzAzMzE4MTI1RDkzNzcwNUUxRUU3QTJGQTVGNkE0OEIwNTA4QUQzRUFEMzUzMDVCNzNBMjNEOTRGMTFGNjhBMzQ2RjU5MjY0MDZCNjE1RDhCRDlDM0I3REZFMDkxQUJDOEIzRjg5RUVDNEUzNEYxREQ0RUQ1NjYwMkExMkVDRjJCODNCN0ZGNjU3MjI3RDBERTVBQ0RBMjcxQ0VGRDYzQTlCMjc5MUMzQTQ3MkNGRUFGM0VEMDY" alt="imgsetcookies"></img><script type="text/javascript">window.__cookiesimg = $('#imgsetcookies');</script></div>
+                <div style="display: none" class='collapsed-container collapsed-sidebar collapsed-sidebar-left nophone'>
+                    <div><span class='bi bi-eject-fill' title='Comprimi/Espandi'></span></div>
+                </div>
+
+                <div class="editpanel">
+                    
+                </div>
+
+                <div id="ctl01_divCenter" class="center-rightandleftmargins div-center">
+		
+                    <div id="main-content" class="skip-target" tabindex="-1"></div>
+                    
+                    
+
+                    
+<div id="ctl01_mainContent_ctl13_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl13_divSingleItem" class="modulecontent">
+  <div id="totContent107656"><style type="text/css">
+<!--#tdPlugin {
+        background-color: #0074c9 !important;-->
+    }</style>
+<div class="main-banner"></div>
+<link href="/ClassicResources/video-js.css" rel="stylesheet" type="text/css" />
+<div class="container-fluid p-0">
+<div class="row g-0">
+<div class="col-12 col-lg-8 p-0 position-relative" id="tdPlugin" style="  padding-bottom: 53px !important;text-align: center; ">
+<div class="ng-scope" id="JWPlayerContainer" style="width:100%;"><streaming autoplay="true" fitcontainer="false" fluid="true" iosstreamurl="https://streaming2.uninettunouniversity.net/mediagallery/homepage/video-banner/20221102/20221102.m3u8" nativeandroidplayer="true" playerheight="auto" uid="401"> </streaming></div>
+<div class="container-fluid p-0 bg-primary_homePage text-center p-3 position-absolute bottom-0">
+<h1 class="p-0 text-light" style="letter-spacing: 1px;margin-top:2px;font-size:22px;">UNINETTUNO L&rsquo;UNIVERSIT&Agrave; NEL METAVERSO - NEL FUTURO DA SEMPRE</h1></div></div>
+<div class="col-12 col-lg-4 bg-light px-5 py-0"><a class="anchor" name="richiedi-informazioni"></a>
+<h2 class="text-center p-0 m-o">RICHIEDI INFORMAZIONI</h2>
+<hr style="
+                            width: 70px;
+                            height: 3px;
+                            color: #018bc9;
+                            opacity: 1;
+                            " />
+<div class="row">
+<div class="col-6">
+<div class="mb-3"><input aria-label="Nome" class="form-control border-primary" id="" name="emailmodulename" placeholder="Nome*" required="" tabindex="0" type="text" /></div></div>
+<div class="col-6">
+<div class="mb-3"><input aria-label="Cognome" class="form-control border-primary" id="" name="emailmodulelastname" placeholder="Cognome*" required="" tabindex="0" type="text" /></div></div>
+<div class="col-12">
+<div class="mb-3"><input aria-label="Email" autocomplete="given-email" class="form-control border-primary" id="" name="emailmoduleemail" placeholder="E-mail*" required="" tabindex="0" type="text" /></div></div>
+<div class="col-6">
+<div class="mb-3 pe-2"><input aria-label="Telefono" class="form-control border-primary" id="" name="emailmoduletel" placeholder="Telefono*" required="" tabindex="0" type="number" /></div></div>
+<div class="col-6">
+<div class="mb-3 ps-2"><select aria-label="Default select example" class="form-select border-primary" name="emailmodulecity" required="" style="text-align:center" tabindex="0"><option selected="selected">Regione*</option><option value="Abruzzo">Abruzzo</option><option value="Basilicata">Basilicata</option><option value="Calabria">Calabria</option><option value="Campania">Campania</option><option value="Emilia-Romagna">Emilia-Romagna</option><option value="Friuli-Venezia Giulia">Friuli-Venezia Giulia</option><option value="Lazio">Lazio</option><option value="Liguria">Liguria</option><option value="Lombardia">Lombardia</option><option value="Marche">Marche</option><option value="Molise">Molise</option><option value="Piemonte">Piemonte</option><option value="Puglia">Puglia</option><option value="Sardegna">Sardegna</option><option value="Sicilia">Sicilia</option><option value="Toscana">Toscana</option><option value="Trentino-Alto Adige">Trentino-Alto Adige</option><option value="Umbria">Umbria</option><option value="Valle d'Aosta">Valle d&#39;Aosta</option><option value="Veneto">Veneto</option></select></div></div>
+<div class="col-12">
+<div class="mb-3"><select aria-label="Default select example" class="form-select border-primary" name="emailmoduleinfoon" required="" style="text-align:center" tabindex="0"><option selected="selected" value="">Vorrei informazioni su*</option><option value="Corsi di Laurea in Economia e Diritto">Corsi di Laurea in Economia e Diritto</option><option value="Corsi di Laurea in Ingegneria">Corsi di Laurea in Ingegneria</option><option value="Corsi di Laurea in Beni Culturali">Corsi di Laurea in Beni Culturali</option><option value="Corsi di Laurea in Psicologia">Corsi di Laurea in Psicologia</option><option value="Corsi di Laurea in Scienze della Comunicazione">Corsi di Laurea in Scienze della Comunicazione</option><option value="Master">Master</option></select></div></div>
+<div class="col-12">
+<div class="mb-3"><textarea aria-label="Messaggio-orario preferito di contatto" class="form-control border-primary" id="" name="emailmodulemessage" placeholder="Messaggio/orario preferito di contatto" rows="3" style="height:50px"></textarea></div></div>
+<div class="col-6"><label class="form-check-label" for="flexCheckDefault2"><small>Ho letto l&#39;<a href="https://www.uninettunouniversity.net/it/informativa_privacy.aspx" target="_blank">informativa </a> *</small></label> <input class="form-check-input" id="flexCheckDefault2" name="emailmoduleprivacy" required="" tabindex="0" type="checkbox" value="" /></div>
+<div class="col-md-6">
+<p><small>* campi obbligatori</small></p></div>
+<div class="col-12">
+<fieldset>
+	<legend style="font-size: 2rem;"> <small>Autorizzo l&#39;invio di comunicazioni a fini promozionali e marketing diretto:</small></legend> <label class="radio-inline" style="margin-top:0px!important;margin-left:10px"> <input checked="checked" id="autorizzocomunicazioni1" name="emailmodule_autorizzocomunicazioni" required="" type="radio" value="Si" /> Si </label> <label class="checkbox-inline" style="margin-top:0px!important;"> <input id="autorizzocomunicazioni2" name="emailmodule_autorizzocomunicazioni" type="radio" value="No" /> No </label></fieldset>
+</div>
+<div class="col-6 col-sm-12 d-flex align-items-center">
+<div class="g-recaptcha" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback" data-sitekey="6Leg264UAAAAADbcnnQyTyikIylqcdYy6C3dhtxS"></div></div><input class="btn bg-secondary text-white p-3 px-5 mt-3 display-1 w-100 mx-auto rounded-pill ief-check-mandatory-fields" style="
+        font-size: 2.1rem !important;
+        height: 53px;
+    " type="submit" value="Invia richiesta" /><input data-recaptcha="" name="emailmodule_recaptcha" type="hidden" /></div></div></div></div><script type="text/javascript">
+        function onloadCallback() {
+     var textarea = document.getElementById("g-recaptcha-response");
+      textarea.setAttribute("aria-hidden", "true");
+      textarea.setAttribute("aria-label", "do not use");
+      textarea.setAttribute("aria-readonly", "true");
+           
+        }
+    </script><script src="https://www.google.com/recaptcha/api.js?hl=it&onload=onloadCallback" async defer></script><script type="text/javascript">
+            window.verifyRecaptchaCallback = function (response) { $('input[data-recaptcha]').val(response).trigger('change') }
+            window.expiredRecaptchaCallback = function () { $('input[data-recaptcha]').val("").trigger('change') }
+    
+        </script>
+<link href="/ClassicResources/video-js.css" rel="stylesheet" type="text/css" />
+<script src='/Clientscript/angular/apps/libs/jquery/lib.jquery.js'></script><script type="text/javascript" src="/clientscript/VideoJS/video.js"></script><script src='/Clientscript/angular/apps/libs/videojs/lib.videojs.js'></script><script src='/Clientscript/angular/apps/libs/streaming/lib.streaming.js'></script><script src='/Clientscript/angular/apps/home/mediaapp.js'></script><script>angular.bootstrap(document.getElementById('JWPlayerContainer'), ['mediaapp']);</script><!-- FINE CODICE--></div></div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+<div id="ctl01_mainContent_ctl14_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl14_divSingleItem" class="modulecontent">
+  </div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+<div id="ctl01_mainContent_ctl15_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl15_divSingleItem" class="modulecontent">
+  <div id="totContent108756"><div class="container-fluid py-5 ">
+<div class="d-flex flex-column align-items-center bg-white gap-5 d-lg-none"><a href="https://www.uninettunomag.com/it/default.aspx" target="_blank"><img alt="MAG - Multimedia Accademic Global" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Sites/1/GalleryImages/WebImages/homepage/brand-8.png" /></a> <a href="https://www.uninettunouniversity.net/it/quality-assurance-in-e-learning.aspx"> <img alt="E-xcellence Quality Assurance in e-learning" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Skins/uninettunonew/images/brand-2.png" /> </a> <a href="https://www.uninettunouniversity.net/it/comunicatostampa.aspx?ID=124"> <img alt="UNINETTUNO è l'unica università telematica valutata a pieni voti dall'Anvur" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Skins/uninettunonew/images/brand-4.png" /></a> <a href="/it/uninettunoplus.aspx"> <img alt="Il progetto UNINETTUNO Plus" class="img-fluid" src="/Data/Sites/1/GalleryImages/WebImages/progetti/uninettuno-plus.png" /></a> <a href="https://www.uninettunouniversity.net/it/short-learning-program-re-generation-enel.aspx"> <img alt="Progetto Formativo Online in collaborazione con Enel" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Skins/uninettunonew/images/brand-6.png" /> </a> <a href="/it/complexplore.aspx"> <img alt="ComplExplore - Seminari  sulla complessità" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Sites/1/GalleryImages/WebImages/homepage/Complexplore.png" style="max-height:75px; max-width:238px" /></a> <a href="https://www.uninettunouniversity.net/it/digital-talks.aspx"> <img alt="Digital Talks UNINETTUNO" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Sites/1/GalleryImages/WebImages/homepage/brand-3.png" /> </a> <a href="/it/lavora_con_noi.aspx"> <img alt="Lavora con Noi" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Skins/uninettunonew/images/brand-1.png" /> </a></div>
+<div class="d-none align-items-center bg-white gap-1 d-lg-flex justify-content-center text-center row">
+<div class="col"><a href="https://www.uninettunomag.com/it/default.aspx" target="_blank"><img alt="MAG - Multimedia Accademic Global" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Sites/1/GalleryImages/WebImages/homepage/brand-8.png" style="max-height:70px; max-width:200px" /></a></div>
+<div class="col"><a href="https://www.uninettunouniversity.net/it/quality-assurance-in-e-learning.aspx"><img alt="E-xcellence Quality Assurance in e-learning" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Skins/uninettunonew/images/brand-2.png" style="max-height:70px; max-width:200px" /> </a></div>
+<div class="col"><a href="https://www.uninettunouniversity.net/it/comunicatostampa.aspx?ID=124"><img alt="UNINETTUNO è l'unica università telematica valutata a pieni voti dall'Anvur" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Skins/uninettunonew/images/brand-4.png" style="max-height:70px; max-width:200px" /></a></div>
+<div class="col"><a href="/it/uninettunoplus.aspx"><img alt="Il progetto UNINETTUNO Plus" class="img-fluid" src="/Data/Sites/1/GalleryImages/WebImages/progetti/uninettuno-plus.png" style="max-height:70px; max-width:200px" /></a></div>
+<div class="col"><a href="https://www.uninettunouniversity.net/it/short-learning-program-re-generation-enel.aspx"><img alt="Progetto Formativo Online in collaborazione con Enel" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Skins/uninettunonew/images/brand-6.png" style="max-height:70px; max-width:200px" /> </a></div>
+<div class="col"><a href="/it/complexplore.aspx"><img alt="Complexplore" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Sites/1/GalleryImages/WebImages/homepage/Complexplore.png" style="max-height:75px; max-width:238px" /></a></div>
+<div class="col"><a href="https://www.uninettunouniversity.net/it/digital-talks.aspx"><img alt="Digital Talks UNINETTUNO" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Sites/1/GalleryImages/WebImages/homepage/brand-3.png" style="max-height:70px; max-width:200px" /> </a></div>
+<div class="col"><a href="/it/lavora_con_noi.aspx"><img alt="Lavora con Noi" class="img-fluid" src="https://www.uninettunouniversity.net/Data/Skins/uninettunonew/images/brand-1.png" style="max-height:70px; max-width:200px" /> </a></div></div></div>
+<p></p></div></div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+<div id="ctl01_mainContent_ctl16_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl16_divSingleItem" class="modulecontent">
+  <div id="totContent112567"><div class="my-2 d-none"><a href="https://www.uninettunouniversity.net/it/5-per-mille-universita.aspx"><img alt="dona-5-per-mille" class="img-fluid rounded mx-auto d-block" src="/Data/Sites/1/GalleryImages/WebImages/homepage/dona-il-5-per-mille-a-favore-della-ricerca-di-uninettuno-universita-v2.png" /></a></div></div></div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+<div id="ctl01_mainContent_ctl17_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl17_divSingleItem" class="modulecontent">
+  <div id="totContent112516"><div class="my-5" style="text-align:center"><a href="/it/accessibilita-cyberspazio-didattico.aspx"><span style="text-transform: uppercase;font-weight:400;font-size:24px;">Accessibilità per tutti</span><span style="display:inline-block; background-color:black; border-radius:50%; width:2em; height:2em; vertical-align:middle; margin-left:5px; margin-right:5px; text-align:center;"> <svg baseProfile="tiny" height="70%" style="margin-top:15%;" version="1.2" viewBox="0 0 11.299 14.886" width="70%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="M11.271,3.656c-0.117-0.442-0.619-0.708-1.061-0.59c0,0-3.361,1.09-4.57,1.09
+        	c-1.178,0-4.509-1.061-4.509-1.061C0.689,2.978,0.188,3.184,0.041,3.626c-0.147,0.471,0.118,0.972,0.59,1.09l3.625,1.09
+        	c0.177,0.06,0.325,0.236,0.296,0.442c-0.03,0.59-0.089,1.858-0.207,2.329c-0.295,1.356-1.916,5.07-1.916,5.07
+        	c-0.207,0.442,0,0.943,0.413,1.15c0.118,0.059,0.236,0.088,0.354,0.088c0.324,0,0.648-0.178,0.766-0.501L5.7,10.848l1.651,3.567
+        	c0.147,0.293,0.441,0.471,0.767,0.471c0.118,0,0.235-0.029,0.354-0.088c0.44-0.207,0.617-0.708,0.412-1.15
+        	c0,0-1.621-3.714-1.917-5.07C6.849,8.106,6.791,6.839,6.761,6.249c0-0.206,0.118-0.382,0.295-0.442l3.625-1.09
+        	C11.124,4.599,11.388,4.097,11.271,3.656z M5.7,3.302c0.912,0,1.651-0.739,1.651-1.65S6.612,0,5.7,0C4.788,0,4.049,0.74,4.049,1.651
+        	S4.788,3.302,5.7,3.302z" fill="#FFFFFF"></path> </svg> </span> <span style="text-transform: uppercase;font-weight:400;font-size:24px;">Scopri di più</span></a></div></div></div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+<div id="ctl01_mainContent_ctl18_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl18_divSingleItem" class="modulecontent">
+  <div id="totContent101918"><style type="text/css">
+.title_laurea{font-size:18px;}</style>
+<div class="container-fluid bg-light">
+<div class="container pb-5">
+<div class="row">
+<div class="col">
+<h2 class="text-center p-0 m-o mt-5">I NOSTRI VALORI</h2>
+<hr style="
+                        width: 70px;
+                        height: 3px;
+                        color: #018bc9;
+                        opacity: 1;
+                        " />
+</div></div>
+<div class="row ps-3">
+<div class="col-12 col-lg-3">
+<div class="card text-center border-0 bg-transparent"><a href="https://www.uninettunouniversity.net/it/la-storia-di-uninettuno.aspx"><img alt="La Storia dell'Università UNINETTUNO" class="card-img-top left-card-img" src="/data/skins/uninettunonew/images/card-1.png" /></a>
+<div class="card-body">
+<h3 class="card-title title_laurea"><a class="text-dark" href="https://www.uninettunouniversity.net/it/la-storia-di-uninettuno.aspx">La Storia<br />
+dell&#39;Universit&agrave; UNINETTUNO</a></h3></div></div></div>
+<div class="col-12 col-lg-3">
+<div class="card text-center border-0 bg-transparent"><a href="https://www.uninettunouniversity.net/it/cyberspazio-didattico-e-modello-psico-pedagogico.aspx"><img alt="Un Nuovo Modello Psico - Pedagogico" class="card-img-top left-card-img" src="/data/skins/uninettunonew/images/card-2.png" /></a>
+<div class="card-body">
+<h3 class="card-title title_laurea"><a class="text-dark" href="https://www.uninettunouniversity.net/it/cyberspazio-didattico-e-modello-psico-pedagogico.aspx">Un Nuovo Modello<br />
+Psico - Pedagogico </a></h3></div></div></div>
+<div class="col-12 col-lg-3">
+<div class="card text-center border-0 bg-transparent"><a href="https://www.uninettunouniversity.net/it/docenti-universitari.aspx"><img alt="L'Eccellenza dei Nostri Professori" class="card-img-top left-card-img" src="/data/skins/uninettunonew/images/card-5.png" /></a>
+<div class="card-body">
+<h3 class="card-title title_laurea"><a class="text-dark" href="https://www.uninettunouniversity.net/it/docenti-universitari.aspx">L&#39;Eccellenza<br />
+dei Nostri Professori</a></h3></div></div></div>
+<div class="col-12 col-lg-3">
+<div class="card text-center border-0 bg-transparent"><a href="https://www.uninettunouniversity.net/it/la-nostra-qualita.aspx"><img alt="La qualità: l'Università in Italia e nel Mondo" class="card-img-top left-card-img" src="/data/skins/uninettunonew/images/card-8.png" /></a>
+<div class="card-body">
+<h3 class="card-title title_laurea"><a class="text-dark" href="https://www.uninettunouniversity.net/it/la-nostra-qualita.aspx">La qualit&agrave;:<br />
+l&#39;Universit&agrave; in Italia e nel Mondo</a></h3></div></div></div></div></div></div></div></div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+<div id="ctl01_mainContent_ctl19_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl19_divSingleItem" class="modulecontent">
+  <div id="totContent112493"><style type="text/css">
+.div-box-media-gallery {
+    float: left;
+    display: block;
+  /*  width: 350px !important;*/
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 300px;
+}</style>
+<div class="container-fluid p-0 bg-primary_homePage text-center p-3">
+<h2 class="p-0 text-light" style="letter-spacing: 1px;margin-top: 10px;margin-bottom: 10px;">AI PER STUDENTI, DOCENTI/TUTOR E STAFF DI UNINETTUNO: <a class="text-light border-end px-2" href="/it/assistenteai.aspx?public=1">Socrates (Uninettuno)</a> <a class="text-light border-end" href="https://gemini.google.com/" style="padding-left:1px;padding-right:3px;" target="_blank"> Gemini (Google)</a><a class="text-light" href="https://copilot.microsoft.com/" target="_blank"> Copilot (Microsoft) </a></h2></div>
+<div class="text-center border-0 bg-transparent" style="margin-top:30px;"><!-- RIGA ZERO -->
+<div class="ng-scope" id="JWPlayerContainer1" style="width:55%;height:auto;margin:auto;"><streaming autoplay="false" fitcontainer="true" fluid="true" iosstreamurl="https://streaming2.uninettunouniversity.net/mediagallery/homepage/video-socrate/socrates-wide/socrates-wide.m3u8" nativeandroidplayer="true" playerheight="auto" uid="501"></streaming></div>
+<h4 class="card-title title_laurea" style="margin-top:15px;margin-bottom:10px;"><a class="text-dark" href="/it/assistenteai.aspx?public=1">Per saperne di più clicca qui per accedere a Socrates AI</a></h4></div><script src="/clientscript/VideoJS/videojs-contrib-quality-levels.min.js"></script><script src="/clientscript/VideoJS/videojs-hls-quality-selector.min.js"></script><script>angular.bootstrap(document.getElementById('JWPlayerContainer1'), ['mediaapp']);</script><!-- FINE CODICE--><script>
+    $(document).ready(function () {
+
+        startTracks();
+
+    });
+
+    function startTracks() {
+        var handler = window.setInterval(function () {
+            // Check if player is ready, if not try again after 200mls
+            if ($('#JWPlayerContainer1 video').length == 0)
+                return;
+
+            let langs = [
+                { lang: 'it', default: false, kind: 'captions' },
+                { lang: 'en', default: true, kind: 'subtitles' },
+                { lang: 'fr', default: false, kind: 'subtitles' }];
+
+            let player = videojs('#JWPlayerContainer1 video');
+            player.textTrackSettings.setValues({
+                backgroundColor: "#FFF",
+                backgroundOpacity: "0",
+                color: "#FFF",
+                fontFamily: "proportionalSansSerif",
+                fontPercent: 1.00,
+                windowColor: "#0FF",
+                windowOpacity: "0",
+                edgeStyle: "uniform",
+            });
+
+            for (let i = 0; i < langs.length; i++) {
+                let capopt = {
+                    kind: langs[i].kind,
+                    srclang: langs[i].lang,
+                    language: langs[i].lang,
+                    label: langs[i].lang,
+                    default: langs[i].default,
+                    mode: langs[i].default ? 'showing' : 'hidden',
+                    src: 'https://streaming2.uninettunouniversity.net/mediagallery/homepage/video-socrate/video-socrate_' + langs[i].lang + '.vtt'
+                };
+                player.addRemoteTextTrack(capopt);
+            }
+
+            const tracks = player.remoteTextTracks();
+
+            // Once the tracks are loaded, we can exit the interval
+            window.clearInterval(handler);
+        }, 200);
+    }
+
+</script><!-- FINE CODICE--></div></div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+<div id="ctl01_mainContent_ctl20_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl20_divSingleItem" class="modulecontent">
+  <div id="totContent108853"><style type="text/css">
+.title_laurea {
+        font-size: 18px;
+    }</style>
+<div class="container-fluid p-0 bg-primary_homePage text-center p-3">
+<h2 class="p-0 text-light" style="letter-spacing: 1px;margin-top:2px;margin-bottom:0px;">PER COSTRUIRE CON SUCCESSO IL TUO FUTURO SCEGLI LA TUA LAUREA ONLINE</h2></div>
+<div class="container pb-5">
+<div class="row">
+<div class="col">
+<h2 class="text-center p-0 m-o mt-5">OFFERTA FORMATIVA</h2>
+<hr style="
+                                    width: 70px;
+                                    height: 3px;
+                                    color: #018bc9;
+                                    opacity: 1;
+                                    " />
+</div></div>
+<div class="row row-cols-1 row-cols-md-3 g-5">
+<div class="col px-5">
+<div class="col d-flex align-items-center justify-content-center"><a class="text-dark" href="https://www.uninettunouniversity.net/it/lauree-beni-culturali.aspx"><img alt="Lauree Online in Beni Culturali" class="me-3" src="/Data/Sites/1/GalleryImages/WebImages/homepage/scopri/1.png" width="100" /></a>
+<h4 class="title_laurea"><a class="text-dark" href="https://www.uninettunouniversity.net/it/lauree-beni-culturali.aspx">Lauree Online in<br />
+<strong>Beni Culturali</strong></a></h4></div></div>
+<div class="col px-5">
+<div class="col d-flex align-items-center justify-content-center"><a class="text-dark" href="uninettunouniversity.net/it/laurea-economia.aspx"><img alt="Lauree Online in Economia" class="me-3" src="/Data/Sites/1/GalleryImages/WebImages/homepage/scopri/3.png" width="100" /></a>
+<h4 class="title_laurea"><a class="text-dark" href="uninettunouniversity.net/it/laurea-economia.aspx">Lauree Online in<br />
+<strong>Economia</strong></a></h4></div></div>
+<div class="col px-5">
+<div class="col d-flex align-items-center justify-content-center"><a class="text-dark" href="https://www.uninettunouniversity.net/it/laurea-ingegneria.aspx"><img alt="Lauree Online in Ingegneria" class="me-3" src="/Data/Sites/1/GalleryImages/WebImages/homepage/scopri/2.png" width="100" /></a>
+<h4 class="title_laurea"><a class="text-dark" href="https://www.uninettunouniversity.net/it/laurea-ingegneria.aspx">Lauree Online in<br />
+<strong>Ingegneria</strong></a></h4></div></div></div>
+<div class="row row-cols-1 row-cols-md-3 g-5">
+<div class="col px-5">
+<div class="col d-flex align-items-center justify-content-center"><a class="text-dark" href="https://www.uninettunouniversity.net/it/laurea-psicologia.aspx"><img alt="Lauree Online in Psicologia" class="me-3" src="/Data/Sites/1/GalleryImages/WebImages/homepage/scopri/4.png" width="100" /></a>
+<h4 class="title_laurea"><a class="text-dark" href="https://www.uninettunouniversity.net/it/laurea-psicologia.aspx">Lauree Online in<br />
+<strong>Psicologia</strong></a></h4></div></div>
+<div class="col px-5">
+<div class="col d-flex align-items-center justify-content-center"><a class="text-dark" href="https://www.uninettunouniversity.net/it/laurea-scienze-della-comunicazione.aspx"><img alt="Lauree Online in Giurisprudenza Scienze della Comunicazione" class="me-3" src="/Data/Sites/1/GalleryImages/WebImages/homepage/scopri/6.png" width="100" /></a>
+<h4 class="title_laurea"><a class="text-dark" href="https://www.uninettunouniversity.net/it/laurea-scienze-della-comunicazione.aspx">Lauree Online in<br />
+<strong>Scienze della<br />
+Comunicazione</strong></a></h4></div></div>
+<div class="col px-5">
+<div class="col d-flex align-items-center justify-content-center"><a class="text-dark" href="https://www.uninettunouniversity.net/it/master-online.aspx"><img alt="Master di I e II livello" class="me-3" src="/Data/Sites/1/GalleryImages/WebImages/homepage/scopri/7.png" width="100" /></a>
+<h4 class="title_laurea" style="width:120px! important"><a class="text-dark" href="https://www.uninettunouniversity.net/it/master-online.aspx">Master di<br />
+<strong>I e II livello</strong></a></h4></div></div></div>
+<div class="row row-cols-1 row-cols-md-3 g-5">
+<div class="col px-5">
+<div class="col d-flex align-items-center justify-content-center"><a class="text-dark" href="https://www.uninettunouniversity.net/it/dottorati-di-ricerca.aspx"><img alt="Dottorati di Ricerca" class="me-3" src="/Data/Sites/1/GalleryImages/WebImages/homepage/scopri/8.png" width="100" /> </a>
+<h4 class="title_laurea" style="width:120px! important"><a class="text-dark" href="https://www.uninettunouniversity.net/it/dottorati-di-ricerca.aspx">Dottorati di<br />
+<strong>Ricerca</strong></a></h4></div></div>
+<div class="col px-5">
+<div class="col d-flex align-items-center justify-content-center"><a class="text-dark" href="https://www.uninettunouniversity.net/it/corsi-formazione-professionale.aspx"><img alt="Corsi di Alta Formazione" class="me-3" src="/Data/Sites/1/GalleryImages/WebImages/homepage/scopri/9.png" width="100" /></a>
+<h4 class="title_laurea" style="width:120px! important"><a class="text-dark" href="https://www.uninettunouniversity.net/it/corsi-formazione-professionale.aspx">Corsi di<br />
+<strong>Alta Formazione</strong></a></h4></div></div>
+<div class="col px-5">
+<div class="col d-flex align-items-center justify-content-center"><a class="text-dark" href="https://www.uninettunouniversity.net/it/lauree-rifugiati-immigrati.aspx"><img alt="Università per Rifugiati" class="me-3" src="/Data/Sites/1/GalleryImages/WebImages/homepage/scopri/10.png" width="100" /></a>
+<h4 class="title_laurea" style="width:120px! important"><a class="text-dark" href="https://www.uninettunouniversity.net/it/lauree-rifugiati-immigrati.aspx">Universit&agrave; per<br />
+<strong>Rifugiati</strong></a></h4></div></div></div></div>
+<p></p></div></div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+<div id="ctl01_mainContent_ctl21_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl21_divSingleItem" class="modulecontent">
+  <div id="totContent108758"><section class="home-content" id="sliderPartCtrl">
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col">
+	<h2 class="text-center p-0 m-o mt-5">UNINETTUNO NEL FUTURO DA SEMPRE<br />
+	Guarda i video di presentazione dei Corsi di Laurea UNINETTUNO</h2>
+	<hr style="
+                        width: 70px;
+                        height: 3px;
+                        color: #018bc9;
+                        opacity: 1;
+                        " />
+	</div></div>
+	<div class="sliderController"><!-- <button
+                class="slick-prev slick-arrow slick-disabled" aria-label="Previous" type="button" aria-disabled="true"
+                style="display: block;">Previous</button> -->
+				
+					<!-- Corsi Promo di Beni Culturali -->
+					<!-- Triennale -->
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Operatore_ed_esperto_in_Patrimoni_culturali_e_memoria_digitale/Operatore_ed_esperto_in_Patrimoni_culturali_e_memoria_digitale.m3u8&amp;VideoTitle=Corso di Laurea in Operatore ed esperto in Patrimoni culturali e memoria digitale&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Beni Culturali Indirizzo Memoria digitale" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/23_op-esperto-patrimoni-culturali-memoria-digitale.png" /></a></div>
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Operatore_ed_esperto_in_Patrimoni_e_paesaggi_culturali_linguaggi_e_codici_della_mediazione/Operatore_ed_esperto_in_Patrimoni_e_paesaggi_culturali_linguaggi_e_codici_della_mediazione.m3u8&amp;VideoTitle=Corso di Laurea in Operatore ed esperto dei linguaggi e codici della mediazione nei patrimoni e paesaggi culturali&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Beni Culturali in Operatore ed esperto dei linguaggi e codici della mediazione nei patrimoni e paesaggi culturali" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/24_op-esperto-patrimoni-paesaggi-culturali.png" /></a></div>
+		
+			<!-- Magistrale -->
+			<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/beni-cul-patr-archeologici/beni-cul-patr-archeologici.m3u8&amp;VideoTitle=Corso di Laurea in Patrimoni archeologici e museali nell'ambito delle digital humanities&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Beni Culturali Indirizzo Memoria digitale" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/15_Patrimoni-archeologici-e-museali-nell'ambito-delle-digital-humanities.png" /></a></div>
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/beni-cul-patr-archivistici/beni-cul-patr-archivistici.m3u8&amp;VideoTitle=Corso di Laurea in Patrimoni archivistici e testuali nell'ambito delle digital humanities&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0">
+	<img alt="Beni Culturali in ambito delle digital humanities" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/16_Patrimoni-archivistici-e-testuali-nell'ambito-delle-digital-humanities.png" /></a></div>
+	
+		<!-- Fine Beni Culturali -->
+	<!-- Corsi Promo di Economia -->
+	<!-- Triennale -->
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/economia-diritto/economia-diritto.m3u8&amp;VideoTitle=Corso%20di%20laurea%20in Economia%20e%20Gestione%20delle%20Imprese%20Indirizzo%20Economia e Diritto Digitale&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Indirizzo Economia e Diritto Digitale" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/6_economia-e-diritto-digitale.png" /></a></div>
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Eco-e-gest-delle-imp-Ind-Eco-e-Gov-Impresa/Eco-e-gest-delle-imp-Ind-Eco-e-Gov-Impresa.m3u8&amp;VideoTitle=Corso%20di%20laurea%20in%20Economia%20e%20Gestione%20delle%20Imprese%20Indirizzo%20Economia%20e%20Governo%20d%27Impresa&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Indirizzo Economia e Governo d'Impresa" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/1_economia-e-governo-impresa.png" /></a></div>
+	
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Eco-e-gest-delle-imp-Ind-Cult-tur-terr-valore-impresa/Eco-e-gest-delle-imp-Ind-Cult-tur-terr-valore-impresa.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20in%20Economia%20e%20Gestione%20delle%20Imprese%20Indirizzo%20Cultura,%20Turismo,%20Territorio%20e%20Valore%20d%27Impresa&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Economia-Indirizzo Cultura, Turismo, Territorio e Valore d'Impresa" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/2_cultura-turismo-territorio-valore-impresa.png" /></a></div>
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Eco-e-gest-delle-imp-Ind-Business-management/Eco-e-gest-delle-imp-Ind-Business-management.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20in%20Economia%20e%20Gestione%20delle%20Imprese%20Indirizzo%20Business%20management&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Economia-Indirizzo Business management" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/3_business-management.png" /></a></div>
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Eco-e-gest-delle-imp-Ind-Financial-management/Eco-e-gest-delle-imp-Ind-Financial-management.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20in%20Economia%20e%20Gestione%20delle%20Imprese%20Indirizzo%20Financial%20Management&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Economia-Indirizzo Financial Management" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/4_financial-management.png" /></a></div>
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Business_Management_campus_di_Berlino/Business_Management_campus_di_Berlino.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20in%20Economia%20e%20Gestione%20delle%20Imprese%20Indirizzo%20Business%20management%20(blended%20mode%20on%20the%20Berlin%20campus)&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Economia-Indirizzo Business management - blended mode on the Berlin campus" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/5_business-berlino.png" /></a></div>
+	<!-- Magistrale -->
+	
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/green-eco-gestione-sostenibile/green-eco-gestione-sostenibile.m3u8&amp;VideoTitle=Corso di Laurea Magistrale in Green Economy e Gestione Sostenibile&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Corso di Laurea Magistrale in Green Economy e Gestione Sostenibile" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/24_Green-Economy-e-Gestione-Sostenibile.png" /></a></div>
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/digital-marketing-business/digital-marketing-business.m3u8&amp;VideoTitle=Corso di Laurea Magistrale in Digital Marketing for Business&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Corso di Laurea Magistrale in Digital Marketing for Business" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/25_Digital-Marketing-for-Business.png" /></a></div>
+	
+	
+	
+	
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/digital-law-economics/digital-law-economics.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Digital Law and Economics&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Corso di Laurea Magistrale in Digital Law and Economics" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/8_digital-law-and-economics.png" /></a></div>
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Promo-Economia-Gestione-d-impresa-e-tecnologie-digitali/Promo-Economia-Gestione-d-impresa-e-tecnologie-digitali.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Gestione%20d%E2%80%99Impresa%20e%20Tecnologie%20digitali&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Corso di Laurea Magistrale in Gestione d’Impresa e Tecnologie digitali" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/7_gestione-impresa-tecnologie-digitali.png" /></a></div>
+	
+	<!-- Fine Economia -->
+	
+	<!-- Corsi Promo di Ingegneria -->
+	
+	
+
+	<!-- Ingegneria Civile -->
+	<!-- Magistrale -->
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/ing-civ-arch-ing-sost/ing-civ-arch-ing-sost.m3u8&amp;VideoTitle=Corso di Laurea Magistrale in Ingegneria Civile Indirizzo Architettura e ingegneria per la sostenibilità, l'ambiente e le infrastrutture&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Ingegneria Civile Indirizzo Architettura e ingegneria per la sostenibilità" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/27_Archite-e-ingegneria-per-la-sostenibilita-ambiente-e-le-infrastrutt.png" /></a></div>
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Promo-Ingegneria-Civile-in-Strutture-e-Infrastrutture/Promo-Ingegneria-Civile-in-Strutture-e-Infrastrutture.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Ingegneria%20Civile%20Indirizzo%20Strutture%20e%20Infrastrutture&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Ingegneria Civile Indirizzo Strutture e Infrastrutture" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/17_strutture-infrastrutture.png" /></a></div>
+	
+	
+
+	
+	
+	
+		<!-- Ingegneria Gestionale -->
+	<!-- Triennale -->
+	
+
+
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/ing-gest-proc-edil/ing-gest-proc-edil.m3u8&amp;VideoTitle=Corso di Laurea in Ingegneria Gestionale Indirizzo Gestione digitale dei processi edilizi&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Ingegneria Gestionale Indirizzo Gestione digitale dei processi edilizi" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/28_Gestione-digitale-dei-processi-edilizi.png" /></a></div>
+	
+	
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/logistico-eco/logistico.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20in%20Ingegneria%20Gestionale%20Indirizzo%20Logistico-Economico%20&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Ingegneria Gestionale Indirizzo Logistico-Economico" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/10_Logistico-economico-Ingegneria.png" /></a></div>
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/meccatronica/meccatronica.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20in%20Ingegneria%20Gestionale%20Indirizzo%20Meccatronica&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Ingegneria Gestionale Indirizzo  Meccatronica" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/11_Meccatronica-Ingegneria.png" /></a></div>
+	
+	<!-- Magistrale -->
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/prod-gest-beni-servizi/prod-gest-beni-servizi.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Ingegneria%20Gestionale%20Indirizzo%20Produzione e gestione di beni e servizi&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Ingegneria Gestionale Indirizzo Produzione e gestione di beni e servizi" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/13_Produzione-e-gestione-di-beni-e-servizi-ingegneria.png" /></a></div>
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Promo-Ingegneria-Gestionale-in-Sistemi-Energetici/Promo-Ingegneria-Gestionale-in-Sistemi-Energetici.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Ingegneria%20Gestionale%20Indirizzo%20Sistemi%20Energetici&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Ingegneria Gestionale Indirizzo Sistemi Energetici" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/19_sistemi-energetici.png" /></a></div>
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Ing-Gest-Indirizzo-Industria-40/Ing-Gest-Indirizzo-Industria-40.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Ingegneria%20Gestionale%20Indirizzo%20Industria%204.0&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Ingegneria Gestionale Indirizzo Industria 4.0" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/20_industria-40.png" /></a></div>
+	
+	
+	<!-- Ingegneria Informatica -->
+	<!-- Triennale -->
+	
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/ing-inf-sistemi-elab-reti/ing-inf-sistemi-elab-reti.m3u8&amp;VideoTitle=Corso di Laurea in Ingegneria Informatica Indirizzo Sistemi Elaborazione Reti&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Corso di Laurea in Sistemi Elaborazione Reti" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/32_Sistemi-Elaborazione-Reti.png" /></a></div>
+
+
+
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/ing-inf-sistemi-intell/ing-inf-sistemi-intell.m3u8&amp;VideoTitle=Corso di Laurea in Ingegneria Informatica Indirizzo Sistemi Intelligenti&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Corso di Laurea in Sistemi Intelligenti" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/33_Sistemi-Intelligenti.png" /></a></div>
+	
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Information_and_Communication_Technologies_Engineering/Information_and_Communication_Technologies_Engineering.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20in%20Information%20and%20communication%20technologies%20engineering&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Corso di Laurea in Information and communication technologies engineering" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/14_information-communication-tech-engineering.png" /></a></div>
+	
+	
+	<!-- Magistrale -->
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/ing-inf-machine-learning/ing-inf-machine-learning.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Ingegneria%20Informatica%20Indirizzo%20Machine Learning%20Data&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Ingegneria Informatica Indirizzo Machine Learning" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/18_machine-learning-ingegneria.png" /></a></div>
+	
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Promo-Ingegneria-Informatica-in-BigData/Promo-Ingegneria-Informatica-in-BigData.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Ingegneria%20Informatica%20Indirizzo%20Big%20Data&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Ingegneria Informatica Indirizzo Big Data" class="img-fluid" src="/Data/Skins/uninettunonew/images/21_big-data.png" /></a></div>
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Promo-Ingegneria-Informatica-in-Programmazione-e-Sicurezza/Promo-Ingegneria-Informatica-in-Programmazione-e-Sicurezza.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Ingegneria%20Informatica%20Indirizzo%20Programmazione%20e%20Sicurezza&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Ingegneria Informatica Indirizzo Programmazione e Sicurezza" class="img-fluid" src="/Data/Skins/uninettunonew/images/22_programmazione-sicurezza.png" /></a></div>
+		<!-- Fine Ingegneria -->
+	
+	
+	
+	
+	<!-- Corsi Promo di Psicologia -->
+	<!-- Triennale -->
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Discipline_Psicosociali/Discipline_Psicosociali.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20in%20Discipline%20Psicosociali&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Corso di Laurea in Discipline Psicosociali" class="img-fluid" src="/Data/Skins/uninettunonew/images/25_discipline-psicosociali.png" /></a></div>
+		<!-- Magistrale -->
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Psicologia_Clinica_Infanzia_Adolescenza/Psicologia_Clinica_Infanzia_Adolescenza.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Processi%20Cognitivi%20e%20Tecnologie%20-%20Indirizzo:%20Psicologia%20Clinica%20dell%27infanzia%20e%20dell%27adolescenza&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Indirizzo: Psicologia Clinica dell'infanzia e dell'adolescenza" class="img-fluid" src="/Data/Skins/uninettunonew/images/26_psicologia-clinica-infanzia.png" /></a></div>
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Cyberpsicologia/Cyberpsicologia.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Processi%20Cognitivi%20e%20Tecnologie%20-%20Indirizzo:%20Cyberpsicologia&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Processi Cognitivi e Tecnologie - Indirizzo: Cyberpsicologia" class="img-fluid" src="/Data/Skins/uninettunonew/images/28_cyberpsicologia.png" /></a></div>
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Neuroscienze/Neuroscienze.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20Magistrale%20in%20Processi%20Cognitivi%20e%20Tecnologie%20-%20Indirizzo:%20Neuroscienze&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Processi Cognitivi e Tecnologie - Indirizzo: Neuroscienze" class="img-fluid" src="/Data/Skins/uninettunonew/images/27_neuroscienze.png" /></a></div>
+	<!-- Corsi Promo di Scienze della comunicazione -->
+	
+	
+	<!-- Triennale -->
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Istituzioni_pubbliche_e_media_digitali/Istituzioni_pubbliche_e_media_digitali.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20in%20Scienze%20della%20comunicazione%20indirizzo%20Istituzioni%20pubbliche%20e%20media%20digitali&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Scienze della comunicazione indirizzo Istituzioni pubbliche e media digitali" class="img-fluid" src="/Data/Skins/uninettunonew/images/30_istituz-pubbliche-media-digitali.png" /></a></div>
+	<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/Comunicazione_digitale_d_impresa/Comunicazione_digitale_d_impresa.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20in%20Scienze%20della%20comunicazione%20indirizzo%20Comunicazione%20digitale%20d%27impresa&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Scienze della comunicazione indirizzo Comunicazione digitale d'impresa" class="img-fluid" src="/Data/Skins/uninettunonew/images/29_comunicazione-digitale.png" /></a></div>
+	<!-- Magistrale -->
+		<div><a href="/it/mediagalleryplayer.aspx?VideoFile=mediagallery/promo/corsi/cult-ling-digit/cult-ling-digit.m3u8&amp;VideoTitle=Corso%20di%20Laurea%20in%20Scienze%20della%20comunicazione%20indirizzo%20Culture, linguaggi e strategie per la comunicazione nell'era digitale&amp;Videodescription=Universit%C3%A0%20Telematica%20Internazionale%20UNINETTUNO" tabindex="0"><img alt="Scienze della comunicazione indirizzo Comunicazione digitale d'impresa" class="img-fluid" src="/data/sites/1/galleryimages/WebImages/homepage/31_culture-linguaggi-e-strategie-per-la-comunicazione-nell-era-digitale.png" /></a></div>
+		
+		<!-- Magistrale -->
+	
+	
+	</div><!-- <button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;"
+                aria-disabled="false">Next</button> --></div></section>
+				
+				<div id="acommunication"></div>
+</div></div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+<div id="ctl01_mainContent_ctl22_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl22_divSingleItem" class="modulecontent">
+  <div id="totContent108757"><div class="container">
+<div class="row">
+<div class="col">
+<h2 class="text-center p-0 m-o mt-5">COMUNICAZIONE - L&#39;UNIVERSO UNINETTUNO</h2>
+<hr style="
+                        width: 70px;
+                        height: 3px;
+                        color: #018bc9;
+                        opacity: 1;
+                        " />
+</div></div>
+<div class="row row-cols-1 row-cols-md-3 g-5">
+<div class="col px-5">
+<div class="card text-center border-0"><a href="/it/dicono-di-noi.aspx"><img alt="Cosa dicono di noi" class="card-img-top" src="/data/skins/uninettunonew/images/diconoDiNoi.jpg" /></a>
+<div class="card-body">
+<h3 class="card-title title_laurea"><a class="text-dark" href="/it/dicono-di-noi.aspx">Dicono di Noi</a></h3></div></div></div>
+<div class="col px-5">
+<div class="card text-center border-0"><a href="/it/press-area.aspx"><img alt="News e Comunicazione-interviste e meeting" class="card-img-top" src="/data/skins/uninettunonew/images/card-6.png" /></a>
+<div class="card-body">
+<h3 class="card-title title_laurea"><a class="text-dark" href="/it/press-area.aspx">News e Comunicazione</a></h3></div></div></div>
+<div class="col px-5">
+<div class="card text-center border-0"><a href="/it/uninettuno-university-tv.aspx"><img alt="Diretta Satellite su UNINETTUNOUNIVERSITY-TV" class="card-img-top" src="/data/skins/uninettunonew/images/uninettunouniversity.tv.png" /></a>
+<div class="card-body">
+<h3 class="card-title title_laurea"><a class="text-dark" href="/it/uninettuno-university-tv.aspx">Diretta Satellite UNINETTUNOUNIVERSITY.TV</a></h3></div></div></div></div></div>
+<p></p></div></div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+<div id="ctl01_mainContent_ctl23_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl23_divSingleItem" class="modulecontent">
+  <div id="totContent101922"><!--<section id="aboutMeUp">
+	<div class="container-fluid px-0">
+		<a class="btn aboutMeBtn" href="/it/dicono-di-noi.aspx">DICONO DI NOI &gt;</a> <img alt="aboutMeBanner" class="img-fluid aboutMeBanner" src="/Data/Skins/uninettunonew/images/aboutMeBanner.jpg" /></div>
+</section>-->
+</div></div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+<div id="ctl01_mainContent_ctl24_pnlWrapper" class="panelwrapper htmlmodule">
+	
+  
+  <div id="ctl01_mainContent_ctl24_divSingleItem" class="modulecontent">
+  </div>
+  
+  <div class="modulefooter">
+  </div>
+
+</div>
+
+
+
+
+<script>
+    var cfg = {
+        PageFormClientID: 'aspnetForm',
+        InvalidEmailMsg: 'GENERIC_INVALID_EMAIL'
+    }
+</script>
+
+<script type='text/javascript' src='/clientscript/InvisibleEmailModule.js?v=69E65F70'></script>
+
+
+                
+	</div>
+
+            
+</div>
+
+            
+
+        </section>
+
+
+        <div id="ctl01_PanelFooter">
+	
+
+            <!-- nuovo footer -->
+            <footer class="footer-area naked-list">
+                <div class="container-fluid bg-primary_homePage py-5">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-12 col-lg-4 text-center mb-3 mb-lg-0">
+                            <a href="/it/default.aspx">
+                                <img width="300" class="" src="/data/skins/uninettunonew/images/footerLogo.png" title="Uninettuno University Web Site" alt="Uninettuno University Logo"></a>
+                        </div>
+
+                        <div class=" mb-3 mb-md-0 col-12 col-md-6 col-lg-4 d-flex justify-content-center footer-left-part">
+                            <p>
+                                Corso Vittorio Emanuele II, 39<br/>
+                                00186 Roma - ITALIA<br/>
+                                NUMERO VERDE: 800 333 647<br/>
+                                <br/>
+                                <a href="mailto:info@uninettunouniversity.net" class="footer-accessibility-link" style="text-decoration:underline;">
+                                    info@uninettunouniversity.net
+                                </a>
+                                <br/>
+                                P.IVA: 13937651001; C.F.: 97394340588<br>
+                                <a href="/it/informativa_privacy.aspx" class="footer-accessibility-link" style="text-decoration:underline;">
+                                    Privacy e cookie policy 
+                                </a>
+                                <br/>
+								<a href="/it/accessibility.aspx" class="footer-accessibility-link" style="text-decoration:underline;">
+                                    <img alt="Accessibility-logo" border="0" title='Dichiarazione di accessibilità' src="https://www.uninettunouniversity.net/Data/Sites/1/GalleryImages/WebImages/media/Footer-Accessibility-logo-300.png" style="width:150px">
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center footer-right-part">
+                            <div>
+                                <p>
+                                    Hai bisogno di maggiori informazioni?
+                                    <br>
+                                    Lasciaci i tuoi dati
+                                </p>
+                                <p>
+                                    <a data-baseweb="button" href="/it/default.aspx#richiedi-informazioni" aria-label="Richiedi informazioni" text="Richiedi informazioni" class="btn-lg btn btn-outline-light btn-lg btn-block mb-3">
+                                        Richiedi informazioni</a>
+                                </p>
+                                <div>
+                                    <div>Posta certificata</div>
+                                    <p><a href="mailto:info@pec.uninettunouniversity.net" style="text-decoration: underline;">info@pec.uninettunouniversity.net</a></p>
+                                </div>
+
+                                <p>
+                                    <a href="https://www.uninettunouniversity.net/it/lavora_con_noi.aspx" style="text-decoration: underline;">Lavora con noi</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid bg-white text-primary text-center py-3">
+                    <div class="row">
+                        <p class="text-center py-3">
+                            <a class="me-3" href="https://www.facebook.com/utiu.university">
+                                <img src="/data/skins/uninettunonew/images/fb.png" title="Uninettuno Facebook page" alt="Uninettuno Facebook page"></a>
+                            <a class="me-3" href="https://www.instagram.com/uninettuno/channel/">
+                                <img src="/data/skins/uninettunonew/images/instra.png" title="Uninettuno Instagram page" alt="Uninettuno Instagram page"></a>
+                            <a href="https://www.linkedin.com/school/uninettuno/">
+                                <img src="/data/skins/uninettunonew/images/linkdIn.png" title="Uninettuno Linkedin page" alt="Uninettuno Linkedin page"></a>
+                        </p>
+                        <p>Modello psico-pedagogico e Socrates AI di M.A. Garito Â©</p>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer ends here -->
+
+        
+</div>
+
+
+        <!-- /.container -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <div id="ctl01_jsBundle">
+	
+            <!--  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"></script>  
+             <script src="/data/skins/uninettunonew/bootstrap5/js/bootstrap.bundle.min.js"></script> -->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+            <script src="/ClassicResources/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+            <script src="/data/skins/uninettunonew/js/jquery.counterup.min.js"></script>
+            <script src="/data/skins/uninettunonew/js/waypoints.min.js"></script>
+
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick-theme.css" rel="stylesheet" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick.js"></script>
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick.css" rel="stylesheet" />
+
+            <script src="/data/skins/uninettunonew/js/custom.js"></script>
+
+        
+</div>
+        <script src="/clientscript/izimodal/iziModal.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="/clientscript/jquery/jquery.postTo.js"></script>
+        <script type="text/javascript" src="/clientscript/jquery/jquery.mCustomScrollbar.js"></script>
+        <!-- <script src="/Data/Skins/uninettunonew/bootstrap5/js/bootstrap.min.js"></script> -->
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                //Script per alternate rel link nel menu orizzontale e nella sidebar
+                $('.nav a').attr('rel', 'alternate');
+                $('.nav a').attr('hreflang', 'it');
+                $('.list-group a').attr('rel', 'alternate');
+                $('.list-group a').attr('hreflang', 'it');
+            });
+        </script>
+
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+                var UTIUPageApi = {
+                    getPageData: function() {
+                            return {
+                                currentLanguage: 'it', 
+                                currentUserToken: '',
+                                currentUserName: '',
+                                currentUserHome: 'https://www.uninettunouniversity.net/',
+                                currentUserLogoutUrl: 'https://www.uninettunouniversity.net/it/logoff.aspx',
+                                currentName:'' ,
+                                isLogged: false,
+                                siteId: 1,
+                                mainMenuUrl: '~/homepage.aspx',
+                                containerWidth: 1199
+                            };
+                    }
+                }
+
+                if (window.jQuery && UTIUPageApi.getPageData().currentLanguage == 'el') {
+                    $('div.AspNet-Menu-Horizontal ul.AspNet-Menu li.AspNet-Menu-Leaf a.AspNet-Menu span')
+                        .css('width', 'auto')
+                        .css('padding', '0 18px 0 18px')
+                }
+            //]]>
+</script>
+</form>
+
+    <script src="/clientscript/bzfix.js"></script>
+    <script type='text/javascript' src='/clientscript/menus.js?v=69E65F72'></script>
+    <script type="text/javascript" src="/ClientScript/jQuery/jquery.sumoselect.min.js"></script>
+    <script type="text/javascript" src="/ClientScript/jQuery/jquery.sumoselect.js"></script>
+
+    
+    <script type='text/javascript' src='/clientscript/jQuery/jquery.sweet-dropdown.min.js?v=69E65F72'></script><script type='text/javascript' src='/clientscript/jQuery/jquery.visible.js?v=69E65F72'></script>
+
+    <script>$('.submenupanel').trigger('utiuload');</script>
+    <script>$('.card').trigger('utiuload');</script>
+    
+	
+</body>
+
+</html>

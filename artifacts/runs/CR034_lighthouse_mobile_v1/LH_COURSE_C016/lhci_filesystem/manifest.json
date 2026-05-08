@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C016/lhci_filesystem/www_unimib_it-magistrale_teoria_tecnologia_comunicazione-2026_04_23_14_41_26.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C016/lhci_filesystem/www_unimib_it-magistrale_teoria_tecnologia_comunicazione-2026_04_23_14_41_26.report.json",
+    "summary": {
+      "performance": 0.65,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.85
+    }
+  },
+  {
+    "url": "https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C016/lhci_filesystem/www_unimib_it-magistrale_teoria_tecnologia_comunicazione-2026_04_23_14_41_41.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C016/lhci_filesystem/www_unimib_it-magistrale_teoria_tecnologia_comunicazione-2026_04_23_14_41_41.report.json",
+    "summary": {
+      "performance": 0.6,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.85
+    }
+  },
+  {
+    "url": "https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C016/lhci_filesystem/www_unimib_it-magistrale_teoria_tecnologia_comunicazione-2026_04_23_14_41_12.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C016/lhci_filesystem/www_unimib_it-magistrale_teoria_tecnologia_comunicazione-2026_04_23_14_41_12.report.json",
+    "summary": {
+      "performance": 0.68,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.85
+    }
+  }
+]

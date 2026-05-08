@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C014",
+  "source_document_id": "SD0029",
+  "crawl_run_id": "CR004",
+  "university_id": "UNI07",
+  "sample_course_id": "C014",
+  "journey_id": "J014",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://corsi.unige.it/11945",
+  "final_url": "https://corsi.unige.it/corsi/11945",
+  "notes": "tranche3; source seed redirects to canonical /corsi/11945"
+}

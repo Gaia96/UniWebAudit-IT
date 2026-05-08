@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C034",
+  "source_document_id": "SD0072",
+  "crawl_run_id": "CR010",
+  "university_id": "UNI17",
+  "sample_course_id": "C034",
+  "journey_id": "J034",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "medium",
+  "tested_url": "https://corsi.unical.it/lm/linguaggi-della-comunicazione-e-dello-spettacolo/",
+  "final_url": "https://corsi.unical.it/lm/linguaggi-della-comunicazione-e-dello-spettacolo/",
+  "notes": "tranche6; official course page"
+}

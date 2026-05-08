@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_HOME_UNI11",
+  "source_document_id": "SD0042",
+  "crawl_run_id": "CR005",
+  "university_id": "UNI11",
+  "sample_course_id": "",
+  "journey_id": "",
+  "page_role": "university_homepage",
+  "source_kind": "master_reference",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_homepage",
+  "js_dependency_level_preaudit": "",
+  "tested_url": "https://www.unisa.it/",
+  "final_url": "https://www.unisa.it/",
+  "notes": "tranche4; homepage snapshot"
+}

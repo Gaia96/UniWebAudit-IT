@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Thu, 02 Apr 2026 21:52:32 GMT
+Server: Apache/2.4.66 (Debian)
+Cache-Control: must-revalidate, no-cache, private
+X-Drupal-Dynamic-Cache: HIT
+Content-language: it
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 11 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+

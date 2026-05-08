@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Date: Fri, 03 Apr 2026 12:25:59 GMT
+Server: OpenCms/8.0.4
+X-Frame-Options: SAMEORIGIN
+X-Varnish: 744222 5071040
+Age: 11055
+Via: 1.1 varnish (Varnish/7.0)
+Accept-Ranges: bytes
+Set-Cookie: JSESSIONID=843ED64CA1E555A93CADB65901142172; Path=/; HttpOnly
+X-Mod-Pagespeed: 1.13.35.2-0
+Vary: Accept-Encoding
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=0, no-cache, s-maxage=10
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+

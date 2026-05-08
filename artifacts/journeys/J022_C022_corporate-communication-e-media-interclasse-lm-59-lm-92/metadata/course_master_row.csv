@@ -1,0 +1,2 @@
+sample_course_id,university_id,university_name,course_name,degree_type,course_class,disciplinary_cluster,selection_role,selection_priority,course_page_url,url_origin,normalization_status,selection_rationale,notes
+C022,UNI11,Università degli Studi di Salerno,Corporate Communication e Media (interclasse LM-59/LM-92),magistrale,LM-59/LM-92,communication_media,core_magistrale,core,https://corsi.unisa.it/corporate-communication-e-media,pilot_lm92_seed,reviewed_canonical_ateneo_portal,pilot magistrale retained on official ateneo portal,official UniSa course portal confirmed

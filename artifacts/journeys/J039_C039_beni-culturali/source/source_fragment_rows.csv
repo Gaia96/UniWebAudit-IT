@@ -1,0 +1,9 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0170,SD0082,title,1,UniTrento,unitrento,//title,raw snapshot title
+SF0171,SD0082,meta_description,2,"Unitn - Università di Trento - Ateneo di eccellenza per i suoi corsi di laurea, dottorati e master. Ricerca internazionale e innovazione. Campus moderni nel cuore delle Alpi","unitn - università di trento - ateneo di eccellenza per i suoi corsi di laurea, dottorati e master. ricerca internazionale e innovazione. campus moderni nel cuore delle alpi",//meta[@name='description'],raw snapshot meta description
+SF0172,SD0082,h1,3,Home Page,home page,//h1[1],raw snapshot first h1
+SF0173,SD0083,title,1,Corsi | UniTrento,corsi unitrento,//title,raw snapshot title
+SF0174,SD0083,meta_description,2,"Lauree, lauree magistrali e a ciclo unico, master, dottorati e scuole di specializzazione. Scopri l'offerta formativa dell'Università di Trento - Unitn","lauree, lauree magistrali e a ciclo unico, master, dottorati e scuole di specializzazione. scopri l'offerta formativa dell'università di trento - unitn",//meta[@name='description'],raw snapshot meta description
+SF0175,SD0083,h1,3,Corsi,corsi,//h1[1],raw snapshot first h1
+SF0176,SD0084,title,1,Beni culturali | UniTrento,beni culturali unitrento,//title,raw snapshot title
+SF0177,SD0084,h1,2,Beni culturali,beni culturali,//h1[1],raw snapshot first h1

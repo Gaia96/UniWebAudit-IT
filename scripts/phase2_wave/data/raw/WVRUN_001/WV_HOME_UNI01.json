@@ -1,0 +1,655 @@
+{
+  "status": {
+    "success": true,
+    "httpstatuscode": 200
+  },
+  "statistics": {
+    "pagetitle": "Università di Bologna",
+    "pageurl": "https://www.unibo.it/it",
+    "time": 6.24,
+    "creditsremaining": 335,
+    "AIMscore": 8.1,
+    "allitemcount": 340,
+    "totalelements": 874,
+    "waveurl": "http://wave.webaim.org/report?url=https://www.unibo.it/it"
+  },
+  "categories": {
+    "error": {
+      "description": "Errors",
+      "count": 0,
+      "items": []
+    },
+    "contrast": {
+      "description": "Contrast Errors",
+      "count": 6,
+      "items": {
+        "contrast": {
+          "id": "contrast",
+          "description": "Very low contrast",
+          "count": 6,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV > PICTURE:first-child + DIV > BUTTON:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child > H2:first-child"
+          ],
+          "contrastdata": [
+            [
+              1,
+              "#33333300",
+              "#ffffff",
+              false
+            ],
+            [
+              1,
+              "#bb2e2900",
+              "#ffffff",
+              true
+            ],
+            [
+              1,
+              "#bb2e2900",
+              "#ffffff",
+              true
+            ],
+            [
+              1,
+              "#bb2e2900",
+              "#ffffff",
+              true
+            ],
+            [
+              1,
+              "#ffffff00",
+              "#ffffff",
+              true
+            ],
+            [
+              1,
+              "#bb2e2900",
+              "#ffffff",
+              true
+            ]
+          ]
+        }
+      }
+    },
+    "alert": {
+      "description": "Alerts",
+      "count": 21,
+      "items": {
+        "alt_duplicate": {
+          "id": "alt_duplicate",
+          "description": "A nearby image has the same alternative text",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG"
+          ]
+        },
+        "alt_long": {
+          "id": "alt_long",
+          "description": "Long alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV > PICTURE:first-child > SOURCE:first-child + SOURCE + SOURCE + IMG"
+          ]
+        },
+        "fieldset_missing": {
+          "id": "fieldset_missing",
+          "description": "Missing fieldset",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > UL:first-child > LI:first-child > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > UL:first-child > LI:first-child > LABEL:first-child + UL > LI:first-child > LABEL:first-child"
+          ]
+        },
+        "legend_missing": {
+          "id": "legend_missing",
+          "description": "Fieldset missing legend",
+          "count": 3,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child > DIV#cerca > FORM#uniboSearch > INPUT:first-child + FIELDSET",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > DIV#rubrica > FORM:first-child > FIELDSET:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > DIV#rubrica > FORM:first-child > FIELDSET:first-child + FIELDSET"
+          ]
+        },
+        "link_internal_broken": {
+          "id": "link_internal_broken",
+          "description": "Broken same-page link",
+          "count": 4,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV > A:first-child + A + A",
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV + DIV > A:first-child + A + A + A"
+          ]
+        },
+        "accesskey": {
+          "id": "accesskey",
+          "description": "Accesskey",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#u-hiddenKeys > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-hiddenKeys > A:first-child + A"
+          ]
+        },
+        "title_redundant": {
+          "id": "title_redundant",
+          "description": "Redundant title text",
+          "count": 5,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child > DIV#cerca > FORM#uniboSearch > INPUT:first-child + FIELDSET > INPUT:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > DIV#rubrica > FORM:first-child > FIELDSET:first-child + FIELDSET > INPUT:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu > DIV:first-child > P:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu > DIV:first-child + DIV > P:first-child + UL > LI:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu > DIV:first-child + DIV > P:first-child + UL > LI:first-child + LI > A:first-child"
+          ]
+        },
+        "html5_video_audio": {
+          "id": "html5_video_audio",
+          "description": "HTML5 video or audio",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > VIDEO:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > VIDEO:first-child + VIDEO"
+          ]
+        }
+      }
+    },
+    "feature": {
+      "description": "Features",
+      "count": 57,
+      "items": {
+        "alt": {
+          "id": "alt",
+          "description": "Alternative text",
+          "count": 32,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone01 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone02 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone03 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone04 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide01 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide02 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide03 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide04 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone05 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone06 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone07 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone08 > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone01 > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone02 > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide01 > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide02 > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide03 > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide04 > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide05 > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone03 > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone04 > DIV:first-child > DIV:first-child > IMG:first-child"
+          ]
+        },
+        "alt_null": {
+          "id": "alt_null",
+          "description": "Null or empty alternative text",
+          "count": 15,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + IMG + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + IMG + IMG + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + IMG + IMG + IMG + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + IMG + IMG + IMG + IMG + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + IMG + IMG + IMG + IMG + IMG + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + IMG + IMG + IMG + IMG + IMG + IMG + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + IMG + IMG + IMG + IMG + IMG + IMG + IMG + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child + IMG + IMG + IMG + IMG + IMG + IMG + IMG + IMG + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > DIV#ajax-spinner > IMG:first-child"
+          ]
+        },
+        "alt_link": {
+          "id": "alt_link",
+          "description": "Linked image with alternative text",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > A:first-child > PICTURE:first-child > SOURCE:first-child + SOURCE + IMG"
+          ]
+        },
+        "label": {
+          "id": "label",
+          "description": "Form label",
+          "count": 8,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > UL:first-child > LI:first-child > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > UL:first-child > LI:first-child > LABEL:first-child + UL > LI:first-child > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > UL:first-child > LI:first-child > LABEL:first-child + UL > LI:first-child + LI > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > UL:first-child > LI:first-child > LABEL:first-child + UL > LI:first-child + LI + LI > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > UL:first-child > LI:first-child > LABEL:first-child + UL > LI:first-child + LI + LI + LI > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > UL:first-child > LI:first-child + LI > LABEL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > DIV#rubrica > FORM:first-child > FIELDSET:first-child > INPUT:first-child + INPUT + DIV > INPUT:first-child + LABEL",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > DIV#rubrica > FORM:first-child > FIELDSET:first-child > INPUT:first-child + INPUT + DIV > INPUT:first-child + LABEL + INPUT + LABEL"
+          ]
+        },
+        "lang": {
+          "id": "lang",
+          "description": "Language",
+          "count": 1,
+          "selectors": [
+            false
+          ]
+        }
+      }
+    },
+    "structure": {
+      "description": "Structural Elements",
+      "count": 70,
+      "items": {
+        "h1": {
+          "id": "h1",
+          "description": "Heading level 1",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV > H1:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child"
+          ]
+        },
+        "h2": {
+          "id": "h2",
+          "description": "Heading level 2",
+          "count": 6,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV > PICTURE:first-child + DIV + DIV > DIV:first-child > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > DIV:first-child > H2:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child > H2:first-child"
+          ]
+        },
+        "h3": {
+          "id": "h3",
+          "description": "Heading level 3",
+          "count": 32,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SPAN:first-child + H3",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > SPAN:first-child + H3",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV > SPAN:first-child + H3",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > SPAN:first-child + H3",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > SPAN:first-child + H3",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV > SPAN:first-child + H3",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone01 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone02 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone03 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone04 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide01 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide02 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide03 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide04 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone05 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone06 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone07 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone08 > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone01 > DIV:first-child > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone02 > DIV:first-child > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide01 > DIV:first-child > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide02 > DIV:first-child > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide03 > DIV:first-child > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide04 > DIV:first-child > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide05 > DIV:first-child > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone03 > DIV:first-child > DIV:first-child + DIV > H3:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone04 > DIV:first-child > DIV:first-child + DIV > H3:first-child"
+          ]
+        },
+        "ul": {
+          "id": "ul",
+          "description": "Unordered list",
+          "count": 20,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child + DIV + DIV > UL:first-child > LI:first-child > LABEL:first-child + UL",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#languageselector > UL#portal-languageselector",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI > DIV#servizi > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI > DIV#servizi > DIV:first-child > UL:first-child + UL",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI > DIV#restricted-area > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI + LI > DIV#email > UL:first-child",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-ateneo > DIV#submenu-1 > UL:first-child",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-studiare > DIV#submenu-2 > UL:first-child",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-ricerca > DIV#submenu-3 > UL:first-child",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-con-societa-e-impresa > DIV#submenu-4 > UL:first-child",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-news > DIV#submenu-5 > UL:first-child",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#u-profile-links > DIV#targets-link > UL:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu > DIV:first-child > P:first-child + UL",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu > DIV:first-child + DIV > P:first-child + UL",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV:first-child + DIV > DIV:first-child > UL#footerleft-menu"
+          ]
+        },
+        "header": {
+          "id": "header",
+          "description": "Header",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > HEADER#u-header"
+          ]
+        },
+        "nav": {
+          "id": "nav",
+          "description": "Navigation",
+          "count": 5,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#u-hiddenKeys",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#languageselector",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu"
+          ]
+        },
+        "main": {
+          "id": "main",
+          "description": "Main content",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content"
+          ]
+        },
+        "footer": {
+          "id": "footer",
+          "description": "Footer",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer"
+          ]
+        },
+        "aside": {
+          "id": "aside",
+          "description": "Aside",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar"
+          ]
+        },
+        "region": {
+          "id": "region",
+          "description": "Generic region",
+          "count": 1,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner"
+          ]
+        }
+      }
+    },
+    "aria": {
+      "description": "ARIA",
+      "count": 186,
+      "items": {
+        "aria": {
+          "id": "aria",
+          "description": "ARIA",
+          "count": 48,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#languageselector > UL#portal-languageselector",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#languageselector > UL#portal-languageselector > LI:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#languageselector > UL#portal-languageselector > LI:first-child + LI",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child > DIV#cerca > FORM:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > DIV#rubrica > FORM:first-child > FIELDSET:first-child > INPUT:first-child + INPUT + DIV",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > DIV#rubrica > FORM:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI > DIV#servizi > DIV:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI > DIV#restricted-area > UL:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI + LI > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI + LI > DIV#email > UL:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone01",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone02",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone03",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone04",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide01",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide02",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide03",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide04",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone05",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone06",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone07",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone08",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV:first-child + DIV > DIV:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV:first-child + DIV > DIV:first-child > BUTTON:first-child + DIV + BUTTON",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone01",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone02",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide01",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide02",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide03",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide04",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide05",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone03",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone04",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV:first-child + DIV > DIV:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV:first-child + DIV > DIV:first-child > BUTTON:first-child + DIV + BUTTON"
+          ]
+        },
+        "aria_label": {
+          "id": "aria_label",
+          "description": "ARIA label",
+          "count": 42,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner",
+            "HTML > HEAD:first-child + BODY > DIV#cc-banner > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-hiddenKeys",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#languageselector > UL#portal-languageselector",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child > DIV#cerca > FORM#uniboSearch > INPUT:first-child + FIELDSET > INPUT:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > DIV#rubrica > FORM:first-child > FIELDSET:first-child > INPUT:first-child + INPUT + DIV",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > DIV#rubrica > FORM:first-child > FIELDSET:first-child + FIELDSET > INPUT:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI > DIV#servizi > DIV:first-child > UL:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI > DIV#servizi > DIV:first-child > UL:first-child + UL",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV > PICTURE:first-child + DIV > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > VIDEO:first-child + VIDEO + DIV > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > VIDEO:first-child + VIDEO + DIV > BUTTON:first-child + BUTTON",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone01",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone02",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone03",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone04",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide01",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide02",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide03",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide04",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone05",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone06",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone07",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone08",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV:first-child + DIV > DIV:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV:first-child + DIV > DIV:first-child > BUTTON:first-child + DIV + BUTTON",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone01",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone02",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide01",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide02",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide03",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide04",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide05",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone03",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone04",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV:first-child + DIV > DIV:first-child > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV:first-child + DIV > DIV:first-child > BUTTON:first-child + DIV + BUTTON",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu"
+          ]
+        },
+        "aria_tabindex": {
+          "id": "aria_tabindex",
+          "description": "ARIA tabindex",
+          "count": 22,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide02 > DIV:first-child + DIV > H3:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide03 > DIV:first-child + DIV > H3:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide04 > DIV:first-child + DIV > H3:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone05 > DIV:first-child + DIV > H3:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone06 > DIV:first-child + DIV > H3:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone07 > DIV:first-child + DIV > H3:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone08 > DIV:first-child + DIV > H3:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone01 > DIV:first-child > DIV:first-child + DIV > H3:first-child + P + P > SPAN:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone02 > DIV:first-child > DIV:first-child + DIV > H3:first-child + P + P > SPAN:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide02 > DIV:first-child > DIV:first-child + DIV > H3:first-child + P + P > SPAN:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide03 > DIV:first-child > DIV:first-child + DIV > H3:first-child + P + P > SPAN:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide04 > DIV:first-child > DIV:first-child + DIV > H3:first-child + P + P > SPAN:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide05 > DIV:first-child > DIV:first-child + DIV > H3:first-child + P + P > SPAN:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone03 > DIV:first-child > DIV:first-child + DIV > H3:first-child + P + P > SPAN:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone04 > DIV:first-child > DIV:first-child + DIV > H3:first-child + P + P > SPAN:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > DIV:first-child + DIV + DIV + HEADER + DIV + MAIN + FOOTER + A"
+          ]
+        },
+        "aria_live_region": {
+          "id": "aria_live_region",
+          "description": "ARIA alert or live region",
+          "count": 2,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track"
+          ]
+        },
+        "aria_button": {
+          "id": "aria_button",
+          "description": "ARIA button",
+          "count": 8,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child > DIV:first-child + DIV + DIV + DIV > IMG:first-child + IMG + IMG + IMG + IMG",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child + A"
+          ]
+        },
+        "aria_hidden": {
+          "id": "aria_hidden",
+          "description": "ARIA hidden",
+          "count": 46,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child > BUTTON:first-child > I:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child > DIV#cerca",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child > DIV#cerca > FORM#uniboSearch > INPUT:first-child + FIELDSET > INPUT:first-child + BUTTON > SPAN:first-child + I",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > BUTTON:first-child > I:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > DIV#rubrica",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > DIV#rubrica > FORM:first-child > FIELDSET:first-child + FIELDSET > INPUT:first-child + BUTTON > SPAN:first-child + I",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI > BUTTON:first-child > I:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI > DIV#servizi",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI > BUTTON:first-child > I:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI > DIV#restricted-area",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI + LI > BUTTON:first-child > I:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI + LI > DIV#email",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > A:first-child > SPAN:first-child + I",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > A:first-child > SPAN:first-child + I + I",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-ateneo > DIV#submenu-1",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-studiare > DIV#submenu-2",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-ricerca > DIV#submenu-3",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-con-societa-e-impresa > DIV#submenu-4",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-news > DIV#submenu-5",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#u-profile-links > DIV#targets-link",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV > PICTURE:first-child + DIV > BUTTON:first-child + DIV",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide02",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide03",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-slide04",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone05",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone06",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone07",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV > SECTION#splideCenter > DIV#splideCenter-track > UL#splideCenter-list > LI#splideCenter-clone08",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child > SPAN:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child + DIV > DIV:first-child > DIV:first-child > A:first-child + A > SPAN:first-child",
+            false,
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > DIV#leafletjs-map > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > A:first-child + SPAN",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone01",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone02",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide02",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide03",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide04",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-slide05",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone03",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV + DIV + SCRIPT + DIV + DIV + DIV + DIV + DIV > DIV:first-child + DIV > SECTION#splideCampus > DIV#splideCampus-track > UL#markers > LI#splideCampus-clone04",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu > DIV:first-child > P:first-child + UL > LI:first-child + LI + LI > A:first-child > I:first-child",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu > DIV:first-child > P:first-child + UL > LI:first-child + LI + LI + LI > A:first-child > I:first-child",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu > DIV:first-child > P:first-child + UL > LI:first-child + LI + LI + LI + LI > A:first-child > I:first-child",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu > DIV:first-child > P:first-child + UL > LI:first-child + LI + LI + LI + LI + LI > A:first-child > I:first-child",
+            "HTML > HEAD:first-child + BODY > FOOTER#u-footer > DIV#follow-us-menu > DIV:first-child > P:first-child + UL > LI:first-child + LI + LI + LI + LI + LI + LI + LI > A:first-child > I:first-child",
+            "HTML > HEAD:first-child + BODY > DIV:first-child + DIV + DIV + HEADER + DIV + MAIN + FOOTER + A"
+          ]
+        },
+        "aria_expanded": {
+          "id": "aria_expanded",
+          "description": "ARIA expanded",
+          "count": 12,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > DIV#u-preheader > DIV#u-toolbar > ASIDE#u-toolbar > UL:first-child > LI:first-child + LI + LI + LI + LI > BUTTON:first-child",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-ateneo > SPAN:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-studiare > SPAN:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-ricerca > SPAN:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-con-societa-e-impresa > SPAN:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-news > SPAN:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#u-profile-links > SPAN:first-child > A:first-child",
+            "HTML > HEAD:first-child + BODY > MAIN#content > DIV#u-core-wrapper > DIV#u-content-core > H1:first-child + DIV + DIV > PICTURE:first-child + DIV > BUTTON:first-child"
+          ]
+        },
+        "aria_haspopup": {
+          "id": "aria_haspopup",
+          "description": "ARIA popup",
+          "count": 6,
+          "selectors": [
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-ateneo > SPAN:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-studiare > SPAN:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-ricerca > SPAN:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-con-societa-e-impresa > SPAN:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#portaltab-news > SPAN:first-child > A:first-child + A",
+            "HTML > HEAD:first-child + BODY > HEADER#u-header > DIV#u-mainmenu > DIV:first-child > UL#main-menu > LI#u-profile-links > SPAN:first-child > A:first-child"
+          ]
+        }
+      }
+    }
+  }
+}

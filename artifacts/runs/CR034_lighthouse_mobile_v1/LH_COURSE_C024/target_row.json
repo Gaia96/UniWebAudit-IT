@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C024",
+  "source_document_id": "SD0050",
+  "crawl_run_id": "CR007",
+  "university_id": "UNI12",
+  "sample_course_id": "C024",
+  "journey_id": "J024",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://www.uniroma3.it/corsi/dipartimento-di-filosofia-comunicazione-e-spettacolo/lm/2025-2026/scienze-cognitive-della-comunicazione-e-dellazione-0580707309300001/",
+  "final_url": "https://www.uniroma3.it/corsi/dipartimento-di-filosofia-comunicazione-e-spettacolo/lm/2025-2026/scienze-cognitive-della-comunicazione-e-dellazione-0580707309300001/",
+  "notes": "tranche5; collected before hub normalization; parent relinked to normalized programmes hub SD0059 in CR008"
+}

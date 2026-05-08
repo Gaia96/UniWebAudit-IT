@@ -1,0 +1,44 @@
+HTTP/2 301 
+date: Tue, 07 Apr 2026 12:23:18 GMT
+content-type: text/html; charset=utf-8
+location: https://www.unitn.it/it
+server: cloudflare
+x-drupal-route-normalizer: 1
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+cache-control: public, max-age=14400
+vary: Cookie,Origin
+expires: Tue, 07 Apr 2026 16:23:18 GMT
+x-drupal-cache: HIT
+access-control-allow-credentials: true
+last-modified: Tue, 07 Apr 2026 10:01:21 GMT
+x-varnish: 664666800
+x-cache: MISS
+grace: none
+set-cookie: __cf_bm=Rg_Jw20Jvy_4iOzRfu5.znhZERcrfqmCyJ.CHY67YVE-1775564598.7597923-1.0.1.1-ebcTAKUQU7CYf5VjfvunYbGZkJnlTq1FvTkBBgU0ZaeSDMC2HdtXqceeTUTCazCrTeLdfIU9IgEyIcdsWCIebxTfdfzSqZrrA2TeSUPAYC6v59y8Wp3riZwtvPcFF0Z9; HttpOnly; Secure; Path=/; Domain=www.unitn.it; Expires=Tue, 07 Apr 2026 12:53:18 GMT
+age: 504
+cf-cache-status: HIT
+cf-ray: 9e8900b6388dea6d-FCO
+
+HTTP/2 200 
+date: Tue, 07 Apr 2026 12:23:18 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: MISS
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+vary: Cookie,Origin,Accept-Encoding
+expires: Tue, 07 Apr 2026 16:23:18 GMT
+x-drupal-cache: HIT
+access-control-allow-credentials: true
+last-modified: Tue, 07 Apr 2026 10:00:17 GMT
+cf-cache-status: MISS
+x-varnish: 661687489
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=0XmfoFYU2GU2ACPP5XAw2KRJDkAKe44rUK_mE1lllJg-1775564598.784978-1.0.1.1-JGxh2MvFd72d24GKg6hreO2bBDxd5DRy8CzWilBn4XsMOPDDodXzu7uV5xZ8mQhi4LMUI_Zh1CKOhUskhbojYg.djxTp2uVhvMKlrDxZVs6TQ38sqo3lex3BHfewPCQa; HttpOnly; Secure; Path=/; Domain=www.unitn.it; Expires=Tue, 07 Apr 2026 12:53:18 GMT
+cf-ray: 9e8900b66965ea6d-FCO
+

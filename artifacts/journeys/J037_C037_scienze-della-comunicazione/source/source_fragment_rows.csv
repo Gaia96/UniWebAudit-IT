@@ -1,0 +1,7 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0162,SD0078,title,1,Università degli studi di Bergamo | UniBg,università degli studi di bergamo unibg,//title,raw snapshot title
+SF0163,SD0078,meta_description,2,"L'Università degli studi di Bergamo è una università statale italiana fondata nel 1968. 42 corsi di laurea, tra triennali e magistrali, 9 corsi di laurea magistrale in lingua inglese. 8 Dipartimenti. Tasso di occupazione a 1 anno dalla laurea 77,9%, Tasso di occupazione a 5 anni dalla laurea 92,4%.","l'università degli studi di bergamo è una università statale italiana fondata nel 1968. 42 corsi di laurea, tra triennali e magistrali, 9 corsi di laurea magistrale in lingua inglese. 8 dipartimenti. tasso di occupazione a 1 anno dalla laurea 77,9%, tasso di occupazione a 5 anni dalla laurea 92,4%.",//meta[@name='description'],raw snapshot meta description
+SF0164,SD0079,title,1,I corsi | Università degli studi di Bergamo,i corsi università degli studi di bergamo,//title,raw snapshot title
+SF0165,SD0079,h1,2,I corsi,i corsi,//h1[1],raw snapshot first h1
+SF0166,SD0080,title,1,[92-R] SCIENZE DELLA COMUNICAZIONE | Università degli studi di Bergamo,[92-r] scienze della comunicazione università degli studi di bergamo,//title,raw snapshot title
+SF0167,SD0080,h1,2,SCIENZE DELLA COMUNICAZIONE,scienze della comunicazione,//h1[1],raw snapshot first h1

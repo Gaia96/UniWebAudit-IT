@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.unimi.it/it/corsi/laurea-triennale/comunicazione-e-societa-ces",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C017/lhci_filesystem/www_unimi_it-it_corsi_laurea_triennale_comunicazione_e_societa_ces-2026_04_23_14_42_04.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C017/lhci_filesystem/www_unimi_it-it_corsi_laurea_triennale_comunicazione_e_societa_ces-2026_04_23_14_42_04.report.json",
+    "summary": {
+      "performance": 0.61,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unimi.it/it/corsi/laurea-triennale/comunicazione-e-societa-ces",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C017/lhci_filesystem/www_unimi_it-it_corsi_laurea_triennale_comunicazione_e_societa_ces-2026_04_23_14_42_19.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C017/lhci_filesystem/www_unimi_it-it_corsi_laurea_triennale_comunicazione_e_societa_ces-2026_04_23_14_42_19.report.json",
+    "summary": {
+      "performance": 0.74,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.unimi.it/it/corsi/laurea-triennale/comunicazione-e-societa-ces",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C017/lhci_filesystem/www_unimi_it-it_corsi_laurea_triennale_comunicazione_e_societa_ces-2026_04_23_14_42_32.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C017/lhci_filesystem/www_unimi_it-it_corsi_laurea_triennale_comunicazione_e_societa_ces-2026_04_23_14_42_32.report.json",
+    "summary": {
+      "performance": 0.66,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  }
+]

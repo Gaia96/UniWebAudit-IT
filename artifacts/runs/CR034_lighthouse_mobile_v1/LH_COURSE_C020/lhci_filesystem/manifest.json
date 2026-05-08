@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.uninsubria.it/formazione/offerta-formativa/corsi-di-laurea/scienze-e-tecniche-della-comunicazione",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C020/lhci_filesystem/www_uninsubria_it-formazione_offerta_formativa_corsi_di_laurea_scienze_e_tecniche_della_comunicazione-2026_04_23_14_45_10.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C020/lhci_filesystem/www_uninsubria_it-formazione_offerta_formativa_corsi_di_laurea_scienze_e_tecniche_della_comunicazione-2026_04_23_14_45_10.report.json",
+    "summary": {
+      "performance": 0.85,
+      "accessibility": 0.95,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.uninsubria.it/formazione/offerta-formativa/corsi-di-laurea/scienze-e-tecniche-della-comunicazione",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C020/lhci_filesystem/www_uninsubria_it-formazione_offerta_formativa_corsi_di_laurea_scienze_e_tecniche_della_comunicazione-2026_04_23_14_45_25.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C020/lhci_filesystem/www_uninsubria_it-formazione_offerta_formativa_corsi_di_laurea_scienze_e_tecniche_della_comunicazione-2026_04_23_14_45_25.report.json",
+    "summary": {
+      "performance": 0.71,
+      "accessibility": 0.95,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://www.uninsubria.it/formazione/offerta-formativa/corsi-di-laurea/scienze-e-tecniche-della-comunicazione",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C020/lhci_filesystem/www_uninsubria_it-formazione_offerta_formativa_corsi_di_laurea_scienze_e_tecniche_della_comunicazione-2026_04_23_14_45_41.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C020/lhci_filesystem/www_uninsubria_it-formazione_offerta_formativa_corsi_di_laurea_scienze_e_tecniche_della_comunicazione-2026_04_23_14_45_41.report.json",
+    "summary": {
+      "performance": 0.77,
+      "accessibility": 0.95,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  }
+]

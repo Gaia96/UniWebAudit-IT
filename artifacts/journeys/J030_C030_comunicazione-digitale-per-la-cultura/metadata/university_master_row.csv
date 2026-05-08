@@ -1,0 +1,2 @@
+university_id,university_name,short_name,macro_area,institution_type,city,university_homepage_url,programmes_hub_url,included_from_lm92_pilot,core_sampling_strategy,sample_status,notes
+UNI15,Università degli Studi di Urbino Carlo Bo,UniUrb,Centro,statale,Urbino,https://www.uniurb.it/,https://www.uniurb.it/studiaconnoi/futuri-studenti/corsi-di-studio,1,triennale_plus_magistrale_core_optional_cycle_unique,seeded,initial definitive sample; programmes_hub_url normalized 2026-04-03 after CR011

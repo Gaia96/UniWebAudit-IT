@@ -1,0 +1,38 @@
+[
+  {
+    "url": "http://www.uninettunouniversity.net/en/default.aspx",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI16/lhci_filesystem/www_uninettunouniversity_net-en_default_aspx-2026_04_23_14_17_27.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI16/lhci_filesystem/www_uninettunouniversity_net-en_default_aspx-2026_04_23_14_17_27.report.json",
+    "summary": {
+      "performance": 0.25,
+      "accessibility": 0.9,
+      "best-practices": 0.59,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://www.uninettunouniversity.net/en/default.aspx",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI16/lhci_filesystem/www_uninettunouniversity_net-en_default_aspx-2026_04_23_14_18_11.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI16/lhci_filesystem/www_uninettunouniversity_net-en_default_aspx-2026_04_23_14_18_11.report.json",
+    "summary": {
+      "performance": 0.21,
+      "accessibility": 0.9,
+      "best-practices": 0.59,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://www.uninettunouniversity.net/en/default.aspx",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI16/lhci_filesystem/www_uninettunouniversity_net-en_default_aspx-2026_04_23_14_17_48.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_HOME_UNI16/lhci_filesystem/www_uninettunouniversity_net-en_default_aspx-2026_04_23_14_17_48.report.json",
+    "summary": {
+      "performance": 0.05,
+      "accessibility": 0.9,
+      "best-practices": 0.59,
+      "seo": 1
+    }
+  }
+]

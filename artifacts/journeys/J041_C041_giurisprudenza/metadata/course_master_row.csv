@@ -1,0 +1,2 @@
+sample_course_id,university_id,university_name,course_name,degree_type,course_class,disciplinary_cluster,selection_role,selection_priority,course_page_url,url_origin,normalization_status,selection_rationale,notes
+C041,UNI20,Università degli Studi di Trento,Giurisprudenza,ciclo_unico,LMG/01,law,optional_cycle_unique,optional,https://corsi.unitn.it/it/giurisprudenza,official_search_apr2026,searched_seed,optional cycle unique added to diversify degree types,keep only if third course per ateneo is desired

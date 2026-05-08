@@ -1,0 +1,87 @@
+# SERP Collection Configuration — Phase 3
+# Last updated: 2026-05-05
+# Aligns with docs/methods/serp_methodology_decisions.md
+# Do not modify during an active collection run.
+
+search_engine: Google
+search_interface: google.it
+hl: it
+gl: IT
+browser_mode: clean_profile_or_incognito
+login_status: logged_out
+device_profile: desktop
+viewport_width: 1536
+browser_zoom: 100
+
+# Primary depth: inspect top 10 organic results for all queries.
+# Follow-up depth: extend to top 20 only when target not found in top 10.
+max_organic_depth: 10
+followup_depth_on_miss: 20
+
+# Evidence requirements
+evidence_required: true
+screenshot_required: true
+screenshot_format: png
+# screenshot naming: artifacts/runs/{crawl_run_id}/serp/{serp_observation_id}_top10.png
+# if follow-up to top 20 performed: add _top20.png counterpart
+
+# Session and timing policy
+session_policy: >
+  Preferred: collect each batch in a compact session.
+  Each batch must use the crawl_run_id assigned in batch_crawl_run_ids.
+  Acceptable: multi-day collection within the same batch, provided the same
+  crawl_run_id is used and observed_at is recorded per row.
+  Never mix batches without clear timestamps and run IDs.
+  Same browser profile/incognito policy and same SERP configuration must apply throughout.
+
+# Anomaly handling
+captcha_action: stop_session_wait_30min_restart_incognito_log_in_qa
+cookie_banner_action: reject_optional_cookies_then_proceed_note_in_row
+login_prompt_action: abort_close_incognito_reopen_log_in_qa
+localization_deviation_action: note_in_serp_features_observed_and_row_notes
+
+# Run IDs - assign before collecting each batch
+# Register every CRxxx in data/collection/crawl_run.csv before collection.
+# Rule: one crawl_run_id per collection session/batch; use the same CRxxx for all rows
+# belonging to that batch. Do not reuse a CRxxx across different batches unless they
+# are genuinely collected as the same uninterrupted session under the same configuration.
+batch_crawl_run_ids:
+  SERP_pilot_001: CR035  # courses: C001 C012 C035
+  SERP_B001: "[ASSIGN_NEXT_CR_AFTER_CR035]"  # courses: C002 C003 C004 C005 C006
+  SERP_B002: "[ASSIGN]"                      # courses: C007 C008 C009 C010 C011
+  SERP_B003: "[ASSIGN]"                      # courses: C013 C014 C015 C016 C017
+  SERP_B004: "[ASSIGN]"                      # courses: C018 C019 C020 C021 C022
+  SERP_B005: "[ASSIGN]"                      # courses: C023 C024 C025 C026 C027
+  SERP_B006: "[ASSIGN]"                      # courses: C028 C029 C030 C031 C032
+  SERP_B007: "[ASSIGN]"                      # courses: C033 C034 C036 C037 C038
+  SERP_B008: "[ASSIGN]"                      # courses: C039 C040 C041
+
+# Set this manually to the batch currently being collected if downstream scripts
+# still expect a single run ID variable.
+active_crawl_run_id: "[SET TO CURRENT BATCH CRxxx]"
+
+# Query type mapping (informational — enforced in build_serp_manifest.py)
+query_types:
+  SQ01: known_institution
+  SQ02: user_like_institutional
+  SQ03: information_seeking
+
+# Match type vocabulary (enforced in validate_serp_observations.py)
+match_types:
+  - canonical_exact
+  - canonical_normalized
+  - official_equivalent
+  - official_related
+  - official_domain_only
+  - third_party_related
+  - ambiguous
+  - not_found
+
+# Source files
+query_templates_source: data/masters/serp_query_templates.csv
+manifest_source: serp/manifests/serp_query_manifest.csv
+
+# Output paths
+observations_output: data/collection/serp_observations.csv
+results_long_output: data/collection/serp_results_long.csv
+evidence_archive: "artifacts/runs/{crawl_run_id}/serp/"

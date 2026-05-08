@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://corsi.unisa.it/corporate-communication-e-media",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C022/lhci_filesystem/corsi_unisa_it-corporate_communication_e_media-2026_04_23_14_47_11.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C022/lhci_filesystem/corsi_unisa_it-corporate_communication_e_media-2026_04_23_14_47_11.report.json",
+    "summary": {
+      "performance": 0.92,
+      "accessibility": 0.98,
+      "best-practices": 0.79,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://corsi.unisa.it/corporate-communication-e-media",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C022/lhci_filesystem/corsi_unisa_it-corporate_communication_e_media-2026_04_23_14_47_25.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C022/lhci_filesystem/corsi_unisa_it-corporate_communication_e_media-2026_04_23_14_47_25.report.json",
+    "summary": {
+      "performance": 0.65,
+      "accessibility": 0.98,
+      "best-practices": 0.79,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://corsi.unisa.it/corporate-communication-e-media",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C022/lhci_filesystem/corsi_unisa_it-corporate_communication_e_media-2026_04_23_14_46_57.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C022/lhci_filesystem/corsi_unisa_it-corporate_communication_e_media-2026_04_23_14_46_57.report.json",
+    "summary": {
+      "performance": 0.92,
+      "accessibility": 0.98,
+      "best-practices": 0.79,
+      "seo": 0.92
+    }
+  }
+]

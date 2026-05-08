@@ -1,0 +1,2 @@
+sample_course_id,university_id,university_name,course_name,degree_type,course_class,disciplinary_cluster,selection_role,selection_priority,course_page_url,url_origin,normalization_status,selection_rationale,notes
+C016,UNI08,Università degli Studi di Milano-Bicocca,Teoria e tecnologia della comunicazione,magistrale,LM-92,communication_digital_humanities,core_magistrale,core,https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione,pilot_lm92_seed,reviewed_canonical_ateneo_card,pilot magistrale retained on official ateneo card,official UniMib course page confirmed

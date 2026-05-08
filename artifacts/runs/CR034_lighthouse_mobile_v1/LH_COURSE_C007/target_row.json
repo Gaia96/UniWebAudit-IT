@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C007",
+  "source_document_id": "SD0015",
+  "crawl_run_id": "CR002",
+  "university_id": "UNI04",
+  "sample_course_id": "C007",
+  "journey_id": "J007",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://www.unifi.it/it/node/6520",
+  "final_url": "https://www.unifi.it/it/node/6520",
+  "notes": "tranche2; collected before hub normalization; parent relinked to normalized programmes hub SD0021 in CR003"
+}

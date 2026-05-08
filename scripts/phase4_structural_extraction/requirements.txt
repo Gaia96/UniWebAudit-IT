@@ -1,0 +1,11 @@
+# Phase 4 Structural Extraction — Python dependencies
+# Install (suggested):
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r structural_extraction/requirements.txt
+#   python -m playwright install chromium
+
+beautifulsoup4>=4.12
+lxml>=5.0
+PyYAML>=6.0
+playwright>=1.42

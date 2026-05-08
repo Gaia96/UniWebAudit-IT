@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.uniroma3.it/corsi/dipartimento-di-filosofia-comunicazione-e-spettacolo/l/2025-2026/scienze-della-comunicazione-0580706202000001/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C023/lhci_filesystem/www_uniroma3_it-corsi_dipartimento_di_filosofia_comunicazione_e_spettacolo_l_2025_2026_scienze_della_comunicazione_0580706202000001_-2026_04_23_14_48_18.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C023/lhci_filesystem/www_uniroma3_it-corsi_dipartimento_di_filosofia_comunicazione_e_spettacolo_l_2025_2026_scienze_della_comunicazione_0580706202000001_-2026_04_23_14_48_18.report.json",
+    "summary": {
+      "performance": 0.55,
+      "accessibility": 0.9,
+      "best-practices": 0.79,
+      "seo": 1
+    }
+  },
+  {
+    "url": "https://www.uniroma3.it/corsi/dipartimento-di-filosofia-comunicazione-e-spettacolo/l/2025-2026/scienze-della-comunicazione-0580706202000001/",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C023/lhci_filesystem/www_uniroma3_it-corsi_dipartimento_di_filosofia_comunicazione_e_spettacolo_l_2025_2026_scienze_della_comunicazione_0580706202000001_-2026_04_23_14_48_36.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C023/lhci_filesystem/www_uniroma3_it-corsi_dipartimento_di_filosofia_comunicazione_e_spettacolo_l_2025_2026_scienze_della_comunicazione_0580706202000001_-2026_04_23_14_48_36.report.json",
+    "summary": {
+      "performance": 0.38,
+      "accessibility": 0.9,
+      "best-practices": 0.79,
+      "seo": 1
+    }
+  },
+  {
+    "url": "https://www.uniroma3.it/corsi/dipartimento-di-filosofia-comunicazione-e-spettacolo/l/2025-2026/scienze-della-comunicazione-0580706202000001/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C023/lhci_filesystem/www_uniroma3_it-corsi_dipartimento_di_filosofia_comunicazione_e_spettacolo_l_2025_2026_scienze_della_comunicazione_0580706202000001_-2026_04_23_14_47_50.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C023/lhci_filesystem/www_uniroma3_it-corsi_dipartimento_di_filosofia_comunicazione_e_spettacolo_l_2025_2026_scienze_della_comunicazione_0580706202000001_-2026_04_23_14_47_50.report.json",
+    "summary": {
+      "performance": 0.44,
+      "accessibility": 0.9,
+      "best-practices": 0.79,
+      "seo": 1
+    }
+  }
+]

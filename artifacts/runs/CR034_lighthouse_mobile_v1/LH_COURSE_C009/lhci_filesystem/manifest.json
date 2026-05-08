@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://scienze-comunicazione.unisi.it/it",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C009/lhci_filesystem/scienze_comunicazione_unisi_it-it-2026_04_23_14_34_48.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C009/lhci_filesystem/scienze_comunicazione_unisi_it-it-2026_04_23_14_34_48.report.json",
+    "summary": {
+      "performance": 0.63,
+      "accessibility": 0.93,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://scienze-comunicazione.unisi.it/it",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C009/lhci_filesystem/scienze_comunicazione_unisi_it-it-2026_04_23_14_35_21.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C009/lhci_filesystem/scienze_comunicazione_unisi_it-it-2026_04_23_14_35_21.report.json",
+    "summary": {
+      "performance": 0.57,
+      "accessibility": 0.93,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  },
+  {
+    "url": "https://scienze-comunicazione.unisi.it/it",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C009/lhci_filesystem/scienze_comunicazione_unisi_it-it-2026_04_23_14_35_06.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C009/lhci_filesystem/scienze_comunicazione_unisi_it-it-2026_04_23_14_35_06.report.json",
+    "summary": {
+      "performance": 0.57,
+      "accessibility": 0.93,
+      "best-practices": 0.96,
+      "seo": 0.92
+    }
+  }
+]

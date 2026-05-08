@@ -1,0 +1,22 @@
+HTTP/2 200 
+date: Fri, 03 Apr 2026 15:16:49 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: UNCACHEABLE (poor cacheability)
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+vary: Cookie,Accept-Encoding,Origin
+expires: Fri, 03 Apr 2026 19:16:49 GMT
+x-drupal-cache: HIT
+access-control-allow-credentials: true
+last-modified: Fri, 03 Apr 2026 14:10:19 GMT
+cf-cache-status: HIT
+x-varnish: 8824811
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=v.kP6uD4nAJyAWFlE8.U4ftmCR1oQVkQikc3hI6b9WM-1775229409.5225916-1.0.1.1-6OeehpE_CZgIIX_QeA0mSy2NtWwTb5aaZysNo_2lELz9vQayCfiz3VMBRBD3m_SZRrzTLpChvf4bAb2VoJLcqOc990m6GhqpT6aUc0ECcnr1SZTUGbtwCZZgICdpiGRm; HttpOnly; Secure; Path=/; Domain=www.unito.it; Expires=Fri, 03 Apr 2026 15:46:49 GMT
+age: 91
+cf-ray: 9e6909618b77ea69-FCO
+

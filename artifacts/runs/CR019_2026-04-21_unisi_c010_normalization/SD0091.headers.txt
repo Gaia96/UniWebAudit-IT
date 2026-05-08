@@ -1,0 +1,21 @@
+HTTP/2 200 
+date: Wed, 22 Apr 2026 12:07:55 GMT
+content-type: text/html; charset=utf-8
+server: cloudflare
+x-drupal-cache: MISS
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+content-language: it
+permissions-policy: interest-cohort=()
+cache-control: public, max-age=14400
+vary: Cookie,Accept-Encoding
+cf-cache-status: HIT
+last-modified: Wed, 22 Apr 2026 09:23:52 GMT
+x-varnish: 315686987
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=COryrZLdVoNxp9o4tQrl6Sn2taFCHrmTwYXPvodrMQg-1776859675.8537788-1.0.1.1-OmsGNyysyv_Iq8ZQMidVnFrja0SsnviFp7Pl7HK0GQbctiUCKkDbKXP9xLiJQ194vSrgZT1COSkzNpolRkGnPHISrvCIpe3j.jCVB7qYb0Y_qmZZsCc6PMLyRCUEbM3n; HttpOnly; Secure; Path=/; Domain=www.unisi.it; Expires=Wed, 22 Apr 2026 12:37:55 GMT
+age: 9841
+expires: Wed, 22 Apr 2026 16:07:55 GMT
+cf-ray: 9f0482ce1f5aea62-FCO
+

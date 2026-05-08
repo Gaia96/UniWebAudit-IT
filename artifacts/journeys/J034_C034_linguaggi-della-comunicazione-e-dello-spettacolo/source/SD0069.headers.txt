@@ -1,0 +1,17 @@
+HTTP/2 200 
+server: nginx
+date: Fri, 03 Apr 2026 15:43:48 GMT
+content-type: text/html; charset=utf-8
+content-length: 197236
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+vary: Cookie
+x-content-type-options: nosniff
+referrer-policy: origin-when-cross-origin
+cross-origin-opener-policy: same-origin
+set-cookie: unicms_sessionid=egqld39j590vk5upqdj6tq40bxvdyqx9; Domain=.unical.it; HttpOnly; Path=/; SameSite=Lax; Secure
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+content-security-policy: frame-ancestors 'self'
+permissions-policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+x-xss-protection: 1; mode=block
+

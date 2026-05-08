@@ -1,0 +1,5 @@
+Running Lighthouse 3 time(s) on https://www.unifi.it/it/studia-con-noi/corsi-di-laurea/corsi-di-laurea-magistrali/pratiche-linguaggi-e-culture-della
+Run #1...done.
+Run #2...done.
+Run #3...done.
+Done running Lighthouse!

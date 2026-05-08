@@ -1,0 +1,687 @@
+# keyword_dictionary.yaml — Phase 4 Structural Extraction
+# Versione: v2  Autore: claude_code  Review utente: 2026-05-06
+# Modifiche v2: priority corrette (academic_year/language/location → essential);
+#   keywords rafforzate (academic_year, language, admission_*, deadlines, career_outcomes,
+#   portali); regole conservative FP per contacts/@, deadlines/mesi, language, location,
+#   academic_year.
+#
+# Struttura per indicatore:
+#   indicator_id   — corrisponde alle colonne di structural_indicators.csv
+#   label          — label umana
+#   priority       — essential | important | contextual  (Sezione 8 metodo)
+#   keywords       — stringhe in minuscolo cercate nel testo visibile (IT/EN)
+#   heading_signals — regex cercati specificamente nei tag h1-h6
+#   selector_hints  — selettori CSS per tab/accordion/table containers
+#   pdf_label_hints — keyword che, nel testo anchor di un link .pdf, contano come linked_pdf
+#   confidence_rules:
+#     high   — condizione per confidence alta
+#     medium — condizione per confidence media
+#     low    — condizione per confidence bassa
+#
+# Regole FP conservative (v2):
+#   - contacts: @ senza contesto "contatti/segreteria/referente/coordinatore" → low
+#   - deadlines: mese da solo senza "scadenza/deadline/entro/iscrizione/bando" → low
+#   - language: "italiano/inglese" come materia senza "lingua di erogazione/taught in" → low
+#   - location: indirizzo in footer/navigazione senza "sede/campus/luogo di svolgimento" → low
+#   - academic_year: pattern YYYY/YY senza "anno accademico/a.a./offerta formativa/coorte" → low
+
+indicators:
+
+  # ─────────────────────────────────────────────────────────────────────
+  # ESSENTIAL  (10)
+  # ─────────────────────────────────────────────────────────────────────
+
+  - indicator_id: course_title
+    label: "Course title"
+    priority: essential
+    keywords:
+      - "titolo del corso"
+      - "nome del corso"
+      - "denominazione"
+    heading_signals:
+      - "scienze della comunicazione"
+      - "comunicazione"
+      - "laurea"
+      - "bachelor"
+      - "master"
+      - "giurisprudenza"
+      - "beni culturali"
+      - "digital"
+    selector_hints:
+      - "h1"
+      - ".page-title"
+      - ".course-title"
+      - "#page-title"
+      - "title"
+    pdf_label_hints: []
+    confidence_rules:
+      high: "H1 tag non vuoto o <title> non vuoto"
+      medium: "titolo estratto da meta og:title o breadcrumb finale"
+      low: "nessun H1; titolo solo da URL path"
+
+  - indicator_id: degree_level
+    label: "Degree level"
+    priority: essential
+    keywords:
+      - "laurea triennale"
+      - "laurea magistrale"
+      - "laurea magistrale a ciclo unico"
+      - "ciclo unico"
+      - "bachelor"
+      - "master"
+      - "single-cycle"
+      - "triennale"
+      - "magistrale"
+      - "primo ciclo"
+      - "secondo ciclo"
+      - "l-"
+      - "lm-"
+      - "lmcu"
+    heading_signals:
+      - "laurea\\s+(triennale|magistrale|ciclo unico)"
+      - "corso di (laurea|studio)"
+      - "bachelor|master"
+    selector_hints:
+      - ".degree-type"
+      - ".course-type"
+      - ".tipologia-corso"
+      - "dd"
+      - ".scheda-corso"
+    pdf_label_hints: []
+    confidence_rules:
+      high: "heading o label esplicita con triennale/magistrale/ciclo unico"
+      medium: "keyword nel summary box o nella description"
+      low: "solo classe di laurea (L-/LM-) senza label esplicita"
+
+  - indicator_id: academic_year
+    label: "Academic year or edition"
+    priority: essential
+    keywords:
+      - "anno accademico"
+      - "a.a. 2025"
+      - "a.a. 2024"
+      - "a.a. 2026"
+      - "a.a."
+      - "coorte"
+      - "2025/2026"
+      - "2024/2025"
+      - "2026/2027"
+      - "2025/26"
+      - "2024/25"
+      - "2026/27"
+      - "offerta formativa 202"
+      - "guida dello studente 202"
+    heading_signals:
+      - "anno accademico"
+      - "a\\.a\\. 20\\d\\d"
+      - "offerta formativa \\d{4}"
+      - "coorte \\d{4}"
+    selector_hints:
+      - ".anno-accademico"
+      - ".academic-year"
+      - "dd"
+      - ".scheda-corso td"
+    pdf_label_hints:
+      - "manifesto degli studi"
+      - "guida dello studente"
+      - "offerta didattica"
+      - "offerta formativa"
+    # FP conservative: pattern YYYY/YY da solo (senza "a.a." o "anno accademico" vicino) → low
+    confidence_rules:
+      high: "anno accademico esplicito (es. a.a. 2025/26 o 'coorte 2025') vicino a label dedicata o in heading"
+      medium: "pattern YYYY/YYYY o YYYY/YY nel testo con contesto a.a./offerta formativa"
+      low: "pattern YYYY/YY isolato senza contesto accademico; anno nel solo URL"
+
+  - indicator_id: language
+    label: "Teaching language"
+    priority: essential
+    keywords:
+      - "lingua di erogazione"
+      - "lingua di insegnamento"
+      - "language of instruction"
+      - "taught in english"
+      - "erogato in inglese"
+      - "corso in inglese"
+      - "insegnamento in inglese"
+      - "teaching language"
+      - "lingua: italiano"
+      - "lingua: inglese"
+      - "bilingue"
+      - "bilingual"
+    heading_signals:
+      - "lingua di (erogazione|insegnamento)"
+      - "language of instruction"
+      - "teaching language"
+    selector_hints:
+      - ".lingua"
+      - ".language"
+      - "dd"
+      - ".scheda-corso td"
+    pdf_label_hints: []
+    # FP conservative: "italiano" o "inglese" come materia/disciplina senza "lingua di erogazione/taught in" → low
+    confidence_rules:
+      high: "label 'Lingua di erogazione / insegnamento' o 'Language of instruction' con valore esplicito"
+      medium: "phrase 'taught in English' / 'erogato in inglese' / 'insegnamento in inglese' nel corpo pagina"
+      low: "presenza di 'italiano' o 'inglese' come lingua ma senza contesto di erogazione (es. nome disciplina, link lingua straniera)"
+
+  - indicator_id: location
+    label: "Campus / city / location"
+    priority: essential
+    keywords:
+      - "sede del corso"
+      - "sede di svolgimento"
+      - "luogo di svolgimento"
+      - "campus"
+      - "dove si studia"
+      - "polo didattico"
+      - "sedi e contatti"
+    heading_signals:
+      - "sede (del corso|di svolgimento)?$"
+      - "campus"
+      - "dove si studia"
+      - "sedi e contatti"
+      - "luogo di svolgimento"
+    selector_hints:
+      - ".sede"
+      - ".campus"
+      - ".location"
+      - "address"
+      - "dd"
+      - ".scheda-corso td"
+    pdf_label_hints: []
+    # FP conservative: indirizzo nel footer/navigazione senza "sede/campus/luogo di svolgimento" → low
+    confidence_rules:
+      high: "label/heading 'Sede' o 'Campus' con nome città o edificio specifico del corso"
+      medium: "nome città associato al corso in summary box o scheda corso"
+      low: "indirizzo o città presenti solo nel footer o nell'header generico di ateneo senza riferimento al corso specifico"
+
+  - indicator_id: study_plan
+    label: "Study plan / piano di studi / curriculum / teachings"
+    priority: essential
+    keywords:
+      - "piano di studi"
+      - "piano didattico"
+      - "percorso formativo"
+      - "insegnamenti"
+      - "curriculum"
+      - "curricula"
+      - "teaching plan"
+      - "study programme"
+      - "manifesto degli studi"
+      - "materie"
+      - "didattica programmata"
+      - "didattica erogata"
+      - "offerta formativa"
+      - "programma del corso"
+      - "piano degli studi"
+    heading_signals:
+      - "piano (di studi|didattico|degli studi)"
+      - "percorso formativo"
+      - "insegnamenti"
+      - "curriculum|curricula"
+      - "manifesto degli studi"
+      - "didattica (programmata|erogata)"
+    selector_hints:
+      - "[role='tab']"
+      - ".nav-tabs a"
+      - "[data-toggle='tab']"
+      - "[data-bs-toggle='tab']"
+      - "details > summary"
+      - ".accordion-button"
+      - ".accordion-item"
+      - "table.insegnamenti"
+      - ".piano-studi"
+    pdf_label_hints:
+      - "piano di studi"
+      - "piano didattico"
+      - "manifesto"
+      - "offerta didattica"
+      - "insegnamenti"
+      - "curriculum"
+      - "study plan"
+      - "piano degli studi"
+      - "didattica programmata"
+    confidence_rules:
+      high: "heading o tab label esplicita 'Piano di studi' / 'Insegnamenti' / 'Didattica programmata' con contenuto o lista"
+      medium: "link a pagina o PDF con label 'insegnamenti' / 'piano didattico' / 'offerta didattica'"
+      low: "menzione generica di 'materie' o 'esami' senza link strutturato"
+
+  - indicator_id: admission_requirements
+    label: "Access requirements / admission requirements"
+    priority: essential
+    keywords:
+      - "requisiti di ammissione"
+      - "requisiti di accesso"
+      - "requisiti curriculari"
+      - "accesso al corso"
+      - "come si accede"
+      - "modalità di accesso"
+      - "titolo di accesso"
+      - "prerequisiti"
+      - "ofa"
+      - "verifica della preparazione"
+      - "verifica delle conoscenze"
+      - "test di ammissione"
+      - "prova di ammissione"
+      - "tolc"
+      - "certificazione linguistica"
+      - "b2"
+      - "ielts"
+      - "toefl"
+      - "access requirements"
+      - "admission requirements"
+      - "entry requirements"
+    heading_signals:
+      - "requisiti (di ammissione|di accesso|curriculari)"
+      - "accesso al corso|come si accede"
+      - "modalità di accesso"
+      - "admission requirements|access requirements"
+      - "verifica (della|delle) (preparazione|conoscenze)"
+    selector_hints:
+      - "[role='tab']"
+      - ".nav-tabs a"
+      - "details > summary"
+      - ".accordion-button"
+      - ".ammissione"
+      - ".requisiti"
+    pdf_label_hints:
+      - "requisiti di ammissione"
+      - "requisiti di accesso"
+      - "bando di ammissione"
+      - "modalità di accesso"
+    confidence_rules:
+      high: "heading/tab 'Requisiti di ammissione/accesso' o 'Access requirements' con testo o link bando"
+      medium: "link a pagina ammissione, sezione con OFA/TOLC/certificazioni linguistiche"
+      low: "solo menzione 'ammissione' o 'accesso' senza dettaglio requisiti"
+
+  - indicator_id: admission_procedure
+    label: "Admission or enrolment procedure"
+    priority: essential
+    keywords:
+      - "come iscriversi"
+      - "procedura di ammissione"
+      - "procedura di iscrizione"
+      - "immatricolazione"
+      - "iscriversi al corso"
+      - "enrollment"
+      - "enrolment"
+      - "come immatricolarsi"
+      - "domanda di ammissione"
+      - "bando di ammissione"
+      - "bando di concorso"
+      - "graduatoria"
+      - "selezione"
+      - "concorso di ammissione"
+      - "application"
+      - "apply"
+      - "how to apply"
+      - "how to enrol"
+    heading_signals:
+      - "come iscriversi|procedura di (ammissione|iscrizione)"
+      - "immatricolazione|come immatricolarsi"
+      - "domanda di ammissione"
+      - "bando (di ammissione|di concorso)?"
+      - "how to (apply|enrol)"
+    selector_hints:
+      - "[role='tab']"
+      - ".nav-tabs a"
+      - "details > summary"
+      - ".accordion-button"
+      - ".iscrizione"
+      - ".immatricolazione"
+    pdf_label_hints:
+      - "bando di ammissione"
+      - "bando di concorso"
+      - "domanda di iscrizione"
+      - "guida all'iscrizione"
+      - "graduatoria"
+    confidence_rules:
+      high: "heading/tab 'Come iscriversi' / 'Immatricolazione' / 'Bando' con steps, date, o link bando"
+      medium: "link 'Iscrizione' o 'Bando' senza spiegazione della procedura in-page"
+      low: "solo menzione generica di iscrizione senza procedura o link bando"
+
+  - indicator_id: deadlines
+    label: "Application / enrolment deadlines"
+    priority: essential
+    keywords:
+      - "scadenze"
+      - "scadenza"
+      - "termine iscrizione"
+      - "termine immatricolazione"
+      - "data di scadenza"
+      - "date importanti"
+      - "deadlines"
+      - "application deadline"
+      - "entro il"
+      - "entro il "
+      - "iscrizioni entro"
+      - "domanda entro"
+      - "calendario iscrizioni"
+      - "calendario ammissioni"
+    heading_signals:
+      - "scadenze|scadenza"
+      - "termini di iscrizione|termine immatricolazione"
+      - "date importanti"
+      - "calendario (iscrizioni|ammissioni|accademico)"
+      - "application deadline|deadlines"
+    selector_hints:
+      - "[role='tab']"
+      - ".nav-tabs a"
+      - "details > summary"
+      - ".accordion-button"
+      - ".scadenze"
+      - ".deadline"
+      - ".calendar"
+    pdf_label_hints:
+      - "scadenze"
+      - "calendario"
+      - "bando"
+    # FP conservative: mese da solo (es. "settembre") senza "scadenza/deadline/entro/iscrizione" vicino → low
+    confidence_rules:
+      high: "date/scadenze esplicite visibili sulla pagina in sezione 'Scadenze' o 'Date importanti'; 'entro il' + data"
+      medium: "link a pagina/PDF di scadenze senza date in-page; 'application deadline' senza data specifica"
+      low: "mese o anno menzionato nel testo senza contesto esplicito di scadenza/iscrizione"
+
+  - indicator_id: contacts
+    label: "Contact / tutor / orientation / course office"
+    priority: essential
+    keywords:
+      - "contatti"
+      - "contattaci"
+      - "segreteria studenti"
+      - "segreteria didattica"
+      - "tutor"
+      - "orientamento"
+      - "referente del corso"
+      - "coordinatore del corso"
+      - "presidente del corso"
+      - "commissione didattica"
+      - "sedi e contatti"
+      - "link e contatti"
+    heading_signals:
+      - "contatti|contattaci"
+      - "segreteria (studenti|didattica)?"
+      - "orientamento"
+      - "referente|coordinatore|presidente del corso"
+      - "sedi e contatti|link e contatti"
+    selector_hints:
+      - "[role='tab']"
+      - ".nav-tabs a"
+      - "details > summary"
+      - ".accordion-button"
+      - ".contatti"
+      - ".contacts"
+      - "address"
+      - ".contact-info"
+    pdf_label_hints: []
+    # FP conservative: @ sola senza "contatti/segreteria/referente/coordinatore" nel contesto → low
+    confidence_rules:
+      high: "sezione/tab 'Contatti' o 'Segreteria' con email o nome referente specifico per il corso (non solo footer)"
+      medium: "link a pagina dipartimento/ufficio con contatti specifici del corso; email in sezione dedicata con label"
+      low: "email (@ symbol) nel testo senza label 'contatti/segreteria/referente'; link a portale contatti generico ateneo"
+
+  # ─────────────────────────────────────────────────────────────────────
+  # IMPORTANT  (5)
+  # ─────────────────────────────────────────────────────────────────────
+
+  - indicator_id: degree_class
+    label: "Italian degree class / classe di laurea"
+    priority: important
+    keywords:
+      - "classe di laurea"
+      - "classe l-"
+      - "classe lm-"
+      - "l-20"
+      - "lm-92"
+      - "lm-14"
+      - "lm-59"
+      - "l-1"
+      - "lm-2"
+      - "lm-38"
+      - "lm-76"
+      - "lm-84"
+      - "lm-89"
+      - "classe delle lauree"
+      - "interclasse"
+    heading_signals:
+      - "classe di laurea"
+      - "classe delle lauree"
+    selector_hints:
+      - ".classe-laurea"
+      - "dd"
+      - ".scheda-corso td"
+      - ".info-corso"
+    pdf_label_hints: []
+    confidence_rules:
+      high: "label 'Classe di laurea' con codice esplicito"
+      medium: "codice classe (L-XX / LM-XX) nel testo senza label dedicata"
+      low: "solo menzione generica di 'interclasse' senza codici"
+
+  - indicator_id: cfu
+    label: "Credits / CFU"
+    priority: important
+    keywords:
+      - "cfu"
+      - "crediti formativi"
+      - "crediti universitari"
+      - "ects"
+      - "180 crediti"
+      - "120 crediti"
+      - "60 crediti"
+      - "300 crediti"
+    heading_signals:
+      - "cfu|crediti formativi|ects"
+    selector_hints:
+      - ".cfu"
+      - ".crediti"
+      - "dd"
+      - ".scheda-corso td"
+      - "table td"
+    pdf_label_hints: []
+    confidence_rules:
+      high: "numero + CFU/crediti in label dedicata o table cell"
+      medium: "keyword CFU nel testo del corso senza valore numerico"
+      low: "solo acronimo CFU senza contesto quantitativo"
+
+  - indicator_id: duration
+    label: "Duration"
+    priority: important
+    keywords:
+      - "durata"
+      - "anni di corso"
+      - "3 anni"
+      - "2 anni"
+      - "5 anni"
+      - "anni accademici"
+      - "years"
+    heading_signals:
+      - "durata"
+      - "anni di corso"
+    selector_hints:
+      - ".durata"
+      - "dd"
+      - ".scheda-corso td"
+      - "table td"
+    pdf_label_hints: []
+    confidence_rules:
+      high: "label 'Durata' con numero di anni"
+      medium: "numero anni nel testo descrittivo del corso"
+      low: "solo inferibile da CFU (non contare)"
+
+  - indicator_id: career_outcomes
+    label: "Career outcomes / sbocchi occupazionali"
+    priority: important
+    keywords:
+      - "sbocchi occupazionali"
+      - "sbocchi professionali"
+      - "profili professionali"
+      - "profilo in uscita"
+      - "competenze in uscita"
+      - "sbocchi lavorativi"
+      - "career opportunities"
+      - "career prospects"
+      - "professional profiles"
+      - "prospettive occupazionali"
+      - "placement"
+      - "professioni"
+    heading_signals:
+      - "sbocchi (occupazionali|professionali|lavorativi)"
+      - "profili? (professionali?|in uscita)"
+      - "competenze in uscita"
+      - "career (opportunities|prospects)"
+      - "prospettive occupazionali"
+    selector_hints:
+      - "[role='tab']"
+      - ".nav-tabs a"
+      - "details > summary"
+      - ".accordion-button"
+      - ".sbocchi"
+      - ".career"
+    pdf_label_hints:
+      - "sbocchi professionali"
+      - "profili professionali"
+    confidence_rules:
+      high: "sezione/tab 'Sbocchi professionali' / 'Career opportunities' con lista profili o settori"
+      medium: "paragrafo su sbocchi nel body senza struttura tab/accordion"
+      low: "menzione generica di 'professioni' o 'lavoro' senza lista o sezione dedicata"
+
+  - indicator_id: official_regulation
+    label: "Course regulation / manifesto / ordinamento / official rules"
+    priority: important
+    keywords:
+      - "regolamento didattico"
+      - "regolamento del corso"
+      - "ordinamento didattico"
+      - "manifesto degli studi"
+      - "scheda sua"
+      - "scheda di trasparenza"
+      - "regolamento"
+      - "norme"
+      - "ordinamento"
+    heading_signals:
+      - "regolamento (didattico|del corso|degli studi)"
+      - "ordinamento didattico"
+      - "manifesto degli studi"
+      - "scheda sua"
+    selector_hints:
+      - "[role='tab']"
+      - ".nav-tabs a"
+      - "details > summary"
+      - ".accordion-button"
+      - ".regolamento"
+      - ".ordinamento"
+    pdf_label_hints:
+      - "regolamento didattico"
+      - "ordinamento"
+      - "manifesto degli studi"
+      - "scheda sua"
+      - "scheda di trasparenza"
+    confidence_rules:
+      high: "link diretto a PDF 'Regolamento didattico' o pagina 'Ordinamento' con documento ufficiale"
+      medium: "menzione di regolamento o ordinamento con link generico"
+      low: "solo parola 'regolamento' nel testo senza link"
+
+  # ─────────────────────────────────────────────────────────────────────
+  # CONTEXTUAL  (3)
+  # ─────────────────────────────────────────────────────────────────────
+
+  - indicator_id: fees_or_costs
+    label: "Fees, costs or link to fee information"
+    priority: contextual
+    keywords:
+      - "tasse universitarie"
+      - "contributi universitari"
+      - "tasse e contributi"
+      - "retta"
+      - "costo di iscrizione"
+      - "importo tasse"
+      - "borse di studio"
+      - "esonero tasse"
+      - "fees"
+      - "tuition"
+      - "diritto allo studio"
+    heading_signals:
+      - "tasse (universitarie|e contributi|e borse)"
+      - "contributi universitari"
+      - "costi di iscrizione"
+    selector_hints:
+      - "[role='tab']"
+      - ".nav-tabs a"
+      - "details > summary"
+      - ".accordion-button"
+      - ".tasse"
+      - ".fees"
+    pdf_label_hints:
+      - "tasse e contributi"
+      - "manifesto tasse"
+      - "regolamento tasse"
+    confidence_rules:
+      high: "sezione/tab 'Tasse' / 'Contributi' con importi o link diretto a pagina tasse ateneo"
+      medium: "link a pagina centrale tasse senza importi in-page"
+      low: "solo menzione 'borse di studio' senza link tasse"
+
+  - indicator_id: quality_or_satisfaction
+    label: "Student satisfaction / quality assurance indicators"
+    priority: contextual
+    keywords:
+      - "qualità della didattica"
+      - "soddisfazione studenti"
+      - "opinioni studenti"
+      - "ava"
+      - "anvur"
+      - "presidio della qualità"
+      - "riesame"
+      - "scheda di monitoraggio"
+      - "indicatori di qualità"
+      - "valutazione della didattica"
+    heading_signals:
+      - "qualità (della didattica)?"
+      - "soddisfazione studenti"
+      - "opinioni studenti"
+    selector_hints:
+      - "[role='tab']"
+      - ".nav-tabs a"
+      - "details > summary"
+      - ".qualita"
+      - ".quality"
+    pdf_label_hints:
+      - "riesame annuale"
+      - "scheda di monitoraggio"
+      - "sch. sua"
+    confidence_rules:
+      high: "sezione/tab 'Qualità' con link a schede ANVUR/AVA/opinioni studenti"
+      medium: "link a presidio qualità o pagina indicatori"
+      low: "solo menzione di 'qualità' senza link strutturato"
+
+  - indicator_id: accessibility_services
+    label: "Disability / DSA / student support link"
+    priority: contextual
+    keywords:
+      - "studenti con disabilità"
+      - "disabilità"
+      - "dsa"
+      - "disturbi specifici dell'apprendimento"
+      - "servizi di supporto"
+      - "supporto studenti"
+      - "inclusione"
+      - "delegato disabilità"
+      - "disability"
+      - "accessibility services"
+    heading_signals:
+      - "disabilità|dsa|disturbi specifici"
+      - "servizi di supporto|supporto studenti"
+      - "inclusione"
+    selector_hints:
+      - "[role='tab']"
+      - ".nav-tabs a"
+      - "details > summary"
+      - ".disabilita"
+      - ".accessibility"
+      - ".supporto"
+    pdf_label_hints:
+      - "guida per studenti con disabilità"
+      - "servizi dsa"
+    confidence_rules:
+      high: "link specifico a servizio disabilità/DSA legato al corso o chiaramente al contesto studenti"
+      medium: "menzione generica di supporto con link a pagina centrale ateneo"
+      low: "solo keyword 'accessibilità' nel footer o navigazione generica senza link corso-specifico"

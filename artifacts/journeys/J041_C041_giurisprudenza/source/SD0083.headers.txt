@@ -1,0 +1,21 @@
+HTTP/2 200 
+date: Tue, 07 Apr 2026 12:23:19 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+cache-control: public, max-age=14400
+x-drupal-dynamic-cache: MISS
+content-language: it
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+vary: Cookie,Origin,Accept-Encoding
+expires: Tue, 07 Apr 2026 16:23:19 GMT
+x-drupal-cache: HIT
+access-control-allow-credentials: true
+last-modified: Tue, 07 Apr 2026 10:01:32 GMT
+cf-cache-status: MISS
+x-varnish: 661523570
+grace: none
+x-cache: MISS
+set-cookie: __cf_bm=alsBJRCg7dBPMu2RIsPyVMgk1iEyRq8T9VGEIE4swZw-1775564599.572477-1.0.1.1-MFRJGeOjupkZbba6qUQYYLDU5sXwHuf11iMhB2CqWxhyMo5K7bM.cEHXPEWATDXtD.HdPq7rsV51z_trzrht0fzGg3vG7dMgCNWHho2UCj.bN.IjaGqwmTbrlBmIEolf; HttpOnly; Secure; Path=/; Domain=www.unitn.it; Expires=Tue, 07 Apr 2026 12:53:19 GMT
+cf-ray: 9e8900bb5821ee7d-MXP
+

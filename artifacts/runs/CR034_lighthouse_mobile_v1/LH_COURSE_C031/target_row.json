@@ -1,0 +1,18 @@
+{
+  "lighthouse_target_id": "LH_COURSE_C031",
+  "source_document_id": "SD0067",
+  "crawl_run_id": "CR010",
+  "university_id": "UNI16",
+  "sample_course_id": "C031",
+  "journey_id": "J031",
+  "page_role": "course_page",
+  "source_kind": "course_seed",
+  "default_strategy": "mobile",
+  "default_device_category": "mobile",
+  "scope_status": "canonical_default",
+  "selection_rule": "latest_nonpilot_course_page",
+  "js_dependency_level_preaudit": "low",
+  "tested_url": "https://www.uninettunouniversity.net/it/indirizzo-comunicazione-digitale-d-impresa.aspx?degree=334&faculty=7&idindirizzo=179&mode=cs",
+  "final_url": "https://www.uninettunouniversity.net/it/indirizzo-comunicazione-digitale-d-impresa.aspx?degree=334&faculty=7&idindirizzo=179&mode=cs",
+  "notes": "tranche6; official curriculum page"
+}

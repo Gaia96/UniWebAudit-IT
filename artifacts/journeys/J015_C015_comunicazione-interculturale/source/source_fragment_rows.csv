@@ -1,0 +1,6 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0058,SD0030,title,1,Università degli Studi di Milano-Bicocca,università degli studi di milano-bicocca,//title,raw snapshot title; no h1 or meta description detected
+SF0059,SD0031,title,1,STUDIARE | Università degli Studi di Milano-Bicocca,studiare università degli studi di milano-bicocca,//title,raw snapshot title
+SF0060,SD0031,h1,2,STUDIARE,studiare,//h1[1],raw snapshot first h1
+SF0061,SD0032,title,1,Comunicazione interculturale | Università degli Studi di Milano-Bicocca,comunicazione interculturale università degli studi di milano-bicocca,//title,raw snapshot title
+SF0062,SD0032,h1,2,Comunicazione interculturale,comunicazione interculturale,//h1[1],raw snapshot first h1

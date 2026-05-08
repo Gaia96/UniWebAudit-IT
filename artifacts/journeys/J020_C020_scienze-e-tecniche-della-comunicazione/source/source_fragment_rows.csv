@@ -1,0 +1,6 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0074,SD0038,title,1,Home page | Università degli studi dell'Insubria,home page università degli studi dell'insubria,//title,raw snapshot title; no h1 or meta description detected
+SF0079,SD0041,title,1,[SU03] SCIENZE E TECNICHE DELLA COMUNICAZIONE | Università degli studi dell'Insubria,su03 scienze e tecniche della comunicazione università degli studi dell'insubria,//title,raw snapshot title
+SF0080,SD0041,h1,2,SCIENZE E TECNICHE DELLA COMUNICAZIONE,scienze e tecniche della comunicazione,//h1[1],raw snapshot first h1
+SF0091,SD0046,title,1,La nostra didattica | Università degli studi dell'Insubria,la nostra didattica università degli studi dell'insubria,//title,raw snapshot title
+SF0092,SD0046,h1,2,La nostra didattica,la nostra didattica,//h1[1],raw snapshot first h1

@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-05-06T18:57:59.690248+00:00",
+  "final_url": "https://corsi.unical.it/lm/linguaggi-della-comunicazione-e-dello-spettacolo/",
+  "http_status": 200,
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    }
+  ],
+  "network_errors": []
+}

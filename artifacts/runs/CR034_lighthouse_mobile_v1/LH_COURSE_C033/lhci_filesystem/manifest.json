@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://corsi.unical.it/lt-lmcu/comunicazione-e-dams/cds/corso/?lang=it",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C033/lhci_filesystem/corsi_unical_it-lt_lmcu_comunicazione_e_dams_cds_corso_-2026_04_23_14_58_04.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C033/lhci_filesystem/corsi_unical_it-lt_lmcu_comunicazione_e_dams_cds_corso_-2026_04_23_14_58_04.report.json",
+    "summary": {
+      "performance": 0.41,
+      "accessibility": 0.95,
+      "best-practices": 1,
+      "seo": 0.58
+    }
+  },
+  {
+    "url": "https://corsi.unical.it/lt-lmcu/comunicazione-e-dams/cds/corso/?lang=it",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C033/lhci_filesystem/corsi_unical_it-lt_lmcu_comunicazione_e_dams_cds_corso_-2026_04_23_14_58_47.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C033/lhci_filesystem/corsi_unical_it-lt_lmcu_comunicazione_e_dams_cds_corso_-2026_04_23_14_58_47.report.json",
+    "summary": {
+      "performance": 0.42,
+      "accessibility": 0.95,
+      "best-practices": 1,
+      "seo": 0.58
+    }
+  },
+  {
+    "url": "https://corsi.unical.it/lt-lmcu/comunicazione-e-dams/cds/corso/?lang=it",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C033/lhci_filesystem/corsi_unical_it-lt_lmcu_comunicazione_e_dams_cds_corso_-2026_04_23_14_58_27.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C033/lhci_filesystem/corsi_unical_it-lt_lmcu_comunicazione_e_dams_cds_corso_-2026_04_23_14_58_27.report.json",
+    "summary": {
+      "performance": 0.43,
+      "accessibility": 0.95,
+      "best-practices": 1,
+      "seo": 0.58
+    }
+  }
+]

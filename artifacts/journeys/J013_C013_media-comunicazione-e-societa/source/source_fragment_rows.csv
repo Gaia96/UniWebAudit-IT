@@ -1,0 +1,6 @@
+source_fragment_id,source_document_id,fragment_type,fragment_order,text_excerpt,normalized_text,selector_hint,notes
+SF0051,SD0026,title,1,Università degli Studi di Genova | UniGe,università degli studi di genova unige,//title,raw snapshot title
+SF0052,SD0026,h1,2,"Arrivando a Genova vedrai una città imperiosa, coronata da aspre montagne, superba per uomini e per mura, signora del mare.","arrivando a genova vedrai una città imperiosa, coronata da aspre montagne, superba per uomini e per mura, signora del mare.",//h1[1],raw snapshot first h1
+SF0053,SD0027,title,1,Offerta formativa | Corsi di Studio UniGe,offerta formativa corsi di studio unige,//title,raw snapshot title; no h1 or meta description detected
+SF0054,SD0028,title,1,"CORSO DI LAUREA TRIENNALE (D.M. 1648/2023) in MEDIA, COMUNICAZIONE E SOCIETÀ | UniGe | Università di Genova | Corsi di Studio UniGe","corso di laurea triennale (d.m. 1648/2023) in media, comunicazione e società unige università di genova corsi di studio unige",//title,raw snapshot title
+SF0055,SD0028,h1,2,Panoramica,panoramica,//h1[1],raw snapshot first h1; course name is mainly exposed in the title

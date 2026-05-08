@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.uninettunouniversity.net/it/indirizzo-comunicazione-digitale-d-impresa.aspx?degree=334&faculty=7&idindirizzo=179&mode=cs",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C031/lhci_filesystem/www_uninettunouniversity_net-it_indirizzo_comunicazione_digitale_d_impresa_aspx-2026_04_23_14_56_02.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C031/lhci_filesystem/www_uninettunouniversity_net-it_indirizzo_comunicazione_digitale_d_impresa_aspx-2026_04_23_14_56_02.report.json",
+    "summary": {
+      "performance": 0.62,
+      "accessibility": 0.92,
+      "best-practices": 0.75,
+      "seo": 1
+    }
+  },
+  {
+    "url": "https://www.uninettunouniversity.net/it/indirizzo-comunicazione-digitale-d-impresa.aspx?degree=334&faculty=7&idindirizzo=179&mode=cs",
+    "isRepresentativeRun": false,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C031/lhci_filesystem/www_uninettunouniversity_net-it_indirizzo_comunicazione_digitale_d_impresa_aspx-2026_04_23_14_56_17.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C031/lhci_filesystem/www_uninettunouniversity_net-it_indirizzo_comunicazione_digitale_d_impresa_aspx-2026_04_23_14_56_17.report.json",
+    "summary": {
+      "performance": 0.56,
+      "accessibility": 0.92,
+      "best-practices": 0.75,
+      "seo": 1
+    }
+  },
+  {
+    "url": "https://www.uninettunouniversity.net/it/indirizzo-comunicazione-digitale-d-impresa.aspx?degree=334&faculty=7&idindirizzo=179&mode=cs",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C031/lhci_filesystem/www_uninettunouniversity_net-it_indirizzo_comunicazione_digitale_d_impresa_aspx-2026_04_23_14_56_35.report.html",
+    "jsonPath": "/Users/gaialorenzoni/progetti/uni-sites-audit/university-websites-usability-audit/artifacts/runs/CR034_lighthouse_mobile_v1/LH_COURSE_C031/lhci_filesystem/www_uninettunouniversity_net-it_indirizzo_comunicazione_digitale_d_impresa_aspx-2026_04_23_14_56_35.report.json",
+    "summary": {
+      "performance": 0.55,
+      "accessibility": 0.92,
+      "best-practices": 0.75,
+      "seo": 1
+    }
+  }
+]

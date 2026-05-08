@@ -1,0 +1,18 @@
+HTTP/2 200 
+server: nginx
+date: Fri, 03 Apr 2026 15:43:51 GMT
+content-type: text/html; charset=utf-8
+content-length: 129086
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+vary: Cookie
+x-content-type-options: nosniff
+referrer-policy: origin-when-cross-origin
+cross-origin-opener-policy: same-origin
+set-cookie: csrftoken=I9P6Vbb3D3OTW5zTpS4xMwzlOgsCOV51; expires=Fri, 02 Apr 2027 15:43:51 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax; Secure
+set-cookie: unicms_sessionid=p9gfodn3xj4ft5uy5tzr9z3qklxvzhvk; Domain=.unical.it; HttpOnly; Path=/; SameSite=Lax; Secure
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+content-security-policy: frame-ancestors 'self'
+permissions-policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+x-xss-protection: 1; mode=block
+

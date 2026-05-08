@@ -1,0 +1,2 @@
+sample_course_id,university_id,university_name,course_name,degree_type,course_class,disciplinary_cluster,selection_role,selection_priority,course_page_url,url_origin,normalization_status,selection_rationale,notes
+C009,UNI05,Università degli Studi di Siena,Scienze della comunicazione,triennale,L-20,communication_media,core_triennale,core,https://scienze-comunicazione.unisi.it/it,official_search_apr2026,searched_seed,communication L-course paired with pilot magistrale,dedicated course site surfaced via official search
