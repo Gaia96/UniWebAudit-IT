@@ -37,7 +37,6 @@ UniWebAudit-IT/
   README.md
   CITATION.cff
   LICENSE.md
-  University_Websites_as_Orientation_Infrastructures.pdf
   data/
     masters/
     collection/
@@ -163,19 +162,11 @@ of the indexed web.
 
 ## Citation
 
-Use `CITATION.cff` for machine-readable citation metadata. The citation record
-contains placeholders for publication venue, DOI and repository URL that should
-be completed after the paper and dataset receive their final public identifiers.
+Use `CITATION.cff` for machine-readable citation metadata. The companion paper
+is currently under review; the citation record will be updated with venue, pages
+and DOI upon acceptance.
 
 ## License
 
-No final release license has been assigned yet. See `LICENSE.md` for the current
-placeholder and items to resolve before public distribution.
-
-## Release TODO
-
-- Add final paper citation, venue and DOI when available.
-- Add dataset DOI or repository URL when available.
-- Select and insert the final license text.
-- Confirm whether the included paper PDF should remain in the public dataset
-  package or be replaced by a citation/link to the published version.
+This dataset package is released under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See `LICENSE.md`.

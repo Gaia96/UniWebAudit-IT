@@ -27,8 +27,8 @@ keywords:
   - "discoverability"
   - "Italian higher education"
   - "audit methodology"
-license: "LicenseRef-TODO"
-# TODO: add dataset DOI, repository URL, release version and release date.
+license: "CC-BY-4.0"
+repository-code: "https://github.com/Gaia96/UniWebAudit-IT"
 preferred-citation:
   type: article
   title: "University Websites as Orientation Infrastructures: A Systematic Audit of Navigability, Discoverability, Accessibility and Information Exposure in Italian Universities"
@@ -52,4 +52,4 @@ preferred-citation:
       given-names: "Gianni"
       orcid: "https://orcid.org/0000-0002-5032-4228"
   year: 2026
-  notes: "TODO: replace with the final venue, pages, DOI and publication status."
+  notes: "Under review"
