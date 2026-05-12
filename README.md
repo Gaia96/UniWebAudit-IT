@@ -145,6 +145,50 @@ For these reasons, the strongest reproducibility claim is provenance-based:
 reported values can be inspected against the included data tables and evidence
 bundles.
 
+## Running the scripts
+
+The `scripts/` folder is organised by phase and is not a single executable
+pipeline. Each phase can be attempted independently, against the CSV inputs in
+`data/masters/` and `data/collection/`. There is no top-level orchestrator and
+no shared dependency manifest: requirements are listed per phase below.
+
+**General requirements**
+
+- Python 3.10 or newer.
+- A separate virtual environment is recommended (`python3 -m venv .venv && source .venv/bin/activate`).
+- Scripts read and write paths relative to the repository root; run them from
+  the `UniWebAudit-IT/` directory.
+
+**Per-phase requirements**
+
+- `phase1_journey_audit/` — Python standard library only.
+- `phase2_lhci_collect/` — Python standard library, plus Node.js and the
+  Lighthouse CI CLI (`npm install -g @lhci/cli`). The Python script is a
+  wrapper that shells out to `lhci collect` and `lhci upload --target=filesystem`.
+- `phase2_wave/` — `pip install requests pyyaml`. Requires a WAVE WebAIM API key
+  in the `WAVE_API_KEY` environment variable (or a `.env` file at the package
+  root). The browser-fallback flow is manual and does not require the API key.
+- `phase3_serp/` — Python standard library only. SERP batch files were compiled
+  manually under controlled conditions; the scripts validate, summarise and
+  import them.
+- `phase4_structural_extraction/` — see `scripts/phase4_structural_extraction/requirements.txt`
+  (`beautifulsoup4`, `lxml`, `PyYAML`, `playwright`). After installing, run
+  `python -m playwright install chromium` to fetch the browser binary used by
+  `browser_render_capture.py`.
+- `phase5_matrix/` — Python standard library only (uses `sqlite3` from stdlib).
+  SQL files in `phase5_matrix/sql/` are designed for the preview SQLite built
+  by `project_utilities/refresh_datagrip_sqlite.py`.
+
+**Caveats**
+
+- Some scripts assume specific run identifiers (`crawl_run_id`, batch IDs) and
+  manifest entries already exist; they are designed for incremental collection,
+  not for a clean re-execution from scratch.
+- External services (WAVE API, search engines, university websites) may have
+  changed in ways that affect rerun results. See **Reproducibility Notes** above.
+- Several SERP and journey steps are manual by design and have no executable
+  counterpart in `scripts/`.
+
 ## Methodological Disclaimers
 
 The dataset is a point-in-time audit of a purposive sample. It should not be read
