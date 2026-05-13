@@ -210,7 +210,20 @@ Use `CITATION.cff` for machine-readable citation metadata. The companion paper
 is currently under review; the citation record will be updated with venue, pages
 and DOI upon acceptance.
 
-## License
+## License and Third-Party Content
 
-This dataset package is released under
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See `LICENSE.md`.
+Original research data and documentation are released under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Author-created source
+code, scripts, SQL, and configuration files in `scripts/` are released under the
+MIT License. See `LICENSE.md`.
+
+Evidence artifacts may contain third-party material from university websites,
+Google Search result pages, Lighthouse render captures, and WAVE outputs.
+Screenshots are included only for research/documentation purposes. Third-party
+content remains property of respective owners. Google and the Google logo are
+trademarks of Google LLC.
+
+WAVE-derived files and WAVE-derived columns in the analysis matrices may be
+subject to WebAIM/WAVE redistribution restrictions. Before public redistribution
+of those materials, review `THIRD_PARTY_NOTICES.md` and obtain permission or
+exclude the affected WAVE-derived files/columns from the release.
