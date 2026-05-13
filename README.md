@@ -223,7 +223,8 @@ Screenshots are included only for research/documentation purposes. Third-party
 content remains property of respective owners. Google and the Google logo are
 trademarks of Google LLC.
 
-WAVE-derived files and WAVE-derived columns in the analysis matrices may be
-subject to WebAIM/WAVE redistribution restrictions. Before public redistribution
-of those materials, review `THIRD_PARTY_NOTICES.md` and obtain permission or
-exclude the affected WAVE-derived files/columns from the release.
+WAVE-derived files and WAVE-derived columns in the analysis matrices are included
+with permission from WebAIM for this research publication, subject to appropriate
+attribution. WAVE/WebAIM materials remain third-party materials and are not
+relicensed under this repository's CC BY 4.0 or MIT terms. See
+`THIRD_PARTY_NOTICES.md`.

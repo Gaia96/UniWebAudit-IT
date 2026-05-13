@@ -63,6 +63,7 @@ Google LLC.
 WAVE-derived data, including `data/collection/wave_results.csv`,
 `data/collection/wave_items_long.csv`, raw WAVE JSON outputs under
 `scripts/phase2_wave/data/raw/`, and WAVE-derived columns in the analytical
-matrices, may be subject to WebAIM/WAVE terms that restrict redistribution of
-WAVE reports or data. See `THIRD_PARTY_NOTICES.md` before redistributing those
-files.
+matrices, is included with permission from WebAIM for this research publication,
+subject to appropriate attribution. WAVE and WebAIM materials remain subject to
+their respective terms and are not relicensed under CC BY 4.0 or MIT. See
+`THIRD_PARTY_NOTICES.md`.
