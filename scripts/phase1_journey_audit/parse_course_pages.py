@@ -37,6 +37,7 @@ OUT_MANUAL = ROOT / "data" / "collection" / "manual_review_orientation.csv"
 # ---------------------------------------------------------------------------
 
 def _soup(path: Path) -> BeautifulSoup:
+    # lxml is faster and more lenient than html.parser on malformed university HTML
     with path.open(encoding="utf-8", errors="replace") as fh:
         return BeautifulSoup(fh, "lxml")
 
@@ -66,15 +67,18 @@ def parse_title(soup: BeautifulSoup) -> tuple[str, str]:
     text = _text(tag)
     if not text:
         return ("", "0")
+    # Base score 1; each satisfied criterion adds 1 point (max 4)
     score = 1
     text_lower = text.lower()
-    # heuristic: +1 if mentions university keywords, +1 if has degree type, +1 if not too short
+    # +1 if the title mentions the institution name — helps SEO and user orientation
     if any(w in text_lower for w in ["università", "universita", "unibo", "unipd", "politecnico",
                                       "università", "sapienza", "bologna", "padova", "firenze",
                                       "milano", "torino", "napoli", "roma"]):
         score += 1
+    # +1 if the degree type is explicit in the title
     if any(w in text_lower for w in ["laurea", "magistrale", "triennale", "ciclo unico", "lmcu"]):
         score += 1
+    # +1 if the title is long enough to be descriptive (< 20 chars is usually just a site name)
     if len(text) >= 20:
         score += 1
     score = min(score, 4)
@@ -90,12 +94,13 @@ def parse_meta_description(soup: BeautifulSoup) -> tuple[str, str]:
     if not content:
         return ("0", "0")
     length = len(content)
+    # Google typically truncates after ~160 chars; < 50 is too short to be useful
     if length < 50:
         quality = "1"
     elif length <= 160:
-        quality = "3"
+        quality = "3"  # ideal range
     else:
-        quality = "2"
+        quality = "2"  # present but likely truncated in SERPs
     return ("1", quality)
 
 
@@ -140,7 +145,7 @@ def parse_indexability(soup: BeautifulSoup) -> str:
 
 
 def parse_skip_link(soup: BeautifulSoup) -> str:
-    # First <a> pointing to anchor for skip navigation
+    # Skip links must be among the very first anchors to be useful for keyboard users
     for a in soup.find_all("a", href=True)[:10]:
         href = a.get("href", "")
         if href.startswith("#") and len(href) > 1:
@@ -165,6 +170,7 @@ def parse_heading_structure(soup: BeautifulSoup) -> str:
     2 = H1 + H2 present, minor issues
     3 = H1 → H2 → H3 proper nesting, no skips
     """
+    # Only non-empty heading tags count
     headings = [(int(h.name[1]), _text(h)) for h in soup.find_all(re.compile(r"^h[1-6]$"))
                 if _text(h)]
     if not headings:
@@ -173,7 +179,7 @@ def parse_heading_structure(soup: BeautifulSoup) -> str:
     h1_count = levels.count(1)
     if h1_count == 0:
         return "0"
-    # check for skipped levels
+    # A level skip (e.g. H1 → H3) violates WCAG heading order
     prev = 1
     skipped = False
     for lv in levels:
@@ -237,11 +243,8 @@ def parse_missing_alt(soup: BeautifulSoup) -> str:
     for img in soup.find_all("img"):
         alt = img.get("alt")
         if alt is None:
+            # alt="" is valid for decorative images; only the complete absence of the attribute is a WCAG error
             count += 1
-        elif alt.strip() == "" and img.get("role") != "presentation" and img.get("aria-hidden") != "true":
-            # empty alt without presentation role may be intentional or error
-            # count only truly absent alt
-            pass
     return str(count)
 
 
@@ -261,6 +264,7 @@ def parse_empty_links(soup: BeautifulSoup) -> str:
 
 
 def parse_form_label_issues(soup: BeautifulSoup) -> str:
+    # Exclude non-interactive input types that don't need a label
     inputs = soup.find_all("input", type=lambda t: t not in ("hidden", "submit", "button", "reset", "image"))
     if not inputs:
         return "not_applicable"
@@ -269,15 +273,14 @@ def parse_form_label_issues(soup: BeautifulSoup) -> str:
         inp_id = inp.get("id", "")
         aria_label = inp.get("aria-label", "").strip()
         aria_labeled_by = inp.get("aria-labelledby", "").strip()
-        placeholder = inp.get("placeholder", "").strip()
-        # check for associated label
+        placeholder = inp.get("placeholder", "").strip()  # noqa: F841 — kept for readability
         has_label = False
         if inp_id:
             if soup.find("label", attrs={"for": inp_id}):
                 has_label = True
         if aria_label or aria_labeled_by:
             has_label = True
-        # placeholder alone is not sufficient per WCAG
+        # placeholder is NOT a substitute for a label per WCAG 2.1 SC 1.3.1
         if not has_label:
             issues += 1
     return str(issues)
@@ -287,6 +290,8 @@ def parse_form_label_issues(soup: BeautifulSoup) -> str:
 # Orientation keyword pre-detection (Italian)
 # ---------------------------------------------------------------------------
 
+# Italian keyword sets used to pre-detect whether each orientation topic is mentioned on the page.
+# Results are shown to the reviewer as "1_keyword_hit" / "0_no_hit" — they override if wrong.
 ORIENTATION_KEYWORDS = {
     "orientation_description": [
         "obiettivi", "percorso formativo", "il corso", "il laureato", "la laurea",
@@ -328,6 +333,7 @@ def detect_orientation(soup: BeautifulSoup) -> dict[str, str]:
     result = {}
     for field, keywords in ORIENTATION_KEYWORDS.items():
         found = any(kw in body_text for kw in keywords)
+        # Prefixed strings let the reviewer see both the automated signal and the final decision side-by-side
         result[field] = "1_keyword_hit" if found else "0_no_hit"
     return result
 

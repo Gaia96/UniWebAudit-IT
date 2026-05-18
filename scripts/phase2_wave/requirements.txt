@@ -1,0 +1,6 @@
+# Phase 2 WAVE — Python dependencies
+# Install: pip install -r scripts/phase2_wave/requirements.txt
+# Also set WAVE_API_KEY in your environment or in a .env file at the repo root.
+
+requests>=2.31
+PyYAML>=6.0

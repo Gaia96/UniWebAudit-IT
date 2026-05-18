@@ -50,6 +50,7 @@ def ts_slug() -> str:
 
 
 def sanitize_slug(value: str) -> str:
+    # Replaces any character that is unsafe in a directory name with an underscore
     safe = []
     for ch in value:
         if ch.isalnum() or ch in {"-", "_", "."}:
@@ -338,6 +339,7 @@ def parse_representative_payload(filesystem_dir: Path) -> dict[str, Any]:
     if not isinstance(manifest_data, list) or not manifest_data:
         return {}
 
+    # LHCI marks the median run as representative; fall back to index 0 if not flagged
     representative = None
     for item in manifest_data:
         if isinstance(item, dict) and item.get("isRepresentativeRun"):
@@ -515,7 +517,7 @@ def main() -> int:
     }
     write_json(output_root / "run_manifest.json", run_metadata)
 
-    # One up-front healthcheck is enough for the environment.
+    # A single pre-flight healthcheck confirms Chrome + LHCI are working before spending time on targets
     healthcheck_dir = output_root / "_healthcheck_workdir"
     healthcheck_dir.mkdir(parents=True, exist_ok=True)
     healthcheck_cmd = build_healthcheck_command(args)
@@ -541,6 +543,7 @@ def main() -> int:
         filesystem_dir = target_dir / "lhci_filesystem"
         logs_dir = target_dir / "logs"
 
+        # Guard prevents accidentally overwriting a previous run's raw Lighthouse data
         if target_dir.exists() and any(target_dir.iterdir()):
             raise ScriptError(
                 f"Target output directory already exists and is non-empty: {target_dir}. "

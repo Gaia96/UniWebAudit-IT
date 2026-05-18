@@ -21,7 +21,7 @@ BATCHES_DIR = REPO_ROOT / "serp/batches"
 MANIFEST = REPO_ROOT / "serp/manifests/serp_query_manifest.csv"
 OBS_CANONICAL = REPO_ROOT / "data/collection/serp_observations.csv"
 
-# Fields that must be non-empty and non-placeholder after collection
+# Every field listed here must be filled before the batch can be imported
 REQUIRED_FILLED = [
     "crawl_run_id", "course_id", "university_id", "query_template_id",
     "query_type", "query_string", "search_engine", "search_interface",
@@ -45,7 +45,7 @@ VALID_MATCH_TYPES = {
     "ambiguous", "not_found",
 }
 
-# Only these match types count as a valid full target match
+# Only these three match types justify target_found=true — anything else is partial or negative
 FULL_MATCH_TYPES = {"canonical_exact", "canonical_normalized", "official_equivalent"}
 
 VALID_QUERY_TYPES = {

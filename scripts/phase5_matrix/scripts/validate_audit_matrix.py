@@ -47,11 +47,13 @@ COURSE_CSV = ANALYSIS / "audit_matrix.csv"
 ATENEO_CSV = ANALYSIS / "audit_matrix_ateneo.csv"
 PAGE_CSV = ANALYSIS / "audit_matrix_page.csv"
 
+# Approved missingness vocabulary — values outside this set that look like taxonomy tokens are errors
 TAXONOMY = frozenset({
     "not_collected", "not_applicable", "not_observed",
     "blocked", "not_exposed", "ambiguous", "tool_failure", "pending",
 })
 
+# Any cell containing these strings indicates the matrix was not fully completed
 PLACEHOLDERS = frozenset({"TBD", "XXX", "?", "TODO", "FIXME", "N/A", "n/a", "#N/A", "PENDING"})
 
 VALID_REVIEW_STATUS = {"draft", "checked", "validated"}
@@ -79,7 +81,7 @@ def write_csv(path: Path, fieldnames: list[str], rows: list[dict]) -> None:
 
 
 def schema_fields_for(matrix: str) -> set[str]:
-    """Extract field names from the schema section matching `matrix` name."""
+    """Extract the expected field names from the relevant section of audit_matrix_schema.md."""
     text = SCHEMA.read_text(encoding="utf-8")
     sections = re.split(r"^## ", text, flags=re.MULTILINE)
     sec = next(
@@ -404,6 +406,10 @@ def promote_status(
     Promote rows to 'validated'.
     Blocked journey courses stay 'checked' (reduced data completeness).
     Returns (n_validated, n_checked).
+
+    Blocked courses get 'checked' rather than 'validated' because several
+    journey-level metrics (click depth, orientation fields) are structurally
+    missing — analysts must account for this during interpretation.
     """
     n_validated = 0
     n_checked = 0

@@ -43,6 +43,7 @@ def load_csv(p: Path) -> list[dict[str, str]]:
 
 
 def fmt_table(title: str, headers: list[str], rows: list[list[str]], markdown: bool) -> str:
+    # Renders as a GitHub-flavoured Markdown table or as a plain-text aligned table
     if markdown:
         out = [f"\n### {title}\n", "| " + " | ".join(headers) + " |",
                "|" + "|".join(["---"] * len(headers)) + "|"]

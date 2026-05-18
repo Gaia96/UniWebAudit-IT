@@ -34,6 +34,7 @@ EXPECTED_COUNTS = {"course_raw.csv": 41, "page_raw.csv": 61, "ateneo_raw.csv": 2
 
 
 def refresh_sqlite():
+    # Rebuilds the SQLite DB from canonical CSVs so the SQL queries always run against fresh data
     print("[step] Regenerating preview SQLite …")
     result = subprocess.run(
         [sys.executable, "scripts/refresh_datagrip_sqlite.py"],
@@ -76,7 +77,7 @@ def run_sql_to_csv(sql_file: Path, out_csv: Path, expected_rows: int) -> bool:
 
 
 def qa_counts(out_csv: Path, key_col: str):
-    """Check uniqueness of primary key column."""
+    """Verify the primary key column has no duplicate values (each row must be unique)."""
     with out_csv.open("r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         if key_col not in (reader.fieldnames or []):

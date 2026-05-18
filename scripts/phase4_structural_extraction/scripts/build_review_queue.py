@@ -54,7 +54,9 @@ QUEUE_FIELDS = [
     "reviewer_notes", "reviewer_id", "reviewed_at",
 ]
 
+# Confidence values that require human review before the result can be promoted (D6 gate)
 ESSENTIAL_TRIGGERS = {"low", "not_observed"}
+# Location types that may be under-reported or ambiguous and need a human to verify
 ESSENTIAL_LOCATION_TRIGGERS = {"ambiguous", "linked_pdf", "external_official_portal"}
 
 
@@ -100,6 +102,7 @@ def main() -> int:
             if r["confidence"] in ESSENTIAL_TRIGGERS
             or r["location_type"] in ESSENTIAL_LOCATION_TRIGGERS
         )
+        # Outlier courses (many weak indicators) get all their essential rows reviewed
         outlier = missing_count >= args.essential_missing_threshold
 
         for r in essentials:

@@ -31,6 +31,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 OBS_FILE = REPO_ROOT / "data/collection/serp_observations.csv"
 COURSE_MASTER = REPO_ROOT / "data/masters/course_sample_master.csv"
 
+# All these fields must be non-empty in the canonical observations table
 REQUIRED_FIELDS = [
     "crawl_run_id", "serp_observation_id", "course_id", "university_id",
     "query_template_id", "query_type", "query_string", "search_engine",

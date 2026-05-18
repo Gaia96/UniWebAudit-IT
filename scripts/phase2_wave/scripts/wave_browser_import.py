@@ -45,6 +45,7 @@ ITEMS_FIELDNAMES = [
     "item_description", "item_count", "selector_or_xpath_available", "raw_json_path",
 ]
 
+# Any field still containing this string means the YAML template has not been completed
 SENTINEL = "FILL_IN"
 
 REQUIRED_RESULT_FIELDS = [
@@ -145,6 +146,7 @@ def append_rows(rows: list, path: Path, fieldnames: list) -> None:
 
 
 def check_duplicates(target_ids: list, results_path: Path) -> None:
+    # Prevents double-importing the same collection run, which would corrupt aggregates
     if not results_path.exists():
         return
     existing = {r["target_id"] for r in csv.DictReader(

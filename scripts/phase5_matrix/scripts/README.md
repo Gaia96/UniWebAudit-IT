@@ -1,0 +1,1 @@
+Phase 5 — Audit matrix build pipeline: export raw matrices from SQLite (`export_matrices.py`), apply the controlled missingness taxonomy and compute interpretive flags (`build_audit_matrix.py`), then run final QA checks and promote rows to `validated` status (`validate_audit_matrix.py`).

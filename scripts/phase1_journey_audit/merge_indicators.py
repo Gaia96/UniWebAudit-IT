@@ -39,8 +39,8 @@ COURSE_TMP     = ROOT / "phase5_matrix" / "_tmp" / "course_raw.csv"
 
 BLOCKED_PATH_TYPE = "failed"
 
-# Orientation items derivable from structural_indicators (Phase 4)
-# Value = list of SI fields; if any = 'present' → orientation item = 1
+# Maps orientation binary items (Phase 1) to the Phase 4 structural_indicators fields
+# that can serve as proxy evidence.  At least one SI field being 'present' → item = 1.
 STRUCT_ORIENTATION_MAP = {
     "orientation_requirements": ["admission_requirements_present", "admission_procedure_present"],
     "orientation_deadlines":    ["deadlines_present"],
@@ -75,7 +75,8 @@ HEURISTIC_SCORE_MAP = {
     "heading_structure_score_heuristic":         "heading_structure_score",
 }
 
-# WAVE item fields: only fill from parser if currently not_collected
+# These fields may be populated by WAVE (more precise) or by the HTML parser (fallback).
+# The parser value is used only when WAVE has not yet collected data for this course.
 WAVE_ITEM_FIELDS = {"missing_alt_count", "empty_link_count", "form_label_issue_count"}
 
 
@@ -104,7 +105,7 @@ def write_course_rows(fieldnames: list[str], rows: list[dict]) -> None:
 def generate_menu_sheet(course_rows: list[dict]) -> None:
     unis = load_csv_by_key(UNI_CSV, "university_id")
 
-    # One row per university, with representative course IDs
+    # Menu clarity is assessed at university level (the menu is shared across courses)
     from collections import defaultdict
     by_uni: dict[str, list[str]] = defaultdict(list)
     for r in course_rows:
@@ -198,7 +199,7 @@ def patch_row(
 
     auto = auto_data.get(cid, {})
 
-    # -- HTML-parsed fields (valid for all courses, including blocked_js) --
+    # -- HTML-parsed fields: apply even for blocked journeys (page HTML was still captured) --
     for auto_field, course_field in AUTO_FIELD_MAP.items():
         val = auto.get(auto_field, "").strip()
         if not val or val == "not_collected":
@@ -252,7 +253,7 @@ def patch_row(
         # leave as blocked (set by Step D) — do nothing
         pass
 
-    # -- Recompute orientation_score_raw and _norm --
+    # Recompute aggregate scores only when all 8 items are binary (0/1); skip partial data
     from phase1_journey_audit_items import ORIENTATION_ITEMS
     item_vals = [row.get(item, "").strip() for item in ORIENTATION_ITEMS]
     if all(v in ("0", "1") for v in item_vals):

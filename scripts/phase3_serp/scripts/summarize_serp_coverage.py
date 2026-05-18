@@ -62,7 +62,7 @@ def main() -> int:
     all_course_ids = sorted(courses.keys())
     all_template_ids = sorted(templates.keys())
 
-    # All targets are now core (pending), no optional distinction
+    # Cross-join: every course × every template = the full set of required observations
     all_targets = [(cid, tid) for cid in all_course_ids for tid in all_template_ids]
     total_targets = len(all_targets)
 
@@ -119,6 +119,7 @@ def main() -> int:
         found = [r for r in observations if parse_bool(r.get("target_found", "")) is True]
         not_found = [r for r in observations if parse_bool(r.get("target_found", "")) is False]
         found_top10 = [r for r in observations if parse_bool(r.get("target_found_top10", "")) is True]
+        # Courses found only after extending search to position 11-20 (weak discoverability signal)
         found_top20_only = [
             r for r in observations
             if parse_bool(r.get("target_found_top10", "")) is False

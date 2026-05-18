@@ -1,0 +1,1 @@
+Phase 1 — Journey Audit supplementary scripts: parse HTML snapshots of course pages to extract SEO/accessibility indicators (`parse_course_pages.py`), then merge those indicators with Phase 4 structural data and manual menu scores into the audit matrix feed (`merge_indicators.py`).

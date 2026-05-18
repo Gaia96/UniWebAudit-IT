@@ -80,8 +80,10 @@ def main() -> int:
     queue_rows, _ = load_csv(QUEUE)
     long_rows, long_fields = load_csv(STAGING_LONG)
 
+    # D6 gate: every queue row must have a decision before the staging file can be promoted
     pending = [q for q in queue_rows if q["reviewer_decision"] == "pending"]
     invalid = [q for q in queue_rows if q["reviewer_decision"] not in (set(VALID_DECISIONS) | {"pending"})]
+    # cannot_resolve decisions require notes so a future analyst understands why
     cannot_no_notes = [q for q in queue_rows
                        if q["reviewer_decision"] == "cannot_resolve" and not q["reviewer_notes"].strip()]
 
@@ -138,7 +140,7 @@ def main() -> int:
     write_csv(STAGING_LONG, long_rows, long_fields)
     logging.info("Applied %d reviewer decisions to staging long", applied)
 
-    # Re-derive the wide staging from the long
+    # Keep the wide (per-course summary) in sync with the corrected long (per-indicator detail)
     if STAGING_WIDE.exists():
         wide_rows, wide_fields = load_csv(STAGING_WIDE)
         widx = {r["course_id"]: r for r in wide_rows}

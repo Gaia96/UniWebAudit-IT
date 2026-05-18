@@ -1,0 +1,1 @@
+Phase 3 — SERP (search engine results) collection pipeline: build the query manifest, create collection batches, validate and import completed batches, and report coverage. Run in order: `build_serp_manifest` → `create_serp_batch` → (manual collection) → `validate_serp_batch` → `import_serp_batch` → `summarize_serp_coverage`.

@@ -1,0 +1,1 @@
+Phase 2 — WAVE accessibility collection scripts: `wave_collect.py` calls the WAVE WebAIM API and saves raw JSON; `wave_extract.py` parses those JSONs into a per-item long table; `wave_browser_import.py` imports manually-collected browser-extension results from a filled YAML template.

@@ -87,6 +87,7 @@ def main() -> int:
         handlers=[logging.FileHandler(log_path, mode="w"), logging.StreamHandler()],
     )
 
+    # The sample has exactly 41 courses; any deviation means the LH manifest is incomplete
     lh_rows = [r for r in load_csv(LH_MANIFEST) if r.get("page_role") == "course_page"]
     if len(lh_rows) != 41:
         logging.error("Expected 41 LH course_page rows, found %d", len(lh_rows))
@@ -133,6 +134,7 @@ def main() -> int:
             errors += 1
             static_html_path = ""
 
+        # Decision D3: JS-heavy portals need a headless browser render; others use the static HTML snapshot
         render_mode = "browser_rendered" if js_level in ("medium", "high") else "raw_http"
         rendered_path = (
             f"artifacts/runs/{args.strun}/source_rendered/{cid}.html"

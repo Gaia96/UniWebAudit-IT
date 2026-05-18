@@ -47,6 +47,8 @@ COLLECTION_LONG = REPO_ROOT / "data/collection/structural_evidence_long.csv"
 QUEUE = REPO_ROOT / "structural_extraction/review_queue.csv"
 LOG_DIR = REPO_ROOT / "structural_extraction/logs"
 
+# Controlled vocabularies from methodology codebook §10-§12;
+# any value outside these sets is a schema violation.
 LOCATION_TYPES = {
     "inline_html", "heading_or_summary", "accordion", "tab", "table",
     "linked_official_page", "linked_pdf", "download", "external_official_portal",

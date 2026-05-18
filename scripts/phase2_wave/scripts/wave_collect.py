@@ -90,6 +90,7 @@ def load_config() -> dict:
 
 
 def get_api_key() -> str:
+    # Environment variable takes priority; .env file is the fallback for local dev
     key = os.environ.get("WAVE_API_KEY", "").strip()
     if not key:
         env_path = ROOT / ".env"
@@ -301,7 +302,7 @@ def main() -> None:
         result = process_target(row, api_key, config, args.run_id, raw_run_dir, args.dry_run)
         results.append(result)
 
-        # Incremental write: append after each target so progress survives interruptions
+        # Write after every target so a network failure or crash doesn't lose prior results
         results_path = ROOT / config["paths"]["results_csv"]
         append_results([result], results_path)
 

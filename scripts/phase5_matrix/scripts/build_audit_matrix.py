@@ -34,6 +34,7 @@ ATENEO_TMP = TMP / "ateneo_raw.csv"
 # ---------------------------------------------------------------------------
 # Taxonomy
 # ---------------------------------------------------------------------------
+# Controlled missingness values — any blank cell that doesn't get one of these is a QA error
 TAXONOMY = frozenset({
     "not_collected", "not_applicable", "not_observed",
     "blocked", "not_exposed", "ambiguous", "tool_failure", "pending",
@@ -131,6 +132,7 @@ def apply_missingness_course(rows: list[dict]) -> tuple[list[dict], dict]:
         # click_depth and time_seconds may contain partial data from the SQL step;
         # the semantic value is `blocked` (target never reached).
         if is_blocked:
+            # Force-overwrite partial data: these metrics are meaningless when the target was never reached
             for f in ("journey_click_depth", "journey_time_seconds"):
                 if r.get(f, "").strip() != "":
                     r[f] = "blocked"
@@ -294,6 +296,7 @@ def load_thresholds() -> dict:
     with THRESHOLDS_FILE.open() as fh:
         data = yaml.safe_load(fh)
 
+    # Thresholds must be explicitly signed off before the analysis layer is computed
     if data.get("status") != "approved":
         print(
             f"ERROR: thresholds.yaml status is '{data.get('status')}', not 'approved'. "

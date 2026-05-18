@@ -1,0 +1,5 @@
+# Phase 1 Journey Audit — Python dependencies
+# Install: pip install -r scripts/phase1_journey_audit/requirements.txt
+
+beautifulsoup4>=4.12
+lxml>=5.0

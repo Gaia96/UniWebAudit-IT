@@ -71,8 +71,8 @@ def extract_items_from_json(
     for cat_name, cat_data in categories.items():
         items = cat_data.get("items", {})
         if not isinstance(items, dict):
-            # WAVE API returns [] (empty list) when count=0; {} when items exist.
-            # Any other non-dict type is unexpected — log and skip.
+            # WAVE API returns [] when a category has 0 items and {} when items are present;
+            # any other type is unexpected and should be skipped with a warning.
             if items:
                 logging.warning(
                     f"[{wave_target_id}] category '{cat_name}': "
@@ -82,6 +82,7 @@ def extract_items_from_json(
         for item_id, item_data in items.items():
             xpaths = item_data.get("xpaths", [])
             selectors = item_data.get("selectors", [])
+            # True when the API has returned DOM location data — useful for manual triage
             has_locations = bool(xpaths or selectors)
             rows.append(
                 {

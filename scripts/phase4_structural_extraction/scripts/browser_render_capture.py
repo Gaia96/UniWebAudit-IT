@@ -39,9 +39,9 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = REPO_ROOT / "structural_extraction/extraction_manifest.csv"
 LOG_DIR = REPO_ROOT / "structural_extraction/logs"
 
-VIEWPORT = {"width": 1536, "height": 960}
-WAIT_BUFFER_MS = 2000
-NAV_TIMEOUT_MS = 60_000
+VIEWPORT = {"width": 1536, "height": 960}  # desktop viewport (1536px matches most audit tools)
+WAIT_BUFFER_MS = 2000    # extra wait after networkidle to allow deferred JS rendering
+NAV_TIMEOUT_MS = 60_000  # 60 s before aborting; some university portals are slow
 
 
 def load_manifest() -> tuple[list[dict[str, str]], list[str]]:
@@ -51,6 +51,7 @@ def load_manifest() -> tuple[list[dict[str, str]], list[str]]:
 
 
 def write_manifest(rows: list[dict[str, str]], fields: list[str]) -> None:
+    # Write to a temp file then rename atomically to avoid a partial manifest on crash
     tmp = MANIFEST.with_suffix(".csv.tmp")
     with tmp.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fields)

@@ -1,0 +1,4 @@
+# Phase 5 Matrix — Python dependencies
+# Install: pip install -r scripts/phase5_matrix/requirements.txt
+
+PyYAML>=6.0

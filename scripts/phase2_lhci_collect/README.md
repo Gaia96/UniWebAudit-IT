@@ -1,0 +1,1 @@
+Phase 2 — Lighthouse CI collection: drives `lhci collect` + `lhci upload --target=filesystem` for each URL in a manifest CSV, saves raw per-target artifacts, and writes a `collection_summary.csv` with extracted performance and accessibility scores.

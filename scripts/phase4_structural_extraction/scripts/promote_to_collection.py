@@ -56,6 +56,7 @@ def main() -> int:
         logging.error("Staging files missing.")
         return 2
 
+    # Run validator against staging first so we never promote invalid data
     logging.info("Running validator (target=staging)...")
     proc = subprocess.run(
         [sys.executable, str(VALIDATOR), "--target", "staging"],
@@ -77,6 +78,7 @@ def main() -> int:
         shutil.copy2(src, dst)
         logging.info("Promoted %s -> %s", src.relative_to(REPO_ROOT), dst.relative_to(REPO_ROOT))
 
+    # Second validation confirms the copy landed correctly in data/collection/
     logging.info("Re-running validator (target=collection)...")
     proc2 = subprocess.run(
         [sys.executable, str(VALIDATOR), "--target", "collection"],

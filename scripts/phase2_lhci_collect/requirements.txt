@@ -1,0 +1,4 @@
+# Phase 2 LHCI Collect — Python dependencies
+# This script shells out to `lhci` (Lighthouse CI); install it via npm:
+#   npm install -g @lhci/cli
+# No additional Python packages are required beyond the standard library.

@@ -36,7 +36,7 @@ OBS_CANONICAL = REPO_ROOT / "data/collection/serp_observations.csv"
 BATCHES_DIR = REPO_ROOT / "serp/batches"
 ARTIFACTS_RUNS = REPO_ROOT / "artifacts/runs"
 
-# Columns pre-filled from manifest — user must NOT change these
+# These columns are copied directly from the manifest; modifying them would break the import crosswalk
 PREFILLED = [
     "course_id", "university_id", "source_document_id",
     "query_template_id", "query_type", "query_string",
@@ -94,6 +94,7 @@ def load_csv(path: Path) -> list[dict]:
 
 
 def next_batch_id() -> str:
+    # Auto-increments from the highest existing SERP_Bxxx directory so batches never collide
     existing = sorted(BATCHES_DIR.glob("SERP_B*")) if BATCHES_DIR.exists() else []
     nums = []
     for p in existing:

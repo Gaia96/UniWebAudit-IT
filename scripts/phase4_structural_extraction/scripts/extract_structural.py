@@ -143,6 +143,14 @@ def detect_indicator(soup, indicator: dict, target_url: str) -> dict:
 
     The function does not assert truth; it emits the best candidate it can
     find with its confidence label. Review queue (Step 6) finalizes essentials.
+
+    Detection cascade (first match wins, in descending confidence):
+      1. Heading text match   → high confidence
+      1.5 Structured metadata (label+value patterns, aria-label, CSS class)  → high
+      1.6 Table label+value rows  → high
+      2. CSS selector hints   → medium
+      3. Anchor link text     → medium
+      4. Body keyword scan    → low (keyword exists but no structural anchor)
     """
     iid = indicator["indicator_id"]
     keywords = indicator.get("keywords", [])
@@ -184,9 +192,11 @@ def detect_indicator(soup, indicator: dict, target_url: str) -> dict:
     # by value siblings or value-containing parents — without using the longer
     # keyword phrases that the body-text scan requires.
     # We use three strategies (A/B/C) per candidate label element.
+    # Step 1.5: CMS metadata patterns — Italian university pages often expose course info
+    # as short label elements (strong, dt, span.field-label) paired with sibling values.
     LABEL_TAGS = ["strong", "b", "dt", "th", "span", "div", "label", "p"]
     for el in soup.find_all(LABEL_TAGS):
-        # Only leaf-ish elements (at most one level of inline children)
+        # Skip elements with nested block elements — those are content containers, not labels
         deep_children = [c for c in el.find_all() if c.name not in (
             "strong", "b", "em", "i", "span", "br", "abbr", "small")]
         if deep_children:
@@ -359,7 +369,8 @@ def detect_indicator(soup, indicator: dict, target_url: str) -> dict:
                 return candidate
         if keyword_hit(atext, keywords):
             # External vs internal? rough host check.
-            ext = href.startswith("http") and not (target_url.split("/")[2] in href if "//" in target_url else False)
+            # Heuristic: if the link goes to a different hostname it's an external official portal
+        ext = href.startswith("http") and not (target_url.split("/")[2] in href if "//" in target_url else False)
             candidate.update({
                 "observed": "present",
                 "location_type": "external_official_portal" if ext else "linked_official_page",
@@ -529,6 +540,7 @@ def main() -> int:
                 )
                 wide[f"{iid}_location_type"] = cand["location_type"]
 
+        # Propagate the worst per-indicator confidence to course level for triage
         worst = "high"
         rank = {"high": 0, "medium": 1, "low": 2, "not_observed": 3, "not_applicable": 4}
         for c in confidences:

@@ -1,0 +1,2 @@
+# Phase 3 SERP — Python dependencies
+# No third-party packages required; all scripts use the standard library only.

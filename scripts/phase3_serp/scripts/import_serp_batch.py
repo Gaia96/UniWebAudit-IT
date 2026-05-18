@@ -60,6 +60,7 @@ def backup(path: Path, tag: str) -> Path:
 
 def next_obs_id(existing: list[dict]) -> int:
     """Return the next SOBS integer, based on existing rows."""
+    # Scans the canonical table to avoid ID collisions across batches
     nums = []
     for r in existing:
         oid = r.get("serp_observation_id", "").strip()
@@ -187,7 +188,7 @@ def main() -> int:
         else:
             print("[INFO] batch_results_long.csv is empty — skipping long results import.")
 
-    # --- 7. Update manifest collection_status ---
+    # Mark imported rows as completed so create_serp_batch.py skips them in future batches
     imported_pairs = {
         (r.get("course_id", ""), r.get("query_template_id", ""))
         for r in batch_obs_rows

@@ -32,6 +32,7 @@ TEMPLATE_MASTER = REPO_ROOT / "data/masters/serp_query_templates.csv"
 SOURCE_DOC = REPO_ROOT / "data/collection/source_document.csv"
 OUTPUT = REPO_ROOT / "serp/manifests/serp_query_manifest.csv"
 
+# Used to fill {city} placeholders in query templates (e.g. "laurea comunicazione Bologna")
 CITY_MAP = {
     "UNI01": "Bologna", "UNI02": "Padova", "UNI03": "Pisa", "UNI04": "Firenze",
     "UNI05": "Siena", "UNI06": "Torino", "UNI07": "Genova", "UNI08": "Milano",
@@ -40,8 +41,8 @@ CITY_MAP = {
     "UNI17": "Rende", "UNI18": "Napoli", "UNI19": "Bergamo", "UNI20": "Trento",
 }
 
-# Substitutions for university name used in query strings.
-# Removes typographic inner quotes and other characters unsuitable for search queries.
+# Some official university names contain typographic characters (inner quotes, etc.)
+# that produce awkward search queries — these overrides replace them with plainer forms.
 UNI_NAME_QUERY_OVERRIDES = {
     "UNI18": "Università degli Studi di Napoli Federico II",
 }
@@ -123,7 +124,7 @@ def main(dry_run: bool = False, overwrite: bool = False) -> None:
     universities = {u["university_id"]: u for u in load_csv(UNI_MASTER)}
     templates = load_csv(TEMPLATE_MASTER)
 
-    # Build course_id → source_document_id lookup (course_page or course_seed role)
+    # Pre-build lookup so each manifest row can reference the canonical source document
     source_doc_map: dict[str, str] = {}
     if SOURCE_DOC.exists():
         for row in load_csv(SOURCE_DOC):
