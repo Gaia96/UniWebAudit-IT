@@ -103,7 +103,6 @@ environment.
   dictionary, extraction manifest, review queue and staging files.
 - `phase5_matrix/`: scripts, SQL and thresholds used to build the integrated
   audit matrices.
-- `project_utilities/`: small project-level utilities retained for provenance.
 
 ## Provenance Model
 
